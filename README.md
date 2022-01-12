@@ -1,2 +1,2 @@
 # doapr
-Directory of Open Access Preprint Repositories
+Website: Directory of Open Access Preprint Repositories
