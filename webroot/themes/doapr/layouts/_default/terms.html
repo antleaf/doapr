@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="row">
+    <div class="col">
+        <h1 class="page-title">{{humanize .Data.Plural}}</h1>
+        {{ .Description }}
+        <br />
+        {{ .Content }}
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+
+        <table id="scenariosTable" class="table table-sm table-striped">
+            <thead>
+            <tr class="column-header-row">
+                <th>{{ humanize .Data.Singular }}</th>
+                <th>Count</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{ range .Data.Terms.ByCount }}
+            <tr>
+                <td><a href="{{ .Term }}">{{ .Name }}</a></td>
+                <td>{{ .Count }}</td>
+            </tr>
+            {{ end }}
+            </tbody>
+        </table>
+    </div>
+</div>
+{{ end }}

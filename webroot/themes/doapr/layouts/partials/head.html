@@ -1,0 +1,36 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>{{.Site.Title}}{{if .Title}}: {{ .Title | markdownify }}{{end}}</title>
+    {{hugo.Generator}}
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
+
+    {{ $style_bootstrap := resources.Get "css/bootstrap.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style_bootstrap.Permalink }}">
+    {{ $style_main := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style_main.Permalink }}">
+    {{ $style_header := resources.Get "css/header.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style_header.Permalink }}">
+    {{ $style_tables := resources.Get "css/tables.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style_tables.Permalink }}">
+    {{ $style_footer := resources.Get "css/footer.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style_footer.Permalink }}">
+    {{ $style_datatables := resources.Get "css/datatables.min.css" | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style_datatables.Permalink }}">
+    {{ $style_navbar := resources.Get "css/navbar.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style_navbar.Permalink }}">
+
+    {{ $js_jquery := resources.Get "js/jquery-3.6.0.min.js" | resources.Fingerprint }}
+    <script type="text/javascript" src="{{ $js_jquery.Permalink }}"></script>
+    {{ $js_bootstrap := resources.Get "js/bootstrap.bundle.js" | resources.Minify | resources.Fingerprint }}
+    <script type="text/javascript" src="{{ $js_bootstrap.Permalink }}"></script>
+    {{ $js_datatables := resources.Get "js/datatables.min.js" | resources.Fingerprint }}
+    <script type="text/javascript" src="{{ $js_datatables.Permalink }}"></script>
+    {{ $js_main := resources.Get "js/main.js"| resources.Minify | resources.Fingerprint }}
+    <script type="text/javascript" src="{{ $js_main.Permalink }}"></script>
+
+
+</head>

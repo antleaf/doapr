@@ -1,0 +1,5 @@
+baseURL: "http://localhost:1313"
+buildDrafts: false
+params:
+  showDebugInfo: true
+  showPageAnnotationAlerts: true

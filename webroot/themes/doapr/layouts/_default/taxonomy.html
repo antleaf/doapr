@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="row">
+    <div class="col">
+        <h1 class="page-title">{{humanize .Data.Singular }}: {{ .Title | markdownify }}</h1>
+        {{ .Description | markdownify}}
+        <br/>
+        {{ .Content }}
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <h4>Pages with {{ .Data.Singular}}: '{{ .Title | markdownify }}'</h4>
+        <table id="scenariosTable" class="table table-sm table-striped">
+            <thead>
+            <tr class="column-header-row">
+                <th>Page</th>
+                <th>Category</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{ range .Data.Pages }}
+                <tr>
+                    <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+                    <td>{{ humanize .Section }}</td>
+                </tr>
+            {{ end }}
+            </tbody>
+        </table>
+    </div>
+</div>
+{{ end }}
+

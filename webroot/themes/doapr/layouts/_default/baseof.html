@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+{{partial "head" .}}
+<body>
+<div class="container-fluid">
+    {{ partial "header" .}}
+    {{ partial "navbar" . }}
+    {{ partial "page_annotation_alerts" . }}
+    {{ block "main" . }}
+    {{end}}
+    {{ partial "footer" .}}
+    {{ if (eq .Site.Params.showDebugInfo true) }}
+    {{ partial "debugging" .}}
+    {{ end }}
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.strapline {
+    font-style: italic;
+    vertical-align: text-bottom;
+}
+
+div#header {
+    text-align: center;
+}
+
+img#header-logo {
+    max-width: 40%;
+}

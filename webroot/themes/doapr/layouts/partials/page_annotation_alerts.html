@@ -1,0 +1,15 @@
+{{ if (eq .Site.Params.showPageAnnotationAlerts true) }}
+{{ with .Params.status }}
+<div class="page-annotation-badges">
+    {{ if in . "draft" }}
+    <span class="badge bg-success page-annotation"><a class="page-annotation" href="/status/draft/">Draft</a></span>
+    {{ end }}
+    {{ if in . "review" }}
+    <span class="badge bg-danger page-annotation"><a class="page-annotation" href="/status/review/">Marked for review</a></span>
+    {{ end }}
+    {{ if in . "revise" }}
+    <span class="badge bg-danger page-annotation"><a class="page-annotation" href="/status/revise/">Marked for revision</a></span>
+    {{ end }}
+</div>
+{{ end }}
+{{ end }}

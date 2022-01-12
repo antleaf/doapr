@@ -1,0 +1,6 @@
+baseURL: ""
+buildDrafts: false
+googleAnalytics: ""
+params:
+  showDebugInfo: false
+  showPageAnnotationAlerts: true
