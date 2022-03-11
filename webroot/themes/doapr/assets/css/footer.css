@@ -1,13 +1,7 @@
-div#company-info {
-  font-size: small;
-}
-
-div#site-credits {
-  font-size: small;
-  text-align: right;
-}
 
 div#footer {
+  font-size: small;
+  text-align: right;
   border-top: 1px solid #cdcdcd;
   margin-top: 15px;
   /*padding-top: 5px;*/

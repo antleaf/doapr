@@ -1,4 +1,4 @@
-div.antleaf-navbar {
+div.doapr-navbar {
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: center;
@@ -7,24 +7,24 @@ div.antleaf-navbar {
     background-color: #f8f9fa;
 }
 
-div.antleaf-navbar ul {
+div.doapr-navbar ul {
     list-style-type: none;
     overflow: hidden;
     margin: 0px;
 }
 
-div.antleaf-navbar ul li {
+div.doapr-navbar ul li {
     padding-right: 20px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
 
-div.antleaf-navbar ul li.selected {
+div.doapr-navbar ul li.selected {
     font-weight: bold;
 }
 
-div.antleaf-navbar ul li a {
+div.doapr-navbar ul li a {
     text-decoration: none;
 }
 

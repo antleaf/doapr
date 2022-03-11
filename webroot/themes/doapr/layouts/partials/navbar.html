@@ -1,14 +1,21 @@
-<nav id="top-nav-bar" class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
+{{ $currentPage := . }}
+<div class="doapr-navbar">
+    <div class="row">
+        <div class="col">
+            <ul>
+                {{ range site.Menus.navbar }}
+                    {{ if or (eq $currentPage.Permalink .URL) (eq $currentPage.Section .Identifier) }}
+                        <li class="selected"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ else }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                {{ end }}
             </ul>
         </div>
+        {{/*        <div class="col">*/}}
+        {{/*            <form action="/search" method="get">*/}}
+        {{/*                <input class="form-control-sm" type="text" name="q" placeholder="quick search...."/>*/}}
+        {{/*            </form>*/}}
+        {{/*        </div>*/}}
     </div>
-</nav>
+</div>

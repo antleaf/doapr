@@ -8,9 +8,11 @@
     <div class="col">
       {{ .Content }}
       <br/>
+      <ul>
       {{ range .Data.Pages }}
-        {{ .Title }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
       {{ end }}
+      </ul>
     </div>
   </div>
 {{ end }}
