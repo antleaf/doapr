@@ -68,7 +68,7 @@ ownership_type: Publishing services organisation
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 88 442'
@@ -91,6 +91,16 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Possible in those cases : Contravention of copyright, ethical
   and legal issues'
+integrations:
+- :service: dimensions
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: crossref
+  :feature: indexing
+  :description:
 ---
 
 

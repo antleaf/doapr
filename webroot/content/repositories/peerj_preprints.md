@@ -55,7 +55,7 @@ ownership_type: Publishing organisation (publisher)
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: open_science_framework
+platform: open_science_framework
 platform_languages: English
 preservation_policy: All published content will be fully accessible and archived by
   PeerJ and their partners
@@ -76,6 +76,16 @@ versioning_policy: Accepts any new versions until publication in a journal. All 
 who_can_deposit:
 withdrawal_authorisation: Platform
 withdrawal_policy: False or inaccurate content, additional reasons not stated
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: crossref
+  :feature: indexing
+  :description:
+- :service: reasearcher_app
+  :feature: indexing
+  :description:
 ---
 
 

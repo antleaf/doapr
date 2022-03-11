@@ -61,7 +61,7 @@ ownership_type: Scientific Organisation
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy: 'Yes'
 record_count: 'Full text : 16 700'
@@ -84,6 +84,16 @@ who_can_deposit: Account needed, it's free. Only academic staff of Harvard Unive
 withdrawal_authorisation: Items may be removed by the platform at the request of the
   author/copyright holder
 withdrawal_policy: Plagiarism, Copyright violation
+integrations:
+- :service: google_analytics
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: google
+  :feature: indexing
+  :description:
 ---
 
 

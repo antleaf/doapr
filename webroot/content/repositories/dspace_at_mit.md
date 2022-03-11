@@ -61,7 +61,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: dspace
+platform: dspace
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 53 405'
@@ -80,6 +80,16 @@ versioning_policy: Accepts new version. Only one version is visble for readers
 who_can_deposit: The work must be produced, submitted or sponsored by MIT faculty.
 withdrawal_authorisation: Platform
 withdrawal_policy: Items may be removed at the request of the author/copyright holder
+integrations:
+- :service: core
+  :feature: indexing
+  :description:
+- :service: base
+  :feature: indexing
+  :description:
+- :service: openaire_explore
+  :feature: indexing
+  :description:
 ---
 
 

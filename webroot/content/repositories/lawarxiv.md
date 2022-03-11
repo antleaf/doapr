@@ -55,7 +55,7 @@ ownership_type: Charity
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: open_science_framework
+platform: open_science_framework
 platform_languages: English
 preservation_policy: The content is kept by OSF
 record_count: 'Full text : 1 393'
@@ -76,6 +76,16 @@ who_can_deposit: JMIR Publications facilitates this by allowing its authors to e
   an article, and the preprint server is also open for non-JMIR authors
 withdrawal_authorisation:
 withdrawal_policy:
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
+- :service: google
+  :feature: indexing
+  :description:
 ---
 
 

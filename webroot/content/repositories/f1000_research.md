@@ -64,7 +64,7 @@ ownership_type: Publishing organisation (publisher)
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 4 144'
@@ -91,6 +91,25 @@ withdrawal_policy: Honest errors reported by the authors (for example, errors du
   to the mixing up of samples or use of a scientific tool or equipment that is found
   subsequently to be faulty), research misconduct (data fabrication), duplicate or
   overlapping publication, fraudulent use of data, clear plagiarism, unethical research
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: europe_pmc
+  :feature: indexing
+  :description:
+- :service: share
+  :feature: indexing
+  :description:
+- :service: scilit
+  :feature: indexing
+  :description:
+- :service: pre_pubmed
+  :feature: indexing
+  :description:
 ---
 
 

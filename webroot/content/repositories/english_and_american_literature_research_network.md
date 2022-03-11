@@ -70,7 +70,7 @@ ownership_type: Governmental institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Total records: more than 1.8 million; Full text: 447,506 as of 6/29/21'
@@ -91,6 +91,19 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation: Platform
 withdrawal_policy: Plagiarism, false or inaccurate content
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
+- :service: plaudit
+  :feature: endorsement
+  :description:
 ---
 
 

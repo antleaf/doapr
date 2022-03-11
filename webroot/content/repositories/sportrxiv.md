@@ -67,7 +67,7 @@ ownership_type: Scientific society
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English and German
 preservation_policy:
 record_count: 'Full text : 370'
@@ -88,6 +88,25 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: Plagiarism, false or inaccurate content
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
+- :service: plaudit
+  :feature: endorsement
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
+- :service: share
+  :feature: indexing
+  :description:
+- :service: unpaywall
+  :feature: indexing
+  :description:
 ---
 
 

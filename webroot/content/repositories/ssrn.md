@@ -64,7 +64,7 @@ ownership_type: Scientific society
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English and German
 preservation_policy:
 record_count: 'Full text : 370'
@@ -84,6 +84,10 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: Due to a major revision or in case of plagiarism or ethical issues
+integrations:
+- :service: plumx_metrics
+  :feature: usage_metrics
+  :description:
 ---
 
 

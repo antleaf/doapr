@@ -65,7 +65,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: custom_software
+platform: custom_software
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 20 315'
@@ -91,6 +91,28 @@ withdrawal_policy: 'Permanent with withdrawal options and (rare) removal in extr
   circumstances. Removal: Legal or biohazard reasons; Withdrawal: Plagiarism, false
   or inaccurate content, ethical and legal issues, co-author(s) did not consent to
   posting'
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
+- :service: europe_pmc
+  :feature: indexing
+  :description:
+- :service: scilit
+  :feature: indexing
+  :description:
+- :service: share
+  :feature: indexing
+  :description:
+- :service: pre_pubmed
+  :feature: indexing
+  :description:
 ---
 
 

@@ -55,7 +55,7 @@ ownership_type: Owned by publisher and technology provider
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy: 'No'
 record_count: 'Full text : 69'
@@ -77,6 +77,16 @@ who_can_deposit: ARPHA-hosted journals that opted in for preprint services. Post
   ARPHA-hosted journals
 withdrawal_authorisation: Possible by editorial decision
 withdrawal_policy: Plagiarism, false or inaccurate content
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
 ---
 
 

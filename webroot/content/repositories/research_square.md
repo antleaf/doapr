@@ -67,7 +67,7 @@ ownership_type: Publishing services organisation
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: custom_software
+platform: custom_software
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 88 442'
@@ -90,6 +90,31 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Possible in those cases : Contravention of copyright, ethical
   and legal issues'
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: base
+  :feature: indexing
+  :description:
+- :service: repec
+  :feature: indexing
+  :description:
+- :service: econbiz
+  :feature: indexing
+  :description:
+- :service: liebniz_open
+  :feature: indexing
+  :description:
+- :service: worldcat
+  :feature: indexing
+  :description:
+- :service: openaire_explore
+  :feature: indexing
+  :description:
 ---
 
 

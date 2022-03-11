@@ -69,7 +69,7 @@ ownership_type: Governmental institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 71'
@@ -90,6 +90,22 @@ who_can_deposit: Only open to research participating in Horizon 2020 program
 withdrawal_authorisation: Platform
 withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
   ethical and legal issues
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: pre_pubmed
+  :feature: indexing
+  :description:
+- :service: europe_pmc
+  :feature: indexing
+  :description:
+- :service: scilit
+  :feature: indexing
+  :description:
 ---
 
 

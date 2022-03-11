@@ -56,7 +56,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy: Already closed, Universty of Southampton is hosting all data
 record_count: 'Full text : 4 230'

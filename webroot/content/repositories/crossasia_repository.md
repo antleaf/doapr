@@ -60,7 +60,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: eprints
+platform: eprints
 platform_languages: English and German
 preservation_policy:
 record_count: 'Full text : 4 341'
@@ -80,6 +80,22 @@ who_can_deposit: To publish your documents on CrossAsia-Repository, please conta
   the CrossAsia-Repository team
 withdrawal_authorisation:
 withdrawal_policy:
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: peer_community_in
+  :feature: peer review
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
+- :service: share
+  :feature: indexing
+  :description:
+- :service: unpaywall
+  :feature: indexing
+  :description:
 ---
 
 

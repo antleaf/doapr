@@ -62,7 +62,7 @@ ownership_type: Charity
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: open_science_framework
+platform: open_science_framework
 platform_languages: English
 preservation_policy:
 record_count: 'Metadata: 2 097 029'
@@ -86,6 +86,28 @@ withdrawal_authorisation: Author, Plateform in case of copyrights issues
 withdrawal_policy: Withdrawing an accepted preprint from a pre-moderation service
   / Withdrawing a pending preprint from a pre-moderation service / Withdrawing a preprint
   from a post-moderation service
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
+- :service: peer_community_in
+  :feature: peer review
+  :description:
+- :service: plaudit
+  :feature: endorsement
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
+- :service: share
+  :feature: indexing
+  :description:
+- :service: unpaywall
+  :feature: indexing
+  :description:
 ---
 
 

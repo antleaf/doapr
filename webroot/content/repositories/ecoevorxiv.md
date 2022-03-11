@@ -54,7 +54,7 @@ ownership_type: Tech company
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count:

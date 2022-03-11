@@ -63,7 +63,7 @@ ownership_type: Academic community group
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy: The content is currently hosted by 3rd party services and will
   thus continue to be online in case of closure
@@ -88,6 +88,31 @@ who_can_deposit: "African scientists based on the African continent \nAfrican sc
   listed. Non-African scientists who report on research relevant to African affairs"
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: Plagiarism, false or inaccurate content
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
+- :service: peer_community_in
+  :feature: peer review
+  :description:
+- :service: plaudit
+  :feature: endorsement
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
+- :service: scienceopen
+  :feature: peer review
+  :description:
+- :service: share
+  :feature: indexing
+  :description:
+- :service: unpaywall
+  :feature: indexing
+  :description:
 ---
 
 

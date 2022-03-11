@@ -1,7 +1,51 @@
-tr.column-header-row {
-    background-color: #d0e1f2;
-}
-
 table, tr, th, td {
     color: #555555;
 }
+
+
+table,tr {
+    border: 1px #cdcdcd solid;
+    width: 100%;
+}
+
+th,td {
+    vertical-align: top;
+    padding: 5px;
+    border: 1px #efefef solid;
+    /*font-size: 90%;*/
+}
+
+th {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+table.invisible-layout-table {
+    border: none;
+    width: auto;
+}
+
+table.invisible-layout-table tr, table.invisible-layout-table td {
+    border: none;
+}
+
+td.field-name {
+    text-align: right;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+td.field-name::after {
+    content: ":";
+    font-weight: bold;
+}
+
+.more-details-link {
+    float: right;
+}
+
+td.number {
+    text-align: right;
+    font-family: Courier, monospace;
+}
+

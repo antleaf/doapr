@@ -57,7 +57,7 @@ ownership_type: Publishing organisation (publisher)
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: atypon_literatum
+platform: atypon_literatum
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 3 375'
@@ -80,6 +80,13 @@ withdrawal_authorisation:
 withdrawal_policy: |-
   Once your manuscript has been uploaded to Sneak Peek, we will notify you and you will have 24 hours to request any corrections or removal of your manuscript. After this period, the posting cannot
   be edited or removed.
+integrations:
+- :service: disqus
+  :feature: commenting
+  :description:
+- :service: plumx_metrics
+  :feature: usage_metrics
+  :description:
 ---
 
 

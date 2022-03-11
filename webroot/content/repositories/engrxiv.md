@@ -62,7 +62,7 @@ ownership_type: Open access scientific journal
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: open_science_framework
+platform: open_science_framework
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 1 721'
@@ -84,6 +84,25 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: Contravention of copyright, ethical and legal issues
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: plaudit
+  :feature: commenting
+  :description:
+- :service: plaudit
+  :feature: endorsement
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
+- :service: share
+  :feature: indexing
+  :description:
+- :service: unpaywall
+  :feature: indexing
+  :description:
 ---
 
 

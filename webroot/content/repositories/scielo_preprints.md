@@ -66,7 +66,7 @@ ownership_type: Research infrastructure program
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: custom_peerj_preprints_software
+platform: custom_peerj_preprints_software
 platform_languages: English, Spanish and Portuguese
 preservation_policy: 'The preservation flow is: -creating a webarchiving file in WARC
   format every week; -The files are saved in datasets in Dataverse. - Once we saving
@@ -98,6 +98,31 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At authors' request, if properly justified
 withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
   ethical and legal issues
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
+- :service: base
+  :feature: indexing
+  :description:
+- :service: core
+  :feature: indexing
+  :description:
+- :service: openaire_explore
+  :feature: indexing
+  :description:
+- :service: unpaywall
+  :feature: indexing
+  :description:
+- :service: worldcat
+  :feature: indexing
+  :description:
 ---
 
 

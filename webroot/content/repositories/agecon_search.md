@@ -68,7 +68,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: Advanced Search available in French (effective July 2021) with
   all six UK languages to be added.
 preservation_policy: 'Yes : Content is backed up by TIND and also locally at the University
@@ -96,6 +96,22 @@ withdrawal_authorisation: Items in AgEcon Search may be withdrawn upon the reque
   of the contributor.
 withdrawal_policy: 'In special circumstances : whether the rules of the desposit agreement
   have been violated'
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: matomo
+  :feature: usage_metrics
+  :description:
+- :service: pre_pubmed
+  :feature: indexing
+  :description:
+- :service: europe_pmc
+  :feature: indexing
+  :description:
+- :service: scilit
+  :feature: indexing
+  :description:
 ---
 
 

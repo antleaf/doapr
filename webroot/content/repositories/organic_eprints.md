@@ -65,7 +65,7 @@ ownership_type: Research infrastructure
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English and German
 preservation_policy: Items will be retained indefinitely
 record_count: 'Full text : 17 713'

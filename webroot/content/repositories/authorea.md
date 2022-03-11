@@ -64,7 +64,7 @@ ownership_type: Publishing organisation (publisher)
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: custom_software
+platform: custom_software
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 15241'
@@ -92,6 +92,11 @@ withdrawal_policy: Once a preprint is posted on Authorea, it becomes a part of t
   at our sole discretion to remove any content that, in our judgment, does not comply
   with the foregoing or is otherwise harmful, objectionable, or inaccurate. We are
   not responsible for any failure or delay in removing such content.
+integrations:
+- :service: manuscripts_io
+  :feature: writing
+  :description: Links to Online LaTeX editor. For longer text (Master Theses and Ph.D.
+    Dissertations) use  Manuscripts.io
 ---
 
 

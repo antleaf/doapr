@@ -54,7 +54,7 @@ ownership_type: Publishing organisation (publisher)
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 58'
@@ -75,6 +75,16 @@ who_can_deposit: JMIR Publications facilitates this by allowing its authors to e
   an article, and the preprint server is also open for non-JMIR authors
 withdrawal_authorisation: Platform
 withdrawal_policy:
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
+- :service: google
+  :feature: indexing
+  :description:
 ---
 
 

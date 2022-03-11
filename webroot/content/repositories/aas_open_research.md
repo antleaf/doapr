@@ -68,7 +68,7 @@ ownership_type: Funding organisation (funder)
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 111'
@@ -90,6 +90,31 @@ who_can_deposit: At least one of the authors must be affiliated with the African
 withdrawal_authorisation: Platform
 withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
   ethical and legal issues
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: pre_pubmed
+  :feature: indexing
+  :description:
+- :service: europe_pmc
+  :feature: indexing
+  :description:
+- :service: nasa_ads
+  :feature: indexing
+  :description:
+- :service: share
+  :feature: indexing
+  :description:
+- :service: scilit
+  :feature: indexing
+  :description:
+- :service: inspire_hep
+  :feature: indexing
+  :description:
 ---
 
 

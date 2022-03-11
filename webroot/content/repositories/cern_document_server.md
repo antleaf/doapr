@@ -59,7 +59,7 @@ ownership_type: Research institute
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: dspace
+platform: dspace
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 473 744 ( 138 168 preprint)'

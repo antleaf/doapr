@@ -61,7 +61,7 @@ ownership_type: Publishing organisation (publisher)
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages:
 preservation_policy:
 record_count: 'Full text : 1 058'
@@ -80,6 +80,13 @@ versioning_policy:
 who_can_deposit:
 withdrawal_authorisation: Platform
 withdrawal_policy:
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: crossref
+  :feature: indexing
+  :description:
 ---
 
 

@@ -61,7 +61,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: custom_software
+platform: custom_software
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 9 031'
@@ -89,6 +89,13 @@ withdrawal_authorisation: Platform
 withdrawal_policy: 'Items may be removed at the request of the author/copyright holder
   : Proven copyright violation or plagiarism, Legal requirements and proven violations,
   Falsified research, Author(s) request'
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: plumx_metrics
+  :feature: usage_metrics
+  :description:
 ---
 
 

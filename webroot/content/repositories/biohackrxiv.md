@@ -61,7 +61,7 @@ ownership_type: Individual or community
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 17'
@@ -84,6 +84,25 @@ withdrawal_authorisation: At author's request with moderator approval. Accepted 
   can still be withdrawn (i.e., removed) with the approval of the BioHackrXiv steering
   committee.
 withdrawal_policy: Plagiarism, false or inaccurate content
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
+- :service: plaudit
+  :feature: endorsement
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
+- :service: share
+  :feature: indexing
+  :description:
+- :service: unpaywall
+  :feature: indexing
+  :description:
 ---
 
 

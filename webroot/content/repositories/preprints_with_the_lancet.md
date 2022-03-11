@@ -60,7 +60,7 @@ ownership_type: Publishing organisation (publisher)
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: dspace
+platform: dspace
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 8 719'
@@ -82,6 +82,10 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
   ethical and legal issues, misconduct
+integrations:
+- :service: disqus
+  :feature: commenting
+  :description:
 ---
 
 

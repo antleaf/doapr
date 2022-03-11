@@ -62,7 +62,7 @@ ownership_type: Professional association and Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy: We plan to work with a preservation service to ensure that all
   content is preserved in perpetuity in the event that the platform closes.
@@ -84,6 +84,16 @@ who_can_deposit: Registrants must have an APSA Member ID, but this is also free.
 withdrawal_authorisation: No one
 withdrawal_policy: You can request that your content be marked as "retracted" if you
   no longer stand by your findings or your content contains fundamental errors.
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: ithenticate
+  :feature: plagiarism_detection
+  :description:
 ---
 
 

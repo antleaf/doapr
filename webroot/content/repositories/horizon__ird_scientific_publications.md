@@ -76,7 +76,7 @@ ownership_type: Public scientific research organisation
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English and French
 preservation_policy:
 record_count: 'Full text : 827 597'
@@ -99,6 +99,16 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation: No one
 withdrawal_policy: No withdrawals possible
+integrations:
+- :service: episcience
+  :feature: indexing
+  :description:
+- :service: peer_community_in
+  :feature: peer review
+  :description:
+- :service: software_heritage
+  :feature: indexing
+  :description:
 ---
 
 

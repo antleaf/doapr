@@ -58,7 +58,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: figshare_digital_science_preprint_framework
+platform: figshare_digital_science_preprint_framework
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 1 386'

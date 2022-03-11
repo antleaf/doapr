@@ -57,7 +57,7 @@ ownership_type: Scientific Organisation
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: open_science_framework
+platform: open_science_framework
 platform_languages: English
 preservation_policy: 'Yes'
 record_count: 'Full text : 16 700'

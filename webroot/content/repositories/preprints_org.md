@@ -58,7 +58,7 @@ ownership_type: Publishing organisation (publisher)
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: invenio
+platform: invenio
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 21 880'
@@ -83,6 +83,22 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation: Platform
 withdrawal_policy:
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: prereview
+  :feature: peer review
+  :description:
+- :service: publons
+  :feature: revision_follow_up
+  :description:
+- :service: europe_pmc
+  :feature: indexing
+  :description:
 ---
 
 

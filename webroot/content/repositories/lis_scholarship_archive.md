@@ -65,7 +65,7 @@ ownership_type: Individual or community
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy: LISSA is no longer able to accept new submissions. Existing content
   will remain accessible as part of COS's ongoing commitment to Open Science.
@@ -90,6 +90,22 @@ withdrawal_policy: Offensive or harassing to people or groups, particularly base
   on age, body size, disability, ethnicity, gender identity and expression, language,
   level of experience, nationality, personal appearance, race, religion, socioeconomic
   status, or sexual identity and orientation.
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: plaudit
+  :feature: endorsement
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
+- :service: share
+  :feature: indexing
+  :description:
+- :service: unpaywall
+  :feature: indexing
+  :description:
 ---
 
 

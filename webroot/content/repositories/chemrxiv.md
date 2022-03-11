@@ -70,7 +70,7 @@ ownership_type: Scientific society
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text: 9 153'
@@ -93,6 +93,25 @@ who_can_deposit: Anyone can post on the platform. Only an ORCID account is requi
 withdrawal_authorisation: Platform (initiative of platform or request by submitting
   author or third party)
 withdrawal_policy: Contravention of copyright, plagiarism, ethical and legal issues
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: ithenticate
+  :feature: plagiarism_detection
+  :description:
+- :service: crossref
+  :feature: indexing
+  :description:
+- :service: reasearcher_app
+  :feature: indexing
+  :description:
+- :service: cab_abstracts
+  :feature: indexing
+  :description:
 ---
 
 

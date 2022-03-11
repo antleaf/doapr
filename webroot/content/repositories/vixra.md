@@ -63,7 +63,7 @@ ownership_type: Corporation
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: custom_software
+platform: custom_software
 platform_languages: English
 preservation_policy: 'Yes : Mirror Site (rxiv.org)'
 record_count: 'Full text : 37 034'

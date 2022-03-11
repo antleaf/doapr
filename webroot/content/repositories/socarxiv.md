@@ -62,7 +62,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: figshare_digital_science_preprint_framework
+platform: figshare_digital_science_preprint_framework
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 8 177'
@@ -85,6 +85,22 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation: Platform
 withdrawal_policy: Plagiarism, false or inaccurate content
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
+- :service: plaudit
+  :feature: endorsement
+  :description:
+- :service: repec
+  :feature: indexing
+  :description:
+- :service: unpaywall
+  :feature: indexing
+  :description:
 ---
 
 

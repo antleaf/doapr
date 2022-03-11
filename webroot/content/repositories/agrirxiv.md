@@ -60,7 +60,7 @@ ownership_type: International, inter-governmental, organization
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy: CABI commits to preserving availability of the content
 record_count: 'Full text : 138'
@@ -83,6 +83,19 @@ withdrawal_authorisation: Platform
 withdrawal_policy: agriRxiv reserves the right to remove any articles that contain
   plagiarized material or describe experimental work that is not performed in accordance
   with the relevant ethical standards for research using animals or human subjects
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: plumx_metrics
+  :feature: usage_metrics
+  :description:
+- :service: crossref
+  :feature: indexing
+  :description:
+- :service: reasearcher_app
+  :feature: indexing
+  :description:
 ---
 
 

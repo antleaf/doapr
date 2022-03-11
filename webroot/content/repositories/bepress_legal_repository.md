@@ -56,7 +56,7 @@ ownership_type: Academic Software firm
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 169 686'
@@ -76,6 +76,10 @@ who_can_deposit: Authors from associated Universities
 withdrawal_authorisation: Send an email to working_papers@bepress.com and we will
   remove the paper for you.
 withdrawal_policy: You can ask anytime to remove your paper from the repository
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
 ---
 
 

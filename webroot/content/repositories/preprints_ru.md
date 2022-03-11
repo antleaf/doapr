@@ -54,7 +54,7 @@ ownership_type: Scientific Society
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English and Russian
 preservation_policy:
 record_count: 'Full text : 174'

@@ -65,7 +65,7 @@ ownership_type: Academic community group
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English and Indonesian
 preservation_policy:
 record_count: 'Full text : 51'
@@ -86,6 +86,25 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation: Platform
 withdrawal_policy: Plagiarism, false or inaccurate content
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: europe_pmc
+  :feature: indexing
+  :description:
+- :service: cas
+  :feature: indexing
+  :description:
+- :service: crossref
+  :feature: indexing
+  :description:
+- :service: scopus
+  :feature: indexing
+  :description:
+- :service: proquest
+  :feature: indexing
+  :description:
 ---
 
 

@@ -64,7 +64,7 @@ ownership_type: Funding organisation (funder)
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 967'
@@ -85,6 +85,34 @@ who_can_deposit: Only member of Wellcome can post on the platform
 withdrawal_authorisation: Platform
 withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
   ethical and legal issues
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: openaire_explore
+  :feature: indexing
+  :description:
+- :service: econlit
+  :feature: indexing
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
+- :service: econstor
+  :feature: indexing
+  :description:
+- :service: inomics
+  :feature: indexing
+  :description:
+- :service: researchgate
+  :feature: indexing
+  :description:
+- :service: science_direct
+  :feature: indexing
+  :description:
 ---
 
 

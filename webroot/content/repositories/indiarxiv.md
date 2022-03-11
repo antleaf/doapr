@@ -61,7 +61,7 @@ ownership_type: Community
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy: The content is kept by OSFto be visible. Advisory team advises
   to turn to RINarxiv to post new content.
@@ -82,6 +82,25 @@ versioning_policy: Accepts new version. All version are archieved and visible fo
 who_can_deposit:
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: Plagiarism, false or inaccurate content
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
+- :service: plaudit
+  :feature: endorsement
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
+- :service: share
+  :feature: indexing
+  :description:
+- :service: unpaywall
+  :feature: indexing
+  :description:
 ---
 
 

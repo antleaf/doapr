@@ -59,7 +59,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English and Chinese
 preservation_policy:
 record_count: 'Full text : 14 874'
@@ -80,6 +80,13 @@ who_can_deposit: Accound needed, Only research from China is accepted
 withdrawal_authorisation: Platform
 withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
   ethical and legal issues
+integrations:
+- :service: pubmed
+  :feature: indexing
+  :description:
+- :service: crossref
+  :feature: indexing
+  :description:
 ---
 
 

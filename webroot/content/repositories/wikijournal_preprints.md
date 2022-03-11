@@ -61,7 +61,7 @@ ownership_type: Publishing organisation (publisher)
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 52'
@@ -86,6 +86,13 @@ withdrawal_policy: There is clear evidence that the findings are unreliable, eit
   findings have previously been published elsewhere without proper permission or justification
   for publication in WikiJournal User Group as well? It contains plagiarism. It reports
   unethical research
+integrations:
+- :service: copyvios
+  :feature: plagiarism_detection
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
 ---
 
 

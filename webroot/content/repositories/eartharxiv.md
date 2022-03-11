@@ -65,7 +65,7 @@ ownership_type: Public
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: digital_commons
+platform: digital_commons
 platform_languages: English
 preservation_policy: 'Yes'
 record_count: 'Full text: 2 300'
@@ -86,6 +86,10 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation: Platform
 withdrawal_policy: Plagiarism, ethical and legal issues
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
 ---
 
 

@@ -62,7 +62,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: highwire_preprint_and_benchpress
+platform: highwire_preprint_and_benchpress
 platform_languages: English
 preservation_policy:
 record_count: 'Metadata: 1 254'
@@ -86,6 +86,31 @@ withdrawal_authorisation: Author or Platform
 withdrawal_policy: 'Removal: Legal or biohazard reasons; Withdrawal: Plagiarism, false
   or inaccurate content, ethical and legal issues, co-author(s) did not consent to
   posting'
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
+- :service: peer_community_in
+  :feature: peer review
+  :description:
+- :service: crossref
+  :feature: indexing
+  :description:
+- :service: disqus
+  :feature: commenting
+  :description:
+- :service: meta
+  :feature: indexing
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
 ---
 
 

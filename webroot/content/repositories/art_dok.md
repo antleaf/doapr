@@ -60,7 +60,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: open_science_framework
+platform: open_science_framework
 platform_languages: English and German
 preservation_policy:
 record_count: 'Full text : 7 239'
@@ -81,6 +81,19 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: Only at the explicit request of the author will the staff of ART-Dok
   delete a document
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
+- :service: share
+  :feature: indexing
+  :description:
+- :service: unpaywall
+  :feature: indexing
+  :description:
 ---
 
 

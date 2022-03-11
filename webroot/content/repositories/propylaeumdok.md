@@ -60,7 +60,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: custom_software
+platform: custom_software
 platform_languages: English and German
 preservation_policy:
 record_count: 'Full text : 4 932'

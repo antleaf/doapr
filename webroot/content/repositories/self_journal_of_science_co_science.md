@@ -55,7 +55,7 @@ ownership_type:
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 2 140'
@@ -76,6 +76,13 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation:
 withdrawal_policy:
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: pubmed
+  :feature: indexing
+  :description:
 ---
 
 

@@ -60,7 +60,7 @@ ownership_type: Research institute
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: eprints
+platform: eprints
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 12 250'
@@ -80,6 +80,37 @@ who_can_deposit: Accredited Community Members
 withdrawal_authorisation: Platform
 withdrawal_policy: Items may be removed at the request of the author/copyright holder.
   Earlier versions may be withdrawn from public view
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: base
+  :feature: indexing
+  :description:
+- :service: core
+  :feature: indexing
+  :description:
+- :service: isidore
+  :feature: indexing
+  :description:
+- :service: scanr
+  :feature: indexing
+  :description:
+- :service: dart_europe
+  :feature: indexing
+  :description:
+- :service: openaire_explore
+  :feature: indexing
+  :description:
+- :service: pubmed
+  :feature: indexing
+  :description:
+- :service: repec
+  :feature: indexing
+  :description:
 ---
 
 

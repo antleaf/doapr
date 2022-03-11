@@ -81,7 +81,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy: 'No'
 record_count: |-
@@ -108,6 +108,13 @@ withdrawal_policy: If you are the author, rights holder or are authorised to act
   behalf of the author/rights holder and you are concerned that you have found material
   available on LSE Research Online for which you have not given permission, you have
   the right to request its removal.
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
 ---
 
 

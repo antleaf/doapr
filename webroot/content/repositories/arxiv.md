@@ -73,7 +73,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: custom_software
+platform: custom_software
 platform_languages: English
 preservation_policy: 'Yes : mirror sites, public data sets via Kaggle'
 record_count: 'Full text : 1 878 329'
@@ -100,6 +100,19 @@ withdrawal_policy: 'Removal is only in cases when author did not have the legal 
   to post: copyright infringment, national security risks, etc. There is also an option
   to post a withdrawal that posts a new blank version, rather than removes which is
   explained at https://arxiv.org/help/withdraw'
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: peer_community_in
+  :feature: peer review
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
+- :service: unpaywall
+  :feature: indexing
+  :description:
 ---
 
 

@@ -56,7 +56,7 @@ ownership_type: Charity
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: eprints
+platform: eprints
 platform_languages: English
 preservation_policy: The content is kept by OSF. Advisory team advises to turn to
   RINarxiv to post new content.
@@ -77,6 +77,13 @@ versioning_policy: Accepts new version. All version are archieved and visible fo
 who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy:
+integrations:
+- :service: plaudit
+  :feature: commenting
+  :description:
+- :service: plaudit
+  :feature: endorsement
+  :description:
 ---
 
 

@@ -57,7 +57,7 @@ ownership_type: Life sciences tech company
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 23'
@@ -78,6 +78,16 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Ar authors' request
 withdrawal_policy: Plagiarism, ethical and legal issues, no appropriate declaration
   of conflicts of interest
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
+- :service: disqus
+  :feature: commenting
+  :description:
 ---
 
 

@@ -58,7 +58,7 @@ ownership_type: Tech company
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: |-
   Support other languages, e.g. JStage - This feature is in discussion. See the Public Roadmap: https://eu-rm.roadmunk.com/publish/50c0cac4ff2d9b46f7c118eb347f7959ffc9f48a. Currently, certain parts of the interface (groups, custom metadata, and metadata entries) can be set up in a foreign language. For example, see South Federal University (Russia).
 
@@ -85,6 +85,13 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation: Platform
 withdrawal_policy:
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: crossref
+  :feature: indexing
+  :description:
 ---
 
 

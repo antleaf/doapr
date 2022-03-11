@@ -52,7 +52,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: eprints
+platform: eprints
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 5 838'

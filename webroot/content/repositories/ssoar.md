@@ -72,7 +72,7 @@ ownership_type: Scientific society
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: eprints
+platform: eprints
 platform_languages: English and German
 preservation_policy:
 record_count: 'Full text : 370'
@@ -93,6 +93,10 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: At the express request of the author or the right holder, and where
   important, legal grounds exist
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
 ---
 
 

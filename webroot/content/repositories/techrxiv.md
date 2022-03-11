@@ -61,7 +61,7 @@ ownership_type: Scientific society
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: open_science_framework
+platform: open_science_framework
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 1 043'
@@ -89,6 +89,19 @@ withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: Plagiarized material or describe experimental work that is not
   performed in accordance with the relevant ethical standards for research using animals
   or human subjects.
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: base
+  :feature: indexing
+  :description:
+- :service: oaister
+  :feature: indexing
+  :description:
 ---
 
 

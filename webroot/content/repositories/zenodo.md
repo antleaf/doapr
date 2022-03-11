@@ -63,7 +63,7 @@ ownership_type: Research institute
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: invenio
+platform: invenio
 platform_languages: English
 preservation_policy: In case of closure of the repository, best efforts will be made
   to integrate all content into suitable alternative institutional and/or subject
@@ -95,6 +95,13 @@ withdrawal_policy: Withdrawal is considered an exceptional action, which normall
   afterwards, it requires a valid justification for the removal of a record. A valid
   justification can, for instance, be a copyright infringement, exposure of data from
   human subjects, and/or spam records
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: matomo
+  :feature: usage_metrics
+  :description:
 ---
 
 

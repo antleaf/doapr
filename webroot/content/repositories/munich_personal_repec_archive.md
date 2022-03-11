@@ -59,7 +59,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: eprints
+platform: eprints
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 13'
@@ -79,6 +79,16 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation:
 withdrawal_policy: MPRA refuse to remove submissions from the archive
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
+- :service: crossref
+  :feature: indexing
+  :description:
 ---
 
 

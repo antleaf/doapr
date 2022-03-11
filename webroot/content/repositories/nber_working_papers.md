@@ -57,7 +57,7 @@ ownership_type: Publishing organisation (publisher)
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy: The content is kept by Nature to be visible
 record_count: 'Full text : 3 423'
@@ -76,6 +76,19 @@ versioning_policy:
 who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy:
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: crossref
+  :feature: indexing
+  :description:
+- :service: scilit
+  :feature: indexing
+  :description:
 ---
 
 

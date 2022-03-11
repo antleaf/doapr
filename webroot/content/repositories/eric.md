@@ -61,7 +61,7 @@ ownership_type: Open access scientific journal
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 1 721'

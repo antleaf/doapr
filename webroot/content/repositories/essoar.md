@@ -70,7 +70,7 @@ ownership_type: Open access scientific journal
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: dspace
+platform: dspace
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 1 721'
@@ -93,6 +93,28 @@ withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: Copyright infringement or other ethical or legal issues the Advisory
   Board deems critical. If violations are discovered after posting, the content will
   be retracted
+integrations:
+- :service: altmetric
+  :feature: usage_metrics
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
+- :service: plaudit
+  :feature: endorsement
+  :description:
+- :service: pre_pubmed
+  :feature: indexing
+  :description:
+- :service: europe_pmc
+  :feature: indexing
+  :description:
+- :service: scilit
+  :feature: indexing
+  :description:
 ---
 
 

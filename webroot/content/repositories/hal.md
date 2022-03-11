@@ -69,7 +69,7 @@ ownership_type: Funding organisation (funder)
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id: custom_software
+platform: custom_software
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 314'
@@ -93,6 +93,37 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation: Platform
 withdrawal_policy: No withdrawals possible
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: peer_community_in
+  :feature: peer review
+  :description:
+- :service: base
+  :feature: indexing
+  :description:
+- :service: core
+  :feature: indexing
+  :description:
+- :service: isidore
+  :feature: indexing
+  :description:
+- :service: scanr
+  :feature: indexing
+  :description:
+- :service: dart_europe
+  :feature: indexing
+  :description:
+- :service: openaire_explore
+  :feature: indexing
+  :description:
+- :service: pubmed
+  :feature: indexing
+  :description:
+- :service: repec
+  :feature: indexing
+  :description:
 ---
 
 

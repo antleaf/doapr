@@ -59,7 +59,7 @@ ownership_type: Professional organization
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 16 187'
@@ -80,6 +80,16 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation:
 withdrawal_policy:
+integrations:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: plaudit
+  :feature: commenting
+  :description:
+- :service: plaudit
+  :feature: endorsement
+  :description:
 ---
 
 

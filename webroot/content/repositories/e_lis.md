@@ -61,7 +61,7 @@ ownership_type: Academic institution
 pid:
 peer_review_status:
 persistent_of_content:
-platform_id:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 115 333'
@@ -85,6 +85,10 @@ withdrawal_policy: Although the intent of the Archive is to preserve and globall
   share peer-reviewed research material created by LIS researchers. Removal of material
   disrupts this intent. The software does not allow authors to remove papers automatically.
   However, a request for removal would be considered case per case.
+integrations:
+- :service: scopus
+  :feature: indexing
+  :description:
 ---
 
 
