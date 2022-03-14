@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: SODHA – Social Sciences and Digital Humanities Archive
 description: SODHA, the federal Belgian data archive for social sciences and the digital
@@ -55,7 +55,7 @@ objectives: SSRN is joining Mendeley and Elsevier to coordinate our development 
   data, products, and additional resources that this change facilitates
 open_doar_id:
 open_source: 'No'
-owner_country: The Netherlands
+owner_country:
 owner_full_name: Elsevier
 owner_short_name:
 owner_url: https://www.elsevier.com
@@ -101,6 +101,13 @@ integrations:
 - :service: crossref
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Search by subject
+- :feature: usage_metrics
+  :description: Downloads are visible to everyone
+- :feature: comms_social_networking
+  :description: 'Sharing via social media      https://socopen.org/'
 ---
 
 

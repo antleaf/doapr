@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: JMIR Preprints
 description: A preprint server for pre-publication/pre-peer-review preprints intended
@@ -46,7 +46,11 @@ moderation: Check is done during Open Peer review proccess
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: Canada
+owner_country: !ruby/object:Country
+  values:
+    :id: Canada
+    :code: CA
+    :continent: North America
 owner_full_name: JMIR Publications Inc
 owner_short_name: JMIR
 owner_url: https://www.jmir.org/
@@ -85,6 +89,24 @@ integrations:
 - :service: google
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Simple Search or Search by criterias
+- :feature: usage_metrics
+  :description: Social media interactions are visible to everyone
+- :feature: revision
+  :description: 'Yes via Open Peer review : Submissions are open for anybody to peer-review.
+    Once two peer-review reports of reasonable quality have been received, we will
+    send these peer-review reports to the author, and may offer transfer to a partner
+    journal, which has its own editor or editorial board.'
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: revision_follow_up
+  :description: On the website we can follow the worflow of the review of the article
+- :feature: endorsement
+  :description: Via Open Peer Review Process of the website
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and Pinterest)      '
 ---
 
 

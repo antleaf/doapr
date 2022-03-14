@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Meno.science
 description: Project at prototype stage. It will enable scientists to both give and

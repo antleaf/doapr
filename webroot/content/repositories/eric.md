@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: ERIC
 description: ERIC is a comprehensive, easy-to-use, searchable, Internet-based bibliographic
@@ -53,7 +53,11 @@ objectives: Engineering Archive is partnered with the Center for Open Science to
   of research and design on a truly open access platform for all engineering disciplines.
 open_doar_id:
 open_source: 'Yes'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Open Engineering Inc
 owner_short_name:
 owner_url: https://www.openengr.com
@@ -83,6 +87,16 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: ERIC only removes records under exceptional circumstances, such
   as instances of plagiarism, copyright violation, or other unethical practices
+features:
+- :feature: search_engine
+  :description: 'Simple Search or Advanced search via tips : https://eric.ed.gov/?advanced.
+    There is also a thesaurus to help searching'
+- :feature: usage_metrics
+  :description: Downloads and views
+- :feature: comms_social_networking
+  :description: 'ERIC Helpdesk via email through the Contact Us link on the ERIC website
+    or at ERICRequests@ed.gov. Communications on Facebook: https://www.facebook.com/SearchEduResources
+    Communications on Twitter: https://twitter.com/ericinfo      https://twitter.com/ERICinfo'
 ---
 
 

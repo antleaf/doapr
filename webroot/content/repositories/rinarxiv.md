@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: RinarXiv
 description: RINarxiv Beta Release 2.0 is a community-led digital archive for unpublished
@@ -57,7 +57,11 @@ moderation: 'In retrospect : Doc type, data availability, Author Declaration,'
 objectives:
 open_doar_id:
 open_source: 'Yes'
-owner_country: Indonesia
+owner_country: !ruby/object:Country
+  values:
+    :id: Indonesia
+    :code: ID
+    :continent: Asia
 owner_full_name: Indonesia open science team
 owner_short_name:
 owner_url:
@@ -105,6 +109,9 @@ integrations:
 - :service: proquest
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Advanced Search
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: NBER Working Papers
 description: New research by NBER affiliates, circulated for discussion and comment.
@@ -49,7 +49,11 @@ moderation: 'Beforehand : relevance to the scope of the repository and quality o
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: United Kingdom
+owner_country: !ruby/object:Country
+  values:
+    :id: United Kingdom
+    :code: GB
+    :continent: Europe
 owner_full_name: Nature Publishing Group
 owner_short_name:
 owner_url: https://www.nature.com/nature-portfolio
@@ -89,6 +93,21 @@ integrations:
 - :service: scilit
   :feature: indexing
   :description:
+features:
+- :feature: text_mining
+  :description:
+- :feature: search_engine
+  :description: Simple Search
+- :feature: usage_metrics
+  :description: Accesses and Citations are visible to everyone
+- :feature: revision
+  :description: As the preprints can be posted in the organisation's journals, the
+    peer review is done by the platform
+- :feature: commenting
+  :description: Informal peer review was available through a commenting system on
+    the Nature Precedings website
+- :feature: comms_social_networking
+  :description: 'Sharing link      '
 ---
 
 

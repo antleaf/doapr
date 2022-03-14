@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: SportRxiv
 description: The open access subject repository for Sport, Exercise, Performance,
@@ -59,7 +59,7 @@ objectives: Encourage researchers within this field to prioritize research quali
   the context of an incentivized publishing system and to explain the potential solutions.
 open_doar_id:
 open_source: 'Yes'
-owner_country: International
+owner_country:
 owner_full_name: Society for Transparency, Openness, and Replication in Kinesiology
 owner_short_name: STORK
 owner_url: https://www.storkinesiology.org/
@@ -107,6 +107,15 @@ integrations:
 - :service: unpaywall
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Simple Search or by filters (subject)
+- :feature: usage_metrics
+  :description: Downloads are visible to everyone
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/SportRxiv/'
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: bioRxiv
 description: bioRxiv (pronounced "bio-archive") is a free online archive and distribution
@@ -54,7 +54,11 @@ objectives: By posting preprints on bioRxiv, authors are able to make their find
   manuscripts before they are submitted to journals.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Cold Spring Harbor Laboratory
 owner_short_name: CSHL
 owner_url: http://www.cshl.edu/
@@ -111,6 +115,28 @@ integrations:
 - :service: microsoft_academic_search
   :feature: indexing
   :description:
+features:
+- :feature: text_mining
+  :description: bioRxiv provides free and unrestricted access to all articles posted
+    on the server. We believe this should apply not only to human readers but also
+    to machine analysis of the content. A growing variety of resources have been created
+    to facilitate this access.
+- :feature: search_engine
+  :description: Advanced Research and Alerts/RSS
+- :feature: bibliographic_references_management
+  :description: BibTeX, Bookends, EasyBib, EndNote (tagged), EndNote 8 (xml), Medlars,
+    Mendeley, Papers, RefWorks Tagged,  Ref Manager, RIS, Zotero
+- :feature: usage_metrics
+  :description: Views, Downloads, Altmetrics, Social media interactions (from individual
+    platforms not Altmetric), Number of comments (Disqus; Hypothesis if loaded). Those
+    are visible to everyone
+- :feature: commenting
+  :description: Yes, bioRxiv therefore includes an on-site commenting mechanism (powered
+    by Disqus)
+- :feature: plagiarism_detection
+  :description: During screening process BiorXiv uses Similarity Check software
+- :feature: comms_social_networking
+  :description: 'Sharing via  social media (Twitter and mail)      https://twitter.com/biorxivpreprint'
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: OutbreakScience
 description: A web application for open, rapid reviews of outbreak-related preprints.

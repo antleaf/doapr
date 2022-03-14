@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Dspace @ MIT
 description: DSpace@MIT is a digital repository for MIT's research, including peer-reviewed
@@ -53,7 +53,11 @@ objectives: We aim to be global leaders in expanding world knowledge and intelle
   around the world.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Harvard University
 owner_short_name:
 owner_url: http://www.harvard.edu/
@@ -90,6 +94,17 @@ integrations:
 - :service: openaire_explore
   :feature: indexing
   :description:
+features:
+- :feature: text_mining
+  :description:
+- :feature: search_engine
+  :description: Advanced Search
+- :feature: usage_metrics
+  :description: Downloads (by month and all time usage), Views, (by month and all
+    time usage), Top Countries views and dowloads. Accessible with graphs. Those are
+    visible to everyone
+- :feature: comms_social_networking
+  :description: 'Alerts when a content is posted only.      '
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: PsyArXiv
 description: A free preprint service for the psychological sciences
@@ -48,7 +48,11 @@ objectives: The Society for the Improvement of Psychological Science (SIPS) brin
   together scholars working to improve methods and practices in psychological science.
 open_doar_id:
 open_source: 'Yes'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: The Society for the Improvement of Psychological Science and Center
   for Open Science
 owner_short_name: SIPS
@@ -88,6 +92,13 @@ integrations:
 - :service: plaudit
   :feature: endorsement
   :description:
+features:
+- :feature: usage_metrics
+  :description: Downloads are visible to everyone
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook and Instagram)      https://twitter.com/psyarxiv'
 ---
 
 

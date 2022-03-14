@@ -47,5 +47,6 @@ td.field-name::after {
 td.number {
     text-align: right;
     font-family: Courier, monospace;
+    white-space: nowrap;
 }
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Open Anthropology Research Repository
 description: Prepublication platform covering all aspects of anthropological research,
@@ -54,7 +54,11 @@ objectives: 'OARR: Open Anthropology Research Repository is a community server e
   and papers and posters presented at disciplinary meetings worldwide in any language.'
 open_doar_id:
 open_source: 'No'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: American Anthropological Association
 owner_short_name: AAA
 owner_url: https://www.americananthro.org/
@@ -103,6 +107,21 @@ integrations:
 - :service: oaister
   :feature: indexing
   :description:
+features:
+- :feature: text_mining
+  :description: OARR does allow text and metadata mining, it supports and participates
+    in the Open Archives Initiative (OAI) and it is a registered Open Archive Initiative
+    Protocol for Metadata (OAI-PMH) data-provider.
+- :feature: search_engine
+  :description: Simple Search or Search by filter (Subject Area, Article type(s),
+    Study type(s), Year(s) of publication, Article Funding Bodies)
+- :feature: bibliographic_references_management
+  :description: RIS (ProCite, Reference Manager), EndNote, BibTeX, Medlars and RefWorks
+- :feature: usage_metrics
+  :description: Downloads are visible to everyone
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and Reddit)
+    or via QR Code      '
 ---
 
 

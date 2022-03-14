@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: ViXra
 description: An alternative archive of 36951 e-prints in Science, Mathematics & Other
@@ -55,7 +55,11 @@ objectives: viXra will be open to anybody for both reading and submitting articl
   misleading.
 open_doar_id: X
 open_source: 'No'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Scientific God Inc.
 owner_short_name: SGI
 owner_url: https://scigod.org/
@@ -85,6 +89,19 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Content may be removed by author (or operator/owner)
 withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
   ethical and legal issues
+features:
+- :feature: search_engine
+  :description: Search engine powered by Google
+- :feature: bibliographic_references_management
+  :description: Mendeley
+- :feature: usage_metrics
+  :description: Views are visible to everyone
+- :feature: revision
+  :description: Yes, you can ask for peer review on the forum
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: comms_social_networking
+  :description: "Sharing via Social media (Twitter and Facebook) and blog \L\Lhttps://www.facebook.com/viXraorg-186033568941/"
 ---
 
 

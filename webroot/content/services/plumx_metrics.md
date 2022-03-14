@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: PlumX Metrics
 description: An online tool that provides altmetrics for peer-reviewed journal articles

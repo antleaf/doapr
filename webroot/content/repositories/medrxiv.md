@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: MedRxiv
 description: medRxiv (pronounced "med-archive") is a free online archive and distribution
@@ -56,7 +56,11 @@ objectives: By posting preprints on medRxiv, authors are able to make their find
   manuscripts before they are submitted to journals.
 open_doar_id: X
 open_source: 'No'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Cold Spring Harbor Laboratory (co-managed with Yale University and
   BMJ)
 owner_short_name: CSHL
@@ -113,6 +117,23 @@ integrations:
 - :service: pre_pubmed
   :feature: indexing
   :description:
+features:
+- :feature: text_mining
+  :description: XML is available for text mining purposes.
+- :feature: search_engine
+  :description: Advanced Search
+- :feature: bibliographic_references_management
+  :description: BibTeX, Bookends, EasyBib, EndNote (tagged), EndNote 8 (xml), Medlars,
+    Mendeley, Papers, RefWorks Tagged,  Ref Manager, RIS, Zotero
+- :feature: usage_metrics
+  :description: Views, Downloads, Altmetrics, Social media interactions (from individual
+    platforms not Altmetric), Number of comments (Disqus; Hypothesis if loaded). Those
+    are visible to everyone
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins), Disqus
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, mail, Facebook, LinkedIn). All
+    new preprints are posted on Twitter      https://twitter.com/medrxivpreprint'
 ---
 
 

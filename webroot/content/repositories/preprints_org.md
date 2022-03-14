@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Preprints.org
 description: Preprints is a platform dedicated to making early versions of research
@@ -50,7 +50,11 @@ objectives: Based in Basel, Switzerland, MDPI has the mission to foster open sci
   exchange in all forms, across all disciplines.
 open_doar_id:
 open_source: 'No'
-owner_country: Switzerland
+owner_country: !ruby/object:Country
+  values:
+    :id: Switzerland
+    :code: CH
+    :continent: Europe
 owner_full_name: NEICON. Electronic information
 owner_short_name: MDPI
 owner_url: https://www.mdpi.com/
@@ -99,6 +103,19 @@ integrations:
 - :service: europe_pmc
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Simple Search or Search by subjects or Authors
+- :feature: bibliographic_references_management
+  :description: BibSonomy, Mendeley
+- :feature: usage_metrics
+  :description: Views, Downloads, Altmetrics, Number of comments are visible to everyone
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: endorsement
+  :description: Approval system in the platform with 'likes'
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, mail, Facebook, LinkedIn)      '
 ---
 
 

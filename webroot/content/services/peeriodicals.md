@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Peeriodicals
 description: Platform gathering virtual journals whose editors in chief are free to

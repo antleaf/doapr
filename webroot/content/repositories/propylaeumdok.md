@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: PropylaeumDok
 description: Propylaeum-DOK - Digital Repository Classical Studies is the full-text
@@ -52,7 +52,11 @@ objectives: Firmly rooted in its history, the University is committed to expandi
   and education, acknowledging its responsibility to humanity, society, and nature.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: Germany
+owner_country: !ruby/object:Country
+  values:
+    :id: Germany
+    :code: DE
+    :continent: Europe
 owner_full_name: Heidelberg University Library
 owner_short_name:
 owner_url: https://www.ub.uni-heidelberg.de/
@@ -80,6 +84,13 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation:
 withdrawal_policy:
+features:
+- :feature: search_engine
+  :description: Search Engine powered by Propylaeum
+- :feature: usage_metrics
+  :description: Downloads are visible to everyone
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook and mail)      https://twitter.com/Propylaeum_FID'
 ---
 
 

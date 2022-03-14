@@ -1,0 +1,14 @@
+<table id="countriesTable" class="table table-sm table-striped">
+    <thead>
+    <tr class="column-header-row">
+        <th>Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{ range . }}
+        <tr>
+            <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+        </tr>
+    {{ end }}
+    </tbody>
+</table>

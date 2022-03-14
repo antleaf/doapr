@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: F1000 Research
 description: An open access publishing platform supporting data deposition and sharing.
@@ -56,7 +56,11 @@ objectives: Our vision is to create a world where scientific discoveries are sha
   quickly, openly and without barriers.
 open_doar_id:
 open_source: 'No'
-owner_country: United Kingdom
+owner_country: !ruby/object:Country
+  values:
+    :id: United Kingdom
+    :code: GB
+    :continent: Europe
 owner_full_name: F1000 Research Ltd
 owner_short_name: F1000
 owner_url: https://f1000.com/
@@ -110,6 +114,28 @@ integrations:
 - :service: pre_pubmed
   :feature: indexing
   :description:
+features:
+- :feature: text_mining
+  :description:
+- :feature: search_engine
+  :description: Simple Search or Search by filter (Subject Area, Article type(s),
+    Study type(s), Year(s) of publication, Article Funding Bodies)
+- :feature: bibliographic_references_management
+  :description: Mendeley, Sciwheel,  EndNote,  Ref. Manager, Bibtex, ProCite, Sente
+- :feature: usage_metrics
+  :description: Downloads, Views and Google Scholars Citations are visible to everyone
+- :feature: revision
+  :description: Articles are published first and peer reviewed after publication by
+    invited referees. The peer reviewer's names and comments are visible on the site.
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: revision_follow_up
+  :description: On the website we can follow the worflow of the review of the article
+- :feature: endorsement
+  :description: Via Peer Review Process of the website
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit and
+    mail)      https://twitter.com/F1000Research'
 ---
 
 

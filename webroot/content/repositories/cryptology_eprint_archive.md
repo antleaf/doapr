@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Cryptology ePrint Archive
 description: The Cryptology ePrint Archive provides rapid access to recent research
@@ -49,7 +49,11 @@ objectives: The International Association for Cryptologic Research (IACR) is a n
   fields.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: The International Association for Cryptologic Research
 owner_short_name: IACR
 owner_url: https://www.iacr.org/
@@ -80,6 +84,11 @@ withdrawal_authorisation: Items may be removed by the platform at the request of
   author/copyright holder
 withdrawal_policy: If the repository receives proof of copyright violation, the relevant
   item will be removed immediately.
+features:
+- :feature: search_engine
+  :description: Advanced Search
+- :feature: bibliographic_references_management
+  :description: PDF and BibTeX Citation
 ---
 
 

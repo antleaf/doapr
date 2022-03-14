@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: EuropePMC annotation
 description: Provides text mining annotations contained in abstracts and open access

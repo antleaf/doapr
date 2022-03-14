@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Rutgers Optimality Archive
 description: A distribution point for research in Optimality Theory and its conceptual
@@ -50,7 +50,11 @@ moderation: 'In retrospect : any paper which is deemed not relevant to the above
 objectives:
 open_doar_id: X
 open_source: 'No'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Rutgers, The State University of New Jersey
 owner_short_name:
 owner_url: https://www.rutgers.edu
@@ -80,6 +84,9 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At author's request
 withdrawal_policy: At the author's request, a paper may be withdrawn from the archive;
   in this case, the link to the article is deactivated.
+features:
+- :feature: search_engine
+  :description: Advanced Search
 ---
 
 

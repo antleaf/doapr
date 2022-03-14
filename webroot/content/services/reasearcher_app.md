@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Researcher
 description: 'Keeping up-to-date with research can feel impossible, with papers being

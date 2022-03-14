@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: CrossAsia-Repository
 description: CrossAsia-Repository, the full-text server of the Virtual Library CrossAsia
@@ -52,7 +52,11 @@ objectives: Firmly rooted in its history, the University is committed to expandi
   and education, acknowledging its responsibility to humanity, society, and nature.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: Germany
+owner_country: !ruby/object:Country
+  values:
+    :id: Germany
+    :code: DE
+    :continent: Europe
 owner_full_name: Heidelberg University Library
 owner_short_name:
 owner_url: https://www.ub.uni-heidelberg.de/
@@ -96,6 +100,13 @@ integrations:
 - :service: unpaywall
   :feature: indexing
   :description:
+features:
+- :feature: text_mining
+  :description:
+- :feature: search_engine
+  :description: Advanced Search
+- :feature: usage_metrics
+  :description: Downloads are visible to everyone
 ---
 
 

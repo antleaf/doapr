@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Research Square
 description: Research Square lets you share your work early, gain feedback from the
@@ -59,7 +59,11 @@ objectives: At Research Square Company, we're committed to making research commu
   scientific publishing.
 open_doar_id:
 open_source: 'No'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Research Square
 owner_short_name:
 owner_url: https://company.researchsquare.com/
@@ -115,6 +119,25 @@ integrations:
 - :service: openaire_explore
   :feature: indexing
   :description:
+features:
+- :feature: writing
+  :description: AJE
+- :feature: text_mining
+  :description: Yes via HMTL
+- :feature: search_engine
+  :description: Simple search
+- :feature: usage_metrics
+  :description: Views, Downloads, Altmetrics, Comments, Citations are visible to everyone
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: revision_follow_up
+  :description: In Review Service
+- :feature: endorsement
+  :description: Via badges
+- :feature: comms_social_networking
+  :description: 'Tweet of the posted content. There is always the implementation of
+    the content/article highlighting. Sharing via Social Media (Twitter, Facebook,
+    LinkedIn, Papers and mail)      https://www.researchsquare.com/researchers/promotion'
 ---
 
 

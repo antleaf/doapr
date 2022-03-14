@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: TechRxiv
 description: TechRxiv (pronounced "tech archive") is an open, moderated preprint server
@@ -53,7 +53,11 @@ objectives: IEEE and its members inspire a global community to innovate for a be
   professional and educational activities.
 open_doar_id: X
 open_source: 'No'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Institute of Electrical and Electronics Engineers
 owner_short_name: IEEE
 owner_url: https://www.ieee.org
@@ -102,6 +106,17 @@ integrations:
 - :service: oaister
   :feature: indexing
   :description:
+features:
+- :feature: text_mining
+  :description: By posting in TechRxiv, authors explicitly consent to text mining
+- :feature: search_engine
+  :description: Simple Search or by filters (subject)
+- :feature: bibliographic_references_management
+  :description: RefWorks, BibTex, Ref. manager, Endnote, DataCite, NLM, DC
+- :feature: usage_metrics
+  :description: Downloads, Views and Citations are visible to everyone
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/TechRxiv_org'
 ---
 
 

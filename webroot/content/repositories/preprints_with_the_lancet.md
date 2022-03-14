@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Preprints with The Lancet
 description: In 2018, the Lancet journals initiated a collaboration with the research
@@ -52,7 +52,7 @@ objectives: SSRN is joining Mendeley and Elsevier to coordinate our development 
   data, products, and additional resources that this change facilitates
 open_doar_id:
 open_source: 'No'
-owner_country: The Netherlands
+owner_country:
 owner_full_name: Multidisciplinary Digital Publishing Institute
 owner_short_name:
 owner_url: https://www.elsevier.com
@@ -86,6 +86,18 @@ integrations:
 - :service: disqus
   :feature: commenting
   :description:
+features:
+- :feature: search_engine
+  :description: Simple Search or Search by subjects or Authors
+- :feature: usage_metrics
+  :description: Abstract view, Downloads are visible to everyone
+- :feature: revision
+  :description: As the preprints are then posted in the publisher's journals, the
+    peer review is done by the platform
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: comms_social_networking
+  :description: 'Sharing via social media      '
 ---
 
 

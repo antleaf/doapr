@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: ChinaXiv
 description: ChinaXiv is an open repository and distribution service for scientific
@@ -51,7 +51,11 @@ objectives: NSLC, aiming at developing a world first-class information service a
   resources, improve its systems, and innovate its services, to best suit its users.
 open_doar_id: X
 open_source: 'No'
-owner_country: China
+owner_country: !ruby/object:Country
+  values:
+    :id: China
+    :code: CN
+    :continent: Asia
 owner_full_name: National Science Library, Chinese Academy of Sciences
 owner_short_name: NSLC, CAS
 owner_url: http://english.las.cas.cn/
@@ -87,6 +91,15 @@ integrations:
 - :service: crossref
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Advanced Search
+- :feature: usage_metrics
+  :description: Views, Downloads and Hits are visible to everyone
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: comms_social_networking
+  :description: 'Sharing via social media      '
 ---
 
 

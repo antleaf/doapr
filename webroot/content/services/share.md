@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: SHARE
 description: SHARE’s open API tools and services help bring together scholarship distributed

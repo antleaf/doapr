@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: The Winnover
 description: A publishing platform and journal that offers traditional scholarly publishing

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: IndiArxiv
 description:
@@ -52,7 +52,11 @@ objectives: Anyone who have interests in Open Access, Open Data and Open Educati
   their research outputs.
 open_doar_id:
 open_source: 'Yes'
-owner_country: India
+owner_country: !ruby/object:Country
+  values:
+    :id: India
+    :code: IN
+    :continent: Asia
 owner_full_name: Owned by Open Access India hosted & supported by Centre for Open
   Science
 owner_short_name: OAI
@@ -101,6 +105,15 @@ integrations:
 - :service: unpaywall
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Simple Search or by filters (subject)
+- :feature: usage_metrics
+  :description: Downloads are visible to everyone
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/indiarxiv'
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Preprints.ru
 description: Preprint server for interdisciplinary research in Russia
@@ -46,7 +46,11 @@ objectives: NEICON aims to provide Russian organizations with expert, consulting
   information in electronic form
 open_doar_id:
 open_source: 'No'
-owner_country: Russia
+owner_country: !ruby/object:Country
+  values:
+    :id: Russia
+    :code: RU
+    :continent: Europe
 owner_full_name: Elsevier
 owner_short_name: NEICON
 owner_url: https://neicon.ru/en/
@@ -77,6 +81,13 @@ withdrawal_policy: A preprint can be taken down if the author requests that it b
   relevant conflicts of interest or has not received ethics approval or declared why
   ethics approval was exempt or not required, or in the case of another documented
   ethical concern, papers that have been inadvertently posted in error.
+features:
+- :feature: search_engine
+  :description: Simple Search or Search by subjects or Authors
+- :feature: usage_metrics
+  :description: Views are visible to everyone
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins), Disqus
 ---
 
 

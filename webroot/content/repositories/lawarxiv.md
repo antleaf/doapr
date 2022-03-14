@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: LawArxiv
 description:
@@ -47,7 +47,11 @@ objectives: Aggregate search results from a variety of other preprint providers 
   as arXiv, bioRxiv, PeerJ, CogPrints and others
 open_doar_id:
 open_source: 'Yes'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Center for Open Science
 owner_short_name: COS
 owner_url: https://www.cos.io/
@@ -86,6 +90,24 @@ integrations:
 - :service: google
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Simple Search or Search by criterias
+- :feature: usage_metrics
+  :description: Social media interactions are visible to everyone
+- :feature: revision
+  :description: 'Yes via Open Peer review : Submissions are open for anybody to peer-review.
+    Once two peer-review reports of reasonable quality have been received, we will
+    send these peer-review reports to the author, and may offer transfer to a partner
+    journal, which has its own editor or editorial board.'
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: revision_follow_up
+  :description: On the website we can follow the worflow of the review of the article
+- :feature: endorsement
+  :description: Via Open Peer Review Process of the website
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and Pinterest)      '
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: ARPHA Preprints
 description: The submission systems limited to the participating ARPHA journals
@@ -47,7 +47,11 @@ objectives: 'The objectives (and benefits to authors) for developing the platfor
   are listed here: https://preprints.arphahub.com/about#Benefitsofpostingapreprint'
 open_doar_id:
 open_source: 'No'
-owner_country: Bulgaria
+owner_country: !ruby/object:Country
+  values:
+    :id: Bulgaria
+    :code: BG
+    :continent: Europe
 owner_full_name: Pensoft Publishers
 owner_short_name: Pensoft
 owner_url: https://pensoft.net/
@@ -87,6 +91,25 @@ integrations:
 - :service: microsoft_academic_search
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Simple Search or by filter (Journal, Posted date, Funding Agency)
+- :feature: bibliographic_references_management
+  :description: RIS, BibTeX, Bookends, EasyBib, EndNote (tagged), EndNote 8 (xml),
+    Medlars, Mendeley, Papers, RefWorks Tagged, Ref Manager, Zotero, Mods (xml) and
+    Plain text (txt)
+- :feature: usage_metrics
+  :description: Views and citation counts are visible to everyone
+- :feature: revision
+  :description: As the preprints are then posted in the publisher's journals, the
+    peer review is done by the platform
+- :feature: commenting
+  :description: Post-publication comments
+- :feature: endorsement
+  :description: Via Peer Review Process of the website
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit, Mendeley
+    and mail)      '
 ---
 
 

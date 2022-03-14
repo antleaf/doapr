@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: EasyChair preprints
 description: EasyChair Preprints allow our users to publish preprints using the EasyChair
@@ -45,7 +45,11 @@ moderation: 'Beforehand : EasyChair will check that you use the right style, ext
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: United Kingdom
+owner_country: !ruby/object:Country
+  values:
+    :id: United Kingdom
+    :code: GB
+    :continent: Europe
 owner_full_name: EasyChair Group
 owner_short_name:
 owner_url: https://www.easychair.org/
@@ -73,6 +77,9 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation:
 withdrawal_policy:
+features:
+- :feature: bibliographic_references_management
+  :description: BibTeX
 ---
 
 

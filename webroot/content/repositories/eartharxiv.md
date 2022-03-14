@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: EarthArXiv
 description: EarthArXiv has officially agreed to partner with the California Digital
@@ -90,6 +90,15 @@ integrations:
 - :service: google_scholar
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: 'You can search by: Title, Keywords, Author Name, Author Affiliation'
+- :feature: usage_metrics
+  :description: Downloads are visible to everyone
+- :feature: commenting
+  :description: Commenting
+- :feature: comms_social_networking
+  :description: "\L\Lhttps://twitter.com/EarthArXiv"
 ---
 
 

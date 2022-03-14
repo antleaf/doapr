@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: LingBuzz
 description: Welcome to LingBuzz, an article archive and a community space for Linguistics.
@@ -44,7 +44,11 @@ moderation:
 objectives:
 open_doar_id: X
 open_source: 'Yes'
-owner_country: Norway
+owner_country: !ruby/object:Country
+  values:
+    :id: Norway
+    :code: 'NO'
+    :continent: Europe
 owner_full_name: UiT The Arctic University of Norway
 owner_short_name:
 owner_url: http://uit.no/startsida
@@ -72,6 +76,9 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation: Platform
 withdrawal_policy: Articles can also be marked as 'withdrawn' ('deprecated').
+features:
+- :feature: usage_metrics
+  :description: Downloads, Views are visible to everyone
 ---
 
 

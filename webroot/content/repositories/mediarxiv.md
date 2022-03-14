@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: MediArXiv
 description: Open Archive for Media, Film, and Communication Studies.
@@ -90,6 +90,15 @@ integrations:
 - :service: plaudit
   :feature: endorsement
   :description:
+features:
+- :feature: search_engine
+  :description: Simple Search or by filters (subject)
+- :feature: usage_metrics
+  :description: Downloads are visible to everyone
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/mediarxiv'
 ---
 
 

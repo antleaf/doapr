@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: MindRxiv
 description: Open archive for research on mind and contemplative practices
@@ -51,7 +51,11 @@ objectives: This service is part of Mind & Life’s commitment to opening up con
   to build the future of scholarly communication.
 open_doar_id:
 open_source: 'Yes'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Mind & Life Institute
 owner_short_name:
 owner_url: https://www.mindandlife.org/
@@ -99,6 +103,15 @@ integrations:
 - :service: unpaywall
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Simple Search or by filters (subject)
+- :feature: usage_metrics
+  :description: Downloads are visible to everyone
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/MindRxiv'
 ---
 
 

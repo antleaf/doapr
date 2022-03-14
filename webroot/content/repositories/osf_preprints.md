@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: OSF preprints
 description: The launch of OSF Preprints branded services continues COS’s ongoing
@@ -54,7 +54,11 @@ objectives: Aggregate search results from a variety of other preprint providers 
   as arXiv, bioRxiv, PeerJ, CogPrints and others
 open_doar_id: X
 open_source: 'Yes'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Center for Open Science
 owner_short_name: COS
 owner_url: https://www.cos.io/
@@ -108,6 +112,22 @@ integrations:
 - :service: unpaywall
   :feature: indexing
   :description:
+features:
+- :feature: writing
+  :description: Preprint editor
+- :feature: search_engine
+  :description: Advanced research
+- :feature: usage_metrics
+  :description: Endorsement score on author profile page and Downloads visible to
+    everyone
+- :feature: revision
+  :description:
+- :feature: commenting
+  :description:
+- :feature: revision_follow_up
+  :description:
+- :feature: comms_social_networking
+  :description: 'Sharing via  social media (Facebook, Twitter and mail)      https://twitter.com/OSFramework'
 ---
 
 

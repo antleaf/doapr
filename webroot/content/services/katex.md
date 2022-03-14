@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: KaTeX
 description: KaTeX is a LaTeX-based typesetting tool for mathematical expressions

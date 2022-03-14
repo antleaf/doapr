@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: arXiv
 description: arXiv is a free distribution service and an open-access archive for 1,871,031
@@ -65,7 +65,11 @@ objectives: 'arXiv offers researchers a broad range of services: article submiss
   on which arXiv thrives.'
 open_doar_id: X
 open_source: 'Yes'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Cornell University
 owner_short_name:
 owner_url: https://www.cornell.edu
@@ -113,6 +117,25 @@ integrations:
 - :service: unpaywall
   :feature: indexing
   :description:
+features:
+- :feature: text_mining
+  :description: Bulk access to full text corpus available through Kaggle and S3. Conditions
+    for use based on licenses applied to individual works within the corpus. https://arxiv.org/help/bulk_data
+- :feature: search_engine
+  :description: Advanced Search
+- :feature: bibliographic_references_management
+  :description: BibTex and Mendely
+- :feature: usage_metrics
+  :description: Yes but only for the platform and not for the preprint only. Those
+    metrics are visible to everyone
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: endorsement
+  :description: The endorsement system verifies that arXiv contributors belong to
+    the scientific community in a fair and sustainable way that can scale with arXiv's
+    future growth.
+- :feature: comms_social_networking
+  :description: 'Sharing features via social media, helpdesk      https://blog.arxiv.org/'
 ---
 
 

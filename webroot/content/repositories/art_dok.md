@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: ART-Dok
 description: ART-Dok is the full-text server of the Specialised Information Service
@@ -52,7 +52,11 @@ objectives: Firmly rooted in its history, the University is committed to expandi
   and education, acknowledging its responsibility to humanity, society, and nature.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: Germany
+owner_country: !ruby/object:Country
+  values:
+    :id: Germany
+    :code: DE
+    :continent: Europe
 owner_full_name: Heidelberg University Library
 owner_short_name:
 owner_url: https://www.ub.uni-heidelberg.de/
@@ -94,6 +98,11 @@ integrations:
 - :service: unpaywall
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Search engine powered by Google or Advanced Search (http://archiv.ub.uni-heidelberg.de/artdok/cgi/search/advanced)
+- :feature: usage_metrics
+  :description: Downloads are visible to everyone
 ---
 
 

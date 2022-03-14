@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Authorea
 description: Authorea is the leading collaborative platform to read, write, and publish
@@ -56,7 +56,11 @@ objectives: We founded Authorea in late 2012 with the mission of accelerating sc
   why the internet age hadn't yet delivered a modern toolset for scientific collaboration.
 open_doar_id:
 open_source: 'No'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Atypon (part of Wiley)
 owner_short_name:
 owner_url: https://www.atypon.com/
@@ -97,6 +101,21 @@ integrations:
   :feature: writing
   :description: Links to Online LaTeX editor. For longer text (Master Theses and Ph.D.
     Dissertations) use  Manuscripts.io
+features:
+- :feature: text_mining
+  :description: Yes, consent to allow text and data mining of Your Content
+- :feature: search_engine
+  :description: By Tags only
+- :feature: usage_metrics
+  :description: Views, Downloads, Social media interactions (from individual platforms
+    not Altmetric) visible to everyone
+- :feature: commenting
+  :description: Comments. Discuss your preprints with your collaborators and the scientific
+    community
+- :feature: revision_follow_up
+  :description: Under Review Process
+- :feature: comms_social_networking
+  :description: 'https://twitter.com/authorea      https://www.authorea.com/blog'
 ---
 
 

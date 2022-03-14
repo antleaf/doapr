@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Research-publishing.net
 description: A not-for-profit organisation committed to making peer-reviewed research

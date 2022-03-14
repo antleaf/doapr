@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Frenxiv
 description:
@@ -54,7 +54,7 @@ moderation: Moderators screen the submission before posting
 objectives: Promoting open science, transparency and sharing of knowledge
 open_doar_id:
 open_source: 'Yes'
-owner_country: France and Canada
+owner_country:
 owner_full_name: Small group of enthusiasts
 owner_short_name:
 owner_url:
@@ -102,6 +102,15 @@ integrations:
 - :service: unpaywall
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Simple Search or by filters (subject)
+- :feature: usage_metrics
+  :description: Downloads are visible to everyone
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      '
 ---
 
 

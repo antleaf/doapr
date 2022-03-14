@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Peerage of Science
 description: PoS operates upstream from the publication system and provides support

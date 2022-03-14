@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: APSA Preprints
 description: Early research outputs in political science and related disciplines
@@ -53,7 +53,11 @@ moderation: Does not infringe the intellectual property right of any person(s) o
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Owned by American Political Science Association, hosted by Cambridge
   University Press technology.
 owner_short_name:
@@ -94,6 +98,16 @@ integrations:
 - :service: ithenticate
   :feature: plagiarism_detection
   :description:
+features:
+- :feature: text_mining
+  :description: Yes, this is permitted. Information in our Terms of Use.
+- :feature: search_engine
+  :description: Simple Search or Browse by category. Plus indexing in Google Scholar.
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins). Free, requires registration
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, Pinterest, Gmail, LinkedIn,
+    Tumblr and Messenger)      https://twitter.com/APSA_Preprints'
 ---
 
 

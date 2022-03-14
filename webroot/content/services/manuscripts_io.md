@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Manuscripts.io
 description: A simple authoring tool for complex documents.

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Cell Press Sneak peek
 description: Manuscript under review in Cell Press journals
@@ -49,7 +49,7 @@ objectives: SSRN is joining Mendeley and Elsevier to coordinate our development 
   data, products, and additional resources that this change facilitates
 open_doar_id:
 open_source: 'No'
-owner_country: The Netherlands
+owner_country:
 owner_full_name: Elsevier
 owner_short_name:
 owner_url: https://www.elsevier.com
@@ -87,6 +87,19 @@ integrations:
 - :service: plumx_metrics
   :feature: usage_metrics
   :description:
+features:
+- :feature: search_engine
+  :description: Search by category (Subjects) or Simple Search
+- :feature: usage_metrics
+  :description: Downloads and Views are visible to everyone
+- :feature: revision
+  :description: As the preprints are then posted in the publisher's journals, the
+    peer review is done by the
+- :feature: commenting
+  :description: Any registered Mendeley user can comment on a paper posted in Sneak
+    Peek
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook and mail)      '
 ---
 
 

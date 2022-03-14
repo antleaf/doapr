@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Figshare
 description: figshare is a repository where users can make all of their research outputs
@@ -50,7 +50,11 @@ moderation:
 objectives:
 open_doar_id: X
 open_source: 'No'
-owner_country: United Kingdom
+owner_country: !ruby/object:Country
+  values:
+    :id: United Kingdom
+    :code: GB
+    :continent: Europe
 owner_full_name: Figshare LLP (Digital Science)
 owner_short_name:
 owner_url: http://figshare.com/
@@ -92,6 +96,18 @@ integrations:
 - :service: crossref
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Advanced search available
+- :feature: bibliographic_references_management
+  :description: RefWorks, BibTex, Ref. manager, Endnote, DataCite, NLM, DC
+- :feature: usage_metrics
+  :description: Downloads, Views and Citations are visible to everyone
+- :feature: commenting
+  :description: You just need an account to comment a preprint
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail) and
+    LinkedIn : https://www.linkedin.com/company/figshare/posts/?feedView=all      https://twitter.com/figshare'
 ---
 
 

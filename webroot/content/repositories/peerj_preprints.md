@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: PeerJ Preprints
 description: Initially, developed as preprint server for PeerJ submissions
@@ -47,7 +47,11 @@ moderation: Misconduct or integrity checks, Legal compliance, Ethical compliance
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: Peer J
 owner_short_name:
 owner_url: https://peerj.com/
@@ -86,6 +90,20 @@ integrations:
 - :service: reasearcher_app
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Simple Search or by filters (subject or date of deposit)
+- :feature: usage_metrics
+  :description: Downloads, Views and Visitors are visible to everyone
+- :feature: revision
+  :description: As the preprints are then posted in the publisher's journals, the
+    peer review is done by the platform
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: revision_follow_up
+  :description: You can follow all the process of revision on the platform
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook and mail)      https://peerj.com/'
 ---
 
 

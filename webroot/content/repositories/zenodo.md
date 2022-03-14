@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Zenodo
 description: Built and developed by researchers, to ensure that everyone can join
@@ -55,7 +55,11 @@ objectives: Accelerating Science. It is built and developed by researchers to en
   that everyone can join and share in Open Science.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: Switzerland
+owner_country: !ruby/object:Country
+  values:
+    :id: Switzerland
+    :code: CH
+    :continent: Europe
 owner_full_name: European Organization for Nuclear Research
 owner_short_name: CERN
 owner_url: https://home.cern
@@ -102,6 +106,20 @@ integrations:
 - :service: matomo
   :feature: usage_metrics
   :description:
+features:
+- :feature: text_mining
+  :description:
+- :feature: search_engine
+  :description: https://help.zenodo.org/guides/search/
+- :feature: bibliographic_references_management
+  :description: BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON,
+    MARCXML and  Mendeley
+- :feature: usage_metrics
+  :description: Statistics can be requested by the owner of a record or community,
+    downloads per country is also available
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook and mail). Besides social
+    media our blog (link below)      https://blog.zenodo.org/ and https://twitter.com/zenodo_org'
 ---
 
 

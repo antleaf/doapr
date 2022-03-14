@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="{{ $style_datatables.Permalink }}">
     {{ $style_navbar := resources.Get "css/navbar.css" | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style_navbar.Permalink }}">
+    {{ $style_images := resources.Get "css/images.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style_images.Permalink }}">
 
     {{ $js_jquery := resources.Get "js/jquery-3.6.0.min.js" | resources.Fingerprint }}
     <script type="text/javascript" src="{{ $js_jquery.Permalink }}"></script>

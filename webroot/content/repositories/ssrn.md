@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: SSRN
 description: SSRN is devoted to the rapid worldwide dissemination of research and
@@ -56,7 +56,7 @@ objectives: Encourage researchers within this field to prioritize research quali
   the context of an incentivized publishing system and to explain the potential solutions.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: International
+owner_country:
 owner_full_name: Society for Transparency, Openness, and Replication in Kinesiology
 owner_short_name: STORK
 owner_url: https://www.storkinesiology.org/
@@ -88,6 +88,21 @@ integrations:
 - :service: plumx_metrics
   :feature: usage_metrics
   :description:
+features:
+- :feature: search_engine
+  :description: Browse papers by Network & Subject Area or Advanced Research
+- :feature: usage_metrics
+  :description: Paper Statistics are captured on every Abstract Page. Metrics include
+    usage data (article views and downloads) and other article-level metrics (Citations).
+    Those are visible to everyone
+- :feature: endorsement
+  :description: Linked to Elsevier plateform
+- :feature: comms_social_networking
+  :description: 'Paper''s public abstract page select the share options located in
+    the upper right hand corner of the page. Share your research directly to Facebook
+    or Twitter by clicking on the appropriate icon. Another option is to email the
+    document''s url to a colleague. Curated eJournal Site Subscriptions. Conference
+    Proceedings on SSRN, SSRN & Mendeley Data Integration      https://www.ssrn.com/index.cfm/en/subscribe/'
 ---
 
 

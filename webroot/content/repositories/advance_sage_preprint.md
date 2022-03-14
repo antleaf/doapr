@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Advance (Sage preprint)
 description: 'Advance: a SAGE preprints community allows researchers within the fields
@@ -53,7 +53,11 @@ objectives: Our mission is building bridges to knowledge — supporting the deve
   and applied.
 open_doar_id:
 open_source: 'No'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: SAGE Publishing
 owner_short_name: SAGE
 owner_url: https://us.sagepub.com/en-us/nam
@@ -87,6 +91,19 @@ integrations:
 - :service: crossref
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Simple Search or by filters (subject)
+- :feature: bibliographic_references_management
+  :description: RefWorks, BibTex, Ref. manager, Endnote, DataCite, NLM, DC
+- :feature: usage_metrics
+  :description: Downloads, Views and Citations are visible to everyone
+- :feature: revision
+  :description: You can transfer your paper for publication in SAGE journals
+- :feature: commenting
+  :description: you just need an account to comment a preprint
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      '
 ---
 
 

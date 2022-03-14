@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: Mathematical Physics Preprint Archive
 description: mp_arc is an electronic archive for research papers in Mathematical Physics
@@ -44,7 +44,11 @@ moderation:
 objectives:
 open_doar_id:
 open_source: 'Yes'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: The University of Texas-Austin's Mathematics Department
 owner_short_name:
 owner_url: https://www.ma.utexas.edu/
@@ -72,6 +76,9 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation:
 withdrawal_policy:
+features:
+- :feature: search_engine
+  :description: Simple search by keywords
 ---
 
 

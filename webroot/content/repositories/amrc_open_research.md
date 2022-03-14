@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: AMRC Open Research
 description: A platform for rapid author-led publication and open peer review of research
@@ -59,7 +59,11 @@ objectives: The platform enables researchers to publish any research they wish t
   reanalyses, replication and reuse.
 open_doar_id:
 open_source: 'No'
-owner_country: United Kingdom
+owner_country: !ruby/object:Country
+  values:
+    :id: United Kingdom
+    :code: GB
+    :continent: Europe
 owner_full_name: Association of Medical Research Charities
 owner_short_name: AMRC
 owner_url: https://www.amrc.org.uk/
@@ -106,6 +110,30 @@ integrations:
 - :service: scilit
   :feature: indexing
   :description:
+features:
+- :feature: text_mining
+  :description:
+- :feature: search_engine
+  :description: Simple Search or Search by filter (Subject Area, Article type(s),
+    Study type(s), Year(s) of publication, Article Funding Bodies)
+- :feature: bibliographic_references_management
+  :description: Sciwheel, EndNote, Ref. Manager, Bibtex, ProCite and Sente
+- :feature: usage_metrics
+  :description: Downloads, Views and Google Scholars Citations are visible to everyone
+- :feature: revision
+  :description: Peer review of articles published in AMRC Open Research takes place
+    after publication; once the article is published, expert reviewers are formally
+    invited to review. The peer review is administered on behalf of the authors by
+    the editorial team, and authors are asked not to contact the reviewers directly.
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: revision_follow_up
+  :description: On the website we can follow the worflow of the review of the article
+- :feature: endorsement
+  :description: Via Peer Review Process of the website
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit and
+    mail)      https://blog.amrcopenresearch.org/'
 ---
 
 

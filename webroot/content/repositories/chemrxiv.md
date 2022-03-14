@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: ChemRxiv
 description: ChemRxiv (pronounced 'chem-archive') is a free submission, distribution
@@ -61,7 +61,11 @@ objectives: With five of the world's largest chemical societies driving its deve
   and provide a forum through which to share and discover the very latest findings.
 open_doar_id:
 open_source: 'No'
-owner_country: United States
+owner_country: !ruby/object:Country
+  values:
+    :id: United States
+    :code: US
+    :continent: North America
 owner_full_name: American Chemical Society, Chinese Chemical Society, Chemical Society
   of Japan, German Chemical Society and the Royal Society of Chemistry.
 owner_short_name: ACS, CCS, CSJ, GDCh, RSC
@@ -112,6 +116,16 @@ integrations:
 - :service: cab_abstracts
   :feature: indexing
   :description:
+features:
+- :feature: text_mining
+  :description: ChemRxiv does allow metadata mining and allows all associated files
+    to be downloaded. Interested users should refer to the Open API documentation.
+- :feature: search_engine
+  :description: Search by filter only
+- :feature: usage_metrics
+  :description: Views, Downloads, Altmetrics visible to everyone
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Facebook, Twitter, LinkedIn)      https://twitter.com/chemrxiv'
 ---
 
 

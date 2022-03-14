@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: AfricArxiv
 description: AfricArXiv is a community-led digital archive for African research, working
@@ -53,7 +53,11 @@ moderation: 'Beforehand : Akismet spam filtering (automatic on all OSF content),
 objectives: https://info.africarxiv.org/in-a-nutshell/
 open_doar_id: X
 open_source: 'Yes'
-owner_country: Germany
+owner_country: !ruby/object:Country
+  values:
+    :id: Germany
+    :code: DE
+    :continent: Europe
 owner_full_name: Small group of enthusiasts, currently maintained and managed via
   Access 2 Perspectives ( Jo Havemann). For details and governance roadmap/vision
   see https://info.africarxiv.org/in-a-nutshell/
@@ -113,6 +117,15 @@ integrations:
 - :service: unpaywall
   :feature: indexing
   :description:
+features:
+- :feature: search_engine
+  :description: Simple Search or by filters (subject)
+- :feature: usage_metrics
+  :description: Downloads are visible to everyone
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
+- :feature: comms_social_networking
+  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/AfricArxiv'
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: CrimRriv
 description: 'CrimRxiv is criminology''s open archive: a place to find and provide
@@ -48,7 +48,11 @@ moderation:
 objectives:
 open_doar_id:
 open_source: 'Yes'
-owner_country: United Kingdom
+owner_country: !ruby/object:Country
+  values:
+    :id: United Kingdom
+    :code: GB
+    :continent: Europe
 owner_full_name: University of Southampton
 owner_short_name:
 owner_url: https://www.southampton.ac.uk/
@@ -76,6 +80,17 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation:
 withdrawal_policy:
+features:
+- :feature: text_mining
+  :description:
+- :feature: search_engine
+  :description: Search by Subjects, Year or Simple Search
+- :feature: bibliographic_references_management
+  :description: ASCII Citation, Atom, BibTeX, Dublin Core, EP3 XML, EPrints Application
+    Profile (experimental), EndNote, HTML Citation, ID Plus Text Citation, JSON, METS,
+    MODS, MPEG-21 DIDL, OpenURL ContextObject, OpenURL ContextObject in Span, RDF+N-Triples,
+    RDF+N3, RDF+XML, Refer, Reference Manager, Search Data Dump, Simple Metadata,
+    YAML
 ---
 
 

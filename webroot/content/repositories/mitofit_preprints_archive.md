@@ -1,5 +1,5 @@
 ---
-date: 2022-03-11
+date: 2022-03-12
 draft: false
 title: MitoFit Preprints Archive
 description: The Open Access preprint server for mitochondrial physiology and bioenergetics
@@ -49,7 +49,11 @@ moderation: 'Beforehand : Content within scope , Manuscript is complete (methods
 objectives:
 open_doar_id:
 open_source: 'Yes'
-owner_country: Austria
+owner_country: !ruby/object:Country
+  values:
+    :id: Austria
+    :code: AT
+    :continent: Europe
 owner_full_name: Oroboros Instruments
 owner_short_name:
 owner_url: https://www.bioblast.at/index.php/Oroboros_Instruments
@@ -88,6 +92,11 @@ integrations:
 - :service: disqus
   :feature: commenting
   :description:
+features:
+- :feature: search_engine
+  :description: Simple Search
+- :feature: commenting
+  :description: Commenting (including annotation plug-ins)
 ---
 
 
