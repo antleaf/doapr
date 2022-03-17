@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: lis_scholarship_archive
 title: LIS Scholarship Archive
 description: LISSA is a place where anyone can have access to library and information
   science scholarship, in all its forms. As librarians and archivists, we are committed

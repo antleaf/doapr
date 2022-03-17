@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: ina_rxiv
 title: INA-Rxiv
 description: Openness of science in Indonesia.
 academic_applicant_only: 'Yes'

@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: eartharxiv
 title: EarthArXiv
 description: EarthArXiv has officially agreed to partner with the California Digital
   Library (part of the University of California system) as our server host and submission

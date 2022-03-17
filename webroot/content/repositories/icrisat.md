@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: icrisat
 title: ICRISAT
 description: International Crops Institute for Semi-Arid Tropics Open Access Repository.
 academic_applicant_only: 'Yes'

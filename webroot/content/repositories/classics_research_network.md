@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: classics_research_network
 title: Classics Research Network
 description: Classics, as a field of study, encompasses all aspects of the ancient
   societies of Greece and Rome. To understand many aspects of the modern Western world,

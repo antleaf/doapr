@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: open_anthropology_research_repository
 title: Open Anthropology Research Repository
 description: Prepublication platform covering all aspects of anthropological research,
   hosting preprints, teaching materials, conference papers, and posters.

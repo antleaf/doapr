@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: ssrn
 title: SSRN
 description: SSRN is devoted to the rapid worldwide dissemination of research and
   is composed of a number of specialized research networks.

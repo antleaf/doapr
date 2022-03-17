@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: crossasia_repository
 title: CrossAsia-Repository
 description: CrossAsia-Repository, the full-text server of the Virtual Library CrossAsia
   is the platform for publishing and archiving research literature in Asian Studies.

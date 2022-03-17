@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: marine_institute_open_access_repository
 title: Marine Institute Open Access Repository
 description: The Marine Institute Open Access Repository facilitates full text access
   to the publications of the Marine Institute in accordance with copyright permissions.

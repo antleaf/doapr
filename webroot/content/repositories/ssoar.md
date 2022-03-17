@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: ssoar
 title: SSOAR
 description: The full-text server SSOAR, which is maintained at GESIS – Leibniz Institute
   for the Social Sciences, collects and archives literature of relevance to the social

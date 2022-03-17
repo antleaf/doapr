@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: gates_open_research
 title: Gates Open Research
 description: Gates Open Research is a platform for rapid author-led publication and
   open peer review of research funded by the Bill & Melinda Gates Foundation

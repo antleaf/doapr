@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: organic_eprints
 title: Organic Eprints
 description: Organic Eprints is an international open access archive for papers and
   projects related to research in organic food and farming. The archive contains full-text

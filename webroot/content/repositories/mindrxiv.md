@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: mindrxiv
 title: MindRxiv
 description: Open archive for research on mind and contemplative practices
 academic_applicant_only: 'Yes'

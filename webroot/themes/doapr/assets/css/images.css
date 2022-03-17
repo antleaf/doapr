@@ -3,3 +3,9 @@ img.countries_list_table_flag {
     margin: 0px;
     padding: 0px;
 }
+
+img.country_title_flag {
+    max-width: 50px;
+    margin: 0px;
+    padding: 0px;
+}

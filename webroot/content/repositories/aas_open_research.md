@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: aas_open_research
 title: AAS Open Research
 description: AAS Open Research is a platform for rapid publication and open peer review
   for researchers supported by the AAS and programs supported through its funding

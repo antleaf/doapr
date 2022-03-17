@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: paleorxiv
 title: PaleorXiv
 description: A preprint archive for Paleontology
 academic_applicant_only: 'Yes'

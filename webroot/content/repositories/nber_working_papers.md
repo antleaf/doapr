@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: nber_working_papers
 title: NBER Working Papers
 description: New research by NBER affiliates, circulated for discussion and comment.
   The National Bureau of Economic Research is a private, nonprofit, politically independent

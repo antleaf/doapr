@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: wikijournal_preprints
 title: WikiJournal Preprints
 description: The WikiJournal Publishing Group is a set of open-access, peer-reviewed
   academic journals with no publishing costs to authors. Its goal is to provide free,

@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: MathSciNet
+service_id: mathscinet
 description: Allow reviews of every mathematical research publication. The authors
   of reviews are volunteers, usually chosen by the editors because of some expertise
   in the area of the article. Often reviews give detailed summaries of the contents

@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: cern_document_server
 title: CERN document server
 description: CERN Document Server is where you can find the Library catalogue (books,
   ebooks, e-journals, standards) and the CERN scientific output (articles, preprints,

@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: mni_open_research
 title: MNI Open Research
 description: MNI Open Research is a platform for rapid publication and open peer review
   of research conducted by Montreal Neurological Institute and Hospital researchers.

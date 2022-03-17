@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: e_lis
 title: E-lis
 description: Established in 2003, e-LIS is an international digital repository for
   Library and Information Science (LIS), including Communication.

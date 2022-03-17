@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: english_and_american_literature_research_network
 title: English & American Literature Research Network
 description: The English & American Literature Research Network (LIT) indexes scholarly
   works on historical and contemporary literature, addressing emerging areas of concern

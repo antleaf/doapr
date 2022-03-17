@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: socarxiv
 title: SocArxiv
 description: SocArXiv, open archive of the social sciences, provides a free, non-profit,
   open access platform for social scientists to upload working papers, preprints,

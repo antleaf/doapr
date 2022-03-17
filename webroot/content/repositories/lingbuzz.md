@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: lingbuzz
 title: LingBuzz
 description: Welcome to LingBuzz, an article archive and a community space for Linguistics.
   You are highly encouraged to upload your articles - old and new, published or not.

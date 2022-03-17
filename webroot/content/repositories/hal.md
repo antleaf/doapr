@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: hal
 title: HAL
 description: HAL is an open archive where authors can deposit scholarly documents
   from all academic fields.

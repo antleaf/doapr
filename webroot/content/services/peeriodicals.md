@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: Peeriodicals
+service_id: peeriodicals
 description: Platform gathering virtual journals whose editors in chief are free to
   select the manuscripts they want to highlight. There is no mandatory formal submission
   by the authors (although authors can suggest their papers), no mandatory formal

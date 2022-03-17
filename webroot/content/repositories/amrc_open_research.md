@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: amrc_open_research
 title: AMRC Open Research
 description: A platform for rapid author-led publication and open peer review of research
   funded by AMRC member charities

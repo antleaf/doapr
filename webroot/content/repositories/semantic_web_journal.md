@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: semantic_web_journal
 title: Semantic Web Journal
 description: The journal Semantic Web – Interoperability, Usability, Applicability,
   in short Semantic Web journal, brings together researchers from various fields which

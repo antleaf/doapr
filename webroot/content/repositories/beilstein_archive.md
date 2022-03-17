@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: beilstein_archive
 title: Beilstein archive
 description: Preprint server for Beilstein journals
 academic_applicant_only: 'No'

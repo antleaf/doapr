@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: arxivist
+service_id: arxivist
 description: It keeps track of the papers that you have clicked on previously - to
   upvote/downvote them and it moves the "similar" papers to the top of the pile. When
   the arxivist needs to rate a new article for you, it looks at your preference for

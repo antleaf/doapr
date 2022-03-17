@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: lse_research_online
 title: LSE Research Online
 description: Welcome to LSE Research Online, the institutional repository for the
   London School of Economics and Political Science.

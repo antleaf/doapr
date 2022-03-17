@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: ScienceOpen
+service_id: scienceopen
 description: Offers open access journal hosting services, as well as advanced indexing
   and promotional services that showcase customer content within the discovery platform.
   Every research article on ScienceOpen has a traceable genealogy through citations,

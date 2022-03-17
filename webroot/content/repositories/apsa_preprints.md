@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: apsa_preprints
 title: APSA Preprints
 description: Early research outputs in political science and related disciplines
 academic_applicant_only: 'Yes'

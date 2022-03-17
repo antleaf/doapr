@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: researchgate
 title: ResearchGate
 description: ResearchGate is the professional network for scientists and researchers.
   Over 20 million members from all over the world use it to share, discover, and discuss

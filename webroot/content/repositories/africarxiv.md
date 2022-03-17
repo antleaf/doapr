@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: africarxiv
 title: AfricArxiv
 description: AfricArXiv is a community-led digital archive for African research, working
   towards building an African-owned open scholarly repository; a knowledge commons

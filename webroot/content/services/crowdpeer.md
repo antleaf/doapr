@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: Crowdpeer
+service_id: crowdpeer
 description: Allows open peer review of preprints. It provides a universal structure
   for reviews, separating the objective, quality related critiques of a paper from
   it’s perceived impact. Anyone can add a paper summary, highlight strengths and weaknesses

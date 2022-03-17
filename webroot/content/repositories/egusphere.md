@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: egusphere
 title: EGUsphere
 description: EGUsphere, the not-for-profit scientific repository of the European Geosciences
   Union (EGU), is envisioned to bring together all preprints submitted to the EGU

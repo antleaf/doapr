@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: rinarxiv
 title: RinarXiv
 description: RINarxiv Beta Release 2.0 is a community-led digital archive for unpublished
   preprints of Indonesian research communication. RINarxiv is dedicated to foster

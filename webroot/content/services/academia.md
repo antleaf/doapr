@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: Academia
+service_id: academia
 description: An American commercial social networking website for academics. Originally
   a free and open repository of academic journal articles it now charges fees to put
   authors in contact with their readers.

@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: core_repository
 title: CORE repository
 description: CORE’s mission is to aggregate all open access research worldwide and
   deliver unrestricted access for all.

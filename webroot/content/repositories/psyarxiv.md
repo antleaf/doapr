@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: psyarxiv
 title: PsyArXiv
 description: A free preprint service for the psychological sciences
 academic_applicant_only: 'Yes'

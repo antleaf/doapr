@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: earth_prints_repository
 title: Earth-prints Repository
 description: Earth-Prints is an open archive created and maintained by Istituto Nazionale
   di Geofisica e Vulcanologia. This digital collection allows users to browse, search

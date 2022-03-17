@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: sportrxiv
 title: SportRxiv
 description: The open access subject repository for Sport, Exercise, Performance,
   and Health research.

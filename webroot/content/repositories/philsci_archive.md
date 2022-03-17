@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: philsci_archive
 title: Philsci Archive
 description: Welcome to PhilSci-Archive, an electronic archive specifically tailored
   to and run by philosophers of science. The archive is offered as a free service

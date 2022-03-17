@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: science_open
 title: Science Open
 description: ScienceOpen is a discovery platform with interactive features for scholars
   to enhance their research in the open, make an impact, and receive credit for it.

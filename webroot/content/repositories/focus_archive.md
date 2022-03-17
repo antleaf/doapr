@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: focus_archive
 title: FocUS Archive
 description: A free preprint service for the focused ultrasound research community.
 academic_applicant_only: 'Yes'

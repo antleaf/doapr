@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: Researcher
+service_id: reasearcher_app
 description: 'Keeping up-to-date with research can feel impossible, with papers being
   published faster than you''ll ever be able to read them. That''s where Researcher
   comes in: we''re simplifying discovery. With over 15,000 journals across 10 research

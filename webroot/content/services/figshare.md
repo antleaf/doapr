@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: figshare
+service_id: figshare
 description: An online open access repository where researchers can preserve and share
   their research outputs, including figures, datasets, images, and videos.
 service_url: https://figshare.com

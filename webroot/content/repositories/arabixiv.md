@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: arabixiv
 title: Arabixiv
 description: The Arabic multidisciplinary preprint server for science.
 academic_applicant_only: 'No'

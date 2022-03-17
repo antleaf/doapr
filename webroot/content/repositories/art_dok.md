@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: art_dok
 title: ART-Dok
 description: ART-Dok is the full-text server of the Specialised Information Service
   for Art, Photography and Design, arthistoricum.net and is made available by Heidelberg

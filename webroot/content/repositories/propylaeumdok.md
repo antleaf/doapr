@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: propylaeumdok
 title: PropylaeumDok
 description: Propylaeum-DOK - Digital Repository Classical Studies is the full-text
   server of the Specialized Information Service Classics and is made available by

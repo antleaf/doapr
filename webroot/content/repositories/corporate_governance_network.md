@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: corporate_governance_network
 title: Corporate Governance Network
 description: Because the scope of local, national, and international commerce is so
   vast, the study of corporate governance encompasses everything from the organization

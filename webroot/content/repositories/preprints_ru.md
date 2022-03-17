@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: preprints_ru
 title: Preprints.ru
 description: Preprint server for interdisciplinary research in Russia
 academic_applicant_only: 'Yes'

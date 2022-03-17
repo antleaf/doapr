@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: figshare
 title: Figshare
 description: figshare is a repository where users can make all of their research outputs
   available in a citable, shareable and discoverable manner

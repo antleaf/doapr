@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: vixra
 title: ViXra
 description: An alternative archive of 36951 e-prints in Science, Mathematics & Other
   Scholarly Areas serving the whole scientific community

@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: CAB Abstracts
+service_id: cab_abstracts
 description: CAB Abstracts is the leading English-language bibliographic information
   service providing access to the world’s applied life sciences literature. It comes
   with CABI Full Text, giving users automatic access to over 570,000 journal articles,

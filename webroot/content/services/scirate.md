@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: Scirate
+service_id: scirate
 description: Free and open-source "front" for the arXiv. What this means is it is
   a place where papers appear, voting occurs via "scites", and discussion via comments
   can take place.

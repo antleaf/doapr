@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: Authorea
+service_id: authorea
 description: An online collaborative writing tool that allows researchers to write,
   cite, collaborate, host data and publish. It has been described as "Google Docs
   for Scientists".

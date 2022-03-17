@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: preprints_with_the_lancet
 title: Preprints with The Lancet
 description: In 2018, the Lancet journals initiated a collaboration with the research
   sharing platform SSRN to offer authors a dedicated preprint area called Preprints

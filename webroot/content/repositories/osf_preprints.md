@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: osf_preprints
 title: OSF preprints
 description: The launch of OSF Preprints branded services continues COS’s ongoing
   commitment to open and transparent research practices. The new preprints service

@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: chinaxiv
 title: ChinaXiv
 description: ChinaXiv is an open repository and distribution service for scientific
   researchers in the field of natural science, which accepts scholarly preprints and

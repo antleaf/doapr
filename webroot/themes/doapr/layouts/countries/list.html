@@ -13,7 +13,26 @@
         <div class="col">
             {{ partial "world_map" .Data.Pages }}
             <br/>
-            {{ partial "countries_table" .Data.Pages }}
+            <table id="countriesTable" class="table table-sm table-striped">
+                <thead>
+                <tr class="column-header-row">
+                    <th>Name</th>
+                    <th class="no-sort">&nbsp;</th>
+                    <th>Continent</th>
+                    <th>Repositories</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{ range .Data.Pages }}
+                    <tr>
+                        <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+                        <td><img src="/images/flags/{{.File.ContentBaseName}}.png" class="countries_list_table_flag"/></td>
+                        <td>{{ .Params.continent }}</td>
+                        <td class="number">{{ .Params.repo_count }}</td>
+                    </tr>
+                {{ end }}
+                </tbody>
+            </table>
         </div>
     </div>
 {{ end }}

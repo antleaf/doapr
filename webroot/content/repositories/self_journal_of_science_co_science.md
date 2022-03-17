@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: self_journal_of_science_co_science
 title: Self Journal of Science (Co-Science)
 description: |-
   CoScience is a scholarly commons centered around scholars and scientific debate. It recreates scientific communication as a virtuous, open, community-driven process.

@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: EconLit
+service_id: econlit
 description: |-
   EconLit provides the coverage most needed by scholars to make new discoveries, develop important insights, and contribute valuable research to the economics community.
 

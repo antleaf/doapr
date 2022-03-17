@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: eric
 title: ERIC
 description: ERIC is a comprehensive, easy-to-use, searchable, Internet-based bibliographic
   and full-text database of education research and information.

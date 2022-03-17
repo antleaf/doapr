@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: OAIster
+service_id: oaister
 description: OAIster is a union catalog of millions of records that represent open
   access resources. This catalog was built through harvesting from open access collections
   worldwide using the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH).

@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: essoar
 title: ESSOAr
 description: The Earth and Space Science Open Archive (ESSOAr) is a community server
   established to accelerate the open discovery and dissemination of earth, environmental,

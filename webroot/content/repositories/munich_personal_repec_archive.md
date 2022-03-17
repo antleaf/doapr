@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: munich_personal_repec_archive
 title: Munich Personal RePEc Archive
 description: This repository is intended to disseminate research papers of economists
   who want to make their work freely available through the RePEc network but are not

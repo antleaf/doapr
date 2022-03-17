@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: agecon_search
 title: AgEcon Search
 description: AgEcon Search is a free-to-user Web site that contains the full text
   of working papers, conference papers and journal articles in applied economics,

@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: SciPost
+service_id: scipost
 description: SciPost is a complete scientific publication portal. It is purely online-based,
   and offers freely, openly, globally and perpetually accessible science. Being managed
   by professional scientists, and making use of editor-solicited and contributed reviews,

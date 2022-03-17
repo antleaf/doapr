@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: horizon__ird_scientific_publications
 title: Horizon - IRD scientific publications
 description: With union catalog you can search the 148,000 items available and locates
   documents in each of the 9 centers of the IRD documentation network.

@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: F1000Research
+service_id: f1000research
 description: An open access, open peer-review scientific publishing platform covering
   the life sciences. Articles are published first and peer reviewed after publication
   by invited referees.

@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: hrb_open_research
 title: HRB Open Research
 description: HRB Open Research is a platform for HRB-funded researchers to rapidly
   publish their research outputs in an open and accessible way

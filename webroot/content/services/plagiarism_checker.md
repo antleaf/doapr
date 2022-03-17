@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: Plagiarism Checker
+service_id: plagiarism_checker
 description: Plagiarism checker detects plagiarism in your research papers, blogs,
   assignments, and websites. Copy and paste your content in the text box below and
   then click the Check plagiarism button.

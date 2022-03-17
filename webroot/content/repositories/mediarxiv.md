@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: mediarxiv
 title: MediArXiv
 description: Open Archive for Media, Film, and Communication Studies.
 academic_applicant_only: 'No'

@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: PaperHive
+service_id: paperhive
 description: Introduces seamless discussion of research papers directly in the browser,
   embedded in the regular workflow. This enables researchers to attach questions,
   corrections, formulas, figures, further literature, code, or data directly to the

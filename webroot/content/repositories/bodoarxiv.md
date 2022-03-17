@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: bodoarxiv
 title: BodoArXiv
 description: BodoArXiv gathers scholarly literature in medieval studies across the
   disciplines. It provides an open, non-profit repository for papers at different

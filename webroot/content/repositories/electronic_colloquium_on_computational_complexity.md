@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: electronic_colloquium_on_computational_complexity
 title: Electronic Colloquium on Computational Complexity
 description: The Electronic Colloquium on Computational Complexity (ECCC) is a forum
   for the rapid and widespread interchange of ideas, techniques, and research in computational

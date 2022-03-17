@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: dash
 title: DASH (Digital Access to Scholarship Harvard)
 description: The Office for Scholarly Communication (OSC) operates the DASH repository
   as an effort to provide the broadest possible access to Harvard's scholarship. DASH

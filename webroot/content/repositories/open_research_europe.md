@@ -1,6 +1,7 @@
 ---
 date: 2022-03-17
 draft: false
+repository_id: open_research_europe
 title: Open Research Europe
 description: Open Research Europe is an open access publishing platform for the publication
   of research stemming from Horizon 2020 funding across all subject areas. The platform

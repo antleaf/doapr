@@ -2,6 +2,7 @@
 date: 2022-03-17
 draft: false
 title: Dryad
+service_id: dryad
 description: An international repository of data underlying peer-reviewed scientific
   and medical literature, and a membership organization, governed by journals, publishers,
   scientific societies, and other stakeholders
