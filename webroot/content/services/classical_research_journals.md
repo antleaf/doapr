@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Classical research journals
 description: Authors submit their preprint to get them published after peer-review

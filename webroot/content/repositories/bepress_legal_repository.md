@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Bepress Legal Repository
 description: The bepress Legal Repository offers working papers and pre-prints from
@@ -48,11 +48,7 @@ objectives: We empower academic communities to showcase their works and expertis
   for maximum impact.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Berkeley Electronic Press
 owner_short_name: Bepress
 owner_url: https://bepress.com/

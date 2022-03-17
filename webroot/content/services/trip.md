@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Transparent Review in Preprint (TRIP)
 description: A pilot project integrated in bioRxiv that enables certain journals and

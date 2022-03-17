@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Arabixiv
 description: The Arabic multidisciplinary preprint server for science.
@@ -54,7 +54,7 @@ moderation: Moderators screen the submission before posting
 objectives: Promoting open science, transparency and sharing of knowledge
 open_doar_id:
 open_source: 'Yes'
-owner_country:
+owner_country: ''
 owner_full_name: Small group of enthusiasts
 owner_short_name:
 owner_url:

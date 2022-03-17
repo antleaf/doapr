@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: F1000 Research
 description: An open access publishing platform supporting data deposition and sharing.
@@ -56,11 +56,7 @@ objectives: Our vision is to create a world where scientific discoveries are sha
   quickly, openly and without barriers.
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United Kingdom
-    :code: GB
-    :continent: Europe
+owner_country: GB
 owner_full_name: F1000 Research Ltd
 owner_short_name: F1000
 owner_url: https://f1000.com/

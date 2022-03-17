@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: ZentralBlatt
 description: Formerly Zentralblatt MATH, zbMATH is a major international reviewing

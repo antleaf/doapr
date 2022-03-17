@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: arxivist
 description: It keeps track of the papers that you have clicked on previously - to

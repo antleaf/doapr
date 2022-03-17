@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: ARPHA Preprints
 description: The submission systems limited to the participating ARPHA journals
@@ -47,11 +47,7 @@ objectives: 'The objectives (and benefits to authors) for developing the platfor
   are listed here: https://preprints.arphahub.com/about#Benefitsofpostingapreprint'
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: Bulgaria
-    :code: BG
-    :continent: Europe
+owner_country: BG
 owner_full_name: Pensoft Publishers
 owner_short_name: Pensoft
 owner_url: https://pensoft.net/

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: AAS Open Research
 description: AAS Open Research is a platform for rapid publication and open peer review
@@ -60,11 +60,7 @@ objectives: AAS Open Research is an innovative open access platform to enable Af
   engagement of researchers worldwide.
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: Kenya
-    :code: KE
-    :continent: Africa
+owner_country: KE
 owner_full_name: African Academy of Sciences
 owner_short_name: AAS
 owner_url: https://www.aasciences.africa/

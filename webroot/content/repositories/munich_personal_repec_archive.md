@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Munich Personal RePEc Archive
 description: This repository is intended to disseminate research papers of economists
@@ -51,11 +51,7 @@ moderation: Beforhand
 objectives:
 open_doar_id: X
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: Canada
-    :code: CA
-    :continent: North America
+owner_country: CA
 owner_full_name: Montreal Neurological Institute and Hospital researchers
 owner_short_name: MNI
 owner_url: https://www.mcgill.ca/neuro/

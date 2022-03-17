@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Outbreak Rapid Science PREReview
 description: We design and develop open source infrastructure to enable constructive
@@ -52,11 +52,7 @@ objectives: Aggregate search results from a variety of other preprint providers 
   as arXiv, bioRxiv, PeerJ, CogPrints and others
 open_doar_id:
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Center for Open Science
 owner_short_name: COS
 owner_url: https://www.cos.io/

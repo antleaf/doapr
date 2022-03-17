@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: AgriRxiv
 description: agriRxiv (pronounced ‘agri-archive’) is a free, open access source of
@@ -52,11 +52,7 @@ objectives: We are committed to sharing knowledge. Knowledge is the application 
   and improve their lives when it is communicated effectively.
 open_doar_id: X
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United Kingdom
-    :code: GB
-    :continent: Europe
+owner_country: GB
 owner_full_name: Centre for Agriculture and Bioscience International
 owner_short_name: CABI
 owner_url: https://www.cabi.org/

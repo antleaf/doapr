@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: MarXiv
 description: MarXiv (rhymes with "archive") is the free repository for ocean and marine-climate
@@ -55,11 +55,7 @@ objectives: |-
   Through our broad suite of tools and communities, we break down barriers to knowledge – empowering ocean professionals to apply best practices and science worldwide.
 open_doar_id:
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Open Communications for the Ocean
 owner_short_name: OCTO
 owner_url: https://www.octogroup.org/

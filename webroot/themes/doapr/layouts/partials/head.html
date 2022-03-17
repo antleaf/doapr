@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="{{ $style_navbar.Permalink }}">
     {{ $style_images := resources.Get "css/images.css" | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style_images.Permalink }}">
+    {{ $style_leaflet := resources.Get "css/leaflet.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style_leaflet.Permalink }}">
 
     {{ $js_jquery := resources.Get "js/jquery-3.6.0.min.js" | resources.Fingerprint }}
     <script type="text/javascript" src="{{ $js_jquery.Permalink }}"></script>
@@ -33,6 +35,8 @@
     <script type="text/javascript" src="{{ $js_datatables.Permalink }}"></script>
     {{ $js_main := resources.Get "js/main.js"| resources.Minify | resources.Fingerprint }}
     <script type="text/javascript" src="{{ $js_main.Permalink }}"></script>
+    {{ $js_leaflet := resources.Get "js/leaflet.js"| resources.Minify | resources.Fingerprint }}
+    <script type="text/javascript" src="{{ $js_leaflet.Permalink }}"></script>
 
 
 </head>

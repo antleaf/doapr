@@ -1,0 +1,49 @@
+<div id="map"></div>
+
+<script>
+    function getMarker(country_code, label, repoCount, markerLocation) {
+        var myIcon = L.icon({
+            iconUrl: '/images/flags/' + country_code.toLowerCase() + '.png',
+            iconSize: [24, 24]
+        });
+
+        var marker = L.marker(markerLocation, {icon: myIcon});
+        marker.bindPopup('<a href="/countries/' + country_code.toLowerCase() + '/">' + label + '</a><br/>Repositories: ' + repoCount.toString());
+        marker.on('mouseover', function (e) {
+            this.openPopup();
+        });
+        return marker
+    }
+
+    bounds = new L.LatLngBounds(new L.LatLng(-90, -180), new L.LatLng(90, 180));
+
+    var map_init = L.map('map', {
+        center: [9.0820, 8.6753],
+        zoom: 2,
+        minZoom: 2,
+        maxZoom: 5,
+        zoomControl: true,
+        dragging: true,
+        doubleClickZoom: false,
+        touchZoom: false,
+        boxZoom: false,
+        scrollWheelZoom: false,
+        maxBounds: bounds,
+        maxBoundsViscosity: 1.0
+    });
+
+    var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        subdomains: ['a', 'b', 'c'],
+        noWrap: true
+    }).addTo(map_init);
+    {{ range . }}
+    {{ $repos := (where .Site.RegularPages ".Params.owner_country" .Params.code ) }}
+    {{ $repoCount := len $repos }}
+    {{ if gt $repoCount 0 }}
+    var marker = getMarker({{ .Params.code}},{{.Title}},{{$repoCount}}, [{{ .Params.latitude }}, {{ .Params.longitude }}]);
+    marker.addTo(map_init);
+    {{ end }}
+    {{ end }}
+
+</script>

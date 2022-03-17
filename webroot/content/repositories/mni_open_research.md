@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: MNI Open Research
 description: MNI Open Research is a platform for rapid publication and open peer review
@@ -57,11 +57,7 @@ moderation: Data is available (if applicable), Code is available (if applicable)
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: Canada
-    :code: CA
-    :continent: North America
+owner_country: CA
 owner_full_name: Montreal Neurological Institute and Hospital researchers
 owner_short_name: MNI
 owner_url: https://www.mcgill.ca/neuro/

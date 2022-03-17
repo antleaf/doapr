@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Philsci Archive
 description: Welcome to PhilSci-Archive, an electronic archive specifically tailored
@@ -53,11 +53,7 @@ objectives: The reinvented Hillman Library will be a light-filled facility showc
   unique collections, advancing academic study, and fostering collaborative exchange.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: University of Pittsburgh
 owner_short_name: UP
 owner_url: http://www.pitt.edu/

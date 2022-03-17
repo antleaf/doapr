@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: ORCID (Open Researcher and Contributor ID)
 description: A free service assigning a unique and permanent identifier to researchers

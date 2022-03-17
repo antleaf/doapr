@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: EarthArXiv
 description: EarthArXiv has officially agreed to partner with the California Digital
@@ -55,7 +55,7 @@ moderation: 'Beforehand : Content within scope, Text overlap detection, Manuscri
 objectives: Open up preprint opportunities for all of the Earth Sciences
 open_doar_id: X
 open_source: 'Yes'
-owner_country:
+owner_country: ''
 owner_full_name: California Digital Library controls the infrastructure, governance
   is conducted by a volunteer Advisory Council containing 15 members each having 2
   year terms

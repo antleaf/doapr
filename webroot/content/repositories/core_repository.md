@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: CORE repository
 description: CORE’s mission is to aggregate all open access research worldwide and
@@ -51,11 +51,7 @@ moderation:
 objectives:
 open_doar_id:
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United Kingdom
-    :code: GB
-    :continent: Europe
+owner_country: GB
 owner_full_name: University of Southampton
 owner_short_name:
 owner_url: https://www.southampton.ac.uk/

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: NutriXiv
 description: A preprint service for the nutritional sciences.
@@ -46,7 +46,7 @@ moderation: 'In retrospect : Akismet spam filtering (automatic on all OSF conten
 objectives:
 open_doar_id:
 open_source: 'Yes'
-owner_country:
+owner_country: ''
 owner_full_name: Small group of enthusiasts
 owner_short_name:
 owner_url:

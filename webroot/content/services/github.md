@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: GitHub
 description: A subsidiary of Microsoft which provides hosting for software development

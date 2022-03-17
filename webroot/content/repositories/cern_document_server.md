@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: CERN document server
 description: CERN Document Server is where you can find the Library catalogue (books,
@@ -51,11 +51,7 @@ moderation: Only the eligibility of authors/depositors is checked.
 objectives:
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: Switzerland
-    :code: CH
-    :continent: Europe
+owner_country: CH
 owner_full_name: European Organization for Nuclear Research
 owner_short_name: CERN
 owner_url: https://home.cern

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: PeerJ Preprints
 description: Initially, developed as preprint server for PeerJ submissions
@@ -47,11 +47,7 @@ moderation: Misconduct or integrity checks, Legal compliance, Ethical compliance
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Peer J
 owner_short_name:
 owner_url: https://peerj.com/

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: DASH (Digital Access to Scholarship Harvard)
 description: The Office for Scholarly Communication (OSC) operates the DASH repository
@@ -53,11 +53,7 @@ objectives: The International Association for Cryptologic Research (IACR) is a n
   fields.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: The International Association for Cryptologic Research
 owner_short_name: IACR
 owner_url: https://www.iacr.org/

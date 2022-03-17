@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: BASE (Bielefeld Academic Search Engine)
 description: A search engine for academic web resources indexing the metadata of all

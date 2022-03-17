@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: HAL
 description: HAL is an open archive where authors can deposit scholarly documents
@@ -61,11 +61,7 @@ moderation: |-
 objectives:
 open_doar_id: X
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Bill and Melinda Gates Foundation
 owner_short_name:
 owner_url: https://www.gatesfoundation.org/

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: ViXra
 description: An alternative archive of 36951 e-prints in Science, Mathematics & Other
@@ -55,11 +55,7 @@ objectives: viXra will be open to anybody for both reading and submitting articl
   misleading.
 open_doar_id: X
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Scientific God Inc.
 owner_short_name: SGI
 owner_url: https://scigod.org/

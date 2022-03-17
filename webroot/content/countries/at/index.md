@@ -1,9 +1,11 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Austria
 code: AT
 continent: Europe
+latitude: '47.516231'
+longitude: '14.550072'
 repo_count: 1
 ---
 

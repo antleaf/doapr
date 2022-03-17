@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Plagiarism Checker
 description: Plagiarism checker detects plagiarism in your research papers, blogs,

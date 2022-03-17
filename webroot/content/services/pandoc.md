@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Pandoc
 description: Pandoc is a free and open-source document converter, widely used as a

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: AMRC Open Research
 description: A platform for rapid author-led publication and open peer review of research
@@ -59,11 +59,7 @@ objectives: The platform enables researchers to publish any research they wish t
   reanalyses, replication and reuse.
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United Kingdom
-    :code: GB
-    :continent: Europe
+owner_country: GB
 owner_full_name: Association of Medical Research Charities
 owner_short_name: AMRC
 owner_url: https://www.amrc.org.uk/

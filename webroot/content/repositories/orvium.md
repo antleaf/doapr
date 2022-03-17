@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Orvium
 description: Connecting researchers and publishers with trusted reviewers to accelerate
@@ -55,11 +55,7 @@ objectives: 'The main objectives of Organic Eprints are: to facilitate the commu
   and to document the research effort.'
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: Denmark
-    :code: DK
-    :continent: Europe
+owner_country: DK
 owner_full_name: International Centre for Research in Organic Food Systems
 owner_short_name: ICROFS
 owner_url: http://www.icrofs.org

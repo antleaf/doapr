@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: EdArXiv
 description: A Preprint Server For The Education Research Community
@@ -54,11 +54,7 @@ moderation: 'Beforehand : Akismet spam filtering (automatic on all OSF content) 
 objectives:
 open_doar_id:
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Center for Open Science
 owner_short_name: COS
 owner_url: https://www.cos.io/

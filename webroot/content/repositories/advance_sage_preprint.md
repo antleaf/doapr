@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Advance (Sage preprint)
 description: 'Advance: a SAGE preprints community allows researchers within the fields
@@ -53,11 +53,7 @@ objectives: Our mission is building bridges to knowledge — supporting the deve
   and applied.
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: SAGE Publishing
 owner_short_name: SAGE
 owner_url: https://us.sagepub.com/en-us/nam

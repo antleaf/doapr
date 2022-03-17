@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: SciELO Preprints
 description: SciELO Preprints Collection is an integral part of SciELO, an international
@@ -58,11 +58,7 @@ objectives: Offer an infrastructure for posting preprints as an integral part of
   research communication flow.
 open_doar_id:
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: Brazil
-    :code: BR
-    :continent: South America
+owner_country: BR
 owner_full_name: SciELO and FAPESP Program
 owner_short_name:
 owner_url: https://scielo.org/

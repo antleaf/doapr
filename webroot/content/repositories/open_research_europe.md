@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Open Research Europe
 description: Open Research Europe is an open access publishing platform for the publication
@@ -61,7 +61,7 @@ moderation: 'Beforehand : The editorial team will ensure that the authors are el
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country:
+owner_country: ''
 owner_full_name: European Commission
 owner_short_name:
 owner_url: https://ec.europa.eu/info/index_en

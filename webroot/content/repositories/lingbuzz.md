@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: LingBuzz
 description: Welcome to LingBuzz, an article archive and a community space for Linguistics.
@@ -44,11 +44,7 @@ moderation:
 objectives:
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: Norway
-    :code: 'NO'
-    :continent: Europe
+owner_country: 'NO'
 owner_full_name: UiT The Arctic University of Norway
 owner_short_name:
 owner_url: http://uit.no/startsida

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: HRB Open Research
 description: HRB Open Research is a platform for HRB-funded researchers to rapidly
@@ -54,11 +54,7 @@ moderation: Data is available (if applicable), Code is available (if applicable)
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: Ireland
-    :code: IE
-    :continent: Europe
+owner_country: IE
 owner_full_name: Health Research Board Ireland
 owner_short_name: HRB
 owner_url: https://www.hrb.ie/

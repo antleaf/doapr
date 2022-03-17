@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Marine Institute Open Access Repository
 description: The Marine Institute Open Access Repository facilitates full text access
@@ -73,11 +73,7 @@ objectives: |-
   - openly share its information with internal and external services
 open_doar_id: X
 open_source: https://wiki.eprints.org/w/Main_Page
-owner_country: !ruby/object:Country
-  values:
-    :id: United Kingdom
-    :code: GB
-    :continent: Europe
+owner_country: GB
 owner_full_name: The British Library of Political and Economic Science
 owner_short_name: LSE
 owner_url: http://www2.lse.ac.uk/home.aspx

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Researchgate
 description: A European commercial social networking site for scientists and researchers[3]

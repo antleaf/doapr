@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: arXiv
 description: arXiv is a free distribution service and an open-access archive for 1,871,031
@@ -65,11 +65,7 @@ objectives: 'arXiv offers researchers a broad range of services: article submiss
   on which arXiv thrives.'
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Cornell University
 owner_short_name:
 owner_url: https://www.cornell.edu

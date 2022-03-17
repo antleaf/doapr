@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Horizon - IRD scientific publications
 description: With union catalog you can search the 148,000 items available and locates
@@ -65,11 +65,7 @@ objectives: HAL is a tool of direct scientific communication between researchers
   term accessible
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: France
-    :code: FR
-    :continent: Europe
+owner_country: FR
 owner_full_name: HAL is the French national open repository, it’s a research infrastructure
   of the French Ministry of higher Education, Research and Innovation. HAL is managed
   by the Center for Direct Scientific Communication (CCSD), a common service unit

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: e-Life
 description: An OA journal proposing to publish peer-reviews of preprints submitted

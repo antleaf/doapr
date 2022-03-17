@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: ScanR
 description: scanR allows you to search for companies active in research and innovation,

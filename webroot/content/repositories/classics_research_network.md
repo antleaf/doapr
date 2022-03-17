@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Classics Research Network
 description: Classics, as a field of study, encompasses all aspects of the ancient
@@ -51,11 +51,7 @@ objectives: NSLC, aiming at developing a world first-class information service a
   resources, improve its systems, and innovate its services, to best suit its users.
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: China
-    :code: CN
-    :continent: Asia
+owner_country: CN
 owner_full_name: National Science Library, Chinese Academy of Sciences
 owner_short_name: NSLC, CAS
 owner_url: http://english.las.cas.cn/

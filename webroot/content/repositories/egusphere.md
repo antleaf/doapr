@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: EGUsphere
 description: EGUsphere, the not-for-profit scientific repository of the European Geosciences
@@ -61,11 +61,7 @@ objectives: Our mission is to provide scientific evidence on which to ground edu
   accessible to educators, parents, policymakers, researchers, and the public.
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: US Department of Education and Institute of Education Sciences
 owner_short_name: ED and IES
 owner_url: https://www.ed.gov/ and https://ies.ed.gov/

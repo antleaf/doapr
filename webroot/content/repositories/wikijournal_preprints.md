@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: WikiJournal Preprints
 description: The WikiJournal Publishing Group is a set of open-access, peer-reviewed
@@ -53,11 +53,7 @@ objectives: This preprint server allows you to create and edit academic articles
   via their website
 open_doar_id:
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: WikiJournal User Group
 owner_short_name:
 owner_url: https://meta.wikimedia.org/wiki/WikiJournal_User_Group

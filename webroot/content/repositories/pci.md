@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: PCI (Peer Community In)
 description: A free recommendation process of scientific preprints based on peer-reviews
@@ -51,11 +51,7 @@ objectives: PaleorXiv is dedicated to speeding and opening up paleontological re
   and helping to build the future of scholarly communication.
 open_doar_id:
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Center for Open Science
 owner_short_name: COS
 owner_url: https://www.cos.io/

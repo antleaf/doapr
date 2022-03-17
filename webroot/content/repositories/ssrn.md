@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: SSRN
 description: SSRN is devoted to the rapid worldwide dissemination of research and
@@ -56,7 +56,7 @@ objectives: Encourage researchers within this field to prioritize research quali
   the context of an incentivized publishing system and to explain the potential solutions.
 open_doar_id: X
 open_source: 'Yes'
-owner_country:
+owner_country: ''
 owner_full_name: Society for Transparency, Openness, and Replication in Kinesiology
 owner_short_name: STORK
 owner_url: https://www.storkinesiology.org/

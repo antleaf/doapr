@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Self Journal of Science (Co-Science)
 description: |-
@@ -47,11 +47,7 @@ moderation: 'Beforehand : editorial review to check for completeness and basic s
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: Germany
-    :code: DE
-    :continent: Europe
+owner_country: DE
 owner_full_name: ScienceOpen
 owner_short_name:
 owner_url: https://www.scienceopen.com/

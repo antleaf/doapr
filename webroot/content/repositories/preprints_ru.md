@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Preprints.ru
 description: Preprint server for interdisciplinary research in Russia
@@ -46,11 +46,7 @@ objectives: NEICON aims to provide Russian organizations with expert, consulting
   information in electronic form
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: Russia
-    :code: RU
-    :continent: Europe
+owner_country: RU
 owner_full_name: Elsevier
 owner_short_name: NEICON
 owner_url: https://neicon.ru/en/

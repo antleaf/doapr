@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: E-lis
 description: Established in 2003, e-LIS is an international digital repository for
@@ -53,11 +53,7 @@ objectives: Our vision? A world where more people have access to knowledge and m
   can help build this world.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Massachusetts Institute of Technology
 owner_short_name: MIT
 owner_url: http://web.mit.edu/

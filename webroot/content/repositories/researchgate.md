@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: ResearchGate
 description: ResearchGate is the professional network for scientists and researchers.
@@ -60,11 +60,7 @@ objectives: At Research Square Company, we're committed to making research commu
   scientific publishing.
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Research Square
 owner_short_name:
 owner_url: https://company.researchsquare.com/

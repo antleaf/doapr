@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: JMIR Preprints
 description: A preprint server for pre-publication/pre-peer-review preprints intended
@@ -46,11 +46,7 @@ moderation: Check is done during Open Peer review proccess
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: Canada
-    :code: CA
-    :continent: North America
+owner_country: CA
 owner_full_name: JMIR Publications Inc
 owner_short_name: JMIR
 owner_url: https://www.jmir.org/

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Wellcome Open Research
 description: Wellcome Open Research provides all Wellcome researchers with a place
@@ -56,11 +56,7 @@ moderation: 'Beforehand : Data is available (if applicable), Code is available (
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United Kingdom
-    :code: GB
-    :continent: Europe
+owner_country: GB
 owner_full_name: Wellcome Trust
 owner_short_name:
 owner_url: https://wellcome.org/

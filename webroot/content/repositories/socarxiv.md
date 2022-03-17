@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: SocArxiv
 description: SocArXiv, open archive of the social sciences, provides a free, non-profit,
@@ -54,11 +54,7 @@ objectives: The mission of the University of Maryland, College Park is to provid
   excellent teaching, research, and service.
 open_doar_id:
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: The University of Maryland Libraries
 owner_short_name: UMD
 owner_url: https://umd.edu/

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: MetaArXiv
 description: An interdisciplinary archive of articles focused on improving research
@@ -53,11 +53,7 @@ objectives: The Berkeley Initiative for Transparency in the Social Sciences work
   rigor, and ethics in research.
 open_doar_id:
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: The Berkeley Initiative for Transparency in the Social Sciences
 owner_short_name: BITSS
 owner_url: https://www.bitss.org/

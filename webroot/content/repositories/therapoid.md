@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Therapoid
 description: Therapoid is a scientist-driven platform that accelerates collaboration
@@ -50,11 +50,7 @@ objectives: The Therapoid™ web portal enables international scientists to shar
   technologies will lead to better therapeutics for patients in every country.
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Open Therapeutics™
 owner_short_name:
 owner_url: https://opentherapeutics.org/

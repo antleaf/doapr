@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: MedRxiv
 description: medRxiv (pronounced "med-archive") is a free online archive and distribution
@@ -56,11 +56,7 @@ objectives: By posting preprints on medRxiv, authors are able to make their find
   manuscripts before they are submitted to journals.
 open_doar_id: X
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Cold Spring Harbor Laboratory (co-managed with Yale University and
   BMJ)
 owner_short_name: CSHL

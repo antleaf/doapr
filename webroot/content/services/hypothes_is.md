@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: hypothes.is
 description: A system allowing annotation of web pages. It uses a browser plug-in

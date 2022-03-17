@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: FocUS Archive
 description: A free preprint service for the focused ultrasound research community.
@@ -51,11 +51,7 @@ objectives: The Foundation requires all awardees deposit a copy of their final r
   are available as quickly and broadly as possible.
 open_doar_id:
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Focused Ultrasound Foundation
 owner_short_name:
 owner_url: https://www.fusfoundation.org/

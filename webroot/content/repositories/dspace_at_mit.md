@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Dspace @ MIT
 description: DSpace@MIT is a digital repository for MIT's research, including peer-reviewed
@@ -53,11 +53,7 @@ objectives: We aim to be global leaders in expanding world knowledge and intelle
   around the world.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Harvard University
 owner_short_name:
 owner_url: http://www.harvard.edu/

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: IndiArxiv
 description:
@@ -52,11 +52,7 @@ objectives: Anyone who have interests in Open Access, Open Data and Open Educati
   their research outputs.
 open_doar_id:
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: India
-    :code: IN
-    :continent: Asia
+owner_country: IN
 owner_full_name: Owned by Open Access India hosted & supported by Centre for Open
   Science
 owner_short_name: OAI

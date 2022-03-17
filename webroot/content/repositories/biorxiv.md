@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: bioRxiv
 description: bioRxiv (pronounced "bio-archive") is a free online archive and distribution
@@ -54,11 +54,7 @@ objectives: By posting preprints on bioRxiv, authors are able to make their find
   manuscripts before they are submitted to journals.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Cold Spring Harbor Laboratory
 owner_short_name: CSHL
 owner_url: http://www.cshl.edu/

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: AgEcon Search
 description: AgEcon Search is a free-to-user Web site that contains the full text
@@ -60,11 +60,7 @@ open_doar_id:
 open_source: 'Yes : TIND''s products and services are built on the foundation of the
   Invenio digital library framework (https://inveniosoftware.org/), an open source
   technology born at CERN.'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: University of Minnesota
 owner_short_name: UMN
 owner_url: https://www.lib.umn.edu/

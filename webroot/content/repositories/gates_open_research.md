@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Gates Open Research
 description: Gates Open Research is a platform for rapid author-led publication and
@@ -52,11 +52,7 @@ moderation: 'Beforehand : Data is available (if applicable), Code is available (
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Bill and Melinda Gates Foundation
 owner_short_name:
 owner_url: https://www.gatesfoundation.org/

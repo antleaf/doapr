@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: ChemRxiv
 description: ChemRxiv (pronounced 'chem-archive') is a free submission, distribution
@@ -61,11 +61,7 @@ objectives: With five of the world's largest chemical societies driving its deve
   and provide a forum through which to share and discover the very latest findings.
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: American Chemical Society, Chinese Chemical Society, Chemical Society
   of Japan, German Chemical Society and the Royal Society of Chemistry.
 owner_short_name: ACS, CCS, CSJ, GDCh, RSC

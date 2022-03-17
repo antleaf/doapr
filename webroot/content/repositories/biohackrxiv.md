@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: biohackrxiv
 description: Preprints for BioHackathons
@@ -52,7 +52,7 @@ moderation: 'Beforehand : Akismet spam filtering (automatic on all OSF content) 
 objectives:
 open_doar_id:
 open_source: 'Yes'
-owner_country:
+owner_country: ''
 owner_full_name: Center for Open Science controls and owns the infrastructure; Steering
   Board of volunteers run the platform
 owner_short_name:

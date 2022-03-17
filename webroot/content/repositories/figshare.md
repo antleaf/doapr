@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Figshare
 description: figshare is a repository where users can make all of their research outputs
@@ -50,11 +50,7 @@ moderation:
 objectives:
 open_doar_id: X
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United Kingdom
-    :code: GB
-    :continent: Europe
+owner_country: GB
 owner_full_name: Figshare LLP (Digital Science)
 owner_short_name:
 owner_url: http://figshare.com/

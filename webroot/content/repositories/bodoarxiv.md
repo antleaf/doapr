@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: BodoArXiv
 description: BodoArXiv gathers scholarly literature in medieval studies across the
@@ -52,11 +52,7 @@ moderation: 'In retrospect : Our policy involves a five-point checklist, confirm
 objectives:
 open_doar_id:
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Center for Open Science controls and owns the infrastructure; Steering
   Board of volunteers run the platform
 owner_short_name: COS

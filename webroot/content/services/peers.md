@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: PEERS
 description: Free platform in human sciences to deposit, evaluate and curate articles

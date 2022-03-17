@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Zenodo
 description: Built and developed by researchers, to ensure that everyone can join
@@ -55,11 +55,7 @@ objectives: Accelerating Science. It is built and developed by researchers to en
   that everyone can join and share in Open Science.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: Switzerland
-    :code: CH
-    :continent: Europe
+owner_country: CH
 owner_full_name: European Organization for Nuclear Research
 owner_short_name: CERN
 owner_url: https://home.cern

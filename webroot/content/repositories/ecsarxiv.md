@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: ECSarXiv
 description: A free preprint service for electrochemistry and solid state science
@@ -55,11 +55,7 @@ objectives: ECSarXiv is part of the greater ECS Free the Science initiative, whi
   independent, nonprofit scientific society publishers.
 open_doar_id:
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: The Electrochemical Society
 owner_short_name: ECS
 owner_url: https://www.electrochem.org/

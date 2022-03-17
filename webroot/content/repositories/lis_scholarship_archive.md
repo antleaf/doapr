@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: LIS Scholarship Archive
 description: LISSA is a place where anyone can have access to library and information
@@ -56,7 +56,7 @@ moderation: 'In retrospect : Misconduct or integrity checks, Akismet spam filter
 objectives:
 open_doar_id: X
 open_source: 'Yes'
-owner_country:
+owner_country: ''
 owner_full_name: Center for Open Science controls and owns the infrastructure; Steering
   Board of volunteers run the platform (https://lissarchive.org/faq/#support-lissa)
 owner_short_name:

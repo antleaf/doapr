@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: engrxiv
 description: The open archive of engineering
@@ -54,11 +54,7 @@ objectives: Engineering Archive is partnered with the Center for Open Science to
   of research and design on a truly open access platform for all engineering disciplines.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: United States
-    :code: US
-    :continent: North America
+owner_country: US
 owner_full_name: Open Engineering Inc
 owner_short_name:
 owner_url: https://www.openengr.com

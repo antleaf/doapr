@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: NBER Working Papers
 description: New research by NBER affiliates, circulated for discussion and comment.
@@ -49,11 +49,7 @@ moderation: 'Beforehand : relevance to the scope of the repository and quality o
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: !ruby/object:Country
-  values:
-    :id: United Kingdom
-    :code: GB
-    :continent: Europe
+owner_country: GB
 owner_full_name: Nature Publishing Group
 owner_short_name:
 owner_url: https://www.nature.com/nature-portfolio

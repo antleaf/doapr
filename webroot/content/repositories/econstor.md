@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: ECONSTOR
 description: EconStor can help you to disseminate your publications in Economics and
@@ -54,11 +54,7 @@ moderation: Is the sole responsibility of the depositor. Any copyright violation
 objectives: Increasing the visibility of scholarly publications
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: Germany
-    :code: DE
-    :continent: Europe
+owner_country: DE
 owner_full_name: ZBW - Leibniz Information Centre for Economics
 owner_short_name: ZBW
 owner_url: http://www.zbw.eu/

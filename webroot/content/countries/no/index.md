@@ -1,9 +1,11 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Norway
 code: 'NO'
 continent: Europe
+latitude: '60.472024'
+longitude: '8.468946'
 repo_count: 1
 ---
 

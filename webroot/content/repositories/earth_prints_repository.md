@@ -1,5 +1,5 @@
 ---
-date: 2022-03-12
+date: 2022-03-17
 draft: false
 title: Earth-prints Repository
 description: Earth-Prints is an open archive created and maintained by Istituto Nazionale
@@ -52,11 +52,7 @@ moderation: 'Beforehand : Content within scope, Complete Metadata, the eligibili
 objectives:
 open_doar_id: X
 open_source: 'Yes'
-owner_country: !ruby/object:Country
-  values:
-    :id: Italy
-    :code: IT
-    :continent: Europe
+owner_country: IT
 owner_full_name: Istituto Nazionale di Geofisica e Vulcanologia
 owner_short_name: INGV
 owner_url: http://www.ingv.it
