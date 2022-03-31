@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: nature_precedings
 title: Nature Precedings
@@ -24,9 +24,9 @@ author_pid:
 availability_of_associated_content:
 backups:
 base_url: http://precedings.nature.com/oai2
-business_model: for-profit
+business_model: For-profit
 certificate_or_labels:
-closure_date: 2012-04
+closure_date: Closed in april 2012
 concerns_about_content:
 concerns_about_plagiarism: 'No'
 contact:
@@ -37,9 +37,9 @@ interoperability:
 journal_submission: Nature Portfolio
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2007'
 licensing: It can be used under the terms of the Creative Commons Attribution License,
-  versions 2.5 or 3.
+  versions 2.5 or 3.0
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Author(s), Abstract,Affilation, References, Keywords
@@ -64,27 +64,27 @@ preservation_policy: The content is kept by Nature to be visible
 record_count: 'Full text : 3 423'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: closed to submission
+status: Closed to submission only
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.nature.com/npre/
-user_committees:
+user_committees: "\L"
 versioning_policy:
 who_can_deposit:
 withdrawal_authorisation:
-withdrawal_policy:
+withdrawal_policy: 'No'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
   :description:
-- :service: google_scholar
+- :service: crossref
   :feature: indexing
   :description:
-- :service: crossref
+- :service: google_scholar
   :feature: indexing
   :description:
 - :service: scilit

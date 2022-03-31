@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: wellcome_open_research
 title: Wellcome Open Research
@@ -27,7 +27,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -42,13 +42,15 @@ journal_submission: Restricted - manuscript can only be published in journal lin
   to server
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2017'
 licensing: Authors must use CC BY license
-metadata_formats: 'Yes : Wikidata item to hold structured metadata'
+metadata_formats: 'No'
 metadata_languages: English
-metadata_properties: Title, Author(s), Abstract, First Submitted, Author(s) info,
-  Identifier, Licence, Editor(s), Reviewer(s)
-metadata_reuse_method:
+metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
+  Abstract, Author affiliation(s), Funder acknowledgement(s), Subject category, Full-text
+  content, Institution, Competing interests, Referee (name, affiliation, referee report),
+  commenter (name, text, affiliation), study type, article type
+metadata_reuse_method: Openly available via API
 metadata_reuse_permission: None
 moderation: 'Beforehand : Data is available (if applicable), Code is available (if
   applicable), All authors notified, Author has Wellcome grant, Legal compliance,
@@ -71,41 +73,40 @@ preservation_policy:
 record_count: 'Full text : 967'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: 'Yes'
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://wellcomeopenresearch.org/
 user_committees: 'Yes : Advisory Board comprises individuals who have a strong interest
-  in open research and improving the way research findings are disseminated.'
+  in open research and improving the way research findings are disseminated.   '
 versioning_policy: Accepts new version. All version are available for readers.
 who_can_deposit: Only member of Wellcome can post on the platform
 withdrawal_authorisation: Platform
-withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
-  ethical and legal issues
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
   :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: openaire_explore
-  :feature: indexing
-  :description:
 - :service: econlit
-  :feature: indexing
-  :description:
-- :service: microsoft_academic_search
   :feature: indexing
   :description:
 - :service: econstor
   :feature: indexing
   :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
 - :service: inomics
+  :feature: indexing
+  :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
+- :service: openaire_explore
   :feature: indexing
   :description:
 - :service: researchgate

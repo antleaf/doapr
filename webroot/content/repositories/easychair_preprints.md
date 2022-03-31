@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: easychair_preprints
 title: EasyChair preprints
@@ -10,7 +10,7 @@ accepted_content_formats: LaTeX, Word Doc
 accepted_content_language:
 accepted_content_level: Research only
 accepted_content_types: Journal articles, Preprints, Poster and Presentations
-accepted_supplementary_content:
+accepted_supplementary_content: 'No'
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
@@ -21,7 +21,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -34,8 +34,8 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: Authors must use CC BY-NC-ND 4. license
+launch_date: '2017-10-14'
+licensing: Authors must use  CC BY-NC-ND 4.0 license
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Author(s), Pages, Date, Abstract, Identifier, Keyphrases
@@ -60,20 +60,20 @@ preservation_policy:
 record_count:
 remining_indrawn_item:
 repository_type: Multidisciplinary
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://easychair.org/publications/preprints
-user_committees:
+user_committees: "\L"
 versioning_policy:
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation:
-withdrawal_policy:
+withdrawal_policy: 'No'
 features:
 - :feature: bibliographic_references_management
   :description: BibTeX

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: jmir_preprints
 title: JMIR Preprints
@@ -22,7 +22,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: for-profit
+business_model: For-profit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -35,7 +35,7 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2020'
 licensing: Authors must use no license (all rights reserved)
 metadata_formats: 'No'
 metadata_languages: English
@@ -61,30 +61,30 @@ preservation_policy:
 record_count: 'Full text : 58'
 remining_indrawn_item: JMIR  will remove the content from the collection
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://preprints.jmir.org/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts first submission only
 who_can_deposit: JMIR Publications facilitates this by allowing its authors to expose
   submitted manuscripts on its preprint server with a simple checkbox when submitting
   an article, and the preprint server is also open for non-JMIR authors
 withdrawal_authorisation: Platform
-withdrawal_policy:
+withdrawal_policy: 'Yes'
 integrations:
+- :service: google
+  :feature: indexing
+  :description:
 - :service: google_scholar
   :feature: indexing
   :description:
 - :service: hypothes_is
   :feature: commenting
-  :description:
-- :service: google
-  :feature: indexing
   :description:
 features:
 - :feature: search_engine

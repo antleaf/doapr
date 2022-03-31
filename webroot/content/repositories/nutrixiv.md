@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: nutrixiv
 title: NutriXiv
@@ -20,9 +20,9 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
-closure_date: '2021-05-15'
+closure_date: D/5/YYYY
 concerns_about_content:
 concerns_about_plagiarism: Email administrator
 contact: contact+nutrixiv@osf.io
@@ -34,7 +34,7 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2017-08-01'
 licensing: Authors must use CC0 license
 metadata_formats: 'No'
 metadata_languages: English
@@ -61,20 +61,20 @@ preservation_policy:
 record_count: 'Full text : 84'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: None
 short_name:
-status: closed to submission
+status: Closed to submission only
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://osf.io/preprints/nutrixiv
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: Plagiarism, false or inaccurate content
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
   :feature: indexing
@@ -82,11 +82,11 @@ integrations:
 - :service: hypothes_is
   :feature: commenting
   :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
 - :service: microsoft_academic_search
   :feature: indexing
+  :description:
+- :service: plaudit
+  :feature: endorsement
   :description:
 - :service: share
   :feature: indexing

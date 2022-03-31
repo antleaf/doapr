@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: authorea
 title: Authorea
@@ -25,7 +25,7 @@ availability_of_associated_content:
 backups: 'No : You are solely responsible for creating and maintaining your own backup
   copies of your User Content if you desire'
 base_url:
-business_model: for-profit
+business_model: For-profit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -41,7 +41,7 @@ interoperability: Yes via JATSXML
 journal_submission: 'Unrestricted but you can directly publish to this list : https://support.authorea.com/en-us/article/how-do-i-directly-submit-to-a-publisher-atxzf7/'
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2017-09-01'
 licensing: All preprints posted on Authorea through the Under Review service are assigned
   a non-exclusive license by default. For more infirmations ; https://support.authorea.com/en-us/article/licensing-options-for-preprints-f6bj97/
 metadata_formats: 'No'
@@ -57,7 +57,7 @@ objectives: We founded Authorea in late 2012 with the mission of accelerating sc
   why the internet age hadn't yet delivered a modern toolset for scientific collaboration.
 open_doar_id:
 open_source: 'No'
-owner_country: US
+owner_country: ''
 owner_full_name: Atypon (part of Wiley)
 owner_short_name:
 owner_url: https://www.atypon.com/
@@ -72,27 +72,23 @@ record_count: 'Full text : 15241'
 remining_indrawn_item: All data concerning the admission journal must be deleted in
   case the document isn't accepted. Otherwise, all the document remains available
 repository_type: Multidisciplinary
-scientific_committees: 'No'
+scientific_committees: 'No   '
 service_pricing: Authorea is free to use. You can upgrade for additional private documents
   and Premium features
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No. Authorea does not embargo research that has been made publicly available
   as a preprint.
 time_submission_to_posting:
 repository_url: https://www.authorea.com/
-user_committees: 'No'
+user_committees: 'No   '
 versioning_policy: 'Versioned DOIs to link preprint all together. For more informations
   : https://support.authorea.com/en-us/article/can-i-update-my-article-after-assigning-a-doi-13kf0vc/'
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: No one
-withdrawal_policy: Once a preprint is posted on Authorea, it becomes a part of the
-  permanent, citable scholarly literature and cannot be removed. We have the right
-  at our sole discretion to remove any content that, in our judgment, does not comply
-  with the foregoing or is otherwise harmful, objectionable, or inaccurate. We are
-  not responsible for any failure or delay in removing such content.
+withdrawal_policy: 'Yes'
 integrations:
 - :service: manuscripts_io
   :feature: writing

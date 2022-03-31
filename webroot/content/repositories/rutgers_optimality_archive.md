@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: rutgers_optimality_archive
 title: Rutgers Optimality Archive
@@ -23,7 +23,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -36,7 +36,7 @@ interoperability:
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '1993'
 licensing: In posting to the Rutgers Optimality Archive (ROA), the author or authors
   affirm that ROA has the right to physically possess an electronic copy of their
   manuscript and the right to make it available for download over the internet, without
@@ -51,7 +51,7 @@ moderation: 'In retrospect : any paper which is deemed not relevant to the above
 objectives:
 open_doar_id: X
 open_source: 'No'
-owner_country: US
+owner_country: ''
 owner_full_name: Rutgers, The State University of New Jersey
 owner_short_name:
 owner_url: https://www.rutgers.edu
@@ -66,21 +66,20 @@ record_count: 'Full text : 1 386'
 remining_indrawn_item: Title and author information will remain, with an indication
   that the paper has been withdrawn.
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: None
 short_name: ROA
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://roa.rutgers.edu/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All versions are linked and visible to everyone
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: At author's request
-withdrawal_policy: At the author's request, a paper may be withdrawn from the archive;
-  in this case, the link to the article is deactivated.
+withdrawal_policy: 'Yes'
 features:
 - :feature: search_engine
   :description: Advanced Search

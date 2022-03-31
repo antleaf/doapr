@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: chinaxiv
 title: ChinaXiv
@@ -24,7 +24,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 base_url: http://www.chinaxiv.org/oai/
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -66,26 +66,25 @@ preservation_policy:
 record_count: 'Full text : 14 874'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: National Common open archive platform
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: http://chinaxiv.org/home.htm
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Accound needed, Only research from China is accepted
 withdrawal_authorisation: Platform
-withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
-  ethical and legal issues
+withdrawal_policy: 'Yes'
 integrations:
-- :service: pubmed
+- :service: crossref
   :feature: indexing
   :description:
-- :service: crossref
+- :service: pubmed
   :feature: indexing
   :description:
 features:

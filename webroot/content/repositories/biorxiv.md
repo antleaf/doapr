@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: biorxiv
 title: bioRxiv
@@ -23,7 +23,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : All bioRxiv papers are archived at Portico.'
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -38,7 +38,7 @@ interoperability: Yes via API
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2013-11-07'
 licensing: 'Authors are provided with a choice of licenses: CC0, CC BY, CC BY-NC,
   CC BY-ND, CC BY-NC-ND, or no reuse; with no preference for which license chosen'
 metadata_formats: 'No'
@@ -55,7 +55,7 @@ objectives: By posting preprints on bioRxiv, authors are able to make their find
   manuscripts before they are submitted to journals.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: Cold Spring Harbor Laboratory
 owner_short_name: CSHL
 owner_url: http://www.cshl.edu/
@@ -70,35 +70,25 @@ record_count: 'Metadata: 1 254'
 remining_indrawn_item: Withdrawn articles remain visible; For removed articles, basic
   information remains on a tombstone page
 repository_type: Community-based
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.biorxiv.org/
-user_committees: Yes, Advisory group includes leaders in preprints and scholarly communication.
+user_committees: 'Yes, Advisory group includes leaders in preprints and scholarly
+  communication.   '
 versioning_policy: Accepts new versions until acceptance at journal. All versions
   are available and visible for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Author or Platform
-withdrawal_policy: 'Removal: Legal or biohazard reasons; Withdrawal: Plagiarism, false
-  or inaccurate content, ethical and legal issues, co-author(s) did not consent to
-  posting'
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: hypothes_is
-  :feature: commenting
-  :description:
-- :service: peer_community_in
-  :feature: peer review
   :description:
 - :service: crossref
   :feature: indexing
@@ -106,11 +96,20 @@ integrations:
 - :service: disqus
   :feature: commenting
   :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
+  :description:
 - :service: meta
   :feature: indexing
   :description:
 - :service: microsoft_academic_search
   :feature: indexing
+  :description:
+- :service: peer_community_in
+  :feature: peer review
   :description:
 features:
 - :feature: text_mining

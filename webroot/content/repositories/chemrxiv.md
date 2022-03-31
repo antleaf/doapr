@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: chemrxiv
 title: ChemRxiv
@@ -22,7 +22,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -42,7 +42,7 @@ journal_submission: Unrestricted, but submission is facilitated in journals owne
   (other publishers coming soon)
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2017'
 licensing: 'Authors are provided with a choice of licenses: CC BY, CC BY-NC, and CC
   BY-NC-ND'
 metadata_formats: 'No'
@@ -62,7 +62,7 @@ objectives: With five of the world's largest chemical societies driving its deve
   and provide a forum through which to share and discover the very latest findings.
 open_doar_id:
 open_source: 'No'
-owner_country: US
+owner_country: ''
 owner_full_name: American Chemical Society, Chinese Chemical Society, Chemical Society
   of Japan, German Chemical Society and the Royal Society of Chemistry.
 owner_short_name: ACS, CCS, CSJ, GDCh, RSC
@@ -78,25 +78,31 @@ record_count: 'Full text: 9 153'
 remining_indrawn_item: Content remains with a version indicating that the content
   has been retracted.
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: 'No'
 time_submission_to_posting:
 repository_url: https://chemrxiv.org/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. Your original version will remain publicly
   accessible with a date and time stamp.
 who_can_deposit: Anyone can post on the platform. Only an ORCID account is required
   ( The creation of the account is free).
 withdrawal_authorisation: Platform (initiative of platform or request by submitting
   author or third party)
-withdrawal_policy: Contravention of copyright, plagiarism, ethical and legal issues
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
+  :description:
+- :service: cab_abstracts
+  :feature: indexing
+  :description:
+- :service: crossref
+  :feature: indexing
   :description:
 - :service: google_scholar
   :feature: indexing
@@ -104,13 +110,7 @@ integrations:
 - :service: ithenticate
   :feature: plagiarism_detection
   :description:
-- :service: crossref
-  :feature: indexing
-  :description:
 - :service: reasearcher_app
-  :feature: indexing
-  :description:
-- :service: cab_abstracts
   :feature: indexing
   :description:
 features:

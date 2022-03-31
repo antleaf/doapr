@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: therapoid
 title: Therapoid
@@ -22,7 +22,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 base_url:
-business_model: for-profit
+business_model: For-profit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -51,7 +51,7 @@ objectives: The Therapoid™ web portal enables international scientists to shar
   technologies will lead to better therapeutics for patients in every country.
 open_doar_id:
 open_source: 'No'
-owner_country: US
+owner_country: ''
 owner_full_name: Open Therapeutics™
 owner_short_name:
 owner_url: https://opentherapeutics.org/
@@ -65,22 +65,21 @@ preservation_policy:
 record_count: 'Full text : 14'
 remining_indrawn_item: No web presence retained
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://therapoid.net/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation:
-withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
-  ethical and legal issues
+withdrawal_policy: 'Yes'
 features:
 - :feature: search_engine
   :description: Simple Search only

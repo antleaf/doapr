@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: dash
 title: DASH (Digital Access to Scholarship Harvard)
@@ -8,91 +8,81 @@ description: The Office for Scholarly Communication (OSC) operates the DASH repo
   hosts a wide range of Harvard-affiliated scholarly works, including pre- and post-refereed
   journal articles, conference proceedings, theses and dissertations, working papers,
   and reports.
-academic_applicant_only: 'Yes'
-accepted_content_formats: PDF
+academic_applicant_only:
+accepted_content_formats:
 accepted_content_language:
-accepted_content_level: Research only
-accepted_content_types: Reports and Working Papers, Preprints
-accepted_supplementary_content: Eligible depositors must deposit bibliographic metadata
-  for all their publications. If you are submitting an article or other work to DASH
-  that includes third-party material (e.g., an image) protected by copyright, we can
-  only distribute it with your text if you have the right to share that material.
+accepted_content_level:
+accepted_content_types:
+accepted_supplementary_content:
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
-account_creation: No user account needed.
-associated_editor: 'No'
-associated_journal: 'No'
-author_pid: 'No'
+account_creation:
+associated_editor:
+associated_journal:
+author_pid:
 availability_of_associated_content:
-backups: 'Yes'
+backups:
 base_url: http://dash.harvard.edu/oai/request
-business_model: non-profit
+business_model:
 certificate_or_labels:
 closure_date:
 concerns_about_content:
-concerns_about_plagiarism: Yes, manual process by the editors.
-contact: eprint-admin@iacr.org
-disciplinary_scope: Cryptology, Computer Science , Mathematics and Statistics
-functional_description: 'No'
-funding: Internal funding
-interoperability: 'No'
-journal_submission: Unrestricted
+concerns_about_plagiarism:
+contact:
+disciplinary_scope:
+functional_description:
+funding:
+interoperability:
+journal_submission:
 keyword:
 last_update: '2022-02-11'
 launch_date:
-licensing: CC BY-NC (creative commons attribution-noncommercial) license
-metadata_formats: 'No'
-metadata_languages: English
-metadata_properties: Title, Author(s), Keywords, Date, Contact Author, Available format(s),
-  Version, Short URL
-metadata_reuse_method: Free
-metadata_reuse_permission: None
-moderation: Only the eligibility of authors/depositors is checked.
-objectives: The International Association for Cryptologic Research (IACR) is a non-profit
-  scientific organization whose purpose is to further research in cryptology and related
-  fields.
+licensing:
+metadata_formats:
+metadata_languages:
+metadata_properties:
+metadata_reuse_method:
+metadata_reuse_permission:
+moderation:
+objectives:
 open_doar_id: X
-open_source: 'Yes'
-owner_country: US
-owner_full_name: The International Association for Cryptologic Research
-owner_short_name: IACR
-owner_url: https://www.iacr.org/
-ownership_type: Scientific Organisation
+open_source:
+owner_country: ''
+owner_full_name:
+owner_short_name:
+owner_url:
+ownership_type:
 pid:
 peer_review_status:
 persistent_of_content:
 platform:
-platform_languages: English
-preservation_policy: 'Yes'
-record_count: 'Full text : 16 700'
-remining_indrawn_item: Withdrawn items are not deleted but are removed from public
-  view
-repository_type: Disciplinary
-scientific_committees: Editors, appointed by the IACR.
-service_pricing: None
+platform_languages:
+preservation_policy:
+record_count:
+remining_indrawn_item:
+repository_type:
+scientific_committees:
+service_pricing:
 short_name:
-status: open
+status:
 terms_of_use:
-text_embargo: No, only if the publisher imposes an embargo period
+text_embargo:
 time_submission_to_posting:
 repository_url: https://dash.harvard.edu/
-user_committees: No user committee, but governed by the IACR through its Board of
-  Directors.
-versioning_policy: Accepts new version. Only one version is visble for readers
-who_can_deposit: Account needed, it's free. Only academic staff of Harvard University
-  can post on the platform
-withdrawal_authorisation: Items may be removed by the platform at the request of the
-  author/copyright holder
-withdrawal_policy: Plagiarism, Copyright violation
+user_committees:
+versioning_policy:
+who_can_deposit:
+withdrawal_authorisation:
+withdrawal_policy:
 integrations:
+- :service: google
+  :feature: indexing
+  :description:
 - :service: google_analytics
   :feature: usage_metrics
   :description:
 - :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: google
   :feature: indexing
   :description:
 features:

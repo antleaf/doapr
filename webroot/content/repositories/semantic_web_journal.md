@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: semantic_web_journal
 title: Semantic Web Journal
@@ -7,85 +7,81 @@ description: The journal Semantic Web – Interoperability, Usability, Applicabi
   in short Semantic Web journal, brings together researchers from various fields which
   share the vision and need for more effective and meaningful ways to share information
   across agents and services on the future internet and elsewhere.
-academic_applicant_only: 'Yes'
-accepted_content_formats: PDF
+academic_applicant_only:
+accepted_content_formats:
 accepted_content_language:
-accepted_content_level: Research only
-accepted_content_types: Journal articles, Preprints
-accepted_supplementary_content: You may deposit data with your preprint
+accepted_content_level:
+accepted_content_types:
+accepted_supplementary_content:
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
-account_creation: Only needed for submission
-associated_editor: 'No'
-associated_journal: 'No'
-author_pid: ORCID
+account_creation:
+associated_editor:
+associated_journal:
+author_pid:
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model:
 certificate_or_labels:
 closure_date:
 concerns_about_content:
-concerns_about_plagiarism: Email administrator
-contact: info@scienceopen.com
-disciplinary_scope: All scientific fields
-functional_description: Yes via FAQ and about tabs
-funding: Internal funding
-interoperability: 'No'
-journal_submission: Unrestricted
+concerns_about_plagiarism:
+contact:
+disciplinary_scope:
+functional_description:
+funding:
+interoperability:
+journal_submission:
 keyword:
 last_update: '2022-02-11'
 launch_date:
-licensing: Authors must use CC BY 4. attribution license
-metadata_formats: 'No'
-metadata_languages: English
-metadata_properties: Title, Author(s), Publication date , Publisher, Abstract, Identifier,
-  Copyright statement, Data availability
+licensing:
+metadata_formats:
+metadata_languages:
+metadata_properties:
 metadata_reuse_method:
-metadata_reuse_permission: None
-moderation: 'Beforehand : editorial review to check for completeness and basic scholarly
-  integrity in line with our general publication guidelines.'
+metadata_reuse_permission:
+moderation:
 objectives:
 open_doar_id:
-open_source: 'No'
-owner_country: DE
-owner_full_name: ScienceOpen
+open_source:
+owner_country: ''
+owner_full_name:
 owner_short_name:
-owner_url: https://www.scienceopen.com/
+owner_url:
 ownership_type:
 pid:
 peer_review_status:
 persistent_of_content:
 platform:
-platform_languages: English
+platform_languages:
 preservation_policy:
-record_count: 'Full text : 2 140'
+record_count:
 remining_indrawn_item:
-repository_type: Aggregating
-scientific_committees: 'Yes : Advisory and Editorial group. For more information :
-  https://about.scienceopen.com/editorial-board/#more-30'
-service_pricing: None
+repository_type:
+scientific_committees:
+service_pricing:
 short_name:
-status: open
+status:
 terms_of_use:
-text_embargo: No, only if the publisher imposes an embargo period
+text_embargo:
 time_submission_to_posting:
 repository_url: http://www.semantic-web-journal.net/
 user_committees:
-versioning_policy: Accepts new version. All version are available for readers.
-who_can_deposit: Anyone can post on the platform. Only an account is required ( The
-  creation of the account is free).
+versioning_policy:
+who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy:
 integrations:
 - :service: altmetric
   :feature: usage_metrics
   :description:
-- :service: pubmed
+- :service: crossref
   :feature: indexing
   :description:
-- :service: crossref
+- :service: pubmed
   :feature: indexing
   :description:
 features:

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: bepress_legal_repository
 title: Bepress Legal Repository
@@ -21,7 +21,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 base_url: http://law.bepress.com/do/oai/
-business_model: for-profit
+business_model: For-profit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -34,7 +34,7 @@ interoperability: Yes via API
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2004-07-01'
 licensing:
 metadata_formats: 'No'
 metadata_languages: English
@@ -49,7 +49,7 @@ objectives: We empower academic communities to showcase their works and expertis
   for maximum impact.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: Berkeley Electronic Press
 owner_short_name: Bepress
 owner_url: https://bepress.com/
@@ -63,20 +63,20 @@ preservation_policy:
 record_count: 'Full text : 169 686'
 remining_indrawn_item: Papers are totally removed
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://law.bepress.com/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version (replace the older)
 who_can_deposit: Authors from associated Universities
 withdrawal_authorisation: Send an email to working_papers@bepress.com and we will
   remove the paper for you.
-withdrawal_policy: You can ask anytime to remove your paper from the repository
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
   :feature: indexing

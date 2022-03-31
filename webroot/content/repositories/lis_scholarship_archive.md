@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: lis_scholarship_archive
 title: LIS Scholarship Archive
@@ -24,9 +24,9 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
-closure_date:
+closure_date: Not mentionned
 concerns_about_content:
 concerns_about_plagiarism: Email administrator
 contact: lissarchive@gmail.com
@@ -39,12 +39,13 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2017-07-01'
 licensing: 'Authors are provided with a choice of licenses: CC0 (public domain), CC
   BY, CC BY-NC-ND, No license (copyright holder and year), CC BY-SA, Academic Free
-  License (AFL) 3., Artistic License 2., MIT License, Eclipse Public License 1., BSD
-  2-Clause; BSD 3-Clause, GNU LGPL 2.1, GNP LGPL 3., GNU GPL 2., GNU GPL 3., Apache
-  License 2., Mozilla Public License; with no preference for which license chosen'
+  License (AFL) 3.0, Artistic License 2.0, MIT License, Eclipse Public License 1.0,
+  BSD 2-Clause; BSD 3-Clause, GNU LGPL 2.1, GNP LGPL 3.0, GNU GPL 2.0, GNU GPL 3.0,
+  Apache License 2.0, Mozilla Public License; with no preference for which license
+  chosen'
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
@@ -73,33 +74,30 @@ preservation_policy: LISSA is no longer able to accept new submissions. Existing
 record_count: 'Full text : 311'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name: LISSA
-status: closed to submission
+status: Closed to submission only
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://lissarchive.org/
-user_committees: 'Yes : Steering Commitee'
+user_committees: 'Yes : Steering Commitee   '
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform. At author's request with moderator approval
-withdrawal_policy: Offensive or harassing to people or groups, particularly based
-  on age, body size, disability, ethnicity, gender identity and expression, language,
-  level of experience, nationality, personal appearance, race, religion, socioeconomic
-  status, or sexual identity and orientation.
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
   :feature: indexing
   :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
 - :service: microsoft_academic_search
   :feature: indexing
+  :description:
+- :service: plaudit
+  :feature: endorsement
   :description:
 - :service: share
   :feature: indexing

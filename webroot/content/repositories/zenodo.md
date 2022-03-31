@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: zenodo
 title: Zenodo
@@ -26,7 +26,7 @@ availability_of_associated_content:
 backups: Data files and metadata are backed up nightly and replicated into multiple
   copies in the online system.
 base_url: http://zenodo.org/oai2d
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -39,7 +39,7 @@ interoperability: Yes via API
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2011'
 licensing: You can chose any CC-By you want
 metadata_formats: 'Yes : Metadata is exported in several standard formats such as
   MARCXML, Dublin Core, and DataCite Metadata Schema'
@@ -73,29 +73,22 @@ record_count: 1 905 864 records (in all categories)
 remining_indrawn_item: The reason for the withdrawal will be indicated on a tombstone
   page,
 repository_type: International, across institutions
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://zenodo.org/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers. A DOI representing the specific version of your record. A DOI representing
   all of the versions of your record.
-who_can_deposit: Anyone can post on the platform as long as the content is research.
+who_can_deposit: Anyone can post on the platform  as long as the content is research.
   Only an account is required ( The creation of the account is free).
 withdrawal_authorisation: At Author's request or by the platform
-withdrawal_policy: Withdrawal is considered an exceptional action, which normally
-  should be requested and fully justified by the original uploader. In any other circumstance
-  reasonable attempts will be made to contact the original uploader to obtain consent.
-  If the repository receives proof of copyright violation, the relevant item will
-  be removed immediately. We have a one-month grace period for deletion of records,
-  afterwards, it requires a valid justification for the removal of a record. A valid
-  justification can, for instance, be a copyright infringement, exposure of data from
-  human subjects, and/or spam records
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
   :feature: indexing

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: open_research_europe
 title: Open Research Europe
@@ -28,7 +28,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -76,32 +76,31 @@ preservation_policy:
 record_count: 'Full text : 71'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: European project
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://open-research-europe.ec.europa.eu/
-user_committees: 'Yes : Advisory board'
+user_committees: 'Yes : Advisory board   '
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Only open to research participating in Horizon 2020 program
 withdrawal_authorisation: Platform
-withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
-  ethical and legal issues
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
+  :description:
+- :service: europe_pmc
+  :feature: indexing
   :description:
 - :service: google_scholar
   :feature: indexing
   :description:
 - :service: pre_pubmed
-  :feature: indexing
-  :description:
-- :service: europe_pmc
   :feature: indexing
   :description:
 - :service: scilit

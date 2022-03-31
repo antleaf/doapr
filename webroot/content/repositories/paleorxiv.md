@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: paleorxiv
 title: PaleorXiv
@@ -22,7 +22,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : Storage on paleorXiv beats a desktop hard-drive any day.'
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -36,8 +36,8 @@ interoperability: 'Yes'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: All content is freely available under a CC BY 4. license, which maximises
+launch_date: '2017-08-01'
+licensing: All content is freely available under a CC BY 4.0 license, which maximises
   re-use potential while protecting authors
 metadata_formats: 'No'
 metadata_languages: English
@@ -52,7 +52,7 @@ objectives: PaleorXiv is dedicated to speeding and opening up paleontological re
   and helping to build the future of scholarly communication.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: Center for Open Science
 owner_short_name: COS
 owner_url: https://www.cos.io/
@@ -67,23 +67,26 @@ record_count: 'Full text : 178'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Community-based
 scientific_committees: 'Yes : Steering Committee comprised of members from the global
-  Palaeontology community'
+  Palaeontology community   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: 'Depending on journals. Look to the page for more informations : http://fossilsandshit.com/paleorxiv/journal-policies/'
 time_submission_to_posting:
 repository_url: https://paleorxiv.org/
-user_committees: 'No'
+user_committees: 'No   '
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: Plagiarism, false or inaccurate content
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: microsoft_academic_search
   :feature: indexing
   :description:
 - :service: peer_community_in
@@ -94,9 +97,6 @@ integrations:
   :description:
 - :service: plaudit
   :feature: endorsement
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
   :description:
 - :service: share
   :feature: indexing

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: cryptology_eprint_archive
 title: Cryptology ePrint Archive
@@ -23,7 +23,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups: 'Yes'
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -36,7 +36,7 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2000'
 licensing: CC BY-NC (creative commons attribution-noncommercial) license
 metadata_formats: 'No'
 metadata_languages: English
@@ -50,7 +50,7 @@ objectives: The International Association for Cryptologic Research (IACR) is a n
   fields.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: The International Association for Cryptologic Research
 owner_short_name: IACR
 owner_url: https://www.iacr.org/
@@ -65,22 +65,22 @@ record_count: 'Full text : 16 700'
 remining_indrawn_item: Withdrawn items are not deleted but are removed from public
   view
 repository_type: Disciplinary
-scientific_committees: Editors, appointed by the IACR.
+scientific_committees: 'Editors, appointed by the IACR.   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://eprint.iacr.org/
-user_committees: No user committee, but governed by the IACR through its Board of
-  Directors.
-versioning_policy: If necessary, an updated version may be deposited
+user_committees: 'No user committee, but governed by the IACR through its Board of
+  Directors.   '
+versioning_policy: If necessary, an updated version may be deposited, and history
+  is kept
 who_can_deposit: Accredited Community Members only
 withdrawal_authorisation: Items may be removed by the platform at the request of the
   author/copyright holder
-withdrawal_policy: If the repository receives proof of copyright violation, the relevant
-  item will be removed immediately.
+withdrawal_policy: 'Yes'
 features:
 - :feature: search_engine
   :description: Advanced Search

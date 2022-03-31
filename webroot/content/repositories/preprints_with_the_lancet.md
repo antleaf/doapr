@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: preprints_with_the_lancet
 title: Preprints with The Lancet
@@ -8,13 +8,11 @@ description: In 2018, the Lancet journals initiated a collaboration with the res
   with The Lancet. Preprints available here are not Lancet publications or necessarily
   under review with a Lancet journal.
 academic_applicant_only: 'Yes'
-accepted_content_formats: Word doc, LaTeX
+accepted_content_formats: PDF
 accepted_content_language:
 accepted_content_level: Research only
 accepted_content_types: Preprints
-accepted_supplementary_content: The graphic should be provided as a JPG, PNG or GIF
-  file. Authors can upload supplementary materials in any format along with their
-  preprint (up to 50 MB per file).
+accepted_supplementary_content:
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
@@ -25,7 +23,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: for-profit
+business_model: For-profit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -38,14 +36,13 @@ interoperability: 'No'
 journal_submission: Preprint must be published in Lancet family of journals
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2018-06-01'
 licensing:
-metadata_formats: 'No'
-metadata_languages: English
-metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
-  Abstract, Relational link to final journal publication, License type(s)
-metadata_reuse_method: Openly available via Crossref
-metadata_reuse_permission: None
+metadata_formats:
+metadata_languages:
+metadata_properties:
+metadata_reuse_method:
+metadata_reuse_permission:
 moderation: 'Before hand : Content within scope, Competing interests, Funder acknowledgement,
   Clinical trial registration'
 objectives: SSRN is joining Mendeley and Elsevier to coordinate our development and
@@ -54,7 +51,7 @@ objectives: SSRN is joining Mendeley and Elsevier to coordinate our development 
 open_doar_id:
 open_source: 'No'
 owner_country: ''
-owner_full_name: Multidisciplinary Digital Publishing Institute
+owner_full_name: Elsevier
 owner_short_name:
 owner_url: https://www.elsevier.com
 ownership_type: Publishing organisation (publisher)
@@ -67,22 +64,19 @@ preservation_policy:
 record_count: 'Full text : 8 719'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: 'Yes : To access full content of text'
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.thelancet.com/preprints
-user_committees:
-versioning_policy: 'Accepts news version : Each version receives its own DOI and own
-  non-DOI citable identifier'
-who_can_deposit: Anyone can post on the platform. Only an account is required ( The
-  creation of the account is free).
+user_committees: "\L"
+versioning_policy: Accepts first submission only
+who_can_deposit: You must be appliant to Lancet Journals
 withdrawal_authorisation: Platform
-withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
-  ethical and legal issues, misconduct
+withdrawal_policy: 'Yes'
 integrations:
 - :service: disqus
   :feature: commenting

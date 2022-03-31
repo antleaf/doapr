@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: medrxiv
 title: MedRxiv
@@ -24,7 +24,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : Preprints permanently archived in Portico'
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -39,7 +39,7 @@ journal_submission: 'Unrestricted, but submission is facilitated for those journ
   : https://www.medrxiv.org/content/about-medrxiv'
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2019-06-01'
 licensing: 'Authors are provided with a choice of licenses: CC0, CC BY, CC BY-NC,
   CC BY-ND, CC BY-NC-ND, or no reuse; with no preference for which license chosen'
 metadata_formats: 'No'
@@ -57,7 +57,7 @@ objectives: By posting preprints on medRxiv, authors are able to make their find
   manuscripts before they are submitted to journals.
 open_doar_id: X
 open_source: 'No'
-owner_country: US
+owner_country: ''
 owner_full_name: Cold Spring Harbor Laboratory (co-managed with Yale University and
   BMJ)
 owner_short_name: CSHL
@@ -75,26 +75,26 @@ remining_indrawn_item: Withdrawn articles remain visible; For removed articles, 
 repository_type: Disciplinary
 scientific_committees: 'Yes : medRxiv Affiliates are members of the life sciences
   community who provide feedback on the service, act as advocates, and help in screening
-  material submitted.'
+  material submitted.   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.medrxiv.org/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new versions until acceptance at journal
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform
-withdrawal_policy: 'Permanent with withdrawal options and (rare) removal in extraneous
-  circumstances. Removal: Legal or biohazard reasons; Withdrawal: Plagiarism, false
-  or inaccurate content, ethical and legal issues, co-author(s) did not consent to
-  posting'
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
+  :description:
+- :service: europe_pmc
+  :feature: indexing
   :description:
 - :service: google_scholar
   :feature: indexing
@@ -102,16 +102,13 @@ integrations:
 - :service: hypothes_is
   :feature: commenting
   :description:
-- :service: europe_pmc
+- :service: pre_pubmed
   :feature: indexing
   :description:
 - :service: scilit
   :feature: indexing
   :description:
 - :service: share
-  :feature: indexing
-  :description:
-- :service: pre_pubmed
   :feature: indexing
   :description:
 features:

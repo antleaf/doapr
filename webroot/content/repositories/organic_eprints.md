@@ -1,12 +1,11 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: organic_eprints
 title: Organic Eprints
-description: Organic Eprints is an international open access archive for papers and
-  projects related to research in organic food and farming. The archive contains full-text
-  papers in electronic form together with bibliographic information, abstracts and
-  other metadata.
+description: |2-
+
+  Organic Eprints is an international open access archive for papers and projects related to research in organic food and farming. The archive contains full-text papers in electronic form together with bibliographic information, abstracts and other metadata.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, Word Doc
 accepted_content_language:
@@ -26,7 +25,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups: The repository regularly backs up its file according to current best practices
 base_url: http://orgprints.org/cgi/oai2
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -39,7 +38,7 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2002'
 licensing: This repository allows Creative Commons licenses
 metadata_formats: 'Yes : Formats are available on this page'
 metadata_languages: English
@@ -73,24 +72,22 @@ record_count: 'Full text : 17 713'
 remining_indrawn_item: Withdrawn items are not deleted, but are removed from public
   view
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.orgprints.org/
 user_committees: 'Yes : National editors from 25 countries act as editors for entries
-  from these countries.'
+  from these countries.   '
 versioning_policy: If necessary, an updated version may be deposited. All version
   are available for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform and At author's request with moderator approval
-withdrawal_policy: If the repository receives proof of copyright violation, the relevant
-  item will be removed immediately. Items may be removed at the request of the author/copyright
-  holder
+withdrawal_policy: 'Yes'
 features:
 - :feature: text_mining
   :description:

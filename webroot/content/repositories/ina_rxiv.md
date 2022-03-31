@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: ina_rxiv
 title: INA-Rxiv
@@ -21,9 +21,9 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
-closure_date: '2020'
+closure_date: Closed in 2020 due to funding constraints
 concerns_about_content:
 concerns_about_plagiarism: 'No'
 contact: contact+inarxiv@osf.io
@@ -34,7 +34,7 @@ interoperability:
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2017'
 licensing:
 metadata_formats: 'No'
 metadata_languages: English
@@ -49,7 +49,7 @@ objectives: Aggregate search results from a variety of other preprint providers 
   as arXiv, bioRxiv, PeerJ, CogPrints and others
 open_doar_id:
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: Center for Open Science
 owner_short_name: COS
 owner_url: https://www.cos.io/
@@ -64,20 +64,20 @@ preservation_policy: The content is kept by OSF. Advisory team advises to turn t
 record_count: 'Full text : 16 746'
 remining_indrawn_item:
 repository_type: National Common open archive platform
-scientific_committees: 'Yes : Include Scientists'
+scientific_committees: 'Yes : Include Scientists   '
 service_pricing: None
 short_name:
-status: closed to submission
+status: Closed to submission only
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://osf.io/preprints/inarxiv/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit:
 withdrawal_authorisation:
-withdrawal_policy:
+withdrawal_policy: 'No'
 integrations:
 - :service: plaudit
   :feature: commenting

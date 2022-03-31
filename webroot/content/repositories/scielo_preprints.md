@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: scielo_preprints
 title: SciELO Preprints
@@ -26,7 +26,7 @@ backups: The backup is done daily. We use a backup software called ArcServe to d
   the backup flow. Also we have a Disaster Recovery plan in case of the Datacenter
   failure.
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -43,7 +43,7 @@ journal_submission: Unrestricted but submission is facilitated for any journal u
   submission platform
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2020-04-07'
 licensing: Authors must use CC BY license
 metadata_formats: 'No'
 metadata_languages: English, Spanish and Portuguese
@@ -82,7 +82,7 @@ scientific_committees: 'Yes : includes researchers   As this position changes 
   at any time.'
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
@@ -91,29 +91,28 @@ user_committees: 'Yes : board of moderators is composed by Editor-in-Chiefs of t
   SciELO journals or someone appointed by them.   As this position changes within our journals, their roles as area moderators in
   SciELO Preprints can also change. An area moderator can request to leave the board
   at any time.'
-versioning_policy: Accepts new versions of content until acceptance at journal. OPS
+versioning_policy: Accepts new versions of content until acceptance at journal.  OPS
   always operates with the latest preprint version, but each version keeps a connection
   with the previous one, so that all versions are kept on the server
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: At authors' request, if properly justified
-withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
-  ethical and legal issues
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: hypothes_is
-  :feature: commenting
   :description:
 - :service: base
   :feature: indexing
   :description:
 - :service: core
   :feature: indexing
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: hypothes_is
+  :feature: commenting
   :description:
 - :service: openaire_explore
   :feature: indexing

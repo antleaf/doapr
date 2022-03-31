@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: osf_preprints
 title: OSF preprints
@@ -25,7 +25,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : COS Preservation Fund to maintain read access for 50+ years'
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -38,10 +38,10 @@ interoperability: Yes via API
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: The licenses available for OSF Preprints are CC- 1. Universal and CC-By
-  Attribution 4. International. These are open licenses. Additional licenses are available
-  on some of the community preprint services.
+launch_date: '2016-08-01'
+licensing: The licenses available for OSF Preprints are CC-0 1.0 Universal and CC-By
+  Attribution 4.0 International. These are open licenses. Additional licenses are
+  available on some of the community preprint services.
 metadata_formats: 'Yes : Crossref uses a preprint-specific metadata schema that makes
   it easy to connect preprints with their published articles and ORCID profiles'
 metadata_languages: English
@@ -55,7 +55,7 @@ objectives: Aggregate search results from a variety of other preprint providers 
   as arXiv, bioRxiv, PeerJ, CogPrints and others
 open_doar_id: X
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: Center for Open Science
 owner_short_name: COS
 owner_url: https://www.cos.io/
@@ -70,23 +70,22 @@ record_count: 'Metadata: 2 097 029'
 remining_indrawn_item: Preprints cannot be deleted, but can be withdrawn, leaving
   behind metadata about the resource.
 repository_type: Aggregating
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name: OSF
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://osf.io/preprints/
-user_committees: Yes, Advisory group includes leaders in preprints and scholarly communication.
+user_committees: 'Yes, Advisory group includes leaders in preprints and scholarly
+  communication.   '
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Author, Plateform in case of copyrights issues
-withdrawal_policy: Withdrawing an accepted preprint from a pre-moderation service
-  / Withdrawing a pending preprint from a pre-moderation service / Withdrawing a preprint
-  from a post-moderation service
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
   :feature: indexing
@@ -94,14 +93,14 @@ integrations:
 - :service: hypothes_is
   :feature: commenting
   :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
 - :service: peer_community_in
   :feature: peer review
   :description:
 - :service: plaudit
   :feature: endorsement
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
   :description:
 - :service: share
   :feature: indexing

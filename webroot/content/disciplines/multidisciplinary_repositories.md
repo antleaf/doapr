@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 title: Multidisciplinary repositories
 repo_count: 36
@@ -28,9 +28,9 @@ repositories:
 - orvium
 - osf_preprints
 - outbreak_rapid_science_prereview
-- preprints_with_the_lancet
 - preprints_org
 - preprints_ru
+- preprints_with_the_lancet
 - qeios
 - research_square
 - researchgate

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: mediarxiv
 title: MediArXiv
@@ -22,7 +22,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -36,10 +36,10 @@ interoperability:
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: No license, CC-By Attribution 4. International, CC0 1. Universal, CC-By
-  Attribution-ShareAlike 4. International, CC-By Attribution-NonCommercial-NoDerivatives
-  4. Internationa
+launch_date: '2019-02-01'
+licensing: No license, CC-By Attribution 4.0 International, CC0 1.0 Universal, CC-By
+  Attribution-ShareAlike 4.0 International, CC-By Attribution-NonCommercial-NoDerivatives
+  4.0 Internationa
 metadata_formats:
 metadata_languages:
 metadata_properties:
@@ -65,22 +65,22 @@ preservation_policy:
 record_count: 'Full text : 145'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://mediarxiv.com/
 user_committees: 'Yes : Steering Committee comprised of members from the global media
-  studies community:'
+  studies community:   '
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: Plagiarism, false or inaccurate content
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
   :feature: indexing

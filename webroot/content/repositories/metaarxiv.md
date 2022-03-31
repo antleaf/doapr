@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: metaarxiv
 title: MetaArXiv
@@ -23,7 +23,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -37,9 +37,9 @@ interoperability:
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: 'Authors are provided with a choice of licenses: CC0 1. Universal, CC BY
-  Attribution 4. International'
+launch_date: '2017-03-01'
+licensing: 'Authors are provided with a choice of licenses: CC0 1.0 Universal, CC
+  BY Attribution 4.0 International'
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
@@ -54,7 +54,7 @@ objectives: The Berkeley Initiative for Transparency in the Social Sciences work
   rigor, and ethics in research.
 open_doar_id:
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: The Berkeley Initiative for Transparency in the Social Sciences
 owner_short_name: BITSS
 owner_url: https://www.bitss.org/
@@ -68,21 +68,21 @@ preservation_policy:
 record_count: 'Full text : 274'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://osf.io/preprints/metaarxiv/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: Plagiarism, false or inaccurate content
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
   :feature: indexing
@@ -90,14 +90,14 @@ integrations:
 - :service: hypothes_is
   :feature: commenting
   :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
 - :service: peer_community_in
   :feature: peer review
   :description:
 - :service: plaudit
   :feature: endorsement
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
   :description:
 - :service: share
   :feature: indexing

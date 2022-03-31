@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: researchgate
 title: ResearchGate
@@ -7,99 +7,81 @@ description: ResearchGate is the professional network for scientists and researc
   Over 20 million members from all over the world use it to share, discover, and discuss
   research. We're guided by our mission to connect the world of science and make research
   open to all.
-academic_applicant_only: 'Yes'
-accepted_content_formats: doc, docx, RTF, Tex/LaTeX
+academic_applicant_only:
+accepted_content_formats:
 accepted_content_language:
-accepted_content_level: Research only
-accepted_content_types: Multiple article types (including research articles, systematic
-  reviews, method articles, data articles), Preprints
-accepted_supplementary_content: data set can be associated to the file under the same
-  DOI
+accepted_content_level:
+accepted_content_types:
+accepted_supplementary_content:
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
-account_creation: Free, Only needed for submission
-associated_editor: Submit directly or upon submission to BMC journals, Nature journals,
-  and others from Springer Nature portfolio listed at https://www.researchsquare.com/journals
-associated_journal: Submit directly or upon submission to BMC journals, Nature journals,
-  and others from Springer Nature portfolio listed at https://www.researchsquare.com/journals
-author_pid: ORCID
+account_creation:
+associated_editor:
+associated_journal:
+author_pid:
 availability_of_associated_content:
-backups: 'Yes : Preprints permanently archived in Portico'
+backups:
 base_url:
-business_model: non-profit
+business_model:
 certificate_or_labels:
 closure_date:
 concerns_about_content:
-concerns_about_plagiarism: Email administrator
-contact: Communication tools
-disciplinary_scope: All academic fields
-functional_description: Yes via Q&A
-funding: Other business model not based on direct preprinting charges or associated
-  journal publishing (publishing services by Research Square)
-interoperability: Yes via API (JSON)
-journal_submission: Unrestricted
+concerns_about_plagiarism:
+contact:
+disciplinary_scope:
+functional_description:
+funding:
+interoperability:
+journal_submission:
 keyword:
 last_update: '2022-02-11'
 launch_date:
-licensing: Authors must use CC BY license
-metadata_formats: None or Cross Ref Medata format
-metadata_languages: English
-metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
-  Abstract, Author affiliation(s), Funder acknowledgement(s), Subject category, Full-text
-  content, References, License type(s), Relational link to journal publication version
-  (where it exists)
-metadata_reuse_method: Openly available via Crossref
-metadata_reuse_permission: None
-moderation: Checks are conducted for alarming, potentially dangerous, or highly controversial
-  claims; pseudoscience; biosecurity threats; ethic approval where needed; personal
-  identifiers
-objectives: At Research Square Company, we're committed to making research communication
-  faster, fairer, and more useful. We do this by developing innovative software and
-  high quality services for the global research community. Our growing team of researchers
-  and industry professionals works together to solve the most critical problems facing
-  scientific publishing.
+licensing:
+metadata_formats:
+metadata_languages:
+metadata_properties:
+metadata_reuse_method:
+metadata_reuse_permission:
+moderation:
+objectives:
 open_doar_id:
-open_source: 'No'
-owner_country: US
-owner_full_name: Research Square
+open_source:
+owner_country: ''
+owner_full_name:
 owner_short_name:
-owner_url: https://company.researchsquare.com/
-ownership_type: Publishing services organisation
+owner_url:
+ownership_type:
 pid:
 peer_review_status:
 persistent_of_content:
 platform:
-platform_languages: English
+platform_languages:
 preservation_policy:
-record_count: 'Full text : 88 442'
-remining_indrawn_item: For withdrawals, v2 is posted with withdrawal notice but v1
-  still fully visible. For removals, v1 is replaced by removal notice.
-repository_type: Multidisciplinary
-scientific_committees: 'Yes : scientists are part of the advisory board'
-service_pricing: None
+record_count:
+remining_indrawn_item:
+repository_type:
+scientific_committees:
+service_pricing:
 short_name:
-status: open
+status:
 terms_of_use:
-text_embargo: No, only if the publisher imposes an embargo period
+text_embargo:
 time_submission_to_posting:
 repository_url: https://www.researchgate.net/
-user_committees: 'Yes : Advisory Board'
-versioning_policy: Accepts new version. All version are archieved and visible for
-  readers.
-who_can_deposit: Anyone can post on the platform. Only an account is required ( The
-  creation of the account is free).
-withdrawal_authorisation: Platform
-withdrawal_policy: 'Possible in those cases : Contravention of copyright, ethical
-  and legal issues'
+user_committees:
+versioning_policy:
+who_can_deposit:
+withdrawal_authorisation:
+withdrawal_policy:
 integrations:
+- :service: crossref
+  :feature: indexing
+  :description:
 - :service: dimensions
   :feature: usage_metrics
   :description:
 - :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: crossref
   :feature: indexing
   :description:
 features:

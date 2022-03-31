@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: biohackrxiv
 title: biohackrxiv
@@ -26,7 +26,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -40,8 +40,8 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: Authors must use CC-BY 4. license or CC0
+launch_date: '2020-01-01'
+licensing: Authors must use CC-BY 4.0 license or CC0
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
@@ -68,15 +68,15 @@ preservation_policy:
 record_count: 'Full text : 17'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://biohackrxiv.org/
-user_committees: 'Yes : Active moderation board members'
+user_committees: 'Yes : Active moderation board members   '
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
@@ -84,7 +84,7 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At author's request with moderator approval. Accepted articles
   can still be withdrawn (i.e., removed) with the approval of the BioHackrXiv steering
   committee.
-withdrawal_policy: Plagiarism, false or inaccurate content
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
   :feature: indexing
@@ -92,11 +92,11 @@ integrations:
 - :service: hypothes_is
   :feature: commenting
   :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
 - :service: microsoft_academic_search
   :feature: indexing
+  :description:
+- :service: plaudit
+  :feature: endorsement
   :description:
 - :service: share
   :feature: indexing

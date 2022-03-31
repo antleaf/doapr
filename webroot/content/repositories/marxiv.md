@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: marxiv
 title: MarXiv
@@ -23,9 +23,10 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
-closure_date: '2020'
+closure_date: Originally on OSF in November 2017. Moved over to Zenodo permanently
+  in early 2020.
 concerns_about_content:
 concerns_about_plagiarism: Email administrator
 contact: contact+marxiv@osf.io
@@ -38,9 +39,9 @@ interoperability: Yes via API
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2018'
 licensing: 'Authors are provided with a choice of licenses: CC BY, CC BY-NC-ND, No
-  License, GNU Lesser General Public License (LGPL) 3., Eclipse Public License 1.,
+  License, GNU Lesser General Public License (LGPL) 3.0, Eclipse Public License 1.0,
   CC BY-SA, with CC BY preferred'
 metadata_formats: 'Yes : Formats are available on this page'
 metadata_languages: English
@@ -56,7 +57,7 @@ objectives: |-
   Through our broad suite of tools and communities, we break down barriers to knowledge – empowering ocean professionals to apply best practices and science worldwide.
 open_doar_id:
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: Open Communications for the Ocean
 owner_short_name: OCTO
 owner_url: https://www.octogroup.org/
@@ -72,21 +73,21 @@ record_count: 'Full text : 456 on OSF (https://osf.io/preprints/marxiv/discover)
 remining_indrawn_item: The reason for the withdrawal will be indicated on a tombstone
   page
 repository_type: Disciplinary
-scientific_committees: Not any more
+scientific_committees: 'Not any more   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://osf.io/preprints/marxiv
-user_committees: Not any more
+user_committees: 'Not any more   '
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: At Author's request or by the platform
-withdrawal_policy: Plagiarism, false or inaccurate content
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics

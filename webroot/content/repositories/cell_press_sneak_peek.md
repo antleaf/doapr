@@ -1,86 +1,83 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: cell_press_sneak_peek
 title: Cell Press Sneak peek
 description: Manuscript under review in Cell Press journals
-academic_applicant_only: 'Yes'
-accepted_content_formats: PDF
+academic_applicant_only:
+accepted_content_formats: 'Yes'
 accepted_content_language:
-accepted_content_level: Research only
+accepted_content_level: English
 accepted_content_types: Content criteria as directed by associated journal(s) (Cell
   Press portfolio), Preprints
-accepted_supplementary_content: Supplemental movies and data files will not be posted.
+accepted_supplementary_content: Research only
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
-account_creation: Needed for reading
-associated_editor: Elsevier
-associated_journal: Cell Press journal
-author_pid: 'No'
+account_creation: Reader can view basic metadata without account but must register
+  to view and download full content
+associated_editor: Supplemental movies and data files will not be posted.
+associated_journal: Elsevier
+author_pid: Cell Press journal
 availability_of_associated_content:
-backups:
-base_url:
-business_model: non-profit
+backups: Needed for reading
+base_url: '2018'
+business_model: 'No'
 certificate_or_labels:
 closure_date:
 concerns_about_content:
-concerns_about_plagiarism: 'No'
+concerns_about_plagiarism:
 contact: support@ssrn.com
 disciplinary_scope: Subject-specific, including cancer; stem cell; neuron; cell development;
   biology; immunity
-functional_description: 'No'
-funding: Internal funding
+functional_description:
+funding: For-profit
 interoperability: 'No'
-journal_submission: Manuscripts must be submitted to a Cell Press Journal first, authors
-  are then provided with the option of displaying their manuscript while under review
-  using SSRN First Look (Cell Press Sneak Peak)
+journal_submission:
 keyword:
 last_update: '2022-02-11'
 launch_date:
-licensing: For personal use only and not for further distribution
-metadata_formats:
-metadata_languages: English
-metadata_properties:
+licensing: Manuscripts must be submitted to a Cell Press Journal first, authors are
+  then provided with the option of displaying their manuscript while under review
+  using SSRN First Look (Cell Press Sneak Peak)
+metadata_formats: 'No'
+metadata_languages:
+metadata_properties: English
 metadata_reuse_method:
-metadata_reuse_permission:
-moderation:
-objectives: SSRN is joining Mendeley and Elsevier to coordinate our development and
-  delivery of new products and services, and we look forward to our new access to
-  data, products, and additional resources that this change facilitates
+metadata_reuse_permission: 'No'
+moderation: 'No'
+objectives: Internal funding
 open_doar_id:
-open_source: 'No'
+open_source:
 owner_country: ''
-owner_full_name: Elsevier
-owner_short_name:
-owner_url: https://www.elsevier.com
-ownership_type: Publishing organisation (publisher)
+owner_full_name: The Netherlands
+owner_short_name: Elsevier
+owner_url:
+ownership_type: https://www.elsevier.com
 pid:
 peer_review_status:
 persistent_of_content:
-platform: atypon_literatum
-platform_languages: English
+platform:
+platform_languages: atypon_literatum
 preservation_policy:
-record_count: 'Full text : 3 375'
+record_count: English
 remining_indrawn_item:
-repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
-service_pricing: 'Yes : To access full content of text'
-short_name:
-status: open
+repository_type: 'Full text : 3 375'
+scientific_committees: Publishing organisation (publisher)
+service_pricing: Disciplinary
+short_name: 'Yes : To access full content of text'
+status:
 terms_of_use:
-text_embargo: No, only if the publisher imposes an embargo period
+text_embargo: URL and DOI
 time_submission_to_posting:
-repository_url: https://www.ssrn.com/index.cfm/en/cell-press-sneak-peek/
-user_committees:
-versioning_policy: The offer to post is open only for the initially submitted manuscript
+repository_url: 'No'
+user_committees: 'Yes : includes researchers   '
+versioning_policy: 2-3 business days
+who_can_deposit: The offer to post is open only for the initially submitted manuscript
   only
-who_can_deposit: Authors, whose papers are selected by the editors (Cell Press ) to
-  be sent out for peer review
-withdrawal_authorisation:
-withdrawal_policy: |-
-  Once your manuscript has been uploaded to Sneak Peek, we will notify you and you will have 24 hours to request any corrections or removal of your manuscript. After this period, the posting cannot
-  be edited or removed.
+withdrawal_authorisation: 'No'
+withdrawal_policy: Authors, whose papers are selected by the editors (Cell Press )
+  to be sent out for peer review
 integrations:
 - :service: disqus
   :feature: commenting

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: propylaeumdok
 title: PropylaeumDok
@@ -26,7 +26,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 base_url: http://archiv.ub.uni-heidelberg.de/propylaeumdok/cgi/oai2
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -39,12 +39,13 @@ interoperability: Yes via API
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: Authors are provided with a choice of licenses but CC BY 4. is preferred
-metadata_formats:
-metadata_languages:
-metadata_properties:
-metadata_reuse_method:
+launch_date: '2007'
+licensing: Authors are provided with a choice of licenses but CC BY 4.0 is preferred
+metadata_formats: 'Yes : Formats are available on this page'
+metadata_languages: English and German
+metadata_properties: Title, Author(s), Document type, Version, Date Deposited, Faculties
+  / Institute, Subject, Countries/Regions
+metadata_reuse_method: Openly available via API
 metadata_reuse_permission:
 moderation:
 objectives: Firmly rooted in its history, the University is committed to expanding
@@ -67,15 +68,15 @@ preservation_policy:
 record_count: 'Full text : 4 932'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: http://archiv.ub.uni-heidelberg.de/propylaeumdok/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

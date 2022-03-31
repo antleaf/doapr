@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: rinarxiv
 title: RinarXiv
@@ -25,7 +25,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -39,13 +39,13 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2020-05-21'
 licensing: 'Authors are provided with a choice of licenses: GNU Lesser General Public
-  License (LGPL) 3., BSD 3-Clause "New"/"Revised" License, BSD 2-Clause "Simplified"
-  License, GNU Lesser General Public License (LGPL) 2.1, CC BY Attribution 4. International,
-  Artistic License 2., CC0 1. Universal, Apache License 2., Mozilla Public License
-  2., Academic Free License (AFL) 3., Eclipse Public License 1., MIT License, GNU
-  General Public License (GPL) 3., GNU General Public License (GPL) 2., No license,
+  License (LGPL) 3.0, BSD 3-Clause "New"/"Revised" License, BSD 2-Clause "Simplified"
+  License, GNU Lesser General Public License (LGPL) 2.1, CC BY Attribution 4.0 International,
+  Artistic License 2.0, CC0 1.0 Universal, Apache License 2.0, Mozilla Public License
+  2.0, Academic Free License (AFL) 3.0, Eclipse Public License 1.0, MIT License, GNU
+  General Public License (GPL) 3.0, GNU General Public License (GPL) 2.0, No license,
   with CC BY preferred'
 metadata_formats: 'No'
 metadata_languages: English
@@ -72,38 +72,38 @@ preservation_policy:
 record_count: 'Full text : 51'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary, National Common open archive platform
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://rinarxiv.lipi.go.id/lipi
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform
-withdrawal_policy: Plagiarism, false or inaccurate content
+withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: europe_pmc
-  :feature: indexing
-  :description:
 - :service: cas
   :feature: indexing
   :description:
 - :service: crossref
   :feature: indexing
   :description:
-- :service: scopus
+- :service: europe_pmc
+  :feature: indexing
+  :description:
+- :service: google_scholar
   :feature: indexing
   :description:
 - :service: proquest
+  :feature: indexing
+  :description:
+- :service: scopus
   :feature: indexing
   :description:
 features:

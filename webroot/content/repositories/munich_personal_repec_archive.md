@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: munich_personal_repec_archive
 title: Munich Personal RePEc Archive
@@ -9,38 +9,34 @@ description: This repository is intended to disseminate research papers of econo
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, HTML
 accepted_content_language:
-accepted_content_level: All article types (primary and scecondary research)
-accepted_content_types: All article types (primary and scecondary research), posters
-  and slides, Preprints
+accepted_content_level: Research only
+accepted_content_types: Journal Articles, Preprints
 accepted_supplementary_content:
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
-account_creation: Only needed for submission
-associated_editor:
-associated_journal: MNI Open Research
-author_pid: ORCID
+account_creation: Free, Only needed for submission
+associated_editor: 'No'
+associated_journal: 'No'
+author_pid: None
 availability_of_associated_content:
 backups:
 base_url: http://mpra.ub.uni-muenchen.de/cgi/oai2
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
-concerns_about_plagiarism: Community moderation via commenting
-contact: info@mniopenresearch.org
-disciplinary_scope: Subject-specific, including brain imaging, cellular and molecular
-  neuroscience, cognitive neuroscience, neurological diseases/disorders
-functional_description: Yes via FAQ
-funding: Article processing charges, covered by funding agency (limited to one article
-  per lab per year)
+concerns_about_plagiarism: Email administrator
+contact: mpra@ub.uni-muenchen.de
+disciplinary_scope: Business and Economics
+functional_description: 'No'
+funding: Internal (Munich University)
 interoperability: 'No'
-journal_submission: Restricted - manuscript can only be published in journal linked
-  to server
+journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: Authors must use CC BY license
+launch_date: '2007'
+licensing:
 metadata_formats: Yes, Dublin Core
 metadata_languages: English
 metadata_properties: Item type, Title, Language, Keywords, Subjects, Item ID, Depositing
@@ -49,13 +45,15 @@ metadata_reuse_method: 'Free, you can dowload it in different formats : Dublin C
   JSON, HTML'
 metadata_reuse_permission: None
 moderation: Beforhand
-objectives:
+objectives: As one of the LMU's main service providers the chief purpose of the University
+  Library is to fulfil the literature and information needs of the scholarly community
+  and to ensure optimal ease of use.
 open_doar_id: X
-open_source: 'No'
-owner_country: CA
-owner_full_name: Montreal Neurological Institute and Hospital researchers
-owner_short_name: MNI
-owner_url: https://www.mcgill.ca/neuro/
+open_source: 'Yes'
+owner_country: DE
+owner_full_name: Ludwig-Maximilians-Universität München
+owner_short_name: LMU
+owner_url: http://www.uni-muenchen.de/index.html
 ownership_type: Academic institution
 pid:
 peer_review_status:
@@ -63,31 +61,31 @@ persistent_of_content:
 platform: eprints
 platform_languages: English
 preservation_policy:
-record_count: 'Full text : 13'
-remining_indrawn_item: Basic information remains on a tombstone page
-repository_type: Disciplinary
-scientific_committees:
+record_count: 'Full text : 52 042'
+remining_indrawn_item: MPRA refuse to remove submissions from the archive
+repository_type: Institutional
+scientific_committees: "\L"
 service_pricing: None
-short_name:
-status: open
+short_name: MRPA
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://mpra.ub.uni-muenchen.de/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. Only one version is visble for readers
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
-withdrawal_authorisation:
-withdrawal_policy: MPRA refuse to remove submissions from the archive
+withdrawal_authorisation: No one
+withdrawal_policy: 'No'
 integrations:
+- :service: crossref
+  :feature: indexing
+  :description:
 - :service: google_scholar
   :feature: indexing
   :description:
 - :service: microsoft_academic_search
-  :feature: indexing
-  :description:
-- :service: crossref
   :feature: indexing
   :description:
 features:

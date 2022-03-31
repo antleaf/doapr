@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: mathematical_physics_preprint_archive
 title: Mathematical Physics Preprint Archive
@@ -21,7 +21,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups: Backup kept in mirror server
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -45,7 +45,7 @@ moderation:
 objectives:
 open_doar_id:
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: The University of Texas-Austin's Mathematics Department
 owner_short_name:
 owner_url: https://www.ma.utexas.edu/
@@ -59,20 +59,20 @@ preservation_policy:
 record_count:
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: None
 short_name: mp_arc
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://web.ma.utexas.edu/mp_arc/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation:
-withdrawal_policy:
+withdrawal_policy: 'No'
 features:
 - :feature: search_engine
   :description: Simple search by keywords

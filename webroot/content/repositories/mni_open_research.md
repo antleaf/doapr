@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: mni_open_research
 title: MNI Open Research
@@ -26,7 +26,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -72,33 +72,32 @@ preservation_policy:
 record_count: 'Full text : 13'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://mniopenresearch.org/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation:
-withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
-  ethical and legal issues
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
+  :description:
+- :service: europe_pmc
+  :feature: indexing
   :description:
 - :service: google_scholar
   :feature: indexing
   :description:
 - :service: pre_pubmed
-  :feature: indexing
-  :description:
-- :service: europe_pmc
   :feature: indexing
   :description:
 - :service: scilit

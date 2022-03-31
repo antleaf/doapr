@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: apsa_preprints
 title: APSA Preprints
@@ -24,7 +24,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes'
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -38,9 +38,9 @@ interoperability: We are about to launch a public API but we don't have one on A
 journal_submission: Direct submission to APSA journals published by CUP
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2019-08-01'
 licensing: 'Authors are provided with a choice of licenses : All Rights Reserved,
-  CC BY NC ND 4., CC BY NC SA 4., CC BY 4.'
+  CC BY NC ND 4.0, CC BY NC SA 4.0, CC BY 4.0'
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Author(s), Abstract, Version, Licence, Identifier, Author’s
@@ -54,7 +54,7 @@ moderation: Does not infringe the intellectual property right of any person(s) o
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: US
+owner_country: ''
 owner_full_name: Owned by American Political Science Association, hosted by Cambridge
   University Press technology.
 owner_short_name:
@@ -70,21 +70,20 @@ preservation_policy: We plan to work with a preservation service to ensure that 
 record_count: 'Full text : 349'
 remining_indrawn_item: The content remains accessible
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: Free to user, business relationships with partners for hosting services.
 short_name: APSA
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://preprints.apsanet.org/engage/apsa/public-dashboard
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Registrants must have an APSA Member ID, but this is also free.
 withdrawal_authorisation: No one
-withdrawal_policy: You can request that your content be marked as "retracted" if you
-  no longer stand by your findings or your content contains fundamental errors.
+withdrawal_policy: Yes, this can be found on our Policies page
 integrations:
 - :service: altmetric
   :feature: usage_metrics

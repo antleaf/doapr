@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: mitofit_preprints_archive
 title: MitoFit Preprints Archive
@@ -21,7 +21,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: Backup kept in secondary server
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -35,7 +35,7 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2019-02-12'
 licensing: Authors must use CC BY-NC-ND license
 metadata_formats: 'No'
 metadata_languages: English
@@ -64,29 +64,28 @@ preservation_policy:
 record_count: 'Full text : 23'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.mitofit.org/index.php/MitoFit_Preprints
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new versions until acceptance at journal
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Ar authors' request
-withdrawal_policy: Plagiarism, ethical and legal issues, no appropriate declaration
-  of conflicts of interest
+withdrawal_policy: 'Yes'
 integrations:
+- :service: disqus
+  :feature: commenting
+  :description:
 - :service: google_scholar
   :feature: indexing
   :description:
 - :service: hypothes_is
-  :feature: commenting
-  :description:
-- :service: disqus
   :feature: commenting
   :description:
 features:

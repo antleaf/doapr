@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: philsci_archive
 title: Philsci Archive
@@ -25,7 +25,7 @@ availability_of_associated_content:
 backups: 'Yes : The repository regularly backs up its file according to current best
   practices'
 base_url: http://philsci-archive.pitt.edu/cgi/oai2
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -38,7 +38,7 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2001'
 licensing: The archive will only post postprints published under a Creative Commons
   license.
 metadata_formats: 'Yes : Formats are available on this page'
@@ -54,7 +54,7 @@ objectives: The reinvented Hillman Library will be a light-filled facility showc
   unique collections, advancing academic study, and fostering collaborative exchange.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: University of Pittsburgh
 owner_short_name: UP
 owner_url: http://www.pitt.edu/
@@ -78,18 +78,16 @@ scientific_committees: 'Yes : The Board is comprised of philosophers of science 
   year term by a consensus of current Board members. For more information : http://philsci-archive.pitt.edu/information.html'
 service_pricing: None
 short_name: PS
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: http://philsci-archive.pitt.edu/
-user_committees:
+user_committees: "\L"
 versioning_policy: If necessary, an updated version may be deposited
 who_can_deposit: Accredited Community Members
 withdrawal_authorisation: Platform
-withdrawal_policy: 'Items may be removed at the request of the author/copyright holder
-  : Proven copyright violation or plagiarism, Legal requirements and proven violations,
-  Falsified research, Author(s) request'
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
   :feature: indexing

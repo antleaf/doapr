@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: research_square
 title: Research Square
@@ -7,13 +7,15 @@ description: Research Square lets you share your work early, gain feedback from 
   community, and start making changes to your manuscript prior to peer review in a
   journal.
 academic_applicant_only: 'Yes'
-accepted_content_formats: doc, docx, RTF, Tex/LaTeX
+accepted_content_formats: doc, docx, RTF, Tex/LaTeX. Accepts Tex and pdf but these
+  cannot yet be converted to html
 accepted_content_language:
 accepted_content_level: Research only
 accepted_content_types: Multiple article types (including research articles, systematic
   reviews, method articles, data articles), Preprints
 accepted_supplementary_content: data set can be associated to the file under the same
-  DOI
+  DOI. Videos and protocols can also be associated via "associated publications" (not
+  captured in metadata)
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
@@ -26,7 +28,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : Preprints permanently archived in Portico'
 base_url:
-business_model: for-profit
+business_model: For-profit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -40,7 +42,7 @@ interoperability: Yes via API (JSON)
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2018-10-01'
 licensing: Authors must use CC BY license
 metadata_formats: None or Cross Ref Medata format
 metadata_languages: English
@@ -60,7 +62,7 @@ objectives: At Research Square Company, we're committed to making research commu
   scientific publishing.
 open_doar_id:
 open_source: 'No'
-owner_country: US
+owner_country: ''
 owner_full_name: Research Square
 owner_short_name:
 owner_url: https://company.researchsquare.com/
@@ -75,45 +77,43 @@ record_count: 'Full text : 88 442'
 remining_indrawn_item: For withdrawals, v2 is posted with withdrawal notice but v1
   still fully visible. For removals, v1 is replaced by removal notice.
 repository_type: Multidisciplinary
-scientific_committees: 'Yes : scientists are part of the advisory board'
+scientific_committees: "Yes : scientists are part of the advisory board \L"
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.researchsquare.com/
-user_committees: 'Yes : Advisory Board'
-versioning_policy: Accepts new version. All version are archieved and visible for
-  readers.
+user_committees: 'Yes : Advisory Board   '
+versioning_policy: Accepts new version. All version are archived and visible for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform
-withdrawal_policy: 'Possible in those cases : Contravention of copyright, ethical
-  and legal issues'
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
   :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
 - :service: base
-  :feature: indexing
-  :description:
-- :service: repec
   :feature: indexing
   :description:
 - :service: econbiz
   :feature: indexing
   :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
 - :service: liebniz_open
   :feature: indexing
   :description:
-- :service: worldcat
+- :service: openaire_explore
   :feature: indexing
   :description:
-- :service: openaire_explore
+- :service: repec
+  :feature: indexing
+  :description:
+- :service: worldcat
   :feature: indexing
   :description:
 features:

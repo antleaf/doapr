@@ -1,10 +1,10 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: indiarxiv
 title: IndiArxiv
 description:
-academic_applicant_only: 'No'
+academic_applicant_only:
 accepted_content_formats: PDF, Word doc, LaTeX
 accepted_content_language:
 accepted_content_level: All level accepted
@@ -21,9 +21,10 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: Harvested by various repositories such as https://explore.openaire.eu/
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
-closure_date:
+closure_date: No funds to support for its sustainability. Now working with other agencies
+  to host the same perpetually without any financial obligations.
 concerns_about_content:
 concerns_about_plagiarism: Can be contacted via Support/Contact email
 contact: sridhar@openaccessindia.org
@@ -31,11 +32,11 @@ disciplinary_scope: All scientific fileds
 functional_description: 'No'
 funding: Community operators pay a fee based on usage and COS subsidizes the other
   portion through fundraised support
-interoperability:
+interoperability: Yes, via COS's SHARE
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2019-08-01'
 licensing: CC-BY
 metadata_formats: 'No'
 metadata_languages: English
@@ -69,20 +70,20 @@ preservation_policy: The content is kept by OSFto be visible. Advisory team advi
 record_count: 'Full text : 148'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: National Common open archive platform
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name: IndiaRxiv
-status: closed to submission
+status: Closed to submission only
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://indiarxiv.org/
-user_committees: 'Yes : Steering Commitee'
+user_committees: 'Yes : Steering Commitee   '
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit:
 withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: Plagiarism, false or inaccurate content
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
   :feature: indexing
@@ -90,11 +91,11 @@ integrations:
 - :service: hypothes_is
   :feature: commenting
   :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
 - :service: microsoft_academic_search
   :feature: indexing
+  :description:
+- :service: plaudit
+  :feature: endorsement
   :description:
 - :service: share
   :feature: indexing

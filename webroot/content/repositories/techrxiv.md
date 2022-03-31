@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: techrxiv
 title: TechRxiv
@@ -23,7 +23,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -36,9 +36,9 @@ interoperability: Yes via API
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: 'Authors are provided with a choice of licenses: CC0 1. Universal, CC BY
-  Attribution 4. International, No license; with CC0 or CC BY preferred'
+launch_date: '2020'
+licensing: 'Authors are provided with a choice of licenses: CC0 1.0 Universal, CC
+  BY Attribution 4.0 International, No license; with CC0 or CC BY preferred'
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
@@ -54,7 +54,7 @@ objectives: IEEE and its members inspire a global community to innovate for a be
   professional and educational activities.
 open_doar_id: X
 open_source: 'No'
-owner_country: US
+owner_country: ''
 owner_full_name: Institute of Electrical and Electronics Engineers
 owner_short_name: IEEE
 owner_url: https://www.ieee.org
@@ -70,34 +70,32 @@ remining_indrawn_item: Tthe preprint will still appear in TechRxiv but it will b
   marked as "withdrawn" and annotated with comments explaining the reason for the
   withdrawal
 repository_type: Disciplinary
-scientific_committees: 'Yes : The TechRxiv Advisory Board is a group of experts across
+scientific_committees: "Yes : The TechRxiv Advisory Board is a group of experts across
   diverse subject areas who advise the management of TechRxiv on the standards that
-  TechRxiv-hosted preprints should be held to.'
+  TechRxiv-hosted preprints should be held to. \L"
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.techrxiv.org/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. Your original version will remain publicly
   accessible with a date and time stamp. Revisions will have the same DOI as the original
   preprint plus a version indicator.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: Plagiarized material or describe experimental work that is not
-  performed in accordance with the relevant ethical standards for research using animals
-  or human subjects.
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
   :description:
-- :service: google_scholar
+- :service: base
   :feature: indexing
   :description:
-- :service: base
+- :service: google_scholar
   :feature: indexing
   :description:
 - :service: oaister

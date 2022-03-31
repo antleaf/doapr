@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: peerj_preprints
 title: PeerJ Preprints
@@ -21,9 +21,11 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 base_url:
-business_model: for-profit
+business_model: For-profit
 certificate_or_labels:
-closure_date: '2019'
+closure_date: 'Closed in 2019 : " As the community’s appetite for preprints has now
+  been cemented, we too want to focus our efforts more fully on our portfolio of peer-reviewed
+  journals and primary mission."'
 concerns_about_content:
 concerns_about_plagiarism: Email administrator
 contact: support@peerj.com
@@ -34,7 +36,7 @@ interoperability:
 journal_submission: Preprint must be published in PeerJ family of journals
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2013-04-01'
 licensing: 'Authors are provided with a choice of licenses: CC0, CC BY, with CC BY
   preferred'
 metadata_formats: 'No'
@@ -48,7 +50,7 @@ moderation: Misconduct or integrity checks, Legal compliance, Ethical compliance
 objectives:
 open_doar_id:
 open_source: 'No'
-owner_country: US
+owner_country: ''
 owner_full_name: Peer J
 owner_short_name:
 owner_url: https://peerj.com/
@@ -63,25 +65,25 @@ preservation_policy: All published content will be fully accessible and archived
 record_count: 'Full text : 5 068'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: closed to submission
+status: Closed to submission only
 terms_of_use:
 text_embargo: 'No'
 time_submission_to_posting:
 repository_url: https://peerj.com/preprints/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts any new versions until publication in a journal. All version
   are visible
 who_can_deposit:
 withdrawal_authorisation: Platform
-withdrawal_policy: False or inaccurate content, additional reasons not stated
+withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
+- :service: crossref
   :feature: indexing
   :description:
-- :service: crossref
+- :service: google_scholar
   :feature: indexing
   :description:
 - :service: reasearcher_app

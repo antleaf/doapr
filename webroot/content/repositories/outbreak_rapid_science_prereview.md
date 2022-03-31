@@ -1,90 +1,77 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: outbreak_rapid_science_prereview
 title: Outbreak Rapid Science PREReview
 description: We design and develop open source infrastructure to enable constructive
   feedback to preprints at a point in time in which it is needed.
-academic_applicant_only: 'Yes'
-accepted_content_formats: PDF, Word doc
+academic_applicant_only:
+accepted_content_formats:
 accepted_content_language:
-accepted_content_level: Research only
-accepted_content_types: Multiple types (including research articles, posters, new
-  data), Preprints
-accepted_supplementary_content: full text, figures, data, image, coding, analyses.
-  This is associated with the article via a specific link
+accepted_content_level:
+accepted_content_types:
+accepted_supplementary_content:
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
-account_creation: Free, Only needed for submission
-associated_editor: 'No'
-associated_journal: 'No'
-author_pid: ORCID
+account_creation:
+associated_editor:
+associated_journal:
+author_pid:
 availability_of_associated_content:
-backups: 'Yes : COS Preservation Fund to maintain read access for 50+ years'
+backups:
 base_url:
-business_model: non-profit
+business_model:
 certificate_or_labels:
 closure_date:
 concerns_about_content:
-concerns_about_plagiarism: 'Email administrator; helpdesk support from COS : copyright@cos.io'
-contact: contact@cos.io
-disciplinary_scope: All scientific fields
-functional_description: Yes, there are tutorials
-funding: External financial support
-interoperability: Yes via API
-journal_submission: Unrestricted
+concerns_about_plagiarism:
+contact:
+disciplinary_scope:
+functional_description:
+funding:
+interoperability:
+journal_submission:
 keyword:
 last_update: '2022-02-11'
 launch_date:
-licensing: The licenses available for OSF Preprints are CC- 1. Universal and CC-By
-  Attribution 4. International. These are open licenses. Additional licenses are available
-  on some of the community preprint services.
-metadata_formats: 'Yes : Crossref uses a preprint-specific metadata schema that makes
-  it easy to connect preprints with their published articles and ORCID profiles'
-metadata_languages: English
-metadata_properties: Title, Identifier (e.g. DOI), Publication/deposition date, Author
-  name(s), Abstract, Relational link to final journal publication (e.g. in crossref
-  metadata), License type(s), Subject category
-metadata_reuse_method: Openly available via API
-metadata_reuse_permission: Never asked
-moderation: Moderators may be anonymous or may choose to share their identities.
-objectives: Aggregate search results from a variety of other preprint providers such
-  as arXiv, bioRxiv, PeerJ, CogPrints and others
+licensing:
+metadata_formats:
+metadata_languages:
+metadata_properties:
+metadata_reuse_method:
+metadata_reuse_permission:
+moderation:
+objectives:
 open_doar_id:
-open_source: 'Yes'
-owner_country: US
-owner_full_name: Center for Open Science
-owner_short_name: COS
-owner_url: https://www.cos.io/
-ownership_type: Charity
+open_source:
+owner_country: ''
+owner_full_name:
+owner_short_name:
+owner_url:
+ownership_type:
 pid:
 peer_review_status:
 persistent_of_content:
 platform:
-platform_languages: English
+platform_languages:
 preservation_policy:
-record_count: 'Metadata: 2 097 029'
-remining_indrawn_item: Preprints cannot be deleted, but can be withdrawn, leaving
-  behind metadata about the resource.
-repository_type: Aggregating
-scientific_committees: 'Yes : includes researchers'
-service_pricing: None
-short_name: OSF
-status: open
+record_count:
+remining_indrawn_item:
+repository_type:
+scientific_committees:
+service_pricing:
+short_name:
+status:
 terms_of_use:
-text_embargo: No, only if the publisher imposes an embargo period
+text_embargo:
 time_submission_to_posting:
 repository_url: https://outbreaksci.prereview.org/
-user_committees: Yes, Advisory group includes leaders in preprints and scholarly communication.
-versioning_policy: Accepts new version. All version are archieved and visible for
-  readers.
-who_can_deposit: Anyone can post on the platform. Only an account is required ( The
-  creation of the account is free).
-withdrawal_authorisation: Author, Plateform in case of copyrights issues
-withdrawal_policy: Withdrawing an accepted preprint from a pre-moderation service
-  / Withdrawing a pending preprint from a pre-moderation service / Withdrawing a preprint
-  from a post-moderation service
+user_committees:
+versioning_policy:
+who_can_deposit:
+withdrawal_authorisation:
+withdrawal_policy:
 integrations:
 - :service: google_scholar
   :feature: indexing
@@ -92,14 +79,14 @@ integrations:
 - :service: hypothes_is
   :feature: commenting
   :description:
+- :service: microsoft_academic_search
+  :feature: indexing
+  :description:
 - :service: peer_community_in
   :feature: peer review
   :description:
 - :service: plaudit
   :feature: endorsement
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
   :description:
 - :service: share
   :feature: indexing

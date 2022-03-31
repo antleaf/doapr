@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: edarxiv
 title: EdArXiv
@@ -21,7 +21,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -35,14 +35,14 @@ interoperability: Yes via API
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: No license, GNU Lesser General Public License (LGPL) 3., GNU Lesser General
-  Public License (LGPL) 2.1, CC-By Attribution 4. International, Artistic License
-  2., CC0 1. Universal, BSD 3-Clause "New"/"Revised" License, BSD 2-Clause "Simplified"
-  License, Apache License 2., CC-By Attribution-ShareAlike 4. International, CC-By
-  Attribution-NonCommercial-NoDerivatives 4. International, Academic Free License
-  (AFL) 3., Eclipse Public License 1., Mozilla Public License 2., MIT License, GNU
-  General Public License (GPL) 3., GNU General Public License (GPL) 2.
+launch_date: '2019-06-01'
+licensing: No license, GNU Lesser General Public License (LGPL) 3.0, GNU Lesser General
+  Public License (LGPL) 2.1, CC-By Attribution 4.0 International, Artistic License
+  2.0, CC0 1.0 Universal, BSD 3-Clause "New"/"Revised" License, BSD 2-Clause "Simplified"
+  License, Apache License 2.0, CC-By Attribution-ShareAlike 4.0 International, CC-By
+  Attribution-NonCommercial-NoDerivatives 4.0 International, Academic Free License
+  (AFL) 3.0, Eclipse Public License 1.0, Mozilla Public License 2.0, MIT License,
+  GNU General Public License (GPL) 3.0, GNU General Public License (GPL) 2.0
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
@@ -55,7 +55,7 @@ moderation: 'Beforehand : Akismet spam filtering (automatic on all OSF content) 
 objectives:
 open_doar_id:
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: Center for Open Science
 owner_short_name: COS
 owner_url: https://www.cos.io/
@@ -69,21 +69,21 @@ preservation_policy:
 record_count: 'Full text : 793'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://edarxiv.org/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform
-withdrawal_policy: Plagiarism, false or inaccurate content
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics

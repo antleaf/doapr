@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: bodoarxiv
 title: BodoArXiv
@@ -23,7 +23,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -38,8 +38,8 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: No license, CC-By Attribution 4. International, CC0 1. Universal
+launch_date: '2019-03-01'
+licensing: No license, CC-By Attribution 4.0 International, CC0 1.0 Universal
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
@@ -53,7 +53,7 @@ moderation: 'In retrospect : Our policy involves a five-point checklist, confirm
 objectives:
 open_doar_id:
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: Center for Open Science controls and owns the infrastructure; Steering
   Board of volunteers run the platform
 owner_short_name: COS
@@ -68,21 +68,21 @@ preservation_policy:
 record_count: 'Full text : 82'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://bodoarxiv.wordpress.com/
-user_committees: 'Yes : Steering Commitee'
+user_committees: 'Yes : Steering Commitee   '
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: At Author's request or by the platform
-withdrawal_policy: Plagiarism, false or inaccurate content
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
   :feature: indexing
@@ -90,11 +90,11 @@ integrations:
 - :service: hypothes_is
   :feature: commenting
   :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
 - :service: microsoft_academic_search
   :feature: indexing
+  :description:
+- :service: plaudit
+  :feature: endorsement
   :description:
 - :service: share
   :feature: indexing

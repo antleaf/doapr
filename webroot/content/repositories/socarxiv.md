@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: socarxiv
 title: SocArxiv
@@ -23,7 +23,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -39,7 +39,7 @@ interoperability:
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2016-08-01'
 licensing: All CC licenses
 metadata_formats: 'No'
 metadata_languages: English
@@ -55,7 +55,7 @@ objectives: The mission of the University of Maryland, College Park is to provid
   excellent teaching, research, and service.
 open_doar_id:
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: The University of Maryland Libraries
 owner_short_name: UMD
 owner_url: https://umd.edu/
@@ -70,22 +70,22 @@ record_count: 'Full text : 8 177'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
 scientific_committees: 'Yes : SocArXiv is housed at the University of Maryland, and
-  is directed by a steering committee of social scientists'
+  is directed by a steering committee of social scientists   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://osf.io/preprints/socarxiv/
-user_committees: SocArXiv is housed at the University of Maryland, and is directed
-  by a steering committee of members of the research library community.
+user_committees: "SocArXiv is housed at the University of Maryland, and is directed
+  by a steering committee of members of the research library community. \L"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform
-withdrawal_policy: Plagiarism, false or inaccurate content
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
   :feature: indexing

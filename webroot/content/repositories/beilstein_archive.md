@@ -1,48 +1,46 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: beilstein_archive
 title: Beilstein archive
 description: Preprint server for Beilstein journals
-academic_applicant_only: 'No'
-accepted_content_formats: PDF, Word doc, LaTex, HTML
+academic_applicant_only: 'Yes'
+accepted_content_formats: Word Doc, LaTeX
 accepted_content_language:
-accepted_content_level: Academic / Research but also open to educators
-accepted_content_types: Articles, data sets, code, figures, tables, slides, micropublications,
-  and Jupyter Notebooks, Preprints
-accepted_supplementary_content: Not just PDFs. You can publish d3.js and Plot.ly graphs,
-  data, code, Jupyter notebooks. Every Authorea document is a Git repository that
-  can host data, source code and any other related supplemental material
+accepted_content_level: Research only
+accepted_content_types: Journal articles, Preprints
+accepted_supplementary_content: The author may include images and text in the main
+  manuscript and also reference data sets in the References. All other additional
+  information may be published as supporting information (code, data sets, movies,
+  spectra, images, etc.). The supporting information has the same DOI as the main
+  text.
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
-account_creation: Free, Only needed for submission
-associated_editor: None at the moment
-associated_journal: 'Select Wiley journals: https://wileyopenresearch.authorea.com/'
+account_creation: Only needed for submission
+associated_editor: Yes. Managing Editor
+associated_journal: Beilstein Journals
 author_pid: ORCID
 availability_of_associated_content:
-backups: 'No : You are solely responsible for creating and maintaining your own backup
-  copies of your User Content if you desire'
+backups: Backups twice daily on two servers hosted by the Beilstein-Institut
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
-concerns_about_plagiarism: Authorea reserves the right to identify and remove any
-  articles that contain plagiarized or infringing material. Please contact help@authorea.com
-  if you have a concern
-contact: help@authorea.com
-disciplinary_scope: All scientific fields
-functional_description: Yes via support pages (Q&A)
-funding: Other business model not based on direct preprinting charges or associated
-  journal (acquisition and investment from Atypon, part of Wiley)
-interoperability: Yes via JATSXML
-journal_submission: 'Unrestricted but you can directly publish to this list : https://support.authorea.com/en-us/article/how-do-i-directly-submit-to-a-publisher-atxzf7/'
+concerns_about_plagiarism: Email Managing Editor
+contact: beilstein-archives@beilstein-institut.de
+disciplinary_scope: Organic Chemistry and nanotechnology
+functional_description: 'No'
+funding: Internal funding
+interoperability:
+journal_submission: To publish a preprint you must first submit to one of the Beilstein
+  Journals. If your article is eventually rejected, you may submit your preprint to
+  any other journal.
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: All preprints posted on Authorea through the Under Review service are assigned
-  a non-exclusive license by default. For more infirmations ; https://support.authorea.com/en-us/article/licensing-options-for-preprints-f6bj97/
+launch_date: '2019'
+licensing: CC BY, copyright Author(s)
 metadata_formats: Dublin Core and Crossref compliant
 metadata_languages: English
 metadata_properties: 'Title, Author(s), Author(s) PID, Author(s) Affiliation, Posted
@@ -50,49 +48,46 @@ metadata_properties: 'Title, Author(s), Author(s) PID, Author(s) Affiliation, Po
   publication of peer-reviewed article), etc. See example: https://api.crossref.org/v1/works/10.3762/bxiv.2020.78.v1'
 metadata_reuse_method: Free via Crossref
 metadata_reuse_permission:
-moderation:
-objectives: We founded Authorea in late 2012 with the mission of accelerating scientific
-  discovery. We were frustrated that other writing tools didn't fully understand the
-  needs of researchers -- especially researchers in a web-first world -- and we wondered
-  why the internet age hadn't yet delivered a modern toolset for scientific collaboration.
+moderation: 'Beforehand : offensive and/or non-scientific content are screened. The
+  Beilstein Journals Editorial Office also checks for plagiarism, scope and scientifically
+  unreliable content. The Beilstein Archives reserves the right to correct technical
+  errors in the document before publication.'
+objectives: To support the rapid and reliable dissimination of research.
 open_doar_id: X
-open_source: 'No'
-owner_country: US
-owner_full_name: Atypon (part of Wiley)
-owner_short_name:
-owner_url: https://www.atypon.com/
-ownership_type: Publishing organisation (publisher)
+open_source: 'Yes'
+owner_country: DE
+owner_full_name: Beilstein-Institut zur Förderung der Chemischen Wissenschaften
+owner_short_name: Beilstein-Institut
+owner_url: https://www.beilstein-institut.de/en/
+ownership_type: Foundation
 pid:
 peer_review_status:
 persistent_of_content:
 platform:
 platform_languages: English
-preservation_policy:
-record_count: 'Full text : 15241'
-remining_indrawn_item: All data concerning the admission journal must be deleted in
-  case the document isn't accepted. Otherwise, all the document remains available
-repository_type: Multidisciplinary
-scientific_committees: 'No'
-service_pricing: Authorea is free to use. You can upgrade for additional private documents
-  and Premium features
+preservation_policy: The repository will try to ensure continued readability and accessibility.
+  Items will be migrated to new file formats where necessary
+record_count: 'Full text : 350'
+remining_indrawn_item: Withdrawn items are deleted entirely from the database
+repository_type: Disciplinary
+scientific_committees: 'Yes : The Advisory Board of the Beilstein Archives includes
+  scientists who are knowledgeable in the subject areas outlined in the scope.   '
+service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
-text_embargo: No. Authorea does not embargo research that has been made publicly available
-  as a preprint.
+text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.beilstein-archives.org/xiv/
-user_committees: 'No'
-versioning_policy: 'Versioned DOIs to link preprint all together. For more informations
-  : https://support.authorea.com/en-us/article/can-i-update-my-article-after-assigning-a-doi-13kf0vc/'
-who_can_deposit: Anyone can post on the platform. Only an account is required ( The
-  creation of the account is free).
-withdrawal_authorisation: No one
-withdrawal_policy: Once a preprint is posted on Authorea, it becomes a part of the
-  permanent, citable scholarly literature and cannot be removed. We have the right
-  at our sole discretion to remove any content that, in our judgment, does not comply
-  with the foregoing or is otherwise harmful, objectionable, or inaccurate. We are
-  not responsible for any failure or delay in removing such content.
+user_committees: 'Yes : The Advisory Board of the Beilstein Archives includes leaders
+  in scholarly communication   '
+versioning_policy: If necessary, an updated version may be deposited. There will be
+  links between earlier and later versions, with the most recent version clearly identified
+who_can_deposit: The submitting author must create a simple account in the Beilstein
+  Publishing System to subit and provide a verified ORCID iD in order to publish a
+  preprint.
+withdrawal_authorisation: Platform. At author's request with moderator approval
+withdrawal_policy: 'Yes'
 integrations:
 - :service: manuscripts_io
   :feature: writing

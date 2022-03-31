@@ -1,17 +1,18 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: advance_sage_preprint
 title: Advance (Sage preprint)
 description: 'Advance: a SAGE preprints community allows researchers within the fields
   of humanities and social sciences to post their work online and free of charge.'
 academic_applicant_only: 'Yes'
-accepted_content_formats:
+accepted_content_formats: Word doc and PDF
 accepted_content_language:
 accepted_content_level: Research only
 accepted_content_types: Journal articles, literature reviews, commentaries, and case
   studies, Preprints
-accepted_supplementary_content:
+accepted_supplementary_content: Your paper may include all of your tables and figures,
+  or you can choose to upload them as separate files.
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
@@ -22,7 +23,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: '0'
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -39,9 +40,11 @@ last_update: '2022-02-11'
 launch_date:
 licensing: 'Authors are provided with a choice of licenses: CC-BY, CC-BY-SA, CC-BY-ND,
   CC-BY-NC, CC-BY-NC-SA and CC-BY-NC-ND'
-metadata_formats:
-metadata_languages:
-metadata_properties:
+metadata_formats: 'No'
+metadata_languages: English
+metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
+  Abstract, Author affiliation(s), Funder acknowledgement(s), License type(s), Subject
+  category, Full-text content, References
 metadata_reuse_method:
 metadata_reuse_permission:
 moderation: Advance undergo a moderation process to ensure that the paper is of a
@@ -54,7 +57,7 @@ objectives: Our mission is building bridges to knowledge — supporting the deve
   and applied.
 open_doar_id:
 open_source: 'No'
-owner_country: US
+owner_country: ''
 owner_full_name: SAGE Publishing
 owner_short_name: SAGE
 owner_url: https://us.sagepub.com/en-us/nam
@@ -63,29 +66,31 @@ pid:
 peer_review_status:
 persistent_of_content:
 platform:
-platform_languages:
+platform_languages: English
 preservation_policy:
 record_count: 'Full text : 1 058'
-remining_indrawn_item: Basic information remains on a tombstone page
+remining_indrawn_item: It will be replaced with a public notice to provide a record
+  of the removal
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status:
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://advance.sagepub.com/
-user_committees:
-versioning_policy:
-who_can_deposit:
+user_committees: "\L"
+versioning_policy: Accepts new version. All version are available for readers.
+who_can_deposit: Anyone can post on the platform. Only an account is required ( The
+  creation of the account is free).
 withdrawal_authorisation: Platform
-withdrawal_policy:
+withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
+- :service: crossref
   :feature: indexing
   :description:
-- :service: crossref
+- :service: google_scholar
   :feature: indexing
   :description:
 features:

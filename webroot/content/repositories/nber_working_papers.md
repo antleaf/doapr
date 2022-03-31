@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: nber_working_papers
 title: NBER Working Papers
@@ -7,69 +7,66 @@ description: New research by NBER affiliates, circulated for discussion and comm
   The National Bureau of Economic Research is a private, nonprofit, politically independent
   U.S. organization devoted to economics and related empirical research, particularly
   on the U.S. economy.
-academic_applicant_only: 'Yes'
-accepted_content_formats: PDF
+academic_applicant_only:
+accepted_content_formats:
 accepted_content_language:
-accepted_content_level: Research only
-accepted_content_types: Papers, Conference and Workshop Papers, Reports and Working
-  Papers, Preprints
+accepted_content_level:
+accepted_content_types:
 accepted_supplementary_content:
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
-account_creation: Not necessary to access the content
-associated_editor: Springer Nature
-associated_journal: Nature Portfolio
+account_creation:
+associated_editor:
+associated_journal:
 author_pid:
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model:
 certificate_or_labels:
-closure_date: 2012-04
+closure_date:
 concerns_about_content:
-concerns_about_plagiarism: 'No'
+concerns_about_plagiarism:
 contact:
-disciplinary_scope: Biomedical sciences, chemistry, and earth sciences
-functional_description: 'No'
-funding: Internal financial support (Nature)
+disciplinary_scope:
+functional_description:
+funding:
 interoperability:
-journal_submission: Nature Portfolio
+journal_submission:
 keyword:
 last_update: '2022-02-11'
 launch_date:
-licensing: It can be used under the terms of the Creative Commons Attribution License,
-  versions 2.5 or 3.
-metadata_formats: 'No'
-metadata_languages: English
-metadata_properties: Title, Author(s), Abstract,Affilation, References, Keywords
+licensing:
+metadata_formats:
+metadata_languages:
+metadata_properties:
 metadata_reuse_method:
 metadata_reuse_permission:
-moderation: 'Beforehand : relevance to the scope of the repository and quality of
-  the research'
+moderation:
 objectives:
 open_doar_id:
-open_source: 'No'
-owner_country: GB
-owner_full_name: Nature Publishing Group
+open_source:
+owner_country: ''
+owner_full_name:
 owner_short_name:
-owner_url: https://www.nature.com/nature-portfolio
-ownership_type: Publishing organisation (publisher)
+owner_url:
+ownership_type:
 pid:
 peer_review_status:
 persistent_of_content:
 platform:
-platform_languages: English
-preservation_policy: The content is kept by Nature to be visible
-record_count: 'Full text : 3 423'
+platform_languages:
+preservation_policy:
+record_count:
 remining_indrawn_item:
-repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
-service_pricing: None
+repository_type:
+scientific_committees:
+service_pricing:
 short_name:
-status: open
+status:
 terms_of_use:
-text_embargo: No, only if the publisher imposes an embargo period
+text_embargo:
 time_submission_to_posting:
 repository_url: https://www.nber.org/papers?page=1&perPage=50&sortBy=public_date
 user_committees:
@@ -81,10 +78,10 @@ integrations:
 - :service: altmetric
   :feature: usage_metrics
   :description:
-- :service: google_scholar
+- :service: crossref
   :feature: indexing
   :description:
-- :service: crossref
+- :service: google_scholar
   :feature: indexing
   :description:
 - :service: scilit

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: vixra
 title: ViXra
@@ -26,7 +26,7 @@ author_pid: None
 availability_of_associated_content:
 backups: 'Yes : Cloud Storage'
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -40,7 +40,7 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2009'
 licensing: Authors can use any license
 metadata_formats:
 metadata_languages:
@@ -56,7 +56,7 @@ objectives: viXra will be open to anybody for both reading and submitting articl
   misleading.
 open_doar_id: X
 open_source: 'No'
-owner_country: US
+owner_country: ''
 owner_full_name: Scientific God Inc.
 owner_short_name: SGI
 owner_url: https://scigod.org/
@@ -70,22 +70,21 @@ preservation_policy: 'Yes : Mirror Site (rxiv.org)'
 record_count: 'Full text : 37 034'
 remining_indrawn_item: No web presence retained
 repository_type: Disciplinary
-scientific_committees: 'Yes : scientists are part of the advisory board'
+scientific_committees: "Yes : scientists are part of the advisory board \L"
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.vixra.org/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Content may be removed by author (or operator/owner)
-withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
-  ethical and legal issues
+withdrawal_policy: 'Yes'
 features:
 - :feature: search_engine
   :description: Search engine powered by Google

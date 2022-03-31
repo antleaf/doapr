@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <div class="row">
+    <div class="col">
+      <h1 class="page-title">{{ .Title }}</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      {{ .Content }}
+      {{ $repos := (where .Site.RegularPages ".Params.repository_id" "in" .Params.repositories ) }}
+      <h3>Repositories supporting this discipline</h3>
+      {{ partial "repositories_table" $repos }}
+    </div>
+  </div>
+{{ end }}

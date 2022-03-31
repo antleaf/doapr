@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: science_open
 title: Science Open
@@ -23,7 +23,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -36,8 +36,8 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: Authors must use CC BY 4. attribution license
+launch_date: '2013'
+licensing: Authors must use CC BY 4.0 attribution license
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Author(s), Publication date , Publisher, Abstract, Identifier,
@@ -64,20 +64,20 @@ record_count: 'Full text : 2 140'
 remining_indrawn_item:
 repository_type: Aggregating
 scientific_committees: 'Yes : Advisory and Editorial group. For more information :
-  https://about.scienceopen.com/editorial-board/#more-30'
+  https://about.scienceopen.com/editorial-board/#more-30   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.scienceopen.com/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are available for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation:
-withdrawal_policy:
+withdrawal_policy: 'No'
 integrations:
 - :service: altmetric
   :feature: usage_metrics

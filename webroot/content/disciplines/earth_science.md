@@ -1,12 +1,12 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 title: Earth science
 repo_count: 6
 repositories:
 - chinaxiv
-- eartharxiv
 - earth_prints_repository
+- eartharxiv
 - ecoevorxiv
 - egusphere
 - essoar

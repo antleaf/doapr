@@ -1,16 +1,18 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: preprints_org
 title: Preprints.org
 description: Preprints is a platform dedicated to making early versions of research
   outputs permanently available and citable.
 academic_applicant_only: 'Yes'
-accepted_content_formats: PDF
+accepted_content_formats: Word doc, LaTeX
 accepted_content_language:
 accepted_content_level: Research only
 accepted_content_types: Journal Article, Reviews, Data articles, Case Reports, Preprints
-accepted_supplementary_content:
+accepted_supplementary_content: The graphic should be provided as a JPG, PNG or GIF
+  file.  Authors can upload supplementary materials in any format along with their
+  preprint (up to 50 MB per file).
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
@@ -21,7 +23,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : Preprints permanently archived in Portico'
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -34,15 +36,15 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2020-05-01'
 licensing: Authors must use CC BY license. Preprints that pass the screening process
-  are posted online in open access format under a Creative Commons CC BY 4. license.
+  are posted online in open access format under a Creative Commons CC BY 4.0 license.
 metadata_formats: 'No'
-metadata_languages:
-metadata_properties: Title, Author(s), Identifier, Abstract, Date of deposited, Version,
-  Subject(s), Keyword(s), View(s)
-metadata_reuse_method:
-metadata_reuse_permission:
+metadata_languages: English
+metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
+  Abstract, Relational link to final journal publication, License type(s)
+metadata_reuse_method: Openly available via Crossref
+metadata_reuse_permission: None
 moderation: 'Beforehand : Content within scope, All authors notified, Data is available
   (if applicable), Code is available (if applicable), Text overlap detection, Legal
   compliance, Ethical compliance. Staff and Volunteer are in charge of the screening
@@ -52,7 +54,7 @@ objectives: Based in Basel, Switzerland, MDPI has the mission to foster open sci
 open_doar_id:
 open_source: 'No'
 owner_country: CH
-owner_full_name: NEICON. Electronic information
+owner_full_name: Multidisciplinary Digital Publishing Institute
 owner_short_name: MDPI
 owner_url: https://www.mdpi.com/
 ownership_type: Publishing organisation (publisher)
@@ -72,21 +74,24 @@ scientific_committees: 'Yes : It includes research from a wide range of subjects
   Physcial Sciences, Social Sciences)   You can contact info@preprints.org with a copy of your CV to make an application.'
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.preprints.org/
-user_committees:
-versioning_policy: Accepts new version. All version are archieved and visible for
-  readers.
+user_committees: "\L"
+versioning_policy: 'Accepts news version : Each version receives its own DOI and own
+  non-DOI citable identifier'
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform
-withdrawal_policy:
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
+  :description:
+- :service: europe_pmc
+  :feature: indexing
   :description:
 - :service: google_scholar
   :feature: indexing
@@ -96,9 +101,6 @@ integrations:
   :description:
 - :service: publons
   :feature: revision_follow_up
-  :description:
-- :service: europe_pmc
-  :feature: indexing
   :description:
 features:
 - :feature: search_engine

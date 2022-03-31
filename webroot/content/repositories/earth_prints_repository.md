@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: earth_prints_repository
 title: Earth-prints Repository
@@ -27,7 +27,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 base_url: http://www.earth-prints.org/oai/request
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -67,26 +67,22 @@ preservation_policy:
 record_count: 'Full text : 12 250'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.earth-prints.org/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version (replace the older)
 who_can_deposit: Accredited Community Members
 withdrawal_authorisation: Platform
-withdrawal_policy: Items may be removed at the request of the author/copyright holder.
-  Earlier versions may be withdrawn from public view
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
-  :description:
-- :service: google_scholar
-  :feature: indexing
   :description:
 - :service: base
   :feature: indexing
@@ -94,13 +90,13 @@ integrations:
 - :service: core
   :feature: indexing
   :description:
-- :service: isidore
-  :feature: indexing
-  :description:
-- :service: scanr
-  :feature: indexing
-  :description:
 - :service: dart_europe
+  :feature: indexing
+  :description:
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: isidore
   :feature: indexing
   :description:
 - :service: openaire_explore
@@ -110,6 +106,9 @@ integrations:
   :feature: indexing
   :description:
 - :service: repec
+  :feature: indexing
+  :description:
+- :service: scanr
   :feature: indexing
   :description:
 features:

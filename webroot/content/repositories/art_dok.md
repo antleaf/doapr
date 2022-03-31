@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: art_dok
 title: ART-Dok
@@ -25,7 +25,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 base_url: http://archiv.ub.uni-heidelberg.de/artdok/cgi/oai2
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -39,7 +39,7 @@ journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
 launch_date:
-licensing: Authors are provided with a choice of licenses but CC BY 4. is preferred
+licensing: Authors are provided with a choice of licenses but CC BY 4.0 is preferred
 metadata_formats: 'Yes : Formats are available on this page'
 metadata_languages: English and German
 metadata_properties: Title, Identifier, Author(s), Document type, Date, Version, Faculties
@@ -67,21 +67,20 @@ preservation_policy:
 record_count: 'Full text : 7 239'
 remining_indrawn_item: Full text isn't available anymore.
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: http://archiv.ub.uni-heidelberg.de/artdok/?source_opus=&la=en
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. The last version only is available for readers
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform
-withdrawal_policy: Only at the explicit request of the author will the staff of ART-Dok
-  delete a document
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
   :feature: indexing

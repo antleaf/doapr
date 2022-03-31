@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: ssrn
 title: SSRN
@@ -8,38 +8,38 @@ description: SSRN is devoted to the rapid worldwide dissemination of research an
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
 accepted_content_language:
-accepted_content_level: Research only
-accepted_content_types: All article types (including research manuscripts, commentaries,
-  review articles, current opinions, case studies, technical reports, short communications),
-  Preprints
+accepted_content_level: Primary Research only
+accepted_content_types: Papers and abstracts, gray literature, book reviews, multimedia
+  files, and datasets, Preprints
 accepted_supplementary_content:
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
-account_creation: Only needed for submission
-associated_editor: 'No'
-associated_journal: 'No'
+account_creation: Free, Only needed for submission
+associated_editor: Elsevier
+associated_journal: Journals from Elsevier
 author_pid: ORCID
 availability_of_associated_content:
-backups:
+backups: 'No'
 base_url:
-business_model: for-profit
+business_model: For-profit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
 concerns_about_plagiarism: Email administrator
-contact: contact+sportrxiv@osf.io
-disciplinary_scope: Sport Science
+contact: support@ssrn.com
+disciplinary_scope: Multiple scientific fields including applied sciences, health
+  sciences, life sciences, social sciences
 functional_description: 'No'
-funding: Community operators pay a fee based on usage and COS subsidizes the other
-  portion through fundraised support
+funding: Internal
 interoperability: 'No'
-journal_submission: Unrestricted
+journal_submission: Unrestricted. But publication in Elsevier journals facilitated
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: 'Authors are provided with a choice of licenses: CC0, CC BY, with CC BY
-  preferred'
+launch_date: '2016-05-01'
+licensing: SSRN is committed to respecting the authors' rights to their papers as
+  well as that of the publisher. Written permission must be obtained from the rightsholder
+  to re-use any copyrighted material
 metadata_formats: 'Yes : SSRN provides RSS feeds and XML feeds of article metadata
   to institutions'
 metadata_languages: English
@@ -48,43 +48,40 @@ metadata_properties: Title, Identifier (e.g. DOI), Publication/deposition date, 
 metadata_reuse_method: On request
 metadata_reuse_permission: Asked to Researcher
 moderation:
-objectives: Encourage researchers within this field to prioritize research quality
-  over publication quantity. We believe in providing education to empower researchers
-  at all levels to adopt more rigorous research practices such as pre-registration,
-  replication, open sharing of data, and sharing working documents (i.e., preprints)
-  for feedback. As part of this initiative, we will deliver workshops with universities
-  and funders to help researchers identify questionable research practices within
-  the context of an incentivized publishing system and to explain the potential solutions.
+objectives: SSRN is joining Mendeley and Elsevier to coordinate our development and
+  delivery of new products and services, and we look forward to our new access to
+  data, products, and additional resources that this change facilitates
 open_doar_id: X
-open_source: 'Yes'
+open_source: 'No'
 owner_country: ''
-owner_full_name: Society for Transparency, Openness, and Replication in Kinesiology
-owner_short_name: STORK
-owner_url: https://www.storkinesiology.org/
-ownership_type: Scientific society
+owner_full_name: Elsevier
+owner_short_name:
+owner_url: https://www.elsevier.com
+ownership_type: Publishing organisation (publisher)
 pid:
 peer_review_status:
 persistent_of_content:
 platform:
-platform_languages: English and German
+platform_languages: English
 preservation_policy:
-record_count: 'Full text : 370'
-remining_indrawn_item: Basic information remains on a tombstone page
-repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+record_count: 'Full text : 816 075'
+remining_indrawn_item: Remove the attached PDF, Make it Privately Available, Make
+  it inactive
+repository_type: Community-based
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
-short_name:
-status: open
+short_name: SSRN
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.ssrn.com/index.cfm/en/
-user_committees:
+user_committees: 'No   '
 versioning_policy: Accepts any new versions. Replace the older version of the paper.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
-withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: Due to a major revision or in case of plagiarism or ethical issues
+withdrawal_authorisation: Author or Platform
+withdrawal_policy: 'Yes'
 integrations:
 - :service: plumx_metrics
   :feature: usage_metrics

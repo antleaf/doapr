@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: agecon_search
 title: AgEcon Search
@@ -26,7 +26,7 @@ availability_of_associated_content:
 backups: 'Yes : Content is backed by TIND daily and also locally at the University
   of Minnesota, and will be migrated to a new platform if necessary.'
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -40,14 +40,14 @@ interoperability: Yes via API (for both read and write operations)
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '1995'
 licensing: AgEcon Search does not hold the copyright to articles, working papers,
   conference papers, or other materials available in the repository. Authors of papers
   posted on AgEcon Search retain their copyrights. When authors have assigned or transferred
   rights to them, journal publishers hold copyrights to articles published in their
   journals which are contained in the AgEcon Search database.
 metadata_formats: MARC XML
-metadata_languages: English is default. Metadata can be entered in any language. Alternate
+metadata_languages: English is default.  Metadata can be entered in any language.  Alternate
   Title field is available for alt/2nd language.
 metadata_properties: Title, Authors, Subjects, Series, Volume, Issue, Page numbers,
   Dates, Language
@@ -61,7 +61,7 @@ open_doar_id:
 open_source: 'Yes : TIND''s products and services are built on the foundation of the
   Invenio digital library framework (https://inveniosoftware.org/), an open source
   technology born at CERN.'
-owner_country: US
+owner_country: ''
 owner_full_name: University of Minnesota
 owner_short_name: UMN
 owner_url: https://www.lib.umn.edu/
@@ -84,7 +84,7 @@ service_pricing: There is a small charge per paper for groups that ask us to sub
   their papers. Charges are from 1 to 5 USD per paper depending on how much extra
   processing is involved
 short_name: AES
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
@@ -95,9 +95,11 @@ who_can_deposit: 'Only organizations can post on the website : Universities, pro
   associations, research institutes and Government agencies'
 withdrawal_authorisation: Items in AgEcon Search may be withdrawn upon the request
   of the contributor.
-withdrawal_policy: 'In special circumstances : whether the rules of the desposit agreement
-  have been violated'
+withdrawal_policy: 'Yes'
 integrations:
+- :service: europe_pmc
+  :feature: indexing
+  :description:
 - :service: google_scholar
   :feature: indexing
   :description:
@@ -105,9 +107,6 @@ integrations:
   :feature: usage_metrics
   :description:
 - :service: pre_pubmed
-  :feature: indexing
-  :description:
-- :service: europe_pmc
   :feature: indexing
   :description:
 - :service: scilit

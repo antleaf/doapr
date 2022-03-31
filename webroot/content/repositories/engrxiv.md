@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: engrxiv
 title: engrxiv
@@ -21,7 +21,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -36,8 +36,8 @@ interoperability:
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: 'Authors are provided with a choice of licenses: CC BY, CC BY-SA, CC BY-NC-SA,
+launch_date: '2016-07-01'
+licensing: 'Authors are provided with a choice of licenses:  CC BY, CC BY-SA, CC BY-NC-SA,
   or CC0'
 metadata_formats: 'No'
 metadata_languages: English
@@ -55,7 +55,7 @@ objectives: Engineering Archive is partnered with the Center for Open Science to
   of research and design on a truly open access platform for all engineering disciplines.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: Open Engineering Inc
 owner_short_name:
 owner_url: https://www.openengr.com
@@ -69,24 +69,27 @@ preservation_policy:
 record_count: 'Full text : 1 721'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : engrXiv is directed by a steering committee of engineers'
+scientific_committees: 'Yes : engrXiv is directed by a steering committee of engineers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://engrxiv.org/
-user_committees: engrXiv is directed by a steering committee of members of the engineering
-  librarian community
+user_committees: 'engrXiv is directed by a steering committee of members of the engineering
+  librarian community   '
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: Contravention of copyright, ethical and legal issues
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: microsoft_academic_search
   :feature: indexing
   :description:
 - :service: plaudit
@@ -94,9 +97,6 @@ integrations:
   :description:
 - :service: plaudit
   :feature: endorsement
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
   :description:
 - :service: share
   :feature: indexing

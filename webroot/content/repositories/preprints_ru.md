@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: preprints_ru
 title: Preprints.ru
@@ -20,7 +20,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -33,11 +33,12 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2019'
 licensing:
-metadata_formats:
+metadata_formats: 'No'
 metadata_languages:
-metadata_properties:
+metadata_properties: Title, Author(s), Identifier, Abstract, Date of deposited, Version,
+  Subject(s), Keyword(s), View(s)
 metadata_reuse_method:
 metadata_reuse_permission:
 moderation:
@@ -48,7 +49,7 @@ objectives: NEICON aims to provide Russian organizations with expert, consulting
 open_doar_id:
 open_source: 'No'
 owner_country: RU
-owner_full_name: Elsevier
+owner_full_name: NEICON. Electronic information
 owner_short_name: NEICON
 owner_url: https://neicon.ru/en/
 ownership_type: Scientific Society
@@ -61,23 +62,21 @@ preservation_policy:
 record_count: 'Full text : 174'
 remining_indrawn_item:
 repository_type: Multidisciplinary
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://preprints.ru/
-user_committees:
-versioning_policy: Accepts first submission only
-who_can_deposit: You must be appliant to Lancet Journals
+user_committees: "\L"
+versioning_policy: Accepts new version. All version are archieved and visible for
+  readers.
+who_can_deposit: Anyone can post on the platform. Only an account is required ( The
+  creation of the account is free).
 withdrawal_authorisation:
-withdrawal_policy: A preprint can be taken down if the author requests that it be
-  removed, if it violated the screening criteria, if an author has not fully disclosed
-  relevant conflicts of interest or has not received ethics approval or declared why
-  ethics approval was exempt or not required, or in the case of another documented
-  ethical concern, papers that have been inadvertently posted in error.
+withdrawal_policy: 'No'
 features:
 - :feature: search_engine
   :description: Simple Search or Search by subjects or Authors

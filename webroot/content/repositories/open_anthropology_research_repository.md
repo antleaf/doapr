@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: open_anthropology_research_repository
 title: Open Anthropology Research Repository
@@ -25,7 +25,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: Yes, monthly
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -38,7 +38,7 @@ interoperability: Yes via API
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2019'
 licensing: 'Authors are provided with a choice of licenses: CC-BY-NC-ND, CC-BY-NC,
   or CC-BY'
 metadata_formats: 'No'
@@ -55,7 +55,7 @@ objectives: 'OARR: Open Anthropology Research Repository is a community server e
   and papers and posters presented at disciplinary meetings worldwide in any language.'
 open_doar_id:
 open_source: 'No'
-owner_country: US
+owner_country: ''
 owner_full_name: American Anthropological Association
 owner_short_name: AAA
 owner_url: https://www.americananthro.org/
@@ -74,7 +74,7 @@ scientific_committees: 'Yes : includes researchers   If you are interested in 
   as well as what subfields and languages in which you are comfortable reviewing.'
 service_pricing: None
 short_name: OARR
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
@@ -90,15 +90,15 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation: By the adminstrator, based on the request of the author
   or third party
-withdrawal_policy:
+withdrawal_policy: 'No'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
   :description:
-- :service: google_scholar
+- :service: base
   :feature: indexing
   :description:
-- :service: base
+- :service: google_scholar
   :feature: indexing
   :description:
 - :service: oaister

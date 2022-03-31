@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: ecsarxiv
 title: ECSarXiv
@@ -23,7 +23,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -37,10 +37,11 @@ interoperability:
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: 'Authors are provided with a choice of licenses: CC BY Attribution 4. International,
-  CC0 1. Universal, CC BY Attribution-ShareAlike 4. International, CC BY Attribution-NonCommercial-NoDerivatives
-  4. International; with no preference for which license chosen'
+launch_date: '2018-05-01'
+licensing: 'Authors are provided with a choice of licenses: CC BY Attribution 4.0
+  International, CC0 1.0 Universal, CC BY Attribution-ShareAlike 4.0 International,
+  CC BY Attribution-NonCommercial-NoDerivatives 4.0 International; with no preference
+  for which license chosen'
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
@@ -56,7 +57,7 @@ objectives: ECSarXiv is part of the greater ECS Free the Science initiative, whi
   independent, nonprofit scientific society publishers.
 open_doar_id:
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: The Electrochemical Society
 owner_short_name: ECS
 owner_url: https://www.electrochem.org/
@@ -70,23 +71,26 @@ preservation_policy:
 record_count: 'Full text : 192'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://ecsarxiv.org/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: Plagiarism, false or inaccurate content
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: microsoft_academic_search
   :feature: indexing
   :description:
 - :service: plaudit
@@ -94,9 +98,6 @@ integrations:
   :description:
 - :service: plaudit
   :feature: endorsement
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
   :description:
 - :service: share
   :feature: indexing

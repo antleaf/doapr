@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: wikijournal_preprints
 title: WikiJournal Preprints
@@ -24,7 +24,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: Backup kept in secondary server
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -38,7 +38,7 @@ journal_submission: Restricted - manuscript can only be published in journal lin
   to server
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2017'
 licensing: Authors must use CC BY license
 metadata_formats: 'Yes : Wikidata item to hold structured metadata'
 metadata_languages: English
@@ -54,7 +54,7 @@ objectives: This preprint server allows you to create and edit academic articles
   via their website
 open_doar_id:
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: WikiJournal User Group
 owner_short_name:
 owner_url: https://meta.wikimedia.org/wiki/WikiJournal_User_Group
@@ -72,21 +72,17 @@ scientific_committees: 'Yes : includes researchers   Apply to be an associate 
   of potential upcoming articles. For more information : https://en.wikiversity.org/wiki/WikiJournal_User_Group/Associate_editors'
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://en.m.wikiversity.org/wiki/WikiJournal_Preprints
-user_committees: 'Yes : Advisory Board'
+user_committees: 'Yes : Advisory Board   '
 versioning_policy: Accepts new version
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform
-withdrawal_policy: There is clear evidence that the findings are unreliable, either
-  as a result of honest error or scientific misconduct such as data fabrication. The
-  findings have previously been published elsewhere without proper permission or justification
-  for publication in WikiJournal User Group as well? It contains plagiarism. It reports
-  unethical research
+withdrawal_policy: 'Yes'
 integrations:
 - :service: copyvios
   :feature: plagiarism_detection

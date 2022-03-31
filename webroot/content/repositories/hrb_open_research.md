@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: hrb_open_research
 title: HRB Open Research
@@ -25,7 +25,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -39,7 +39,7 @@ journal_submission: Restricted - manuscript can only be published in journal lin
   to server
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2018'
 licensing: Authors must use CC BY license
 metadata_formats: 'No'
 metadata_languages: English
@@ -69,33 +69,32 @@ preservation_policy:
 record_count: 'Full text : 223'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name: HRB
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://hrbopenresearch.org/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Each publication must have at least one author who has been, or still
   is, a recipient of HRB
 withdrawal_authorisation: Platform
-withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
-  ethical and legal issues
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
+  :description:
+- :service: europe_pmc
+  :feature: indexing
   :description:
 - :service: google_scholar
   :feature: indexing
   :description:
 - :service: pre_pubmed
-  :feature: indexing
-  :description:
-- :service: europe_pmc
   :feature: indexing
   :description:
 - :service: scilit

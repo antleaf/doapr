@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: figshare
 title: Figshare
@@ -23,7 +23,7 @@ availability_of_associated_content:
 backups: Figshare will use the DuraSpace DuraCloud Vault deposit node to add content
   into Chronopolis to preserve the public corpus of multi-disciplinary data.
 base_url: https://api.figshare.com/v2/oai
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -36,7 +36,7 @@ interoperability: Yes via API
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: figshare.com was launched Jan-2012. Preprint repositories launched 2017
 licensing: 'Authors are provided with a choice of licenses: CC-BY, CC-BY-SA, CC-BY-ND,
   CC-BY-NC, CC-BY-NC-SA and CC-BY-NC-ND'
 metadata_formats: Metadata can be exported in standard formats through a select list
@@ -60,21 +60,23 @@ pid:
 peer_review_status:
 persistent_of_content:
 platform:
-platform_languages: |-
-  Support other languages, e.g. JStage - This feature is in discussion. See the Public Roadmap: https://eu-rm.roadmunk.com/publish/50c0cac4ff2d9b46f7c118eb347f7959ffc9f48a. Currently, certain parts of the interface (groups, custom metadata, and metadata entries) can be set up in a foreign language. For example, see South Federal University (Russia).
-
-  Work on accessibilitu WCAG 2.1 in 2020/21 allows for multi-language support
+platform_languages: "Support other languages, e.g. JStage - This feature is in discussion.
+  See the Public Roadmap: https://eu-rm.roadmunk.com/publish/50c0cac4ff2d9b46f7c118eb347f7959ffc9f48a.
+  Currently, certain parts of the interface (groups, custom metadata, and metadata
+  entries) can be set up in a foreign language. For example, see South Federal University
+  (Russia).\n\nWork on accessibilitu WCAG 2.1 in 2020/21 allows for multi-language
+  support\n "
 preservation_policy: Figshare.com preservation policy https://help.figshare.com/article/preservation-and-continuity-of-access-policy
-record_count: |-
+record_count: |
   Preprints only: 5400+ includes preprints posted to figshare.com, institutional repositories and preprint repositories
   Total for all content: 5 688 120
 remining_indrawn_item: It will be replaced with a public notice to provide a record
   of the removal
 repository_type: Multidisciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: 'Yes : includes researchers   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period. Possible to apply
   an embargo when submitting items
@@ -85,12 +87,12 @@ versioning_policy: Accepts new version. All version are available for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform
-withdrawal_policy:
+withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
+- :service: crossref
   :feature: indexing
   :description:
-- :service: crossref
+- :service: google_scholar
   :feature: indexing
   :description:
 features:

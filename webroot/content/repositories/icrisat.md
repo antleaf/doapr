@@ -1,100 +1,87 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: icrisat
 title: ICRISAT
 description: International Crops Institute for Semi-Arid Tropics Open Access Repository.
-academic_applicant_only: 'Yes'
-accepted_content_formats: Word doc, RTF
+academic_applicant_only:
+accepted_content_formats:
 accepted_content_language:
-accepted_content_level: Primary and secondary research
-accepted_content_types: Journal articles, Posters, Slides, Preprints
-accepted_supplementary_content: 'Supplementary data must be deposited in an approved
-  repository and included in the article’s Data Availability section as “Extended
-  data”. You can associate figures and tables to your article : All figures and tables
-  must be cited and discussed in the article text, and their titles and legends should
-  be provided in the revised/updated manuscript.'
+accepted_content_level:
+accepted_content_types:
+accepted_supplementary_content:
 access_to_content:
 access_to_metadata:
 accessibility_conflict_interest_procedures:
-account_creation: Only needed for submission
+account_creation:
 associated_editor:
-associated_journal: HRB Open Research
-author_pid: ORCID
+associated_journal:
+author_pid:
 availability_of_associated_content:
 backups:
 base_url: http://oar.icrisat.org/cgi/oai2
-business_model: non-profit
+business_model:
 certificate_or_labels:
 closure_date:
 concerns_about_content:
-concerns_about_plagiarism: Email administrator
-contact: Emails available on this page
-disciplinary_scope: Broad life & biomedical research
-functional_description: Yes via FAQ
-funding: Article processing charges, covered by funding agency
+concerns_about_plagiarism:
+contact:
+disciplinary_scope:
+functional_description:
+funding:
 interoperability:
-journal_submission: Restricted - manuscript can only be published in journal linked
-  to server
+journal_submission:
 keyword:
 last_update: '2022-02-11'
 launch_date:
-licensing: Authors must use CC BY license
-metadata_formats: 'No'
-metadata_languages: English
-metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
-  Abstract, Author affiliation(s), Funder acknowledgement(s), Subject category, Full-text
-  content, Institution, Competing interests, Referee (name, affiliation, referee report),
-  commenter (name, text, affiliation), study type, article type
-metadata_reuse_method: Available for free upon request
-metadata_reuse_permission: Request to platform or author needed
-moderation: Data is available (if applicable), Code is available (if applicable),
-  All authors notified, One author affiliated with HRB, Text overlap detection, Legal
-  compliance, Ethical compliance
+licensing:
+metadata_formats:
+metadata_languages:
+metadata_properties:
+metadata_reuse_method:
+metadata_reuse_permission:
+moderation:
 objectives:
 open_doar_id: X
-open_source: 'No'
-owner_country: IE
-owner_full_name: Health Research Board Ireland
-owner_short_name: HRB
-owner_url: https://www.hrb.ie/
-ownership_type: Funding organisation (funder)
+open_source:
+owner_country: ''
+owner_full_name:
+owner_short_name:
+owner_url:
+ownership_type:
 pid:
 peer_review_status:
 persistent_of_content:
 platform:
-platform_languages: English
+platform_languages:
 preservation_policy:
-record_count: 'Full text : 223'
-remining_indrawn_item: Basic information remains on a tombstone page
-repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
-service_pricing: None
-short_name: HRB
-status: open
+record_count:
+remining_indrawn_item:
+repository_type:
+scientific_committees:
+service_pricing:
+short_name:
+status:
 terms_of_use:
-text_embargo: No, only if the publisher imposes an embargo period
+text_embargo:
 time_submission_to_posting:
 repository_url: http://oar.icrisat.org/
 user_committees:
-versioning_policy: Accepts new version. All version are archieved and visible for
-  readers.
-who_can_deposit: Each publication must have at least one author who has been, or still
-  is, a recipient of HRB
-withdrawal_authorisation: Platform
-withdrawal_policy: Contravention of copyright, plagiarism, false or inaccurate content,
-  ethical and legal issues
+versioning_policy:
+who_can_deposit:
+withdrawal_authorisation:
+withdrawal_policy:
 integrations:
 - :service: altmetric
   :feature: usage_metrics
+  :description:
+- :service: europe_pmc
+  :feature: indexing
   :description:
 - :service: google_scholar
   :feature: indexing
   :description:
 - :service: pre_pubmed
-  :feature: indexing
-  :description:
-- :service: europe_pmc
   :feature: indexing
   :description:
 - :service: scilit

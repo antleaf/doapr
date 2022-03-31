@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: cogprints
 title: Cogprints
@@ -25,9 +25,9 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 base_url: http://cogprints.org/cgi/oai2
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
-closure_date: '2017'
+closure_date: Closed in 2017
 concerns_about_content:
 concerns_about_plagiarism: 'No'
 contact: harnad@ecs.soton.ac.uk
@@ -39,7 +39,7 @@ interoperability: Yes via API
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '1997'
 licensing: Any copyright violations are entirely the responsibility of the authors/depositors.
   If the repository receives proof of copyright violation, the relevant item will
   be removed immediately.
@@ -69,20 +69,20 @@ preservation_policy: Already closed, Universty of Southampton is hosting all dat
 record_count: 'Full text : 4 230'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: "\L"
 service_pricing: None
 short_name:
-status: closed to submission
+status: Closed to submission only
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: http://cogprints.org/
-user_committees:
+user_committees: "\L"
 versioning_policy:
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation:
-withdrawal_policy:
+withdrawal_policy: 'No'
 features:
 - :feature: text_mining
   :description:

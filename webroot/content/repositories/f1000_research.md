@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: f1000_research
 title: F1000 Research
@@ -25,7 +25,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 base_url:
-business_model: for-profit
+business_model: For-profit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -39,7 +39,7 @@ journal_submission: Restricted - manuscript can only be published in journal lin
   to server
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2012'
 licensing: Authors must use CC BY license
 metadata_formats: 'No'
 metadata_languages: English
@@ -74,41 +74,38 @@ repository_type: Disciplinary
 scientific_committees: 'Yes : includes researchers. F1000Research has an Advisory
   Board comprising a large group of leading subject experts; they provide strategic
   input, advise occasionally on issues arising with specific articles, and some members
-  of the board also act as invited reviewers.'
+  of the board also act as invited reviewers.   '
 service_pricing: 'Only for author(s) : The cost of publishing an article is US$1,350
   (Dec 2020), less for a shorter contribution (min $150; max $2000 US)'
 short_name: F1000
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://f1000research.com/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are available for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform
-withdrawal_policy: Honest errors reported by the authors (for example, errors due
-  to the mixing up of samples or use of a scientific tool or equipment that is found
-  subsequently to be faulty), research misconduct (data fabrication), duplicate or
-  overlapping publication, fraudulent use of data, clear plagiarism, unethical research
+withdrawal_policy: 'Yes'
 integrations:
 - :service: altmetric
   :feature: usage_metrics
   :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
 - :service: europe_pmc
   :feature: indexing
   :description:
-- :service: share
+- :service: google_scholar
+  :feature: indexing
+  :description:
+- :service: pre_pubmed
   :feature: indexing
   :description:
 - :service: scilit
   :feature: indexing
   :description:
-- :service: pre_pubmed
+- :service: share
   :feature: indexing
   :description:
 features:

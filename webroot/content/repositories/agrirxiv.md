@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: agrirxiv
 title: AgriRxiv
@@ -23,7 +23,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups: CABI takes a back up of its content every 24 hours
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -36,9 +36,9 @@ interoperability: 'No'
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: 'Authors are provided with a choice of licenses: CC0 1. Universal, CC BY
-  Attribution 4. International'
+launch_date: '2017'
+licensing: 'Authors are provided with a choice of licenses: CC0 1.0 Universal, CC
+  BY Attribution 4.0 International'
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
@@ -70,7 +70,7 @@ repository_type: Disciplinary
 scientific_committees: 'Yes advisory board is made up of active researchers and users   Renewal of membership is based on regular discussion and confirmation of commitment'
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
@@ -81,18 +81,16 @@ versioning_policy: Accepts new version. All version are archieved and visible fo
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform
-withdrawal_policy: agriRxiv reserves the right to remove any articles that contain
-  plagiarized material or describe experimental work that is not performed in accordance
-  with the relevant ethical standards for research using animals or human subjects
+withdrawal_policy: 'Yes'
 integrations:
+- :service: crossref
+  :feature: indexing
+  :description:
 - :service: google_scholar
   :feature: indexing
   :description:
 - :service: plumx_metrics
   :feature: usage_metrics
-  :description:
-- :service: crossref
-  :feature: indexing
   :description:
 - :service: reasearcher_app
   :feature: indexing

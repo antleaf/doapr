@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: arabixiv
 title: Arabixiv
@@ -21,9 +21,9 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: Yes, monthly
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
-closure_date:
+closure_date: Closed for submission due to the lack of funding
 concerns_about_content:
 concerns_about_plagiarism: Email administrator
 contact: khaled.moustafa@arabixiv.org or contact+arabixiv@osf.io or arabixiv@arabixiv.org
@@ -37,13 +37,14 @@ interoperability:
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
+launch_date: '2018-01-01'
 licensing: 'Authors are provided with a choice of licenses: No license, GNU Lesser
-  General Public License (LGPL) 3., BSD 3-Clause "New"/"Revised" License, BSD 2-Clause
+  General Public License (LGPL) 3.0, BSD 3-Clause "New"/"Revised" License, BSD 2-Clause
   "Simplified" License, GNU Lesser General Public License (LGPL) 2.1, CC BY Attribution
-  4. International, Artistic License 2., CC0 1. Universal, Apache License 2., Mozilla
-  Public License 2., Academic Free License (AFL) 3., Eclipse Public License 1., MIT
-  License, GNU General Public License (GPL) 3., GNU General Public License (GPL) 2.'
+  4.0 International, Artistic License 2.0, CC0 1.0 Universal, Apache License 2.0,
+  Mozilla Public License 2.0, Academic Free License (AFL) 3.0, Eclipse Public License
+  1.0, MIT License, GNU General Public License (GPL) 3.0, GNU General Public License
+  (GPL) 2.0'
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
@@ -69,10 +70,10 @@ preservation_policy: Yes. COS has a preservation fund for up to 50+ years
 record_count: 'Full text : 328'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes, various scientific fields are represented   Up to every member to continue as a member at a voluntary basis or to end his commitment'
+scientific_committees: 'Yes, various scientific fields are represented   Up to every member to continue as a member at a voluntary basis or to end his commitment '
 service_pricing: None
 short_name:
-status: closed to submission
+status: Closed to submission only
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
@@ -84,7 +85,7 @@ versioning_policy: Accepts new version. All version are archieved and visible fo
 who_can_deposit: Anyone can post on the platform. Only an account is required (The
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: Plagiarism, false or inaccurate content
+withdrawal_policy: 'Yes'
 integrations:
 - :service: google_scholar
   :feature: indexing
@@ -92,11 +93,11 @@ integrations:
 - :service: hypothes_is
   :feature: commenting
   :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
 - :service: microsoft_academic_search
   :feature: indexing
+  :description:
+- :service: plaudit
+  :feature: endorsement
   :description:
 - :service: share
   :feature: indexing

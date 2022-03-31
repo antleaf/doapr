@@ -1,5 +1,5 @@
 ---
-date: 2022-03-17
+date: 2022-03-28
 draft: false
 repository_id: psyarxiv
 title: PsyArXiv
@@ -21,7 +21,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : COS Preservation Fund to maintain read access for 50+ years'
 base_url:
-business_model: non-profit
+business_model: Nonprofit
 certificate_or_labels:
 closure_date:
 concerns_about_content:
@@ -35,10 +35,10 @@ interoperability: Yes via API
 journal_submission: Unrestricted
 keyword:
 last_update: '2022-02-11'
-launch_date:
-licensing: CC0 (specifically, CC0 1. Universal), which places work in the public domain,
-  and CC-By (CC-By Attribution 4. International) which allows others to use and build
-  on a work as long as they give the original author credit.
+launch_date: '2016-09-01'
+licensing: CC0 (specifically, CC0 1.0 Universal), which places work in the public
+  domain, and CC-By (CC-By Attribution 4.0 International) which allows others to use
+  and build on a work as long as they give the original author credit.
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Author(s), Abstract
@@ -49,7 +49,7 @@ objectives: The Society for the Improvement of Psychological Science (SIPS) brin
   together scholars working to improve methods and practices in psychological science.
 open_doar_id:
 open_source: 'Yes'
-owner_country: US
+owner_country: ''
 owner_full_name: The Society for the Improvement of Psychological Science and Center
   for Open Science
 owner_short_name: SIPS
@@ -64,21 +64,21 @@ preservation_policy:
 record_count: 'Full text : 16 187'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees: 'Yes : Scientific Advisory Board'
+scientific_committees: 'Yes : Scientific Advisory Board   '
 service_pricing: None
 short_name:
-status: open
+status: Open
 terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://psyarxiv.com/
-user_committees:
+user_committees: "\L"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation:
-withdrawal_policy:
+withdrawal_policy: 'No'
 integrations:
 - :service: google_scholar
   :feature: indexing
