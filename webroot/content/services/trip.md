@@ -1,5 +1,5 @@
 ---
-date: 2022-03-28
+date: 2022-03-31
 draft: false
 title: Transparent Review in Preprint (TRIP)
 service_id: trip
