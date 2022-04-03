@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: ecoevorxiv
 title: EcoEvoRxiv
@@ -21,7 +21,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -49,6 +48,7 @@ metadata_reuse_method: Openly available via API
 metadata_reuse_permission:
 moderation: 'Beforehand : Text overlap detection, Misconduct or integrity checks,
   Legal compliance, Ethical compliance'
+oai_pmh_url:
 objectives: TEE (Transparency in Ecology and Evolution) was established to educate
   and advocate for greater transparency in ecology and evolution (and conservation
   too). It was started around 2015 by a group of concerned researchers who thought
@@ -88,8 +88,8 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform. At author's request with moderator approval
 withdrawal_policy: 'Yes'
 features:
-- :feature: bibliographic_references_management
-  :description: BibTeX
+- feature: bibliographic_references_management
+  description: BibTeX
 ---
 
 

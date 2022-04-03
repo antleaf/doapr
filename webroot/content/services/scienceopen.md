@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 title: ScienceOpen
 service_id: scienceopen
@@ -16,6 +16,10 @@ description: Offers open access journal hosting services, as well as advanced in
 service_url: https://www.scienceopen.com
 categories:
 - general_publication
+integrations:
+- repository: africarxiv
+  feature: peer review
+  description:
 ---
 
 

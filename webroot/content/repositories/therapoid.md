@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: therapoid
 title: Therapoid
@@ -21,7 +21,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-base_url:
 business_model: For-profit
 certificate_or_labels:
 closure_date:
@@ -45,6 +44,7 @@ metadata_properties: 'Title, Identifier, Publication/deposition date, Author nam
 metadata_reuse_method: Openly available via Crossref
 metadata_reuse_permission: None
 moderation: Legal compliance, Ethical compliance
+oai_pmh_url:
 objectives: The Therapoid™ web portal enables international scientists to share research
   easily, while it also opens a path to develop dormant technologies. Simple to use
   tools enable more effective collaboration. The combination of collaboration and
@@ -81,12 +81,12 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation:
 withdrawal_policy: 'Yes'
 features:
-- :feature: search_engine
-  :description: Simple Search only
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: comms_social_networking
-  :description: "\L\LForum (https://therapoid.net/en/forums/) or Social media (https://twitter.com/OpenTherapeutic)"
+- feature: search_engine
+  description: Simple Search only
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: comms_social_networking
+  description: "\L\LForum (https://therapoid.net/en/forums/) or Social media (https://twitter.com/OpenTherapeutic)"
 ---
 
 

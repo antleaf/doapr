@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: egusphere
 title: EGUsphere
@@ -22,7 +22,6 @@ associated_journal:
 author_pid:
 availability_of_associated_content:
 backups:
-base_url:
 business_model:
 certificate_or_labels:
 closure_date:
@@ -44,6 +43,7 @@ metadata_properties:
 metadata_reuse_method:
 metadata_reuse_permission:
 moderation:
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source:
@@ -75,27 +75,27 @@ who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy:
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: hypothes_is
-  :feature: commenting
-  :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: hypothes_is
+  feature: commenting
+  description:
+- service: plaudit
+  feature: endorsement
+  description:
 features:
-- :feature: search_engine
-  :description: Simple Search or by filters (subject)
-- :feature: usage_metrics
-  :description: Downloads are visible to everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/EdArXiv'
+- feature: search_engine
+  description: Simple Search or by filters (subject)
+- feature: usage_metrics
+  description: Downloads are visible to everyone
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/EdArXiv'
 ---
 
 

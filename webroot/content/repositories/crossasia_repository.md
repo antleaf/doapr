@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: crossasia_repository
 title: CrossAsia-Repository
@@ -24,7 +24,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-base_url: http://crossasia-repository.ub.uni-heidelberg.de/cgi/oai2
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -47,6 +46,7 @@ metadata_properties: Title, Author(s), Document type, Version, Date Deposited, F
 metadata_reuse_method: Openly available via API
 metadata_reuse_permission:
 moderation:
+oai_pmh_url: http://crossasia-repository.ub.uni-heidelberg.de/cgi/oai2
 objectives: Firmly rooted in its history, the University is committed to expanding
   and disseminating our knowledge about all aspects of humanity and nature through
   research and education. The University upholds the principle of freedom of research
@@ -82,28 +82,28 @@ who_can_deposit: To publish your documents on CrossAsia-Repository, please conta
 withdrawal_authorisation:
 withdrawal_policy:
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
-  :description:
-- :service: peer_community_in
-  :feature: peer review
-  :description:
-- :service: share
-  :feature: indexing
-  :description:
-- :service: unpaywall
-  :feature: indexing
-  :description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: microsoft_academic_search
+  feature: indexing
+  description:
+- service: peer_community_in
+  feature: peer review
+  description:
+- service: share
+  feature: indexing
+  description:
+- service: unpaywall
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: usage_metrics
-  :description: Downloads are visible to everyone
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Advanced Search
+- feature: usage_metrics
+  description: Downloads are visible to everyone
 ---
 
 

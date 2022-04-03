@@ -9,9 +9,7 @@
       {{ .Content }}
       <br/>
       <ul>
-      {{ range .Data.Pages }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-      {{ end }}
+        {{ partial "services_table" .Data.Pages }}
       </ul>
     </div>
   </div>

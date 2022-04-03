@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 title: ProQuest
 service_id: proquest
@@ -9,6 +9,10 @@ description: Developed for teaching and research success across the curriculum, 
 service_url: https://www.proquest.com
 categories:
 - search
+integrations:
+- repository: rinarxiv
+  feature: indexing
+  description:
 ---
 
 

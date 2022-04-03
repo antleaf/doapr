@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: horizon__ird_scientific_publications
 title: Horizon - IRD scientific publications
@@ -20,7 +20,6 @@ associated_journal:
 author_pid:
 availability_of_associated_content:
 backups:
-base_url: http://www.documentation.ird.fr/fdi/oai.php
 business_model:
 certificate_or_labels:
 closure_date:
@@ -42,6 +41,7 @@ metadata_properties:
 metadata_reuse_method:
 metadata_reuse_permission:
 moderation:
+oai_pmh_url: http://www.documentation.ird.fr/fdi/oai.php
 objectives:
 open_doar_id: X
 open_source:
@@ -73,30 +73,30 @@ who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy:
 integrations:
-- :service: episcience
-  :feature: indexing
-  :description:
-- :service: peer_community_in
-  :feature: peer review
-  :description:
-- :service: software_heritage
-  :feature: indexing
-  :description:
+- service: episcience
+  feature: indexing
+  description:
+- service: peer_community_in
+  feature: peer review
+  description:
+- service: software_heritage
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description: Yes, but it should not be for commercial use
-- :feature: search_engine
-  :description: Advanced research, RSS, alerts
-- :feature: bibliographic_references_management
-  :description: BibTeX, TEI, DC, Dcterms and EndNote
-- :feature: usage_metrics
-  :description: 'Number of views of the record and the number of downloads of the
-    file in a widget called Metrics. Metrics are available for :  author, depositor,
-    structure, collection, portal'
-- :feature: endorsement
-  :description: 'Episciences : overlay platform for journals'
-- :feature: comms_social_networking
-  :description: 'Sharing features : Twitter, Facebook, Email, Linkedln and any communication
+- feature: text_mining
+  description: Yes, but it should not be for commercial use
+- feature: search_engine
+  description: Advanced research, RSS, alerts
+- feature: bibliographic_references_management
+  description: BibTeX, TEI, DC, Dcterms and EndNote
+- feature: usage_metrics
+  description: 'Number of views of the record and the number of downloads of the file
+    in a widget called Metrics. Metrics are available for :  author, depositor, structure,
+    collection, portal'
+- feature: endorsement
+  description: 'Episciences : overlay platform for journals'
+- feature: comms_social_networking
+  description: 'Sharing features : Twitter, Facebook, Email, Linkedln and any communication
     tool      '
 ---
 

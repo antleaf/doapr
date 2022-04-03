@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: psyarxiv
 title: PsyArXiv
@@ -20,7 +20,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : COS Preservation Fund to maintain read access for 50+ years'
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -45,6 +44,7 @@ metadata_properties: Title, Author(s), Abstract
 metadata_reuse_method:
 metadata_reuse_permission: None
 moderation:
+oai_pmh_url:
 objectives: The Society for the Improvement of Psychological Science (SIPS) brings
   together scholars working to improve methods and practices in psychological science.
 open_doar_id:
@@ -80,22 +80,22 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation:
 withdrawal_policy: 'No'
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: plaudit
-  :feature: commenting
-  :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: plaudit
+  feature: commenting
+  description:
+- service: plaudit
+  feature: endorsement
+  description:
 features:
-- :feature: usage_metrics
-  :description: Downloads are visible to everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook and Instagram)      https://twitter.com/psyarxiv'
+- feature: usage_metrics
+  description: Downloads are visible to everyone
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook and Instagram)      https://twitter.com/psyarxiv'
 ---
 
 

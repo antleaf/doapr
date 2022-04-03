@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: mathematical_physics_preprint_archive
 title: Mathematical Physics Preprint Archive
@@ -20,7 +20,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups: Backup kept in mirror server
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -42,6 +41,7 @@ metadata_properties: Title, Author(s), Abstract, Published on, Number of Words, 
 metadata_reuse_method:
 metadata_reuse_permission:
 moderation:
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source: 'Yes'
@@ -74,8 +74,8 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation:
 withdrawal_policy: 'No'
 features:
-- :feature: search_engine
-  :description: Simple search by keywords
+- feature: search_engine
+  description: Simple search by keywords
 ---
 
 

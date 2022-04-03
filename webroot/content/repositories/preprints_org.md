@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: preprints_org
 title: Preprints.org
@@ -22,7 +22,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : Preprints permanently archived in Portico'
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -49,6 +48,7 @@ moderation: 'Beforehand : Content within scope, All authors notified, Data is av
   (if applicable), Code is available (if applicable), Text overlap detection, Legal
   compliance, Ethical compliance. Staff and Volunteer are in charge of the screening
   process'
+oai_pmh_url:
 objectives: Based in Basel, Switzerland, MDPI has the mission to foster open scientific
   exchange in all forms, across all disciplines.
 open_doar_id:
@@ -87,34 +87,34 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: europe_pmc
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: prereview
-  :feature: peer review
-  :description:
-- :service: publons
-  :feature: revision_follow_up
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: europe_pmc
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: prereview
+  feature: peer review
+  description:
+- service: publons
+  feature: revision_follow_up
+  description:
 features:
-- :feature: search_engine
-  :description: Simple Search or Search by subjects or Authors
-- :feature: bibliographic_references_management
-  :description: BibSonomy, Mendeley
-- :feature: usage_metrics
-  :description: Views, Downloads, Altmetrics, Number of comments are visible to everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: endorsement
-  :description: Approval system in the platform with 'likes'
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, mail, Facebook, LinkedIn)      '
+- feature: search_engine
+  description: Simple Search or Search by subjects or Authors
+- feature: bibliographic_references_management
+  description: BibSonomy, Mendeley
+- feature: usage_metrics
+  description: Views, Downloads, Altmetrics, Number of comments are visible to everyone
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: endorsement
+  description: Approval system in the platform with 'likes'
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, mail, Facebook, LinkedIn)      '
 ---
 
 

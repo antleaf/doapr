@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: apsa_preprints
 title: APSA Preprints
@@ -23,7 +23,6 @@ associated_journal: APSA journals published by CUP
 author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes'
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -51,6 +50,7 @@ moderation: Does not infringe the intellectual property right of any person(s) o
   entity(ies). Does not contain any libelous or otherwise unlawful statements. Does
   not contain inappropriate, confidential, or harmful statements or materials. Falls
   broadly in the scope of political science.
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source: 'No'
@@ -85,24 +85,24 @@ who_can_deposit: Registrants must have an APSA Member ID, but this is also free.
 withdrawal_authorisation: No one
 withdrawal_policy: Yes, this can be found on our Policies page
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: ithenticate
-  :feature: plagiarism_detection
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: ithenticate
+  feature: plagiarism_detection
+  description:
 features:
-- :feature: text_mining
-  :description: Yes, this is permitted. Information in our Terms of Use.
-- :feature: search_engine
-  :description: Simple Search or Browse by category. Plus indexing in Google Scholar.
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins). Free, requires registration
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, Pinterest, Gmail, LinkedIn,
+- feature: text_mining
+  description: Yes, this is permitted. Information in our Terms of Use.
+- feature: search_engine
+  description: Simple Search or Browse by category. Plus indexing in Google Scholar.
+- feature: commenting
+  description: Commenting (including annotation plug-ins). Free, requires registration
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, Pinterest, Gmail, LinkedIn,
     Tumblr and Messenger)      https://twitter.com/APSA_Preprints'
 ---
 

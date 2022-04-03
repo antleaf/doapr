@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: dash
 title: DASH (Digital Access to Scholarship Harvard)
@@ -23,7 +23,6 @@ associated_journal:
 author_pid:
 availability_of_associated_content:
 backups:
-base_url: http://dash.harvard.edu/oai/request
 business_model:
 certificate_or_labels:
 closure_date:
@@ -45,6 +44,7 @@ metadata_properties:
 metadata_reuse_method:
 metadata_reuse_permission:
 moderation:
+oai_pmh_url: http://dash.harvard.edu/oai/request
 objectives:
 open_doar_id: X
 open_source:
@@ -76,24 +76,24 @@ who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy:
 integrations:
-- :service: google
-  :feature: indexing
-  :description:
-- :service: google_analytics
-  :feature: usage_metrics
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
+- service: google
+  feature: indexing
+  description:
+- service: google_analytics
+  feature: usage_metrics
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: 'Yes, thanks to filter or by : Communities & Collections, Issue Date,
+- feature: search_engine
+  description: 'Yes, thanks to filter or by : Communities & Collections, Issue Date,
     Author, Title, Keywords, FAS Department'
-- :feature: usage_metrics
-  :description: View and Downloads (Last 7 days, Last 30 days and All time statistics)
+- feature: usage_metrics
+  description: View and Downloads (Last 7 days, Last 30 days and All time statistics)
     are visible to everyone
-- :feature: comms_social_networking
-  :description: "The link to the published version is present on the page. Also the
+- feature: comms_social_networking
+  description: "The link to the published version is present on the page. Also the
     link to the version submited to another preprint repository is mentioned \L\L"
 ---
 

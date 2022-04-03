@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: orvium
 title: Orvium
@@ -20,7 +20,6 @@ associated_journal:
 author_pid:
 availability_of_associated_content:
 backups:
-base_url: https://dapp.orvium.io/api/v1/oai
 business_model:
 certificate_or_labels:
 closure_date:
@@ -42,6 +41,7 @@ metadata_properties:
 metadata_reuse_method:
 metadata_reuse_permission:
 moderation:
+oai_pmh_url: https://dapp.orvium.io/api/v1/oai
 objectives:
 open_doar_id: X
 open_source:
@@ -73,12 +73,12 @@ who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy:
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: usage_metrics
-  :description: Downloads and Hits are visible to everyone
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Advanced Search
+- feature: usage_metrics
+  description: Downloads and Hits are visible to everyone
 ---
 
 

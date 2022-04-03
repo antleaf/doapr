@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: rinarxiv
 title: RinarXiv
@@ -24,7 +24,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -55,6 +54,7 @@ metadata_properties: Title, Identifier, Publication/deposition date, Author name
 metadata_reuse_method: Openly available via API
 metadata_reuse_permission: None
 moderation: 'In retrospect : Doc type, data availability, Author Declaration,'
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source: 'Yes'
@@ -88,27 +88,27 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: cas
-  :feature: indexing
-  :description:
-- :service: crossref
-  :feature: indexing
-  :description:
-- :service: europe_pmc
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: proquest
-  :feature: indexing
-  :description:
-- :service: scopus
-  :feature: indexing
-  :description:
+- service: cas
+  feature: indexing
+  description:
+- service: crossref
+  feature: indexing
+  description:
+- service: europe_pmc
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: proquest
+  feature: indexing
+  description:
+- service: scopus
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Advanced Search
+- feature: search_engine
+  description: Advanced Search
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: philsci_archive
 title: Philsci Archive
@@ -24,7 +24,6 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : The repository regularly backs up its file according to current best
   practices'
-base_url: http://philsci-archive.pitt.edu/cgi/oai2
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -50,6 +49,7 @@ metadata_reuse_permission: 'Allowed, with conditions: The OAI Identifier and/or 
   link to the original metadata must be given. For commercial use : Requires Formal
   Permission'
 moderation: 'Beforehand : relevance to the scope of the repository is checked'
+oai_pmh_url: http://philsci-archive.pitt.edu/cgi/oai2
 objectives: The reinvented Hillman Library will be a light-filled facility showcasing
   unique collections, advancing academic study, and fostering collaborative exchange.
 open_doar_id: X
@@ -89,25 +89,25 @@ who_can_deposit: Accredited Community Members
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: plumx_metrics
-  :feature: usage_metrics
-  :description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: plumx_metrics
+  feature: usage_metrics
+  description:
 features:
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: bibliographic_references_management
-  :description: EndNote, BibTeX, Dublin Core, ASCII/Text Citation (Chicago), HTML
-    Citation and OpenURL
-- :feature: usage_metrics
-  :description: Monthly Views for the past 3 years and Monthly Downloads for the past
+- feature: search_engine
+  description: Advanced Search
+- feature: bibliographic_references_management
+  description: EndNote, BibTeX, Dublin Core, ASCII/Text Citation (Chicago), HTML Citation
+    and OpenURL
+- feature: usage_metrics
+  description: Monthly Views for the past 3 years and Monthly Downloads for the past
     3 years are visible to everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Facebook and Twitter)      '
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: comms_social_networking
+  description: 'Sharing via social media (Facebook and Twitter)      '
 ---
 
 

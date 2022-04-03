@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: organic_eprints
 title: Organic Eprints
@@ -24,7 +24,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups: The repository regularly backs up its file according to current best practices
-base_url: http://orgprints.org/cgi/oai2
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -52,6 +51,7 @@ moderation: 'Beforehand : The only criteria for acceptance are that the document
   are relevant to research in organic agriculture, that they have a finished form
   that is ready to enter into a process of communication, and that the required metadata
   information is correct'
+oai_pmh_url: http://orgprints.org/cgi/oai2
 objectives: 'The main objectives of Organic Eprints are: to facilitate the communication
   about organic research, to improve the dissemination and impact of research findings,
   and to document the research effort.'
@@ -89,12 +89,12 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform and At author's request with moderator approval
 withdrawal_policy: 'Yes'
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: usage_metrics
-  :description: Downloads and Hits are visible to everyone
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Advanced Search
+- feature: usage_metrics
+  description: Downloads and Hits are visible to everyone
 ---
 
 

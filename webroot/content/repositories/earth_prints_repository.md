@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: earth_prints_repository
 title: Earth-prints Repository
@@ -26,7 +26,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-base_url: http://www.earth-prints.org/oai/request
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -50,6 +49,7 @@ metadata_reuse_method:
 metadata_reuse_permission: Metada should be protected by Licence Creative Commons
 moderation: 'Beforehand : Content within scope, Complete Metadata, the eligibility
   of authors/depositors'
+oai_pmh_url: http://www.earth-prints.org/oai/request
 objectives:
 open_doar_id: X
 open_source: 'Yes'
@@ -81,45 +81,45 @@ who_can_deposit: Accredited Community Members
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: base
-  :feature: indexing
-  :description:
-- :service: core
-  :feature: indexing
-  :description:
-- :service: dart_europe
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: isidore
-  :feature: indexing
-  :description:
-- :service: openaire_explore
-  :feature: indexing
-  :description:
-- :service: pubmed
-  :feature: indexing
-  :description:
-- :service: repec
-  :feature: indexing
-  :description:
-- :service: scanr
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: base
+  feature: indexing
+  description:
+- service: core
+  feature: indexing
+  description:
+- service: dart_europe
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: isidore
+  feature: indexing
+  description:
+- service: openaire_explore
+  feature: indexing
+  description:
+- service: pubmed
+  feature: indexing
+  description:
+- service: repec
+  feature: indexing
+  description:
+- service: scanr
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: bibliographic_references_management
-  :description: Refman, EndNote, Bibtex, RefWorks, Wikipedia, Excel, CSV and PDF
-- :feature: usage_metrics
-  :description: Downloads and Views are visible to everyone
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Advanced Search
+- feature: bibliographic_references_management
+  description: Refman, EndNote, Bibtex, RefWorks, Wikipedia, Excel, CSV and PDF
+- feature: usage_metrics
+  description: Downloads and Views are visible to everyone
 ---
 
 

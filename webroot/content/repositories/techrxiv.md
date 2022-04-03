@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: techrxiv
 title: TechRxiv
@@ -22,7 +22,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -49,6 +48,7 @@ metadata_reuse_permission: Depending on the licencing options chosen by the auth
 moderation: 'Beforehand : Written in English, Contains unpublished technical content
   within TechRxiv''s scope, Free of offensive or plagiarized content, Includes permission
   to reuse previously published or copyrighted material, if applicable'
+oai_pmh_url:
 objectives: IEEE and its members inspire a global community to innovate for a better
   tomorrow through highly cited publications, conferences, technology standards, and
   professional and educational activities.
@@ -89,29 +89,29 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: base
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: oaister
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: base
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: oaister
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description: By posting in TechRxiv, authors explicitly consent to text mining
-- :feature: search_engine
-  :description: Simple Search or by filters (subject)
-- :feature: bibliographic_references_management
-  :description: RefWorks, BibTex, Ref. manager, Endnote, DataCite, NLM, DC
-- :feature: usage_metrics
-  :description: Downloads, Views and Citations are visible to everyone
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/TechRxiv_org'
+- feature: text_mining
+  description: By posting in TechRxiv, authors explicitly consent to text mining
+- feature: search_engine
+  description: Simple Search or by filters (subject)
+- feature: bibliographic_references_management
+  description: RefWorks, BibTex, Ref. manager, Endnote, DataCite, NLM, DC
+- feature: usage_metrics
+  description: Downloads, Views and Citations are visible to everyone
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/TechRxiv_org'
 ---
 
 

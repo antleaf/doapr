@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: eric
 title: ERIC
@@ -26,7 +26,6 @@ associated_journal: 'List of indexed journals: https://eric.ed.gov/?journals; no
 author_pid: ORCID ID available if provided by submitter
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -54,6 +53,7 @@ metadata_reuse_method: Openly available via API
 metadata_reuse_permission: None
 moderation: 'Beforehand : Content within scope. ERIC must meet the following quality
   criteria ( Integrity, Completeness, Substantive Merit, Utility/Importance)'
+oai_pmh_url:
 objectives: Our mission is to provide scientific evidence on which to ground education
   practice and policy and to share this information in formats that are useful and
   accessible to educators, parents, policymakers, researchers, and the public.
@@ -88,13 +88,13 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 features:
-- :feature: search_engine
-  :description: 'Simple Search or Advanced search via tips : https://eric.ed.gov/?advanced.
+- feature: search_engine
+  description: 'Simple Search or Advanced search via tips : https://eric.ed.gov/?advanced.
     There is also a thesaurus to help searching'
-- :feature: usage_metrics
-  :description: Downloads and views
-- :feature: comms_social_networking
-  :description: 'ERIC Helpdesk via email through the Contact Us link on the ERIC website
+- feature: usage_metrics
+  description: Downloads and views
+- feature: comms_social_networking
+  description: 'ERIC Helpdesk via email through the Contact Us link on the ERIC website
     or at ERICRequests@ed.gov. Communications on Facebook: https://www.facebook.com/SearchEduResources
     Communications on Twitter: https://twitter.com/ericinfo      https://twitter.com/ERICinfo'
 ---

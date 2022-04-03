@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: preprints_ru
 title: Preprints.ru
@@ -19,7 +19,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -42,6 +41,7 @@ metadata_properties: Title, Author(s), Identifier, Abstract, Date of deposited, 
 metadata_reuse_method:
 metadata_reuse_permission:
 moderation:
+oai_pmh_url:
 objectives: NEICON aims to provide Russian organizations with expert, consulting and
   service support in the field of information for research and education and a full
   range of services related to access, development, dissemination and storage of scholarly
@@ -78,12 +78,12 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation:
 withdrawal_policy: 'No'
 features:
-- :feature: search_engine
-  :description: Simple Search or Search by subjects or Authors
-- :feature: usage_metrics
-  :description: Views are visible to everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins), Disqus
+- feature: search_engine
+  description: Simple Search or Search by subjects or Authors
+- feature: usage_metrics
+  description: Views are visible to everyone
+- feature: commenting
+  description: Commenting (including annotation plug-ins), Disqus
 ---
 
 

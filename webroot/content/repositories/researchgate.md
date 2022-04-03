@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: researchgate
 title: ResearchGate
@@ -22,7 +22,6 @@ associated_journal:
 author_pid:
 availability_of_associated_content:
 backups:
-base_url:
 business_model:
 certificate_or_labels:
 closure_date:
@@ -44,6 +43,7 @@ metadata_properties:
 metadata_reuse_method:
 metadata_reuse_permission:
 moderation:
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source:
@@ -75,32 +75,32 @@ who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy:
 integrations:
-- :service: crossref
-  :feature: indexing
-  :description:
-- :service: dimensions
-  :feature: usage_metrics
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
+- service: crossref
+  feature: indexing
+  description:
+- service: dimensions
+  feature: usage_metrics
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
 features:
-- :feature: writing
-  :description: AJE
-- :feature: text_mining
-  :description: Yes via HMTL
-- :feature: search_engine
-  :description: Simple search
-- :feature: usage_metrics
-  :description: Views, Downloads, Altmetrics, Comments, Citations are visible to everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: revision_follow_up
-  :description: In Review Service
-- :feature: endorsement
-  :description: Via badges
-- :feature: comms_social_networking
-  :description: 'Tweet of the posted content. There is always the implementation of
+- feature: writing
+  description: AJE
+- feature: text_mining
+  description: Yes via HMTL
+- feature: search_engine
+  description: Simple search
+- feature: usage_metrics
+  description: Views, Downloads, Altmetrics, Comments, Citations are visible to everyone
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: revision_follow_up
+  description: In Review Service
+- feature: endorsement
+  description: Via badges
+- feature: comms_social_networking
+  description: 'Tweet of the posted content. There is always the implementation of
     the content/article highlighting. Sharing via Social Media (Twitter, Facebook,
     LinkedIn, Papers and mail)      https://www.researchsquare.com/researchers/promotion'
 ---

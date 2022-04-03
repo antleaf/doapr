@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: ssoar
 title: SSOAR
@@ -31,7 +31,6 @@ backups: 'Yes : The databases are automatically saved every three hours. Increme
   thereby ensuring the separation of server and backup. Security updates are carried
   out automatically and in a timely manner. If the system should fail, it can be reconstructed
   within a day with the standard software after the backed-up data has been imported.'
-base_url: https://www.ssoar.info/OAIHandler/request
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -64,6 +63,7 @@ moderation: Before the publications are made freely accessible to the public on 
   Internet, the metadata are checked by the SSOAR team and are supplemented with a
   classification, keywords (Thesaurus for the Social Sciences (GESIS)) and, if necessary,
   with further information.
+oai_pmh_url: https://www.ssoar.info/OAIHandler/request
 objectives: GESIS provides essential and internationally relevant research-based services
   for the social sciences. As the largest European infrastructure institute for the
   social sciences GESIS offers advice, expertise and services at all stages of scientists'
@@ -102,18 +102,18 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform - asked by the author (or a third party)
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
 features:
-- :feature: search_engine
-  :description: Search by filter
-- :feature: bibliographic_references_management
-  :description: BibTex and Endnote
-- :feature: usage_metrics
-  :description: Views and Downloads are visible to everyone
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Reddit, Facebook and mail)      '
+- feature: search_engine
+  description: Search by filter
+- feature: bibliographic_references_management
+  description: BibTex and Endnote
+- feature: usage_metrics
+  description: Views and Downloads are visible to everyone
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Reddit, Facebook and mail)      '
 ---
 
 

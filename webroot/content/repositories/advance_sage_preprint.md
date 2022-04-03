@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: advance_sage_preprint
 title: Advance (Sage preprint)
@@ -22,7 +22,6 @@ associated_journal: SAGE journals
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -52,6 +51,7 @@ moderation: Advance undergo a moderation process to ensure that the paper is of 
   and does not contain any inappropriate, confidential, harmful, or copyrighted materials
   used without permission. Papers reporting human studies must include a statement
   that specifies whether informed consent was obtained from study participants.
+oai_pmh_url:
 objectives: Our mission is building bridges to knowledge — supporting the development
   of ideas through the research process to scholarship that is certified, taught,
   and applied.
@@ -87,25 +87,25 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: crossref
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
+- service: crossref
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Simple Search or by filters (subject)
-- :feature: bibliographic_references_management
-  :description: RefWorks, BibTex, Ref. manager, Endnote, DataCite, NLM, DC
-- :feature: usage_metrics
-  :description: Downloads, Views and Citations are visible to everyone
-- :feature: revision
-  :description: You can transfer your paper for publication in SAGE journals
-- :feature: commenting
-  :description: you just need an account to comment a preprint
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      '
+- feature: search_engine
+  description: Simple Search or by filters (subject)
+- feature: bibliographic_references_management
+  description: RefWorks, BibTex, Ref. manager, Endnote, DataCite, NLM, DC
+- feature: usage_metrics
+  description: Downloads, Views and Citations are visible to everyone
+- feature: revision
+  description: You can transfer your paper for publication in SAGE journals
+- feature: commenting
+  description: you just need an account to comment a preprint
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      '
 ---
 
 

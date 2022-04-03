@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: africarxiv
 title: AfricArxiv
@@ -26,7 +26,6 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: The content is currently hosted by 3rd party services who take care of the
   backups, see table at https://info.africarxiv.org/submit/
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -53,6 +52,7 @@ metadata_reuse_method: Openly available via API (OSF)
 metadata_reuse_permission: None
 moderation: 'Beforehand : Akismet spam filtering (automatic on all OSF content), Content
   within scope'
+oai_pmh_url:
 objectives: https://info.africarxiv.org/in-a-nutshell/
 open_doar_id: X
 open_source: 'Yes'
@@ -92,39 +92,39 @@ who_can_deposit: "African scientists based on the African continent \nAfrican sc
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: hypothes_is
-  :feature: endorsement
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
-  :description:
-- :service: peer_community_in
-  :feature: peer review
-  :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
-- :service: scienceopen
-  :feature: peer review
-  :description:
-- :service: share
-  :feature: indexing
-  :description:
-- :service: unpaywall
-  :feature: indexing
-  :description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: hypothes_is
+  feature: endorsement
+  description:
+- service: microsoft_academic_search
+  feature: indexing
+  description:
+- service: peer_community_in
+  feature: peer review
+  description:
+- service: plaudit
+  feature: endorsement
+  description:
+- service: scienceopen
+  feature: peer review
+  description:
+- service: share
+  feature: indexing
+  description:
+- service: unpaywall
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Simple Search or by filters (subject)
-- :feature: usage_metrics
-  :description: Downloads are visible to everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/AfricArxiv'
+- feature: search_engine
+  description: Simple Search or by filters (subject)
+- feature: usage_metrics
+  description: Downloads are visible to everyone
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/AfricArxiv'
 ---
 
 

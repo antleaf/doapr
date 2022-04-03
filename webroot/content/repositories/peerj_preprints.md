@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: peerj_preprints
 title: PeerJ Preprints
@@ -20,7 +20,6 @@ associated_journal: PeerJ Journals
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-base_url:
 business_model: For-profit
 certificate_or_labels:
 closure_date: 'Closed in 2019 : " As the community’s appetite for preprints has now
@@ -47,6 +46,7 @@ metadata_properties: Title, Identifier, Publication/deposition date, Author name
 metadata_reuse_method: Openly available via Crossref
 metadata_reuse_permission:
 moderation: Misconduct or integrity checks, Legal compliance, Ethical compliance
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source: 'No'
@@ -80,29 +80,29 @@ who_can_deposit:
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: crossref
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: reasearcher_app
-  :feature: indexing
-  :description:
+- service: crossref
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: reasearcher_app
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Simple Search or by filters (subject or date of deposit)
-- :feature: usage_metrics
-  :description: Downloads, Views and Visitors are visible to everyone
-- :feature: revision
-  :description: As the preprints are then posted in the publisher's journals, the
-    peer review is done by the platform
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: revision_follow_up
-  :description: You can follow all the process of revision on the platform
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook and mail)      https://peerj.com/'
+- feature: search_engine
+  description: Simple Search or by filters (subject or date of deposit)
+- feature: usage_metrics
+  description: Downloads, Views and Visitors are visible to everyone
+- feature: revision
+  description: As the preprints are then posted in the publisher's journals, the peer
+    review is done by the platform
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: revision_follow_up
+  description: You can follow all the process of revision on the platform
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook and mail)      https://peerj.com/'
 ---
 
 

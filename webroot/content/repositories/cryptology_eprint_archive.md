@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: cryptology_eprint_archive
 title: Cryptology ePrint Archive
@@ -22,7 +22,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups: 'Yes'
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -45,6 +44,7 @@ metadata_properties: Title, Author(s), Keywords, Date, Contact Author, Available
 metadata_reuse_method: Free
 metadata_reuse_permission: None
 moderation: 'Beforehand : relevance to the scope of the repository is checked'
+oai_pmh_url:
 objectives: The International Association for Cryptologic Research (IACR) is a non-profit
   scientific organization whose purpose is to further research in cryptology and related
   fields.
@@ -82,10 +82,10 @@ withdrawal_authorisation: Items may be removed by the platform at the request of
   author/copyright holder
 withdrawal_policy: 'Yes'
 features:
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: bibliographic_references_management
-  :description: PDF and BibTeX Citation
+- feature: search_engine
+  description: Advanced Search
+- feature: bibliographic_references_management
+  description: PDF and BibTeX Citation
 ---
 
 

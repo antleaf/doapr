@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: hal
 title: HAL
@@ -30,7 +30,6 @@ author_pid: 'IdHAL and ORCID. For more informations : https://doc.archives-ouver
 availability_of_associated_content:
 backups: 'Yes : Text files in pdf format or image files are sent to CINES for long-term
   archiving'
-base_url: https://api.archives-ouvertes.fr/oai/hal
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -61,6 +60,7 @@ metadata_reuse_permission: 'Metadata is licensed under CC0: https://creativecomm
 moderation: |-
   The following items are checked: file integrity, after uploading
   correspondence between the content of the file and the metadata and compliance with the publisher's policy for published documents. All repositories with files (full text, appendix, image, map, video, sound) are manually checked before being put online.
+oai_pmh_url: https://api.archives-ouvertes.fr/oai/hal
 objectives: HAL is a tool of direct scientific communication between researchers.
   HAL makes their scientific output widely available, discoverable, usable and long
   term accessible
@@ -101,51 +101,51 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: No one
 withdrawal_policy: 'No'
 integrations:
-- :service: base
-  :feature: indexing
-  :description:
-- :service: core
-  :feature: indexing
-  :description:
-- :service: dart_europe
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: isidore
-  :feature: indexing
-  :description:
-- :service: openaire_explore
-  :feature: indexing
-  :description:
-- :service: peer_community_in
-  :feature: peer review
-  :description:
-- :service: pubmed
-  :feature: indexing
-  :description:
-- :service: repec
-  :feature: indexing
-  :description:
-- :service: scanr
-  :feature: indexing
-  :description:
+- service: base
+  feature: indexing
+  description:
+- service: core
+  feature: indexing
+  description:
+- service: dart_europe
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: isidore
+  feature: indexing
+  description:
+- service: openaire_explore
+  feature: indexing
+  description:
+- service: peer_community_in
+  feature: peer review
+  description:
+- service: pubmed
+  feature: indexing
+  description:
+- service: repec
+  feature: indexing
+  description:
+- service: scanr
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description: Yes, but it should not be for commercial use
-- :feature: search_engine
-  :description: Advanced research, RSS, alerts
-- :feature: bibliographic_references_management
-  :description: BibTeX, TEI, DC, Dcterms and EndNote
-- :feature: usage_metrics
-  :description: 'Number of views of the record and the number of downloads of the
-    file in a widget called Metrics. Metrics are available for :  author, depositor,
-    structure, collection, portal'
-- :feature: endorsement
-  :description: 'Episciences : overlay platform for journals'
-- :feature: comms_social_networking
-  :description: 'Sharing features : Twitter, Facebook, Email, Linkedln and any communication
+- feature: text_mining
+  description: Yes, but it should not be for commercial use
+- feature: search_engine
+  description: Advanced research, RSS, alerts
+- feature: bibliographic_references_management
+  description: BibTeX, TEI, DC, Dcterms and EndNote
+- feature: usage_metrics
+  description: 'Number of views of the record and the number of downloads of the file
+    in a widget called Metrics. Metrics are available for :  author, depositor, structure,
+    collection, portal'
+- feature: endorsement
+  description: 'Episciences : overlay platform for journals'
+- feature: comms_social_networking
+  description: 'Sharing features : Twitter, Facebook, Email, Linkedln and any communication
     tool      '
 ---
 

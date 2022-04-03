@@ -1,15 +1,17 @@
-<table class="table table-sm table-striped sortable-table">
+<table class="table sortable-table table-sm table-striped sortable-table">
     <thead>
     <tr class="column-header-row">
         <th>Name</th>
-        <th class="no-sort">Homepage</th>
+        <th>Status</th>
+        <th>Owner</th>
     </tr>
     </thead>
     <tbody>
     {{ range . }}
         <tr>
             <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-            <td><a href="{{ .Params.repository_url }}">{{ .Params.repository_url }}</a></td>
+            <td>{{ .Params.status }}</td>
+            <td>{{ .Params.owner_full_name | truncate 40}}</td>
         </tr>
     {{ end }}
     </tbody>

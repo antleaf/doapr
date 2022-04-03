@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 title: ScanR
 service_id: scanr
@@ -10,6 +10,13 @@ description: scanR allows you to search for companies active in research and inn
 service_url: https://scanr.enseignementsup-recherche.gouv.fr
 categories:
 - search
+integrations:
+- repository: earth_prints_repository
+  feature: indexing
+  description:
+- repository: hal
+  feature: indexing
+  description:
 ---
 
 

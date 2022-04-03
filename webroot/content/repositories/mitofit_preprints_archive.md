@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: mitofit_preprints_archive
 title: MitoFit Preprints Archive
@@ -20,7 +20,6 @@ associated_journal: BEC
 author_pid: ORCID
 availability_of_associated_content:
 backups: Backup kept in secondary server
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -47,6 +46,7 @@ metadata_reuse_permission: None
 moderation: 'Beforehand : Content within scope , Manuscript is complete (methods,
   references), Data is available (if applicable), All authors notified, Legal compliance,
   Ethical compliance, Potential for harm if posted'
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source: 'Yes'
@@ -79,20 +79,20 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Ar authors' request
 withdrawal_policy: 'Yes'
 integrations:
-- :service: disqus
-  :feature: commenting
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: hypothes_is
-  :feature: commenting
-  :description:
+- service: disqus
+  feature: commenting
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: hypothes_is
+  feature: commenting
+  description:
 features:
-- :feature: search_engine
-  :description: Simple Search
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
+- feature: search_engine
+  description: Simple Search
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
 ---
 
 

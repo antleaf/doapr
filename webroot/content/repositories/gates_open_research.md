@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: gates_open_research
 title: Gates Open Research
@@ -20,7 +20,6 @@ associated_journal: Gates Open Research
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -50,6 +49,7 @@ metadata_reuse_permission: Request to platform or author needed
 moderation: 'Beforehand : Data is available (if applicable), Code is available (if
   applicable), Text overlap detection, All authors notified, One author affiliated
   with Gates, Legal compliance, Ethical compliance'
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source: 'No'
@@ -85,44 +85,44 @@ who_can_deposit: Each publication must have at least one author who has been, or
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: europe_pmc
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: pre_pubmed
-  :feature: indexing
-  :description:
-- :service: scilit
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: europe_pmc
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: pre_pubmed
+  feature: indexing
+  description:
+- service: scilit
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Simple Search or Search by filter (Subject Area, Article type(s),
-    Study type(s), Year(s) of publication, Article Funding Bodies)
-- :feature: bibliographic_references_management
-  :description: Sciwheel, EndNote, Ref. Manager, Bibtex, ProCite and Sente
-- :feature: usage_metrics
-  :description: Downloads, Views and Google Scholars Citations are visible to everyone
-- :feature: revision
-  :description: Peer review of articles published in Gates Open Research takes place
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Simple Search or Search by filter (Subject Area, Article type(s), Study
+    type(s), Year(s) of publication, Article Funding Bodies)
+- feature: bibliographic_references_management
+  description: Sciwheel, EndNote, Ref. Manager, Bibtex, ProCite and Sente
+- feature: usage_metrics
+  description: Downloads, Views and Google Scholars Citations are visible to everyone
+- feature: revision
+  description: Peer review of articles published in Gates Open Research takes place
     after publication; once the article is published, expert reviewers are formally
     invited to review. The peer review is administered on behalf of the authors by
     the editorial team, and authors are asked not to contact the reviewers directly.
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: revision_follow_up
-  :description: On the website we can follow the worflow of the review of the article
-- :feature: endorsement
-  :description: Via Peer Review Process of the website
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit and
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: revision_follow_up
+  description: On the website we can follow the worflow of the review of the article
+- feature: endorsement
+  description: Via Peer Review Process of the website
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit and
     mail)      https://blog.gatesopenresearch.org/'
 ---
 

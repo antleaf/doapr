@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: arxiv
 title: arXiv
@@ -25,7 +25,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : hourly, daily incremental backups on-site; daily backups on- and off-site'
-base_url: http://export.arxiv.org/oai2
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -59,6 +58,7 @@ metadata_reuse_permission: Metadata for arXiv articles may be reused in non-comm
 moderation: All submissions are subject to a moderation process that verifies material
   is appropriate and topical. Material that contains offensive language, non-scientific
   content, or is plagiarized may be removed.
+oai_pmh_url: http://export.arxiv.org/oai2
 objectives: 'arXiv offers researchers a broad range of services: article submission,
   compilation, production, retrieval, search and discovery, web distribution for human
   readers, and API access for machines, together with content curation and preservation.
@@ -99,37 +99,37 @@ withdrawal_authorisation: Platform administrators with remove when provided evid
   the user did not have the legal right to submit
 withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
-  :description:
-- :service: peer_community_in
-  :feature: peer review
-  :description:
-- :service: unpaywall
-  :feature: indexing
-  :description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: microsoft_academic_search
+  feature: indexing
+  description:
+- service: peer_community_in
+  feature: peer review
+  description:
+- service: unpaywall
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description: Bulk access to full text corpus available through Kaggle and S3. Conditions
+- feature: text_mining
+  description: Bulk access to full text corpus available through Kaggle and S3. Conditions
     for use based on licenses applied to individual works within the corpus. https://arxiv.org/help/bulk_data
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: bibliographic_references_management
-  :description: BibTex and Mendely
-- :feature: usage_metrics
-  :description: Yes but only for the platform and not for the preprint only. Those
+- feature: search_engine
+  description: Advanced Search
+- feature: bibliographic_references_management
+  description: BibTex and Mendely
+- feature: usage_metrics
+  description: Yes but only for the platform and not for the preprint only. Those
     metrics are visible to everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: endorsement
-  :description: The endorsement system verifies that arXiv contributors belong to
-    the scientific community in a fair and sustainable way that can scale with arXiv's
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: endorsement
+  description: The endorsement system verifies that arXiv contributors belong to the
+    scientific community in a fair and sustainable way that can scale with arXiv's
     future growth.
-- :feature: comms_social_networking
-  :description: 'Sharing features via social media, helpdesk      https://blog.arxiv.org/'
+- feature: comms_social_networking
+  description: 'Sharing features via social media, helpdesk      https://blog.arxiv.org/'
 ---
 
 

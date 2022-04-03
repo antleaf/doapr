@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: classics_research_network
 title: Classics Research Network
@@ -21,7 +21,6 @@ associated_journal:
 author_pid:
 availability_of_associated_content:
 backups:
-base_url:
 business_model:
 certificate_or_labels:
 closure_date:
@@ -43,6 +42,7 @@ metadata_properties:
 metadata_reuse_method:
 metadata_reuse_permission:
 moderation:
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source:
@@ -74,21 +74,21 @@ who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy:
 integrations:
-- :service: crossref
-  :feature: indexing
-  :description:
-- :service: pubmed
-  :feature: indexing
-  :description:
+- service: crossref
+  feature: indexing
+  description:
+- service: pubmed
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: usage_metrics
-  :description: Views, Downloads and Hits are visible to everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: comms_social_networking
-  :description: 'Sharing via social media      '
+- feature: search_engine
+  description: Advanced Search
+- feature: usage_metrics
+  description: Views, Downloads and Hits are visible to everyone
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: comms_social_networking
+  description: 'Sharing via social media      '
 ---
 
 

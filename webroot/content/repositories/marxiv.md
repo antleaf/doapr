@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: marxiv
 title: MarXiv
@@ -22,7 +22,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date: Originally on OSF in November 2017. Moved over to Zenodo permanently
@@ -52,6 +51,7 @@ metadata_reuse_method: Openly available via API
 metadata_reuse_permission: None
 moderation: 'In retrospect : the copyright clearance. Moderator makes sure things
   aren''t spam or off-topic'
+oai_pmh_url:
 objectives: |-
   OCTO accelerates ocean conservation by connecting ocean professionals to the knowledge and networks they need.
   Through our broad suite of tools and communities, we break down barriers to knowledge – empowering ocean professionals to apply best practices and science worldwide.
@@ -89,33 +89,33 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At Author's request or by the platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
-  :description:
-- :service: share
-  :feature: indexing
-  :description:
-- :service: unpaywall
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: microsoft_academic_search
+  feature: indexing
+  description:
+- service: share
+  feature: indexing
+  description:
+- service: unpaywall
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description: Yes from Zenodo
-- :feature: search_engine
-  :description: Simple Search or by filters (Access Right, File Type, Keywords, Type)
-- :feature: bibliographic_references_management
-  :description: BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON,
-    MARCXML and  Mendeley
-- :feature: usage_metrics
-  :description: Downloads and visits are visble to everyone.
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook and mail)      https://twitter.com/MarXivPapers'
+- feature: text_mining
+  description: Yes from Zenodo
+- feature: search_engine
+  description: Simple Search or by filters (Access Right, File Type, Keywords, Type)
+- feature: bibliographic_references_management
+  description: BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON, MARCXML
+    and  Mendeley
+- feature: usage_metrics
+  description: Downloads and visits are visble to everyone.
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook and mail)      https://twitter.com/MarXivPapers'
 ---
 
 

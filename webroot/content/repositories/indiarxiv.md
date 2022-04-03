@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: indiarxiv
 title: IndiArxiv
@@ -20,7 +20,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups: Harvested by various repositories such as https://explore.openaire.eu/
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date: No funds to support for its sustainability. Now working with other agencies
@@ -47,6 +46,7 @@ metadata_reuse_method: Openly available via API
 metadata_reuse_permission: None
 moderation: Modereated for checking spam and relevance to India context as its for
   country, India
+oai_pmh_url:
 objectives: Anyone who have interests in Open Access, Open Data and Open Education
   are invited to join the community and take forward the open access movement in India
   by participating in the discussions/initiatives which would influence the policy
@@ -85,33 +85,33 @@ who_can_deposit:
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: hypothes_is
-  :feature: commenting
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
-  :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
-- :service: share
-  :feature: indexing
-  :description:
-- :service: unpaywall
-  :feature: indexing
-  :description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: hypothes_is
+  feature: commenting
+  description:
+- service: microsoft_academic_search
+  feature: indexing
+  description:
+- service: plaudit
+  feature: endorsement
+  description:
+- service: share
+  feature: indexing
+  description:
+- service: unpaywall
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Simple Search or by filters (subject)
-- :feature: usage_metrics
-  :description: Downloads are visible to everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/indiarxiv'
+- feature: search_engine
+  description: Simple Search or by filters (subject)
+- feature: usage_metrics
+  description: Downloads are visible to everyone
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/indiarxiv'
 ---
 
 

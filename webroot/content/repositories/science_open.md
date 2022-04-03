@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: science_open
 title: Science Open
@@ -22,7 +22,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -46,6 +45,7 @@ metadata_reuse_method:
 metadata_reuse_permission: None
 moderation: 'Beforehand : editorial review to check for completeness and basic scholarly
   integrity in line with our general publication guidelines.'
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source: 'No'
@@ -79,32 +79,32 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation:
 withdrawal_policy: 'No'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: pubmed
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: pubmed
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Simple Search or by filters (Open Access, Preprint, Latest version,
+- feature: search_engine
+  description: Simple Search or by filters (Open Access, Preprint, Latest version,
     Title, Author, Affiliation, ID, Publication date range, Publication date, Publisher
     name, Journal name, Keyword, Discipline, Collection, Abstract, Content type, Source,
     Validation, Record completeness, Indexed on ScienceOpen)
-- :feature: bibliographic_references_management
-  :description: BibTeX, EndNote, Reference Manager (RIS)
-- :feature: usage_metrics
-  :description: Views, References, Citations, Reviews, Comments and Shares are visible
+- feature: bibliographic_references_management
+  description: BibTeX, EndNote, Reference Manager (RIS)
+- feature: usage_metrics
+  description: Views, References, Citations, Reviews, Comments and Shares are visible
     to everyone
-- :feature: revision
-  :description: You can then use the ScienceOpen platform to invite peers as potential
+- feature: revision
+  description: You can then use the ScienceOpen platform to invite peers as potential
     reviewers. Submitted reviews will be openly displayed on ScienceOpen together
     with your work. According to the recommendations of the reviewers you may modify
     your work and submit a second, revised version, if required.
-- :feature: commenting
-  :description: Commenting (Open Peer review process)
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Sina Weibo, Facebook and mail)      https://blog.scienceopen.com/'
+- feature: commenting
+  description: Commenting (Open Peer review process)
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Sina Weibo, Facebook and mail)      https://blog.scienceopen.com/'
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: cogprints
 title: Cogprints
@@ -24,7 +24,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-base_url: http://cogprints.org/cgi/oai2
 business_model: Nonprofit
 certificate_or_labels:
 closure_date: Closed in 2017
@@ -52,6 +51,7 @@ metadata_reuse_permission: 'For nonprofit : The OAI Identifier and/or a link to 
   original metadata must be given; The Repository must be mentioned. And for commercial
   use : Requires Formal Permission'
 moderation:
+oai_pmh_url: http://cogprints.org/cgi/oai2
 objectives:
 open_doar_id: X
 open_source: 'Yes'
@@ -84,12 +84,12 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation:
 withdrawal_policy: 'No'
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Search by Subjects, Year or Simple Search
-- :feature: bibliographic_references_management
-  :description: ASCII Citation, Atom, BibTeX, Dublin Core, EP3 XML, EPrints Application
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Search by Subjects, Year or Simple Search
+- feature: bibliographic_references_management
+  description: ASCII Citation, Atom, BibTeX, Dublin Core, EP3 XML, EPrints Application
     Profile (experimental), EndNote, HTML Citation, ID Plus Text Citation, JSON, METS,
     MODS, MPEG-21 DIDL, OpenURL ContextObject, OpenURL ContextObject in Span, RDF+N-Triples,
     RDF+N3, RDF+XML, Refer, Reference Manager, Search Data Dump, Simple Metadata,

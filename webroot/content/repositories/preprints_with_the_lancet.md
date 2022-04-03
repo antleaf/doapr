@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: preprints_with_the_lancet
 title: Preprints with The Lancet
@@ -22,7 +22,6 @@ associated_journal: The Lancet portfolio of titles
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: For-profit
 certificate_or_labels:
 closure_date:
@@ -45,6 +44,7 @@ metadata_reuse_method:
 metadata_reuse_permission:
 moderation: 'Before hand : Content within scope, Competing interests, Funder acknowledgement,
   Clinical trial registration'
+oai_pmh_url:
 objectives: SSRN is joining Mendeley and Elsevier to coordinate our development and
   delivery of new products and services, and we look forward to our new access to
   data, products, and additional resources that this change facilitates
@@ -78,21 +78,21 @@ who_can_deposit: You must be appliant to Lancet Journals
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: disqus
-  :feature: commenting
-  :description:
+- service: disqus
+  feature: commenting
+  description:
 features:
-- :feature: search_engine
-  :description: Simple Search or Search by subjects or Authors
-- :feature: usage_metrics
-  :description: Abstract view, Downloads are visible to everyone
-- :feature: revision
-  :description: As the preprints are then posted in the publisher's journals, the
-    peer review is done by the platform
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: comms_social_networking
-  :description: 'Sharing via social media      '
+- feature: search_engine
+  description: Simple Search or Search by subjects or Authors
+- feature: usage_metrics
+  description: Abstract view, Downloads are visible to everyone
+- feature: revision
+  description: As the preprints are then posted in the publisher's journals, the peer
+    review is done by the platform
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: comms_social_networking
+  description: 'Sharing via social media      '
 ---
 
 

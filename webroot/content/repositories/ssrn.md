@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: ssrn
 title: SSRN
@@ -21,7 +21,6 @@ associated_journal: Journals from Elsevier
 author_pid: ORCID
 availability_of_associated_content:
 backups: 'No'
-base_url:
 business_model: For-profit
 certificate_or_labels:
 closure_date:
@@ -48,6 +47,7 @@ metadata_properties: Title, Identifier (e.g. DOI), Publication/deposition date, 
 metadata_reuse_method: On request
 metadata_reuse_permission: Asked to Researcher
 moderation:
+oai_pmh_url:
 objectives: SSRN is joining Mendeley and Elsevier to coordinate our development and
   delivery of new products and services, and we look forward to our new access to
   data, products, and additional resources that this change facilitates
@@ -83,20 +83,20 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Author or Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: plumx_metrics
-  :feature: usage_metrics
-  :description:
+- service: plumx_metrics
+  feature: usage_metrics
+  description:
 features:
-- :feature: search_engine
-  :description: Browse papers by Network & Subject Area or Advanced Research
-- :feature: usage_metrics
-  :description: Paper Statistics are captured on every Abstract Page. Metrics include
+- feature: search_engine
+  description: Browse papers by Network & Subject Area or Advanced Research
+- feature: usage_metrics
+  description: Paper Statistics are captured on every Abstract Page. Metrics include
     usage data (article views and downloads) and other article-level metrics (Citations).
     Those are visible to everyone
-- :feature: endorsement
-  :description: Linked to Elsevier plateform
-- :feature: comms_social_networking
-  :description: 'Paper''s public abstract page select the share options located in
+- feature: endorsement
+  description: Linked to Elsevier plateform
+- feature: comms_social_networking
+  description: 'Paper''s public abstract page select the share options located in
     the upper right hand corner of the page. Share your research directly to Facebook
     or Twitter by clicking on the appropriate icon. Another option is to email the
     document''s url to a colleague. Curated eJournal Site Subscriptions. Conference

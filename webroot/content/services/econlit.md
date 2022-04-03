@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 title: EconLit
 service_id: econlit
@@ -15,6 +15,10 @@ description: |-
 service_url: https://www.aeaweb.org/econlit/
 categories:
 - search
+integrations:
+- repository: wellcome_open_research
+  feature: indexing
+  description:
 ---
 
 

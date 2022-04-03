@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: figshare
 title: Figshare
@@ -22,7 +22,6 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: Figshare will use the DuraSpace DuraCloud Vault deposit node to add content
   into Chronopolis to preserve the public corpus of multi-disciplinary data.
-base_url: https://api.figshare.com/v2/oai
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -48,6 +47,7 @@ metadata_properties: Title, Identifier, Publication/deposition date, Author name
 metadata_reuse_method: Openly available via API
 metadata_reuse_permission: None
 moderation:
+oai_pmh_url: https://api.figshare.com/v2/oai
 objectives:
 open_doar_id: X
 open_source: 'No'
@@ -89,23 +89,23 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: crossref
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
+- service: crossref
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Advanced search available
-- :feature: bibliographic_references_management
-  :description: RefWorks, BibTex, Ref. manager, Endnote, DataCite, NLM, DC
-- :feature: usage_metrics
-  :description: Downloads, Views and Citations are visible to everyone
-- :feature: commenting
-  :description: You just need an account to comment a preprint
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail) and
+- feature: search_engine
+  description: Advanced search available
+- feature: bibliographic_references_management
+  description: RefWorks, BibTex, Ref. manager, Endnote, DataCite, NLM, DC
+- feature: usage_metrics
+  description: Downloads, Views and Citations are visible to everyone
+- feature: commenting
+  description: You just need an account to comment a preprint
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail) and
     LinkedIn : https://www.linkedin.com/company/figshare/posts/?feedView=all      https://twitter.com/figshare'
 ---
 

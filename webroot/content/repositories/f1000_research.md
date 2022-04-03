@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: f1000_research
 title: F1000 Research
@@ -24,7 +24,6 @@ associated_journal: Taylor & Francis
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: For-profit
 certificate_or_labels:
 closure_date:
@@ -53,6 +52,7 @@ metadata_reuse_permission: None
 moderation: 'Beforehand : Data is available (if applicable), Code is available (if
   applicable), Text overlap detection, Misconduct or integrity checks, All authors
   notified, Authors meet criteria and Originality.'
+oai_pmh_url:
 objectives: Our vision is to create a world where scientific discoveries are shared
   quickly, openly and without barriers.
 open_doar_id:
@@ -90,45 +90,45 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: europe_pmc
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: pre_pubmed
-  :feature: indexing
-  :description:
-- :service: scilit
-  :feature: indexing
-  :description:
-- :service: share
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: europe_pmc
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: pre_pubmed
+  feature: indexing
+  description:
+- service: scilit
+  feature: indexing
+  description:
+- service: share
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Simple Search or Search by filter (Subject Area, Article type(s),
-    Study type(s), Year(s) of publication, Article Funding Bodies)
-- :feature: bibliographic_references_management
-  :description: Mendeley, Sciwheel,  EndNote,  Ref. Manager, Bibtex, ProCite, Sente
-- :feature: usage_metrics
-  :description: Downloads, Views and Google Scholars Citations are visible to everyone
-- :feature: revision
-  :description: Articles are published first and peer reviewed after publication by
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Simple Search or Search by filter (Subject Area, Article type(s), Study
+    type(s), Year(s) of publication, Article Funding Bodies)
+- feature: bibliographic_references_management
+  description: Mendeley, Sciwheel,  EndNote,  Ref. Manager, Bibtex, ProCite, Sente
+- feature: usage_metrics
+  description: Downloads, Views and Google Scholars Citations are visible to everyone
+- feature: revision
+  description: Articles are published first and peer reviewed after publication by
     invited referees. The peer reviewer's names and comments are visible on the site.
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: revision_follow_up
-  :description: On the website we can follow the worflow of the review of the article
-- :feature: endorsement
-  :description: Via Peer Review Process of the website
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit and
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: revision_follow_up
+  description: On the website we can follow the worflow of the review of the article
+- feature: endorsement
+  description: Via Peer Review Process of the website
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit and
     mail)      https://twitter.com/F1000Research'
 ---
 

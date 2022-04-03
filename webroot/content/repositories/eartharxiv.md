@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: eartharxiv
 title: EarthArXiv
@@ -22,7 +22,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -53,6 +52,7 @@ metadata_reuse_method: Openly available via API
 metadata_reuse_permission:
 moderation: 'Beforehand : Content within scope, Text overlap detection, Manuscript
   is complete (methods, references)'
+oai_pmh_url:
 objectives: Open up preprint opportunities for all of the Earth Sciences
 open_doar_id: X
 open_source: 'Yes'
@@ -88,18 +88,18 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
+- service: google_scholar
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: 'You can search by: Title, Keywords, Author Name, Author Affiliation'
-- :feature: usage_metrics
-  :description: Downloads are visible to everyone
-- :feature: commenting
-  :description: Commenting
-- :feature: comms_social_networking
-  :description: "\L\Lhttps://twitter.com/EarthArXiv"
+- feature: search_engine
+  description: 'You can search by: Title, Keywords, Author Name, Author Affiliation'
+- feature: usage_metrics
+  description: Downloads are visible to everyone
+- feature: commenting
+  description: Commenting
+- feature: comms_social_networking
+  description: "\L\Lhttps://twitter.com/EarthArXiv"
 ---
 
 

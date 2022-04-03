@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 title: PREreview
 service_id: prereview
@@ -10,6 +10,10 @@ description: A community and platform for the collaborative writing of preprint 
 service_url: https://www.prereview.org
 categories:
 - review
+integrations:
+- repository: preprints_org
+  feature: peer review
+  description:
 ---
 
 

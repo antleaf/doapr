@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: cern_document_server
 title: CERN document server
@@ -24,7 +24,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-base_url: http://cds.cern.ch/oai2d
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -49,6 +48,7 @@ metadata_reuse_method: Available only with conditions
 metadata_reuse_permission: 'For Commercial and Not-for-profit reuse : The OAI Identifier
   and/or a link to the original metadata must be given.'
 moderation: Only the eligibility of authors/depositors is checked.
+oai_pmh_url: http://cds.cern.ch/oai2d
 objectives:
 open_doar_id: X
 open_source: 'Yes'
@@ -82,14 +82,14 @@ who_can_deposit: Acccount needed, it's free. Only Accredited Community Members o
 withdrawal_authorisation:
 withdrawal_policy: 'No'
 features:
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: bibliographic_references_management
-  :description: BibTeX, MARC, MARCXML, DC, EndNote, NLM and RefWorks
-- :feature: commenting
-  :description: Commenting available on the web site
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, mail, Facebook, LinkedIn)      '
+- feature: search_engine
+  description: Advanced Search
+- feature: bibliographic_references_management
+  description: BibTeX, MARC, MARCXML, DC, EndNote, NLM and RefWorks
+- feature: commenting
+  description: Commenting available on the web site
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, mail, Facebook, LinkedIn)      '
 ---
 
 

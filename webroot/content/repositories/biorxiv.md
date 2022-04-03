@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: biorxiv
 title: bioRxiv
@@ -22,7 +22,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : All bioRxiv papers are archived at Portico.'
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -50,6 +49,7 @@ metadata_properties: Title, Identifier (e.g. DOI), Publication/deposition date, 
 metadata_reuse_method: Openly available via API
 metadata_reuse_permission: Never asked
 moderation: Screening process by an advisory board
+oai_pmh_url:
 objectives: By posting preprints on bioRxiv, authors are able to make their findings
   immediately available to the scientific community and receive feedback on draft
   manuscripts before they are submitted to journals.
@@ -87,52 +87,52 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Author or Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: crossref
-  :feature: indexing
-  :description:
-- :service: disqus
-  :feature: commenting
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: hypothes_is
-  :feature: commenting
-  :description:
-- :service: meta
-  :feature: indexing
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
-  :description:
-- :service: peer_community_in
-  :feature: peer review
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: crossref
+  feature: indexing
+  description:
+- service: disqus
+  feature: commenting
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: hypothes_is
+  feature: commenting
+  description:
+- service: meta
+  feature: indexing
+  description:
+- service: microsoft_academic_search
+  feature: indexing
+  description:
+- service: peer_community_in
+  feature: peer review
+  description:
 features:
-- :feature: text_mining
-  :description: bioRxiv provides free and unrestricted access to all articles posted
+- feature: text_mining
+  description: bioRxiv provides free and unrestricted access to all articles posted
     on the server. We believe this should apply not only to human readers but also
     to machine analysis of the content. A growing variety of resources have been created
     to facilitate this access.
-- :feature: search_engine
-  :description: Advanced Research and Alerts/RSS
-- :feature: bibliographic_references_management
-  :description: BibTeX, Bookends, EasyBib, EndNote (tagged), EndNote 8 (xml), Medlars,
+- feature: search_engine
+  description: Advanced Research and Alerts/RSS
+- feature: bibliographic_references_management
+  description: BibTeX, Bookends, EasyBib, EndNote (tagged), EndNote 8 (xml), Medlars,
     Mendeley, Papers, RefWorks Tagged,  Ref Manager, RIS, Zotero
-- :feature: usage_metrics
-  :description: Views, Downloads, Altmetrics, Social media interactions (from individual
+- feature: usage_metrics
+  description: Views, Downloads, Altmetrics, Social media interactions (from individual
     platforms not Altmetric), Number of comments (Disqus; Hypothesis if loaded). Those
     are visible to everyone
-- :feature: commenting
-  :description: Yes, bioRxiv therefore includes an on-site commenting mechanism (powered
+- feature: commenting
+  description: Yes, bioRxiv therefore includes an on-site commenting mechanism (powered
     by Disqus)
-- :feature: plagiarism_detection
-  :description: During screening process BiorXiv uses Similarity Check software
-- :feature: comms_social_networking
-  :description: 'Sharing via  social media (Twitter and mail)      https://twitter.com/biorxivpreprint'
+- feature: plagiarism_detection
+  description: During screening process BiorXiv uses Similarity Check software
+- feature: comms_social_networking
+  description: 'Sharing via  social media (Twitter and mail)      https://twitter.com/biorxivpreprint'
 ---
 
 

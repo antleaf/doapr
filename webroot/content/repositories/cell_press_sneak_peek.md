@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: cell_press_sneak_peek
 title: Cell Press Sneak peek
@@ -21,7 +21,6 @@ associated_journal: Elsevier
 author_pid: Cell Press journal
 availability_of_associated_content:
 backups: Needed for reading
-base_url: '2018'
 business_model: 'No'
 certificate_or_labels:
 closure_date:
@@ -46,6 +45,7 @@ metadata_properties: English
 metadata_reuse_method:
 metadata_reuse_permission: 'No'
 moderation: 'No'
+oai_pmh_url: '2018'
 objectives: Internal funding
 open_doar_id:
 open_source:
@@ -79,25 +79,25 @@ withdrawal_authorisation: 'No'
 withdrawal_policy: Authors, whose papers are selected by the editors (Cell Press )
   to be sent out for peer review
 integrations:
-- :service: disqus
-  :feature: commenting
-  :description:
-- :service: plumx_metrics
-  :feature: usage_metrics
-  :description:
+- service: disqus
+  feature: commenting
+  description:
+- service: plumx_metrics
+  feature: usage_metrics
+  description:
 features:
-- :feature: search_engine
-  :description: Search by category (Subjects) or Simple Search
-- :feature: usage_metrics
-  :description: Downloads and Views are visible to everyone
-- :feature: revision
-  :description: As the preprints are then posted in the publisher's journals, the
-    peer review is done by the
-- :feature: commenting
-  :description: Any registered Mendeley user can comment on a paper posted in Sneak
+- feature: search_engine
+  description: Search by category (Subjects) or Simple Search
+- feature: usage_metrics
+  description: Downloads and Views are visible to everyone
+- feature: revision
+  description: As the preprints are then posted in the publisher's journals, the peer
+    review is done by the
+- feature: commenting
+  description: Any registered Mendeley user can comment on a paper posted in Sneak
     Peek
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook and mail)      '
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook and mail)      '
 ---
 
 

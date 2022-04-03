@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: outbreak_rapid_science_prereview
 title: Outbreak Rapid Science PREReview
@@ -20,7 +20,6 @@ associated_journal:
 author_pid:
 availability_of_associated_content:
 backups:
-base_url:
 business_model:
 certificate_or_labels:
 closure_date:
@@ -42,6 +41,7 @@ metadata_properties:
 metadata_reuse_method:
 metadata_reuse_permission:
 moderation:
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source:
@@ -73,43 +73,42 @@ who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy:
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: hypothes_is
-  :feature: commenting
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
-  :description:
-- :service: peer_community_in
-  :feature: peer review
-  :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
-- :service: share
-  :feature: indexing
-  :description:
-- :service: unpaywall
-  :feature: indexing
-  :description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: hypothes_is
+  feature: commenting
+  description:
+- service: microsoft_academic_search
+  feature: indexing
+  description:
+- service: peer_community_in
+  feature: peer review
+  description:
+- service: plaudit
+  feature: endorsement
+  description:
+- service: share
+  feature: indexing
+  description:
+- service: unpaywall
+  feature: indexing
+  description:
 features:
-- :feature: writing
-  :description: Preprint editor
-- :feature: search_engine
-  :description: Advanced research
-- :feature: usage_metrics
-  :description: Endorsement score on author profile page and Downloads visible to
-    everyone
-- :feature: revision
-  :description:
-- :feature: commenting
-  :description:
-- :feature: revision_follow_up
-  :description:
-- :feature: comms_social_networking
-  :description: 'Sharing via  social media (Facebook, Twitter and mail)      https://twitter.com/OSFramework'
+- feature: writing
+  description: Preprint editor
+- feature: search_engine
+  description: Advanced research
+- feature: usage_metrics
+  description: Endorsement score on author profile page and Downloads visible to everyone
+- feature: revision
+  description:
+- feature: commenting
+  description:
+- feature: revision_follow_up
+  description:
+- feature: comms_social_networking
+  description: 'Sharing via  social media (Facebook, Twitter and mail)      https://twitter.com/OSFramework'
 ---
 
 

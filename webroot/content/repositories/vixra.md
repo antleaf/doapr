@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: vixra
 title: ViXra
@@ -25,7 +25,6 @@ associated_journal: 'No'
 author_pid: None
 availability_of_associated_content:
 backups: 'Yes : Cloud Storage'
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -50,6 +49,7 @@ metadata_reuse_method:
 metadata_reuse_permission:
 moderation: 'Beforehand : Text overlap detection, Misconduct or integrity checks,
   Legal compliance, Ethical compliance'
+oai_pmh_url:
 objectives: viXra will be open to anybody for both reading and submitting articles.
   We will not prevent anybody from submitting and will only reject articles in extreme
   cases of abuse, e.g. where the work may be vulgar, libellous, plagiaristic or dangerously
@@ -86,18 +86,18 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Content may be removed by author (or operator/owner)
 withdrawal_policy: 'Yes'
 features:
-- :feature: search_engine
-  :description: Search engine powered by Google
-- :feature: bibliographic_references_management
-  :description: Mendeley
-- :feature: usage_metrics
-  :description: Views are visible to everyone
-- :feature: revision
-  :description: Yes, you can ask for peer review on the forum
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: comms_social_networking
-  :description: "Sharing via Social media (Twitter and Facebook) and blog \L\Lhttps://www.facebook.com/viXraorg-186033568941/"
+- feature: search_engine
+  description: Search engine powered by Google
+- feature: bibliographic_references_management
+  description: Mendeley
+- feature: usage_metrics
+  description: Views are visible to everyone
+- feature: revision
+  description: Yes, you can ask for peer review on the forum
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: comms_social_networking
+  description: "Sharing via Social media (Twitter and Facebook) and blog \L\Lhttps://www.facebook.com/viXraorg-186033568941/"
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: arpha_preprints
 title: ARPHA Preprints
@@ -19,7 +19,6 @@ associated_journal: Pensoft
 author_pid: ARPHA-hosted journals that opted in for preprint services
 availability_of_associated_content:
 backups: Only needed for submission
-base_url: '2020-09-01'
 business_model: Authors state the absence of conflict of interest while submitting
   the manuscript to the journal. This applies to the preprints too.
 certificate_or_labels:
@@ -44,6 +43,7 @@ metadata_reuse_method: Title, Identifier, Publication/deposition date, Author na
   License type(s), Subject category
 metadata_reuse_permission: 'No'
 moderation: Email administrator
+oai_pmh_url: '2020-09-01'
 objectives: Supported by the publisher to provide a free service to the RPHa-hosted
   journals
 open_doar_id:
@@ -79,33 +79,33 @@ withdrawal_policy: ARPHA-hosted journals that opted in for preprint services.  P
   a preprint on ARPHA Preprints is part of the submission process of the participating
   ARPHA-hosted journals
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: microsoft_academic_search
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Simple Search or by filter (Journal, Posted date, Funding Agency)
-- :feature: bibliographic_references_management
-  :description: RIS, BibTeX, Bookends, EasyBib, EndNote (tagged), EndNote 8 (xml),
+- feature: search_engine
+  description: Simple Search or by filter (Journal, Posted date, Funding Agency)
+- feature: bibliographic_references_management
+  description: RIS, BibTeX, Bookends, EasyBib, EndNote (tagged), EndNote 8 (xml),
     Medlars, Mendeley, Papers, RefWorks Tagged, Ref Manager, Zotero, Mods (xml) and
     Plain text (txt)
-- :feature: usage_metrics
-  :description: Views and citation counts are visible to everyone
-- :feature: revision
-  :description: As the preprints are then posted in the publisher's journals, the
-    peer review is done by the platform
-- :feature: commenting
-  :description: Post-publication comments
-- :feature: endorsement
-  :description: Via Peer Review Process of the website
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit, Mendeley
+- feature: usage_metrics
+  description: Views and citation counts are visible to everyone
+- feature: revision
+  description: As the preprints are then posted in the publisher's journals, the peer
+    review is done by the platform
+- feature: commenting
+  description: Post-publication comments
+- feature: endorsement
+  description: Via Peer Review Process of the website
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit, Mendeley
     and mail)      '
 ---
 

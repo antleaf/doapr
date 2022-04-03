@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: munich_personal_repec_archive
 title: Munich Personal RePEc Archive
@@ -21,7 +21,6 @@ associated_journal: 'No'
 author_pid: None
 availability_of_associated_content:
 backups:
-base_url: http://mpra.ub.uni-muenchen.de/cgi/oai2
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -45,6 +44,7 @@ metadata_reuse_method: 'Free, you can dowload it in different formats : Dublin C
   JSON, HTML'
 metadata_reuse_permission: None
 moderation: Beforhand
+oai_pmh_url: http://mpra.ub.uni-muenchen.de/cgi/oai2
 objectives: As one of the LMU's main service providers the chief purpose of the University
   Library is to fulfil the literature and information needs of the scholarly community
   and to ensure optimal ease of use.
@@ -79,20 +79,20 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: No one
 withdrawal_policy: 'No'
 integrations:
-- :service: crossref
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
-  :description:
+- service: crossref
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: microsoft_academic_search
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Search by items
-- :feature: commenting
-  :description: Commenting available on the web site
+- feature: search_engine
+  description: Search by items
+- feature: commenting
+  description: Commenting available on the web site
 ---
 
 

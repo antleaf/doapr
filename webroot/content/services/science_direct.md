@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 title: Science Direct
 service_id: science_direct
@@ -8,6 +8,10 @@ description: Search for peer-reviewed journal articles and book chapters (includ
 service_url: https://www.sciencedirect.com
 categories:
 - search
+integrations:
+- repository: wellcome_open_research
+  feature: indexing
+  description:
 ---
 
 

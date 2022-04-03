@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: jmir_preprints
 title: JMIR Preprints
@@ -21,7 +21,6 @@ associated_journal: JMIR Publications journals
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: For-profit
 certificate_or_labels:
 closure_date:
@@ -44,6 +43,7 @@ metadata_properties: Title, Identifier, Publication/deposition date, Author name
 metadata_reuse_method: Openly available via Crossref (when available)
 metadata_reuse_permission: None
 moderation: Check is done during Open Peer review proccess
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source: 'No'
@@ -77,33 +77,33 @@ who_can_deposit: JMIR Publications facilitates this by allowing its authors to e
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: google
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: hypothes_is
-  :feature: commenting
-  :description:
+- service: google
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: hypothes_is
+  feature: commenting
+  description:
 features:
-- :feature: search_engine
-  :description: Simple Search or Search by criterias
-- :feature: usage_metrics
-  :description: Social media interactions are visible to everyone
-- :feature: revision
-  :description: 'Yes via Open Peer review : Submissions are open for anybody to peer-review.
+- feature: search_engine
+  description: Simple Search or Search by criterias
+- feature: usage_metrics
+  description: Social media interactions are visible to everyone
+- feature: revision
+  description: 'Yes via Open Peer review : Submissions are open for anybody to peer-review.
     Once two peer-review reports of reasonable quality have been received, we will
     send these peer-review reports to the author, and may offer transfer to a partner
     journal, which has its own editor or editorial board.'
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: revision_follow_up
-  :description: On the website we can follow the worflow of the review of the article
-- :feature: endorsement
-  :description: Via Open Peer Review Process of the website
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and Pinterest)      '
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: revision_follow_up
+  description: On the website we can follow the worflow of the review of the article
+- feature: endorsement
+  description: Via Open Peer Review Process of the website
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and Pinterest)      '
 ---
 
 

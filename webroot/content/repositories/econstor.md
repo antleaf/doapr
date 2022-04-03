@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: econstor
 title: ECONSTOR
@@ -22,7 +22,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups: Daily data backup on internal drives.
-base_url: https://www.econstor.eu/oai/request
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -49,6 +48,7 @@ metadata_reuse_method: Openly available via API
 metadata_reuse_permission: None
 moderation: Is the sole responsibility of the depositor. Any copyright violations
   are entirely the responsibility of the authors/depositors.
+oai_pmh_url: https://www.econstor.eu/oai/request
 objectives: Increasing the visibility of scholarly publications
 open_doar_id: X
 open_source: 'Yes'
@@ -83,18 +83,18 @@ who_can_deposit: 'Accredited Community Members or Employees of Econstor (check f
 withdrawal_authorisation: At the author's or another authorised person's request
 withdrawal_policy: 'Yes'
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Simple Search or by categories (subject)
-- :feature: bibliographic_references_management
-  :description: BibTex
-- :feature: usage_metrics
-  :description: Downloads are visible to everyone
-- :feature: indexing
-  :description:
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook and Reddit)      '
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Simple Search or by categories (subject)
+- feature: bibliographic_references_management
+  description: BibTex
+- feature: usage_metrics
+  description: Downloads are visible to everyone
+- feature: indexing
+  description:
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook and Reddit)      '
 ---
 
 

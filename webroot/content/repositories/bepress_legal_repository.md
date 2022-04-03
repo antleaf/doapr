@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: bepress_legal_repository
 title: Bepress Legal Repository
@@ -20,7 +20,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-base_url: http://law.bepress.com/do/oai/
 business_model: For-profit
 certificate_or_labels:
 closure_date:
@@ -45,6 +44,7 @@ metadata_reuse_permission: 'For nonprofit and commercial use : Allowed, with con
   The OAI Identifier and/or a link to the original metadata must be given. The Repository
   must be mentioned.'
 moderation:
+oai_pmh_url: http://law.bepress.com/do/oai/
 objectives: We empower academic communities to showcase their works and expertise
   for maximum impact.
 open_doar_id: X
@@ -78,16 +78,16 @@ withdrawal_authorisation: Send an email to working_papers@bepress.com and we wil
   remove the paper for you.
 withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
+- service: google_scholar
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: usage_metrics
-  :description: Downloads are visible to author(s) only
-- :feature: comms_social_networking
-  :description: 'Sharing via mail      '
+- feature: search_engine
+  description: Advanced Search
+- feature: usage_metrics
+  description: Downloads are visible to author(s) only
+- feature: comms_social_networking
+  description: 'Sharing via mail      '
 ---
 
 

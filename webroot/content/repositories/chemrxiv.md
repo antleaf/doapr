@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: chemrxiv
 title: ChemRxiv
@@ -21,7 +21,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -56,6 +55,7 @@ moderation: 'Beforehand: Data is available (if applicable), Code is available (i
   applicable), Text overlap detection, Misconduct or integrity checks, Ethical compliance,
   Competing interests, All authors consent to posting, Funder acknowledgement, Content
   is scientific and within scope'
+oai_pmh_url:
 objectives: With five of the world's largest chemical societies driving its development,
   ChemRxiv will enable efficient and timely dissemination of chemistry knowledge,
   help authors and researchers around the world communicate their work across disciplines,
@@ -95,34 +95,34 @@ withdrawal_authorisation: Platform (initiative of platform or request by submitt
   author or third party)
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: cab_abstracts
-  :feature: indexing
-  :description:
-- :service: crossref
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: ithenticate
-  :feature: plagiarism_detection
-  :description:
-- :service: reasearcher_app
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: cab_abstracts
+  feature: indexing
+  description:
+- service: crossref
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: ithenticate
+  feature: plagiarism_detection
+  description:
+- service: reasearcher_app
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description: ChemRxiv does allow metadata mining and allows all associated files
+- feature: text_mining
+  description: ChemRxiv does allow metadata mining and allows all associated files
     to be downloaded. Interested users should refer to the Open API documentation.
-- :feature: search_engine
-  :description: Search by filter only
-- :feature: usage_metrics
-  :description: Views, Downloads, Altmetrics visible to everyone
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Facebook, Twitter, LinkedIn)      https://twitter.com/chemrxiv'
+- feature: search_engine
+  description: Search by filter only
+- feature: usage_metrics
+  description: Views, Downloads, Altmetrics visible to everyone
+- feature: comms_social_networking
+  description: 'Sharing via social media (Facebook, Twitter, LinkedIn)      https://twitter.com/chemrxiv'
 ---
 
 

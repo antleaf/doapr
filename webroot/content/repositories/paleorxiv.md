@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: paleorxiv
 title: PaleorXiv
@@ -21,7 +21,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : Storage on paleorXiv beats a desktop hard-drive any day.'
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -48,6 +47,7 @@ metadata_reuse_method: Options to link data and code via API
 metadata_reuse_permission: Never asked
 moderation: Work will be reviewed by a moderator before appearing publicly on paleorXiv.
   If a paper is not accepted, the moderator will include a description of the reason.
+oai_pmh_url:
 objectives: PaleorXiv is dedicated to speeding and opening up paleontological research
   and helping to build the future of scholarly communication.
 open_doar_id: X
@@ -83,35 +83,34 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
-  :description:
-- :service: peer_community_in
-  :feature: peer review
-  :description:
-- :service: plaudit
-  :feature: commenting
-  :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
-- :service: share
-  :feature: indexing
-  :description:
-- :service: unpaywall
-  :feature: indexing
-  :description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: microsoft_academic_search
+  feature: indexing
+  description:
+- service: peer_community_in
+  feature: peer review
+  description:
+- service: plaudit
+  feature: commenting
+  description:
+- service: plaudit
+  feature: endorsement
+  description:
+- service: share
+  feature: indexing
+  description:
+- service: unpaywall
+  feature: indexing
+  description:
 features:
-- :feature: usage_metrics
-  :description: Endorsement score on author profile page and Downloads visible to
-    everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: comms_social_networking
-  :description: 'Sharing via  social media (Facebook, Twitter and mail)      https://twitter.com/paleorxiv'
+- feature: usage_metrics
+  description: Endorsement score on author profile page and Downloads visible to everyone
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: comms_social_networking
+  description: 'Sharing via  social media (Facebook, Twitter and mail)      https://twitter.com/paleorxiv'
 ---
 
 

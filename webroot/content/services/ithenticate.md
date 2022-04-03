@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 title: ithenticate
 service_id: ithenticate
@@ -8,6 +8,13 @@ description: iThenticate is the premier tool for researchers and professional wr
 service_url: https://www.ithenticate.com/
 categories:
 - plagiarism_detection
+integrations:
+- repository: apsa_preprints
+  feature: plagiarism_detection
+  description:
+- repository: chemrxiv
+  feature: plagiarism_detection
+  description:
 ---
 
 

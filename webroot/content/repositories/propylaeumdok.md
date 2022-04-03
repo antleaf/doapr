@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: propylaeumdok
 title: PropylaeumDok
@@ -25,7 +25,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-base_url: http://archiv.ub.uni-heidelberg.de/propylaeumdok/cgi/oai2
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -48,6 +47,7 @@ metadata_properties: Title, Author(s), Document type, Version, Date Deposited, F
 metadata_reuse_method: Openly available via API
 metadata_reuse_permission:
 moderation:
+oai_pmh_url: http://archiv.ub.uni-heidelberg.de/propylaeumdok/cgi/oai2
 objectives: Firmly rooted in its history, the University is committed to expanding
   and disseminating our knowledge about all aspects of humanity and nature through
   research and education. The University upholds the principle of freedom of research
@@ -83,12 +83,12 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation:
 withdrawal_policy:
 features:
-- :feature: search_engine
-  :description: Search Engine powered by Propylaeum
-- :feature: usage_metrics
-  :description: Downloads are visible to everyone
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook and mail)      https://twitter.com/Propylaeum_FID'
+- feature: search_engine
+  description: Search Engine powered by Propylaeum
+- feature: usage_metrics
+  description: Downloads are visible to everyone
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook and mail)      https://twitter.com/Propylaeum_FID'
 ---
 
 

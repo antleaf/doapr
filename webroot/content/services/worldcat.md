@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 title: WorldCat
 service_id: worldcat
@@ -9,6 +9,13 @@ description: WorldCat is the world's largest network of library content and serv
 service_url: https://www.worldcat.org/
 categories:
 - search
+integrations:
+- repository: research_square
+  feature: indexing
+  description:
+- repository: scielo_preprints
+  feature: indexing
+  description:
 ---
 
 

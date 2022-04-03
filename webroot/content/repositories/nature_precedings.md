@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: nature_precedings
 title: Nature Precedings
@@ -23,7 +23,6 @@ associated_journal: Nature Portfolio
 author_pid:
 availability_of_associated_content:
 backups:
-base_url: http://precedings.nature.com/oai2
 business_model: For-profit
 certificate_or_labels:
 closure_date: Closed in april 2012
@@ -47,6 +46,7 @@ metadata_reuse_method:
 metadata_reuse_permission:
 moderation: 'Beforehand : relevance to the scope of the repository and quality of
   the research'
+oai_pmh_url: http://precedings.nature.com/oai2
 objectives:
 open_doar_id: X
 open_source: 'No'
@@ -78,33 +78,33 @@ who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy: 'No'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: crossref
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: scilit
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: crossref
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: scilit
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Simple Search
-- :feature: usage_metrics
-  :description: Accesses and Citations are visible to everyone
-- :feature: revision
-  :description: As the preprints can be posted in the organisation's journals, the
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Simple Search
+- feature: usage_metrics
+  description: Accesses and Citations are visible to everyone
+- feature: revision
+  description: As the preprints can be posted in the organisation's journals, the
     peer review is done by the platform
-- :feature: commenting
-  :description: Informal peer review was available through a commenting system on
-    the Nature Precedings website
-- :feature: comms_social_networking
-  :description: 'Sharing link      '
+- feature: commenting
+  description: Informal peer review was available through a commenting system on the
+    Nature Precedings website
+- feature: comms_social_networking
+  description: 'Sharing link      '
 ---
 
 

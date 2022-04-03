@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: wellcome_open_research
 title: Wellcome Open Research
@@ -26,7 +26,6 @@ associated_journal: Wellcome Open Research
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -56,6 +55,7 @@ moderation: 'Beforehand : Data is available (if applicable), Code is available (
   applicable), All authors notified, Author has Wellcome grant, Legal compliance,
   Ethical compliance. Competing interests, All authors consent to posting, Funder
   acknowledgement, Clinical trial registration, Data, code availability statement'
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source: 'No'
@@ -88,54 +88,54 @@ who_can_deposit: Only member of Wellcome can post on the platform
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: econlit
-  :feature: indexing
-  :description:
-- :service: econstor
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: inomics
-  :feature: indexing
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
-  :description:
-- :service: openaire_explore
-  :feature: indexing
-  :description:
-- :service: researchgate
-  :feature: indexing
-  :description:
-- :service: science_direct
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: econlit
+  feature: indexing
+  description:
+- service: econstor
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: inomics
+  feature: indexing
+  description:
+- service: microsoft_academic_search
+  feature: indexing
+  description:
+- service: openaire_explore
+  feature: indexing
+  description:
+- service: researchgate
+  feature: indexing
+  description:
+- service: science_direct
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Simple Search or Search by filter (Subject Area, Article type(s),
-    Study type(s), Year(s) of publication, Article Funding Bodies)
-- :feature: bibliographic_references_management
-  :description: Mendeley, Sciwheel,  EndNote,  Ref. Manager, Bibtex, ProCite, Sente
-- :feature: usage_metrics
-  :description: Downloads, Views and Google Scholars Citations are visible to everyone
-- :feature: revision
-  :description: Articles are published first and peer reviewed after publication by
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Simple Search or Search by filter (Subject Area, Article type(s), Study
+    type(s), Year(s) of publication, Article Funding Bodies)
+- feature: bibliographic_references_management
+  description: Mendeley, Sciwheel,  EndNote,  Ref. Manager, Bibtex, ProCite, Sente
+- feature: usage_metrics
+  description: Downloads, Views and Google Scholars Citations are visible to everyone
+- feature: revision
+  description: Articles are published first and peer reviewed after publication by
     invited referees. The peer reviewer's names and comments are visible on the site.
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: revision_follow_up
-  :description: On the website we can follow the worflow of the review of the article
-- :feature: endorsement
-  :description: Via Peer Review Process of the website
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit and
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: revision_follow_up
+  description: On the website we can follow the worflow of the review of the article
+- feature: endorsement
+  description: Via Peer Review Process of the website
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit and
     mail)      https://blog.wellcomeopenresearch.org/'
 ---
 

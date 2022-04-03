@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: beilstein_archive
 title: Beilstein archive
@@ -23,7 +23,6 @@ associated_journal: Beilstein Journals
 author_pid: ORCID
 availability_of_associated_content:
 backups: Backups twice daily on two servers hosted by the Beilstein-Institut
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -52,6 +51,7 @@ moderation: 'Beforehand : offensive and/or non-scientific content are screened. 
   Beilstein Journals Editorial Office also checks for plagiarism, scope and scientifically
   unreliable content. The Beilstein Archives reserves the right to correct technical
   errors in the document before publication.'
+oai_pmh_url:
 objectives: To support the rapid and reliable dissimination of research.
 open_doar_id: X
 open_source: 'Yes'
@@ -89,26 +89,26 @@ who_can_deposit: The submitting author must create a simple account in the Beils
 withdrawal_authorisation: Platform. At author's request with moderator approval
 withdrawal_policy: 'Yes'
 integrations:
-- :service: manuscripts_io
-  :feature: writing
-  :description: Links to Online LaTeX editor. For longer text (Master Theses and Ph.D.
+- service: manuscripts_io
+  feature: writing
+  description: Links to Online LaTeX editor. For longer text (Master Theses and Ph.D.
     Dissertations) use  Manuscripts.io
 features:
-- :feature: text_mining
-  :description: Yes, consent to allow text and data mining of Your Content
-- :feature: search_engine
-  :description: Advanced Search (see Search Tips); RSS, Alerts - all integrated into
+- feature: text_mining
+  description: Yes, consent to allow text and data mining of Your Content
+- feature: search_engine
+  description: Advanced Search (see Search Tips); RSS, Alerts - all integrated into
     the platform
-- :feature: usage_metrics
-  :description: Views, Downloads, Social media interactions (from individual platforms
+- feature: usage_metrics
+  description: Views, Downloads, Social media interactions (from individual platforms
     not Altmetric) visible to everyone
-- :feature: commenting
-  :description: Comments. Discuss your preprints with your collaborators and the scientific
+- feature: commenting
+  description: Comments. Discuss your preprints with your collaborators and the scientific
     community
-- :feature: revision_follow_up
-  :description: Under Review Process
-- :feature: comms_social_networking
-  :description: 'https://twitter.com/authorea      https://www.authorea.com/blog'
+- feature: revision_follow_up
+  description: Under Review Process
+- feature: comms_social_networking
+  description: 'https://twitter.com/authorea      https://www.authorea.com/blog'
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 title: CAB Abstracts
 service_id: cab_abstracts
@@ -11,6 +11,10 @@ description: CAB Abstracts is the leading English-language bibliographic informa
 service_url: https://www.cabi.org/publishing-products/cab-abstracts/
 categories:
 - search
+integrations:
+- repository: chemrxiv
+  feature: indexing
+  description:
 ---
 
 

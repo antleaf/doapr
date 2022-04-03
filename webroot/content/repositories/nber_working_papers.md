@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: nber_working_papers
 title: NBER Working Papers
@@ -22,7 +22,6 @@ associated_journal:
 author_pid:
 availability_of_associated_content:
 backups:
-base_url:
 business_model:
 certificate_or_labels:
 closure_date:
@@ -44,6 +43,7 @@ metadata_properties:
 metadata_reuse_method:
 metadata_reuse_permission:
 moderation:
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source:
@@ -75,33 +75,33 @@ who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy:
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: crossref
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: scilit
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: crossref
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: scilit
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Simple Search
-- :feature: usage_metrics
-  :description: Accesses and Citations are visible to everyone
-- :feature: revision
-  :description: As the preprints can be posted in the organisation's journals, the
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Simple Search
+- feature: usage_metrics
+  description: Accesses and Citations are visible to everyone
+- feature: revision
+  description: As the preprints can be posted in the organisation's journals, the
     peer review is done by the platform
-- :feature: commenting
-  :description: Informal peer review was available through a commenting system on
-    the Nature Precedings website
-- :feature: comms_social_networking
-  :description: 'Sharing link      '
+- feature: commenting
+  description: Informal peer review was available through a commenting system on the
+    Nature Precedings website
+- feature: comms_social_networking
+  description: 'Sharing link      '
 ---
 
 

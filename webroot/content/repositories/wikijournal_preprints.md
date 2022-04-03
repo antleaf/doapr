@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: wikijournal_preprints
 title: WikiJournal Preprints
@@ -23,7 +23,6 @@ associated_journal: WikiJournals
 author_pid: ORCID
 availability_of_associated_content:
 backups: Backup kept in secondary server
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -47,6 +46,7 @@ metadata_properties: Title, Author(s), Abstract, First Submitted, Author(s) info
 metadata_reuse_method:
 metadata_reuse_permission: None
 moderation:
+oai_pmh_url:
 objectives: This preprint server allows you to create and edit academic articles drafts
   before submission for external peer review. Once you are happy with your article,
   you can submit it to any journal in the WikiJournal Publishing Group by filling
@@ -84,26 +84,26 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: copyvios
-  :feature: plagiarism_detection
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
+- service: copyvios
+  feature: plagiarism_detection
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
 features:
-- :feature: writing
-  :description: VisualEditor
-- :feature: revision
-  :description: As the preprints are then posted in the publisher's journals, the
-    peer review is done by the platform
-- :feature: commenting
-  :description: Commenting (Open Peer review process)
-- :feature: revision_follow_up
-  :description: On the website we can follow the worflow of the review of the article
-- :feature: endorsement
-  :description: Via Peer Review Process of the website
-- :feature: comms_social_networking
-  :description: "\L\Lhttps://twitter.com/WikiJSci"
+- feature: writing
+  description: VisualEditor
+- feature: revision
+  description: As the preprints are then posted in the publisher's journals, the peer
+    review is done by the platform
+- feature: commenting
+  description: Commenting (Open Peer review process)
+- feature: revision_follow_up
+  description: On the website we can follow the worflow of the review of the article
+- feature: endorsement
+  description: Via Peer Review Process of the website
+- feature: comms_social_networking
+  description: "\L\Lhttps://twitter.com/WikiJSci"
 ---
 
 

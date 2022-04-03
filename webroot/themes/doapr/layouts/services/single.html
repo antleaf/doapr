@@ -1,12 +1,32 @@
 {{ define "main" }}
-  <div class="row">
-    <div class="col">
-      <h1 class="page-title">{{ .Title }}</h1>
+    <div class="row">
+        <div class="col">
+            <h1 class="page-title">{{ .Title }}</h1>
+        </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      {{ .Content }}
+    <div class="row">
+        <div class="col">
+            {{ .Content }}
+            <h4>Repositories using this service</h4>
+            <table class="table sortable-table table-sm table-striped sortable-table">
+                <thead>
+                <tr class="column-header-row">
+                    <th>Name</th>
+                    <th class="no-sort">Description of use of this service</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{ range .Params.integrations }}
+                    {{ $repositoryPage := $.GetPage (print "/repositories/" (index . "repository"))}}
+                    <tr>
+                        <td>
+                            <a href="{{ $repositoryPage.Permalink }}">{{ $repositoryPage.Title }}</a>
+                        </td>
+                        <td>{{ index . "description" }}</td>
+                    </tr>
+                {{ end }}
+                </tbody>
+            </table>
+        </div>
     </div>
-  </div>
 {{ end }}

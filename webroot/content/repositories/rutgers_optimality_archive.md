@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: rutgers_optimality_archive
 title: Rutgers Optimality Archive
@@ -22,7 +22,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -48,6 +47,7 @@ metadata_reuse_method:
 metadata_reuse_permission:
 moderation: 'In retrospect : any paper which is deemed not relevant to the above-stated
   goals, or which is deemed to violate normal academic standards of discourse.'
+oai_pmh_url:
 objectives:
 open_doar_id: X
 open_source: 'No'
@@ -81,8 +81,8 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At author's request
 withdrawal_policy: 'Yes'
 features:
-- :feature: search_engine
-  :description: Advanced Search
+- feature: search_engine
+  description: Advanced Search
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: essoar
 title: ESSOAr
@@ -28,7 +28,6 @@ associated_journal: Most AGU journals and several Wiley and partner journals
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -57,6 +56,7 @@ metadata_reuse_permission: None
 moderation: 'Beforehand : Text overlap detection, Misconduct or integrity checks.
   Content that is viewed as not scholarly or scientific or not sufficiently substantive
   may not be accepted'
+oai_pmh_url:
 objectives: AGU has variety of networks designed to help you connect with scientists
   around the globe. Find a community that aligns with your scientific focus or interest.
 open_doar_id:
@@ -93,40 +93,40 @@ who_can_deposit: Authors must register through ORCID before submitting.
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: europe_pmc
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: hypothes_is
-  :feature: commenting
-  :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
-- :service: pre_pubmed
-  :feature: indexing
-  :description:
-- :service: scilit
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: europe_pmc
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: hypothes_is
+  feature: commenting
+  description:
+- service: plaudit
+  feature: endorsement
+  description:
+- service: pre_pubmed
+  feature: indexing
+  description:
+- service: scilit
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: bibliographic_references_management
-  :description: BibTex, RIS (ProCite, Reference Manager), EndNote, RefWorks
-- :feature: usage_metrics
-  :description: Downloads, View and Citations are visible to everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook and mail)      '
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Advanced Search
+- feature: bibliographic_references_management
+  description: BibTex, RIS (ProCite, Reference Manager), EndNote, RefWorks
+- feature: usage_metrics
+  description: Downloads, View and Citations are visible to everyone
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook and mail)      '
 ---
 
 

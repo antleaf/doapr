@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: agrirxiv
 title: AgriRxiv
@@ -22,7 +22,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups: CABI takes a back up of its content every 24 hours
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -48,6 +47,7 @@ metadata_reuse_method: Available for free upon request
 metadata_reuse_permission: Request to platform or author needed
 moderation: 'Beforehand : Content within scope, Manuscript is complete (methods, references),
   Text overlap detection'
+oai_pmh_url:
 objectives: We are committed to sharing knowledge. Knowledge is the application of
   information, augmented by experience. Knowledge enables people to support themselves
   and improve their lives when it is communicated effectively.
@@ -83,35 +83,35 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: crossref
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: plumx_metrics
-  :feature: usage_metrics
-  :description:
-- :service: reasearcher_app
-  :feature: indexing
-  :description:
+- service: crossref
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: plumx_metrics
+  feature: usage_metrics
+  description:
+- service: reasearcher_app
+  feature: indexing
+  description:
 features:
-- :feature: writing
-  :description: Links to author services and support resources.
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Search or by filters (Topics, Organism descriptor, Broader Terms,
-    Year, Author, Geographical location and Language)
-- :feature: usage_metrics
-  :description: Downloads and other analytics
-- :feature: peer review
-  :description: Links provided to journals including support in finding a journal
-    and its stated preprint policy.
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: comms_social_networking
-  :description: 'Yes, all pages and preprints have share functionality for all social
+- feature: writing
+  description: Links to author services and support resources.
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Search or by filters (Topics, Organism descriptor, Broader Terms, Year,
+    Author, Geographical location and Language)
+- feature: usage_metrics
+  description: Downloads and other analytics
+- feature: peer review
+  description: Links provided to journals including support in finding a journal and
+    its stated preprint policy.
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: comms_social_networking
+  description: 'Yes, all pages and preprints have share functionality for all social
     media platforms and email      https://twitter.com/agrirxiv'
 ---
 

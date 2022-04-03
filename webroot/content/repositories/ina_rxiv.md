@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: ina_rxiv
 title: INA-Rxiv
@@ -20,7 +20,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date: Closed in 2020 due to funding constraints
@@ -45,6 +44,7 @@ metadata_reuse_method:
 metadata_reuse_permission:
 moderation: 'When alerted to concern : Akismet spam filtering (automatic on all OSF
   content), Content within scope'
+oai_pmh_url:
 objectives: Aggregate search results from a variety of other preprint providers such
   as arXiv, bioRxiv, PeerJ, CogPrints and others
 open_doar_id:
@@ -79,21 +79,21 @@ who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy: 'No'
 integrations:
-- :service: plaudit
-  :feature: commenting
-  :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
+- service: plaudit
+  feature: commenting
+  description:
+- service: plaudit
+  feature: endorsement
+  description:
 features:
-- :feature: search_engine
-  :description: Simple Search or by filters (subject or Licence)
-- :feature: usage_metrics
-  :description: Downloads are visible to everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      '
+- feature: search_engine
+  description: Simple Search or by filters (subject or Licence)
+- feature: usage_metrics
+  description: Downloads are visible to everyone
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      '
 ---
 
 

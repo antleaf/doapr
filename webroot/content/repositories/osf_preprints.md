@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: osf_preprints
 title: OSF preprints
@@ -24,7 +24,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : COS Preservation Fund to maintain read access for 50+ years'
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -51,6 +50,7 @@ metadata_properties: Title, Identifier (e.g. DOI), Publication/deposition date, 
 metadata_reuse_method: Openly available via API
 metadata_reuse_permission: Never asked
 moderation: Moderators may be anonymous or may choose to share their identities.
+oai_pmh_url:
 objectives: Aggregate search results from a variety of other preprint providers such
   as arXiv, bioRxiv, PeerJ, CogPrints and others
 open_doar_id: X
@@ -87,43 +87,42 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Author, Plateform in case of copyrights issues
 withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: hypothes_is
-  :feature: commenting
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
-  :description:
-- :service: peer_community_in
-  :feature: peer review
-  :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
-- :service: share
-  :feature: indexing
-  :description:
-- :service: unpaywall
-  :feature: indexing
-  :description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: hypothes_is
+  feature: commenting
+  description:
+- service: microsoft_academic_search
+  feature: indexing
+  description:
+- service: peer_community_in
+  feature: peer review
+  description:
+- service: plaudit
+  feature: endorsement
+  description:
+- service: share
+  feature: indexing
+  description:
+- service: unpaywall
+  feature: indexing
+  description:
 features:
-- :feature: writing
-  :description: Preprint editor
-- :feature: search_engine
-  :description: Advanced research
-- :feature: usage_metrics
-  :description: Endorsement score on author profile page and Downloads visible to
-    everyone
-- :feature: revision
-  :description:
-- :feature: commenting
-  :description:
-- :feature: revision_follow_up
-  :description:
-- :feature: comms_social_networking
-  :description: 'Sharing via  social media (Facebook, Twitter and mail)      https://twitter.com/OSFramework'
+- feature: writing
+  description: Preprint editor
+- feature: search_engine
+  description: Advanced research
+- feature: usage_metrics
+  description: Endorsement score on author profile page and Downloads visible to everyone
+- feature: revision
+  description:
+- feature: commenting
+  description:
+- feature: revision_follow_up
+  description:
+- feature: comms_social_networking
+  description: 'Sharing via  social media (Facebook, Twitter and mail)      https://twitter.com/OSFramework'
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: zenodo
 title: Zenodo
@@ -25,7 +25,6 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: Data files and metadata are backed up nightly and replicated into multiple
   copies in the online system.
-base_url: http://zenodo.org/oai2d
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -52,6 +51,7 @@ moderation: Content must not violate privacy or copyright, or breach confidentia
   or non-disclosure agreements for data collected from human subjects. Content not
   considered to fall under the scope of the repository will be removed and associated
   DOIs issued by Zenodo revoked.
+oai_pmh_url: http://zenodo.org/oai2d
 objectives: Accelerating Science. It is built and developed by researchers to ensure
   that everyone can join and share in Open Science.
 open_doar_id: X
@@ -90,25 +90,25 @@ who_can_deposit: Anyone can post on the platform  as long as the content is rese
 withdrawal_authorisation: At Author's request or by the platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: matomo
-  :feature: usage_metrics
-  :description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: matomo
+  feature: usage_metrics
+  description:
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: https://help.zenodo.org/guides/search/
-- :feature: bibliographic_references_management
-  :description: BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON,
-    MARCXML and  Mendeley
-- :feature: usage_metrics
-  :description: Statistics can be requested by the owner of a record or community,
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: https://help.zenodo.org/guides/search/
+- feature: bibliographic_references_management
+  description: BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON, MARCXML
+    and  Mendeley
+- feature: usage_metrics
+  description: Statistics can be requested by the owner of a record or community,
     downloads per country is also available
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook and mail). Besides social
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook and mail). Besides social
     media our blog (link below)      https://blog.zenodo.org/ and https://twitter.com/zenodo_org'
 ---
 

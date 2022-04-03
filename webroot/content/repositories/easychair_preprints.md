@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: easychair_preprints
 title: EasyChair preprints
@@ -20,7 +20,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -43,6 +42,7 @@ metadata_reuse_method:
 metadata_reuse_permission:
 moderation: 'Beforehand : EasyChair will check that you use the right style, extract
   some information from your paper'
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source: 'No'
@@ -75,8 +75,8 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation:
 withdrawal_policy: 'No'
 features:
-- :feature: bibliographic_references_management
-  :description: BibTeX
+- feature: bibliographic_references_management
+  description: BibTeX
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: authorea
 title: Authorea
@@ -24,7 +24,6 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: 'No : You are solely responsible for creating and maintaining your own backup
   copies of your User Content if you desire'
-base_url:
 business_model: For-profit
 certificate_or_labels:
 closure_date:
@@ -51,6 +50,7 @@ metadata_properties: Title, Identifier (e.g. DOI), Publication/deposition date, 
 metadata_reuse_method: Free
 metadata_reuse_permission: Never asked
 moderation:
+oai_pmh_url:
 objectives: We founded Authorea in late 2012 with the mission of accelerating scientific
   discovery. We were frustrated that other writing tools didn't fully understand the
   needs of researchers -- especially researchers in a web-first world -- and we wondered
@@ -90,25 +90,25 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: No one
 withdrawal_policy: 'Yes'
 integrations:
-- :service: manuscripts_io
-  :feature: writing
-  :description: Links to Online LaTeX editor. For longer text (Master Theses and Ph.D.
+- service: manuscripts_io
+  feature: writing
+  description: Links to Online LaTeX editor. For longer text (Master Theses and Ph.D.
     Dissertations) use  Manuscripts.io
 features:
-- :feature: text_mining
-  :description: Yes, consent to allow text and data mining of Your Content
-- :feature: search_engine
-  :description: By Tags only
-- :feature: usage_metrics
-  :description: Views, Downloads, Social media interactions (from individual platforms
+- feature: text_mining
+  description: Yes, consent to allow text and data mining of Your Content
+- feature: search_engine
+  description: By Tags only
+- feature: usage_metrics
+  description: Views, Downloads, Social media interactions (from individual platforms
     not Altmetric) visible to everyone
-- :feature: commenting
-  :description: Comments. Discuss your preprints with your collaborators and the scientific
+- feature: commenting
+  description: Comments. Discuss your preprints with your collaborators and the scientific
     community
-- :feature: revision_follow_up
-  :description: Under Review Process
-- :feature: comms_social_networking
-  :description: 'https://twitter.com/authorea      https://www.authorea.com/blog'
+- feature: revision_follow_up
+  description: Under Review Process
+- feature: comms_social_networking
+  description: 'https://twitter.com/authorea      https://www.authorea.com/blog'
 ---
 
 

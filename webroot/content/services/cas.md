@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 title: CAS
 service_id: cas
@@ -10,6 +10,10 @@ description: At CAS, we curate, connect, and analyze scientific knowledge to rev
 service_url: https://www.cas.org
 categories:
 - search
+integrations:
+- repository: rinarxiv
+  feature: indexing
+  description:
 ---
 
 

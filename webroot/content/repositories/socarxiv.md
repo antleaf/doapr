@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: socarxiv
 title: SocArxiv
@@ -22,7 +22,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -51,6 +50,7 @@ metadata_reuse_permission: None
 moderation: 'Beforehand : Akismet spam filtering (automatic on all OSF content), Content
   within scope, Conflict of Interest, Data, code availability, Preregistration availability,
   All authors consent to posting'
+oai_pmh_url:
 objectives: The mission of the University of Maryland, College Park is to provide
   excellent teaching, research, and service.
 open_doar_id:
@@ -87,28 +87,28 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: hypothes_is
-  :feature: commenting
-  :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
-- :service: repec
-  :feature: indexing
-  :description:
-- :service: unpaywall
-  :feature: indexing
-  :description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: hypothes_is
+  feature: commenting
+  description:
+- service: plaudit
+  feature: endorsement
+  description:
+- service: repec
+  feature: indexing
+  description:
+- service: unpaywall
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Search by subject
-- :feature: usage_metrics
-  :description: Downloads are visible to everyone
-- :feature: comms_social_networking
-  :description: 'Sharing via social media      https://socopen.org/'
+- feature: search_engine
+  description: Search by subject
+- feature: usage_metrics
+  description: Downloads are visible to everyone
+- feature: comms_social_networking
+  description: 'Sharing via social media      https://socopen.org/'
 ---
 
 

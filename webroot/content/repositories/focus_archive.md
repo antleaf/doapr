@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: focus_archive
 title: FocUS Archive
@@ -19,7 +19,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -45,6 +44,7 @@ metadata_reuse_method: Openly available via Crossref
 metadata_reuse_permission: None
 moderation: 'Beforehand : Akismet spam filtering (automatic on all OSF content), Content
   within scope'
+oai_pmh_url:
 objectives: The Foundation requires all awardees deposit a copy of their final report
   in our preprint server for publication. Our server, FocUS Archive, is hosted by
   the Center for Open Science (COS) and publicly indexed by way of Crossref – the
@@ -82,28 +82,28 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: 'Yes'
 integrations:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: microsoft_academic_search
-  :feature: indexing
-  :description:
-- :service: plaudit
-  :feature: endorsement
-  :description:
-- :service: share
-  :feature: indexing
-  :description:
-- :service: unpaywall
-  :feature: indexing
-  :description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: microsoft_academic_search
+  feature: indexing
+  description:
+- service: plaudit
+  feature: endorsement
+  description:
+- service: share
+  feature: indexing
+  description:
+- service: unpaywall
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Simple Search or by filters (subject)
-- :feature: usage_metrics
-  :description: Downloads are visible to everyone
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/FUSFoundation or Youtube for conferences : https://www.youtube.com/user/FUSFoundation/videos'
+- feature: search_engine
+  description: Simple Search or by filters (subject)
+- feature: usage_metrics
+  description: Downloads are visible to everyone
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/FUSFoundation or Youtube for conferences : https://www.youtube.com/user/FUSFoundation/videos'
 ---
 
 

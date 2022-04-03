@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: open_research_europe
 title: Open Research Europe
@@ -27,7 +27,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -59,6 +58,7 @@ moderation: 'Beforehand : The editorial team will ensure that the authors are el
   data policies. The team will also check that the article is intelligible and written
   in good English so that it is suitable for peer review, and that its content can
   be fully assessed by invited peer reviewers and readers'
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source: 'No'
@@ -91,44 +91,44 @@ who_can_deposit: Only open to research participating in Horizon 2020 program
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: europe_pmc
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: pre_pubmed
-  :feature: indexing
-  :description:
-- :service: scilit
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: europe_pmc
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: pre_pubmed
+  feature: indexing
+  description:
+- service: scilit
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Simple Search or Search by filter (Subject Area, Article type(s),
-    Study type(s), Year(s) of publication, Article Funding Bodies)
-- :feature: bibliographic_references_management
-  :description: Sciwheel, EndNote, Ref. Manager, Bibtex, ProCite and Sente
-- :feature: usage_metrics
-  :description: Downloads, Views and Google Scholars Citations are visible to everyone
-- :feature: revision
-  :description: Peer review of articles published in Open Research Europe takes place
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Simple Search or Search by filter (Subject Area, Article type(s), Study
+    type(s), Year(s) of publication, Article Funding Bodies)
+- feature: bibliographic_references_management
+  description: Sciwheel, EndNote, Ref. Manager, Bibtex, ProCite and Sente
+- feature: usage_metrics
+  description: Downloads, Views and Google Scholars Citations are visible to everyone
+- feature: revision
+  description: Peer review of articles published in Open Research Europe takes place
     after publication; once the article is published, expert reviewers are formally
     invited to review. The peer review is administered on behalf of the authors by
     the editorial team, and authors are asked not to contact the reviewers directly.
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: revision_follow_up
-  :description: On the website we can follow the worflow of the review of the article
-- :feature: endorsement
-  :description: Via Peer Review Process of the website
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit and
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: revision_follow_up
+  description: On the website we can follow the worflow of the review of the article
+- feature: endorsement
+  description: Via Peer Review Process of the website
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit and
     mail)      https://open-research-europe.ec.europa.eu/blog'
 ---
 

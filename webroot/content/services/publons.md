@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 title: Publons
 service_id: publons
@@ -7,6 +7,10 @@ description: A searchable index of all COVID-19 papers and preprints, updated da
 service_url: https://publons.com/publon/covid-19/
 categories:
 - review
+integrations:
+- repository: preprints_org
+  feature: revision_follow_up
+  description:
 ---
 
 

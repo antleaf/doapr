@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: e_lis
 title: E-lis
@@ -22,7 +22,6 @@ associated_journal: 'No'
 author_pid: No. But we can use a field inside author metadata with ORCID
 availability_of_associated_content:
 backups:
-base_url: http://eprints.rclis.org/cgi/oai2
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -49,6 +48,7 @@ metadata_reuse_method: Openly available on article page and via API
 metadata_reuse_permission: None
 moderation: The eligibility of authors/depositors, valid layout and format, metadata
   quality of the document and is allowed to make changes if the metadata are incorrect.
+oai_pmh_url: http://eprints.rclis.org/cgi/oai2
 objectives: 'The objectives of E-LIS are: to improve knowledge of the building and
   management of open archives working practically in the field within the framework
   of Open Digital Libraries; not only to promote open archives in various disciplinary
@@ -93,16 +93,16 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Admin Board consider the case.
 withdrawal_policy: Yes, with conditions
 integrations:
-- :service: scopus
-  :feature: indexing
-  :description:
+- service: scopus
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: usage_metrics
-  :description: Downloads per month over past year are available to everyone
-- :feature: comms_social_networking
-  :description: "\L\Lhttps://twitter.com/EprintsELIS"
+- feature: search_engine
+  description: Advanced Search
+- feature: usage_metrics
+  description: Downloads per month over past year are available to everyone
+- feature: comms_social_networking
+  description: "\L\Lhttps://twitter.com/EprintsELIS"
 ---
 
 

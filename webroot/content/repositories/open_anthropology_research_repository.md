@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: open_anthropology_research_repository
 title: Open Anthropology Research Repository
@@ -24,7 +24,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups: Yes, monthly
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -49,6 +48,7 @@ metadata_reuse_method: Openly available via API
 metadata_reuse_permission: None
 moderation: 'Beforehand :  checking for plagiarism, offensive, dangerous, and/or non-scholarly
   content'
+oai_pmh_url:
 objectives: 'OARR: Open Anthropology Research Repository is a community server established
   by the American Anthropological Association to improve and accelerate the discovery
   and dissemination of anthropological work, including preprints, teaching materials,
@@ -92,32 +92,32 @@ withdrawal_authorisation: By the adminstrator, based on the request of the autho
   or third party
 withdrawal_policy: 'No'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: base
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: oaister
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: base
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: oaister
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description: OARR does allow text and metadata mining, it supports and participates
+- feature: text_mining
+  description: OARR does allow text and metadata mining, it supports and participates
     in the Open Archives Initiative (OAI) and it is a registered Open Archive Initiative
     Protocol for Metadata (OAI-PMH) data-provider.
-- :feature: search_engine
-  :description: Simple Search or Search by filter (Subject Area, Article type(s),
-    Study type(s), Year(s) of publication, Article Funding Bodies)
-- :feature: bibliographic_references_management
-  :description: RIS (ProCite, Reference Manager), EndNote, BibTeX, Medlars and RefWorks
-- :feature: usage_metrics
-  :description: Downloads are visible to everyone
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn and Reddit)
+- feature: search_engine
+  description: Simple Search or Search by filter (Subject Area, Article type(s), Study
+    type(s), Year(s) of publication, Article Funding Bodies)
+- feature: bibliographic_references_management
+  description: RIS (ProCite, Reference Manager), EndNote, BibTeX, Medlars and RefWorks
+- feature: usage_metrics
+  description: Downloads are visible to everyone
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and Reddit)
     or via QR Code      '
 ---
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: agecon_search
 title: AgEcon Search
@@ -25,7 +25,6 @@ author_pid: Can be added by administrators, will soon be part of the submission 
 availability_of_associated_content:
 backups: 'Yes : Content is backed by TIND daily and also locally at the University
   of Minnesota, and will be migrated to a new platform if necessary.'
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -54,6 +53,7 @@ metadata_properties: Title, Authors, Subjects, Series, Volume, Issue, Page numbe
 metadata_reuse_method: Free
 metadata_reuse_permission: Not required
 moderation: Contributing organizations screen their content beforehand.
+oai_pmh_url:
 objectives: AgEcon Search will serve as the permanent archive for this literature
   and encourages authors and organizations to use this electronic library as the storehouse
   for additional appropriate scholarly electronic works.
@@ -97,30 +97,30 @@ withdrawal_authorisation: Items in AgEcon Search may be withdrawn upon the reque
   of the contributor.
 withdrawal_policy: 'Yes'
 integrations:
-- :service: europe_pmc
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: matomo
-  :feature: usage_metrics
-  :description:
-- :service: pre_pubmed
-  :feature: indexing
-  :description:
-- :service: scilit
-  :feature: indexing
-  :description:
+- service: europe_pmc
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: matomo
+  feature: usage_metrics
+  description:
+- service: pre_pubmed
+  feature: indexing
+  description:
+- service: scilit
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Advanced Search, Alerts, Baskets, RSS (all integrated into the platform)
-- :feature: bibliographic_references_management
-  :description: BibTeX, MARC, MARCXML, DublinCore, EndNote, NLM, RefWorks and RIS
-- :feature: usage_metrics
-  :description: Downloads are visible to everyone
-- :feature: comms_social_networking
-  :description: 'Twitter and Facebook and YouTube channel      Twitter (https://twitter.com/AgEconSearch) and Facebook (https://facebook.com/AgEconSearch)
+- feature: search_engine
+  description: Advanced Search, Alerts, Baskets, RSS (all integrated into the platform)
+- feature: bibliographic_references_management
+  description: BibTeX, MARC, MARCXML, DublinCore, EndNote, NLM, RefWorks and RIS
+- feature: usage_metrics
+  description: Downloads are visible to everyone
+- feature: comms_social_networking
+  description: 'Twitter and Facebook and YouTube channel      Twitter (https://twitter.com/AgEconSearch) and Facebook (https://facebook.com/AgEconSearch)
     accounts, YouTube channel (https://www.youtube.com/user/AAEAonYT/videos)'
 ---
 

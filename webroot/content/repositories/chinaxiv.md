@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: chinaxiv
 title: ChinaXiv
@@ -23,7 +23,6 @@ associated_journal: 'Yes : Multiple, listed at http://chinaxiv.org/journal/brows
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-base_url: http://www.chinaxiv.org/oai/
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -47,6 +46,7 @@ metadata_properties: Title, Identifier, Publication/deposition date, Author name
 metadata_reuse_method: Openly available via API
 metadata_reuse_permission: None
 moderation: 'Beforehand : Text overlap detection, Misconduct or integrity checks'
+oai_pmh_url: http://www.chinaxiv.org/oai/
 objectives: NSLC, aiming at developing a world first-class information service ability
   and leadership in library development in the country, strives to strengthen its
   resources, improve its systems, and innovate its services, to best suit its users.
@@ -81,21 +81,21 @@ who_can_deposit: Accound needed, Only research from China is accepted
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: crossref
-  :feature: indexing
-  :description:
-- :service: pubmed
-  :feature: indexing
-  :description:
+- service: crossref
+  feature: indexing
+  description:
+- service: pubmed
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: usage_metrics
-  :description: Views, Downloads and Hits are visible to everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: comms_social_networking
-  :description: 'Sharing via social media      '
+- feature: search_engine
+  description: Advanced Search
+- feature: usage_metrics
+  description: Views, Downloads and Hits are visible to everyone
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: comms_social_networking
+  description: 'Sharing via social media      '
 ---
 
 

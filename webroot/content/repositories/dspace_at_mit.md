@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: dspace_at_mit
 title: Dspace @ MIT
@@ -27,7 +27,6 @@ associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-base_url: http://dspace.mit.edu/oai/request
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -52,6 +51,7 @@ metadata_properties: Title, Authors, Journal, URI, Abstract, Sponsorship, Rights
 metadata_reuse_method: Free, via UI and API
 metadata_reuse_permission: None
 moderation: Beforehand or None depending on the collection
+oai_pmh_url: http://dspace.mit.edu/oai/request
 objectives: Our vision? A world where more people have access to knowledge and more
   voices are heard. Where tools and solutions can be networked, shared, and “hacked.”
   Where knowledge not only provides answers, but empowers and inspires. We think libraries
@@ -89,26 +89,26 @@ who_can_deposit: The work must be produced, submitted or sponsored by MIT facult
 withdrawal_authorisation: Author or platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: base
-  :feature: indexing
-  :description:
-- :service: core
-  :feature: indexing
-  :description:
-- :service: openaire_explore
-  :feature: indexing
-  :description:
+- service: base
+  feature: indexing
+  description:
+- service: core
+  feature: indexing
+  description:
+- service: openaire_explore
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: usage_metrics
-  :description: Downloads (by month and all time usage), Views, (by month and all
-    time usage), Top Countries views and dowloads. Accessible with graphs. Those are
-    visible to everyone
-- :feature: comms_social_networking
-  :description: 'Alerts when a content is posted only.      '
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Advanced Search
+- feature: usage_metrics
+  description: Downloads (by month and all time usage), Views, (by month and all time
+    usage), Top Countries views and dowloads. Accessible with graphs. Those are visible
+    to everyone
+- feature: comms_social_networking
+  description: 'Alerts when a content is posted only.      '
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: core_repository
 title: CORE repository
@@ -20,7 +20,6 @@ associated_journal:
 author_pid:
 availability_of_associated_content:
 backups:
-base_url:
 business_model:
 certificate_or_labels:
 closure_date:
@@ -42,6 +41,7 @@ metadata_properties:
 metadata_reuse_method:
 metadata_reuse_permission:
 moderation:
+oai_pmh_url:
 objectives:
 open_doar_id:
 open_source:
@@ -73,12 +73,12 @@ who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy:
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Search by Subjects, Year or Simple Search
-- :feature: bibliographic_references_management
-  :description: ASCII Citation, Atom, BibTeX, Dublin Core, EP3 XML, EPrints Application
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Search by Subjects, Year or Simple Search
+- feature: bibliographic_references_management
+  description: ASCII Citation, Atom, BibTeX, Dublin Core, EP3 XML, EPrints Application
     Profile (experimental), EndNote, HTML Citation, ID Plus Text Citation, JSON, METS,
     MODS, MPEG-21 DIDL, OpenURL ContextObject, OpenURL ContextObject in Span, RDF+N-Triples,
     RDF+N3, RDF+XML, Refer, Reference Manager, Search Data Dump, Simple Metadata,

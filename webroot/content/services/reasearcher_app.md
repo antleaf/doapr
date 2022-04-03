@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 title: Researcher
 service_id: reasearcher_app
@@ -11,6 +11,16 @@ description: 'Keeping up-to-date with research can feel impossible, with papers 
 service_url: https://www.researcher-app.com
 categories:
 - search
+integrations:
+- repository: agrirxiv
+  feature: indexing
+  description:
+- repository: chemrxiv
+  feature: indexing
+  description:
+- repository: peerj_preprints
+  feature: indexing
+  description:
 ---
 
 

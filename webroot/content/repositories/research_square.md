@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: research_square
 title: Research Square
@@ -27,7 +27,6 @@ associated_journal: Submit directly or upon submission to BMC journals, Nature j
 author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : Preprints permanently archived in Portico'
-base_url:
 business_model: For-profit
 certificate_or_labels:
 closure_date:
@@ -55,6 +54,7 @@ metadata_reuse_permission: None
 moderation: Checks are conducted for alarming, potentially dangerous, or highly controversial
   claims; pseudoscience; biosecurity threats; ethic approval where needed; personal
   identifiers
+oai_pmh_url:
 objectives: At Research Square Company, we're committed to making research communication
   faster, fairer, and more useful. We do this by developing innovative software and
   high quality services for the global research community. Our growing team of researchers
@@ -92,47 +92,47 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: base
-  :feature: indexing
-  :description:
-- :service: econbiz
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: liebniz_open
-  :feature: indexing
-  :description:
-- :service: openaire_explore
-  :feature: indexing
-  :description:
-- :service: repec
-  :feature: indexing
-  :description:
-- :service: worldcat
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: base
+  feature: indexing
+  description:
+- service: econbiz
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: liebniz_open
+  feature: indexing
+  description:
+- service: openaire_explore
+  feature: indexing
+  description:
+- service: repec
+  feature: indexing
+  description:
+- service: worldcat
+  feature: indexing
+  description:
 features:
-- :feature: writing
-  :description: AJE
-- :feature: text_mining
-  :description: Yes via HMTL
-- :feature: search_engine
-  :description: Simple search
-- :feature: usage_metrics
-  :description: Views, Downloads, Altmetrics, Comments, Citations are visible to everyone
-- :feature: commenting
-  :description: Commenting (including annotation plug-ins)
-- :feature: revision_follow_up
-  :description: In Review Service
-- :feature: endorsement
-  :description: Via badges
-- :feature: comms_social_networking
-  :description: 'Tweet of the posted content. There is always the implementation of
+- feature: writing
+  description: AJE
+- feature: text_mining
+  description: Yes via HMTL
+- feature: search_engine
+  description: Simple search
+- feature: usage_metrics
+  description: Views, Downloads, Altmetrics, Comments, Citations are visible to everyone
+- feature: commenting
+  description: Commenting (including annotation plug-ins)
+- feature: revision_follow_up
+  description: In Review Service
+- feature: endorsement
+  description: Via badges
+- feature: comms_social_networking
+  description: 'Tweet of the posted content. There is always the implementation of
     the content/article highlighting. Sharing via Social Media (Twitter, Facebook,
     LinkedIn, Papers and mail)      https://www.researchsquare.com/researchers/promotion'
 ---

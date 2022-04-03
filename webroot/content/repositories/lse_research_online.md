@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: lse_research_online
 title: LSE Research Online
@@ -31,7 +31,6 @@ backups: "Yes - Eprints is hosted on a virtual server. We backup database and ep
   the primary server hourly during work hours – IIRC the primary server is backed
   up nightly using vmware backup tools.\nOur configuration is hosted in a git repository
   and this is also backed up nightly with standard gitlab backups."
-base_url: http://eprints.lse.ac.uk/cgi/oai2
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -63,6 +62,7 @@ metadata_reuse_method: Fully open and availalable to reuse
 metadata_reuse_permission: 'The OAI Identifier and/or a link to the original metadata
   must be given. And for commercial reuse : Requires Formal Permission'
 moderation: We manually check papers before upload
+oai_pmh_url: http://eprints.lse.ac.uk/cgi/oai2
 objectives: |-
   LSE Research Online aims to be a complete database of research produced by LSE Staff.
 
@@ -109,19 +109,19 @@ who_can_deposit: Mediated deposit, staff can't  create an account or deposit the
 withdrawal_authorisation: By the platform owner if asked by the author
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
 features:
-- :feature: search_engine
-  :description: Advanced Search
-- :feature: usage_metrics
-  :description: Downloads are visible to everyone
-- :feature: commenting
-  :description: Commenting available on the web site
+- feature: search_engine
+  description: Advanced Search
+- feature: usage_metrics
+  description: Downloads are visible to everyone
+- feature: commenting
+  description: Commenting available on the web site
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: scielo_preprints
 title: SciELO Preprints
@@ -25,7 +25,6 @@ availability_of_associated_content:
 backups: The backup is done daily. We use a backup software called ArcServe to do
   the backup flow. Also we have a Disaster Recovery plan in case of the Datacenter
   failure.
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -55,6 +54,7 @@ metadata_reuse_permission:
 moderation: 'Beforehand : Content within scope, Manuscript is complete (methods, references),
   All authors notified, Legal compliance, Ethical compliance, Originality, Potential
   for harm if posted'
+oai_pmh_url:
 objectives: Offer an infrastructure for posting preprints as an integral part of the
   research communication flow.
 open_doar_id:
@@ -99,42 +99,42 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At authors' request, if properly justified
 withdrawal_policy: 'Yes'
 integrations:
-- :service: altmetric
-  :feature: usage_metrics
-  :description:
-- :service: base
-  :feature: indexing
-  :description:
-- :service: core
-  :feature: indexing
-  :description:
-- :service: google_scholar
-  :feature: indexing
-  :description:
-- :service: hypothes_is
-  :feature: commenting
-  :description:
-- :service: openaire_explore
-  :feature: indexing
-  :description:
-- :service: unpaywall
-  :feature: indexing
-  :description:
-- :service: worldcat
-  :feature: indexing
-  :description:
+- service: altmetric
+  feature: usage_metrics
+  description:
+- service: base
+  feature: indexing
+  description:
+- service: core
+  feature: indexing
+  description:
+- service: google_scholar
+  feature: indexing
+  description:
+- service: hypothes_is
+  feature: commenting
+  description:
+- service: openaire_explore
+  feature: indexing
+  description:
+- service: unpaywall
+  feature: indexing
+  description:
+- service: worldcat
+  feature: indexing
+  description:
 features:
-- :feature: text_mining
-  :description:
-- :feature: search_engine
-  :description: Simple search or by discipline (Areas of Knowledge)
-- :feature: usage_metrics
-  :description: Downloads and views are available to everyone
-- :feature: revision
-  :description: As the preprints can be posted in the publisher's journals, the peer
+- feature: text_mining
+  description:
+- feature: search_engine
+  description: Simple search or by discipline (Areas of Knowledge)
+- feature: usage_metrics
+  description: Downloads and views are available to everyone
+- feature: revision
+  description: As the preprints can be posted in the publisher's journals, the peer
     review is done by the platform
-- :feature: comms_social_networking
-  :description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit and
+- feature: comms_social_networking
+  description: 'Sharing via social media (Twitter, Facebook, LinkedIn, Reddit and
     mail)      '
 ---
 

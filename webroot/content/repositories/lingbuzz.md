@@ -1,5 +1,5 @@
 ---
-date: 2022-03-31
+date: 2022-04-03
 draft: false
 repository_id: lingbuzz
 title: LingBuzz
@@ -20,7 +20,6 @@ associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-base_url:
 business_model: Nonprofit
 certificate_or_labels:
 closure_date:
@@ -42,6 +41,7 @@ metadata_properties: Title, Author(s), Date, Abstract, Format, Reference, keywor
 metadata_reuse_method:
 metadata_reuse_permission:
 moderation:
+oai_pmh_url:
 objectives:
 open_doar_id: X
 open_source: 'Yes'
@@ -74,8 +74,8 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes'
 features:
-- :feature: usage_metrics
-  :description: Downloads, Views are visible to everyone
+- feature: usage_metrics
+  description: Downloads, Views are visible to everyone
 ---
 
 
