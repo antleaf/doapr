@@ -21,7 +21,7 @@
                 </li>
             </ul>
             <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" style="background-color: #def3fd;">
 {{/*                    <h4>General/Organisational</h4>*/}}
                     <table class="invisible-layout-table">
                         <tr><td class="field-name">{{ humanize "repository_url" }}</td><td>{{ .Params.repository_url }}</td></tr>
@@ -51,7 +51,7 @@
                         <tr><td class="field-name">{{ humanize "last_update" }}</td><td>{{ .Params.last_update }}</td></tr>
                     </table>
                 </div>
-                <div class="tab-pane fade" id="pills-governance" role="tabpanel" aria-labelledby="pills-governance-tab">
+                <div class="tab-pane fade" id="pills-governance" role="tabpanel" aria-labelledby="pills-governance-tab" style="background-color: #fcf7de;">
 {{/*                    <h4>Governance</h4>*/}}
                     <table class="invisible-layout-table">
                         <tr><td class="field-name">{{ humanize "accessibility_conflict_interest_procedures" }}</td><td>{{ .Params.accessibility_conflict_interest_procedures }}</td></tr>
@@ -67,7 +67,7 @@
                         <tr><td class="field-name">{{ humanize "user_committees" }}</td><td>{{ .Params.user_committees }}</td></tr>
                     </table>
                 </div>
-                <div class="tab-pane fade" id="pills-features" role="tabpanel" aria-labelledby="pills-features-tab">
+                <div class="tab-pane fade" id="pills-features" role="tabpanel" aria-labelledby="pills-features-tab" style="background-color: #fddfdf;">
 {{/*                    <h4>Features &amp; Functions</h4>*/}}
                     <table class="invisible-layout-table">
                         <tr><td class="field-name">{{ humanize "access_to_content" }}</td><td>{{ .Params.access_to_content }}</td></tr>
@@ -86,7 +86,7 @@
                         <tr><td class="field-name">{{ humanize "preservation_policy" }}</td><td>{{ .Params.preservation_policy }}</td></tr>
                     </table>
                 </div>
-                <div class="tab-pane fade" id="pills-editorial" role="tabpanel" aria-labelledby="pills-editorial-tab">
+                <div class="tab-pane fade" id="pills-editorial" role="tabpanel" aria-labelledby="pills-editorial-tab" style="background-color: #F0DEFD;">
 {{/*                    <h4>Editorial Process</h4>*/}}
                     <table class="invisible-layout-table">
                         <tr><td class="field-name">{{ humanize "academic_applicant_only" }}</td><td>{{ .Params.academic_applicant_only }}</td></tr>
