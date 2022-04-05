@@ -1,5 +1,5 @@
 ---
-date: 2022-04-03
+date: 2022-04-05
 draft: false
 repository_id: horizon__ird_scientific_publications
 title: Horizon - IRD scientific publications
@@ -72,16 +72,6 @@ versioning_policy:
 who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy:
-integrations:
-- service: episcience
-  feature: indexing
-  description:
-- service: peer_community_in
-  feature: peer review
-  description:
-- service: software_heritage
-  feature: indexing
-  description:
 features:
 - feature: text_mining
   description: Yes, but it should not be for commercial use

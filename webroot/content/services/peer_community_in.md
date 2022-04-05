@@ -1,5 +1,5 @@
 ---
-date: 2022-04-03
+date: 2022-04-05
 draft: false
 title: Peer Community in
 service_id: peer_community_in
@@ -23,9 +23,6 @@ integrations:
   feature: peer review
   description:
 - repository: hal
-  feature: peer review
-  description:
-- repository: horizon__ird_scientific_publications
   feature: peer review
   description:
 - repository: metaarxiv
