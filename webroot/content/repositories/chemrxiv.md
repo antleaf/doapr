@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 repository_id: chemrxiv
 title: ChemRxiv
@@ -7,24 +7,25 @@ description: ChemRxiv (pronounced 'chem-archive') is a free submission, distribu
   and archive service for unpublished preprints in chemistry and related areas.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, PPT
-accepted_content_language:
+accepted_content_language: English
 accepted_content_level: Research manuscripts only
 accepted_content_types: Research manuscripts only (Preprints)
 accepted_supplementary_content: Any type of supplementary file or weblink can be associated
   as supporting information on the preprint page.
-access_to_content:
-access_to_metadata:
-accessibility_conflict_interest_procedures:
+access_to_content: Anyone may access full items free of charge
+access_to_metadata: Anyone may access the metadata free of charge
+accessibility_conflict_interest_procedures: 'Yes : view Policies and Procedures'
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
 author_pid: ORCID
-availability_of_associated_content:
+availability_of_associated_content: Material associated with preprint is hosted also
+  by the platform
 backups:
-business_model: Nonprofit
-certificate_or_labels:
+business_model: non-profit
+certificate_or_labels: None
 closure_date:
-concerns_about_content:
+concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administator
 contact: support@chemrxiv.org
 disciplinary_scope: Agriculture and Food Chemistry, Analytical Chemistry, Biological
@@ -39,8 +40,8 @@ interoperability: Yes via API
 journal_submission: Unrestricted, but submission is facilitated in journals owned
   by American Chemical Society, Royal Society of Chemistry, German Chemical Society
   (other publishers coming soon)
-keyword:
-last_update: '2022-02-11'
+keywords: Chemistry, archive
+last_update: 7/2/21
 launch_date: '2017'
 licensing: 'Authors are provided with a choice of licenses: CC BY, CC BY-NC, and CC
   BY-NC-ND'
@@ -62,15 +63,15 @@ objectives: With five of the world's largest chemical societies driving its deve
   and provide a forum through which to share and discover the very latest findings.
 open_doar_id:
 open_source: 'No'
-owner_country: ''
 owner_full_name: American Chemical Society, Chinese Chemical Society, Chemical Society
   of Japan, German Chemical Society and the Royal Society of Chemistry.
 owner_short_name: ACS, CCS, CSJ, GDCh, RSC
 owner_url:
 ownership_type: Scientific society
-pid:
-peer_review_status:
-persistent_of_content:
+pid: DOI, each version receives its own unique DOI
+peer_review_status: 'Yes'
+persistence_of_content: 'Yes : Agreement to dark archive content with TIB (Leibniz
+  Information Centre for Science and Technology University Library)'
 platform:
 platform_languages: English
 preservation_policy:
@@ -78,51 +79,62 @@ record_count: 'Full text: 9 153'
 remining_indrawn_item: Content remains with a version indicating that the content
   has been retracted.
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers   '
+scientific_committees: 'Yes : includes researchers'
 service_pricing: None
 short_name:
-status: Open
-terms_of_use:
+status: open
+terms_of_use: 'Yes'
 text_embargo: 'No'
-time_submission_to_posting:
+time_submission_to_posting: Up to 48 hours
 repository_url: https://chemrxiv.org/
-user_committees: "\L"
+user_committees:
 versioning_policy: Accepts new version. Your original version will remain publicly
   accessible with a date and time stamp.
 who_can_deposit: Anyone can post on the platform. Only an ORCID account is required
   ( The creation of the account is free).
 withdrawal_authorisation: Platform (initiative of platform or request by submitting
   author or third party)
-withdrawal_policy: 'Yes'
-integrations:
-- service: altmetric
-  feature: usage_metrics
-  description:
-- service: cab_abstracts
-  feature: indexing
-  description:
-- service: crossref
-  feature: indexing
-  description:
-- service: google_scholar
-  feature: indexing
-  description:
-- service: ithenticate
-  feature: plagiarism_detection
-  description:
-- service: reasearcher_app
-  feature: indexing
-  description:
+withdrawal_policy: Yes. Contravention of copyright, plagiarism, ethical and legal
+  issues
 features:
-- feature: text_mining
-  description: ChemRxiv does allow metadata mining and allows all associated files
-    to be downloaded. Interested users should refer to the Open API documentation.
-- feature: search_engine
-  description: Search by filter only
-- feature: usage_metrics
+- function: text-mining
+  service:
+  description: 'Yes : ChemRxiv does allow metadata mining and allows all associated
+    files to be downloaded. Interested users should refer to the Open API documentation.'
+- function: metrics
+  service:
   description: Views, Downloads, Altmetrics visible to everyone
-- feature: comms_social_networking
-  description: 'Sharing via social media (Facebook, Twitter, LinkedIn)      https://twitter.com/chemrxiv'
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, Europe PMC, Chemical Abstracts Services, CrossRef,
+    Scopus, ProQuest'
+- function: plagiarism-detection
+  service:
+  description: Yes, iThenticate
+- function: plagiarism-detection
+  service: ithenticate
+  description:
+- function: metrics
+  service: altmetric
+  description:
+- function: indexing
+  service: google-scholar
+  description:
+- function: indexing
+  service: europe-pmc
+  description:
+- function: indexing
+  service: chemical-abstracts
+  description:
+- function: indexing
+  service: crossref
+  description:
+- function: indexing
+  service: scopus
+  description:
+- function: indexing
+  service: proquest
+  description:
 ---
 
 

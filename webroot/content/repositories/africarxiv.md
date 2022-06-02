@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 repository_id: africarxiv
 title: AfricArxiv
@@ -8,7 +8,9 @@ description: AfricArXiv is a community-led digital archive for African research,
   of African scholarly works to catalyze the African Renaissance.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, Word doc, RTF, Open Office
-accepted_content_language:
+accepted_content_language: Afrikaans, Akan, English, French, Igbo, Swahili, Zulu,
+  other unspecified native African languages ( summary must be provided in English
+  and French, non-English languages held in moderation queue awaiting verification
 accepted_content_level: Research and Scholary content
 accepted_content_types: Research articles, Review papers, Project proposals, Case
   studies, ‘Negative’ results and ‘null’ results (i.e. results that do not support
@@ -16,20 +18,24 @@ accepted_content_types: Research articles, Review papers, Project proposals, Cas
   Preprints
 accepted_supplementary_content: With each manuscript you can add supplementary files
   in any format with unlimited storage.
-access_to_content:
-access_to_metadata:
-accessibility_conflict_interest_procedures:
+access_to_content: Anyone may access full items free of charge
+access_to_metadata: Anyone may access the metadata free of charge
+accessibility_conflict_interest_procedures: Just like a published article, it’s important
+  to ensure that all ethical requirements are met before making a preprint public.
+  It is particularly important to check that your manuscript is free from patient
+  information or other protected personal data.
 account_creation: Only needed for submission, via ORCID iD
 associated_editor: 'No'
 associated_journal: 'No'
 author_pid: ORCID
-availability_of_associated_content:
+availability_of_associated_content: 'You also can integrate files hosted using other
+  services such as Figshare, Dropbox, or GitHub. '
 backups: The content is currently hosted by 3rd party services who take care of the
   backups, see table at https://info.africarxiv.org/submit/
-business_model: Nonprofit
-certificate_or_labels:
+business_model: non-profit
+certificate_or_labels: None
 closure_date:
-concerns_about_content:
+concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
 contact: info@africarxiv.org
 disciplinary_scope: All scientific fileds
@@ -39,9 +45,9 @@ funding: Community operators pay a fee based on usage and COS subsidizes the oth
 interoperability: The content is currently hosted by 3rd party services who take care
   of the backups, see table at https://info.africarxiv.org/submit/
 journal_submission: Unrestricted
-keyword:
-last_update: '2022-02-11'
-launch_date: '2018-06-01'
+keywords: OSF, Figshare, Africa, African research
+last_update: 7/13/21
+launch_date: Jun-18
 licensing: Authors must use CC BY 4.0 license
 metadata_formats: 'No'
 metadata_languages: English
@@ -56,33 +62,33 @@ oai_pmh_url:
 objectives: https://info.africarxiv.org/in-a-nutshell/
 open_doar_id: X
 open_source: 'Yes'
-owner_country: DE
-owner_full_name: Small group of enthusiasts, currently maintained and managed via
+owner_full_name: 'Small group of enthusiasts, currently maintained and managed via
   Access 2 Perspectives ( Jo Havemann). For details and governance roadmap/vision
-  see https://info.africarxiv.org/in-a-nutshell/
+  see https://info.africarxiv.org/in-a-nutshell/ '
 owner_short_name: n/a
 owner_url: https://access2perspectives.org/
 ownership_type: Academic community group
-pid:
-peer_review_status:
-persistent_of_content:
+pid: DOI, single DOI retained for all versions
+peer_review_status: 'No'
+persistence_of_content: COS Preservation Fund to maintain read access for 50+ years,
+  wscienceOpen via Clockss, Pubpub & Figshare via AWS, Zenodo via CERN
 platform:
 platform_languages: English
 preservation_policy: The content is currently hosted by 3rd party services and will
   thus continue to be online in case of closure
 record_count: 'Full text (articles, theses): 248 (OSF), Zenodo (171), ScienceOpen
-  (13), Figshare ( 2)'
+  (13), Figshare ( 2) '
 remining_indrawn_item: Basic information remains on a tombstone page (OSF)
 repository_type: Decentralised/independent/aggregating open archive platform
-scientific_committees: 'Yes : includes researchers   To be announced '
+scientific_committees: 'Yes : includes researchers'
 service_pricing: None
 short_name:
-status: Open
-terms_of_use:
+status: open
+terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
-time_submission_to_posting:
+time_submission_to_posting: 3 to 5 business days
 repository_url: https://info.africarxiv.org/
-user_committees: "No \L"
+user_committees: 'No'
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: "African scientists based on the African continent \nAfrican scientists
@@ -90,41 +96,56 @@ who_can_deposit: "African scientists based on the African continent \nAfrican sc
   who report on research conducted on African territory; preferably with African co-authors
   listed. Non-African scientists who report on research relevant to African affairs"
 withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: 'Yes'
-integrations:
-- service: google_scholar
-  feature: indexing
-  description:
-- service: hypothes_is
-  feature: endorsement
-  description:
-- service: microsoft_academic_search
-  feature: indexing
-  description:
-- service: peer_community_in
-  feature: peer review
-  description:
-- service: plaudit
-  feature: endorsement
-  description:
-- service: scienceopen
-  feature: peer review
-  description:
-- service: share
-  feature: indexing
-  description:
-- service: unpaywall
-  feature: indexing
-  description:
+withdrawal_policy: Yes. Plagiarism, false or inaccurate content
 features:
-- feature: search_engine
-  description: Simple Search or by filters (subject)
-- feature: usage_metrics
-  description: Downloads are visible to everyone
-- feature: commenting
-  description: Commenting (including annotation plug-ins)
-- feature: comms_social_networking
-  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/AfricArxiv'
+- function: metrics
+  service:
+  description: 'Downloads are visible to everyone      ScienceOpen has Altmeric integration'
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
+- function: peer-review
+  service:
+  description: Yes, via Peer Community In, PREreview and Science Open
+- function: commenting
+  service:
+  description: 'Yes : Commenting (including annotation plug-ins)'
+- function: revision-follow-up
+  service:
+  description: 'Not yet, to be announced '
+- function: endorsement
+  service:
+  description: Yes, via Plaudit (OSF)
+- function: peer-review
+  service: peer-community-in
+  description:
+- function: peer-review
+  service: prereview
+  description:
+- function: peer-review
+  service: scienceopen
+  description:
+- function: commenting
+  service: hypothes-is
+  description:
+- function: endorsement
+  service: plaudit
+  description:
+- function: metrics
+  service: altmetric
+  description:
+- function: indexing
+  service: google-scholar
+  description:
+- function: indexing
+  service: share
+  description:
+- function: indexing
+  service: microsoft-academic
+  description:
+- function: indexing
+  service: unpaywall
+  description:
 ---
 
 

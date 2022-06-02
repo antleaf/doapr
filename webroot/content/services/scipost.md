@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: SciPost
 service_id: scipost
@@ -9,8 +9,10 @@ description: SciPost is a complete scientific publication portal. It is purely o
   its Journals aim at the highest achievable standards of refereeing. SciPost Commentaries
   allow Contributors to seamlessly comment on all existing literature.
 service_url: https://scipost.org
-categories:
-- general_publication
+cost: completely_free
+functions:
+- general-publication
+repo_count: 0
 ---
 
 

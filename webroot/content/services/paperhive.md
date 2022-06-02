@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: PaperHive
 service_id: paperhive
@@ -8,8 +8,10 @@ description: Introduces seamless discussion of research papers directly in the b
   corrections, formulas, figures, further literature, code, or data directly to the
   original text where everyone can benefit from it.
 service_url: https://paperhive.org
-categories:
-- communication_and_sharing
+cost: completely_free
+functions:
+- communication-and-sharing
+repo_count: 0
 ---
 
 

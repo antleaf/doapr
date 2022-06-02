@@ -1,20 +1,17 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: ISIDORE
 service_id: isidore
 description: An online platform that allows research and access to human and social
   sciences digital data.
 service_url: https://isidore.science/
-categories:
-- search
-integrations:
-- repository: earth_prints_repository
-  feature: indexing
-  description:
-- repository: hal
-  feature: indexing
-  description:
+cost: completely_free
+functions:
+- indexing
+repositories:
+- hal
+repo_count: 1
 ---
 
 

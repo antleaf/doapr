@@ -1,0 +1,200 @@
+{{ define "main" }}
+    <div class="row">
+        <div class="col">
+            <h1 class="page-title">{{ .Title }}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">General</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-governance-tab" data-bs-toggle="pill" data-bs-target="#pills-governance" type="button" role="tab" aria-controls="pills-governance" aria-selected="false">Governance</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-features-tab" data-bs-toggle="pill" data-bs-target="#pills-features" type="button" role="tab" aria-controls="pills-features" aria-selected="false">Features &amp; Functions</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-editorial-tab" data-bs-toggle="pill" data-bs-target="#pills-editorial" type="button" role="tab" aria-controls="pills-editorial" aria-selected="false">Editorial Process</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" style="background-color: #def3fd;">
+{{/*                    <h4>General/Organisational</h4>*/}}
+                    <table class="invisible-layout-table">
+                        <tr><td class="field-name">{{ humanize "repository_url" }}</td><td>{{ .Params.repository_url }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "short_name" }}</td><td>{{ .Params.short_name }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "description" }}</td><td>{{ .Params.description }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "accepted_content_types" }}</td><td>{{ .Params.accepted_content_types }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "certificate_or_labels" }}</td><td>{{ .Params.certificate_or_labels }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "closure_date" }}</td><td>{{ .Params.closure_date }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "contact" }}</td><td>{{ .Params.contact }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "disciplinary_scope" }}</td><td>{{ .Params.disciplinary_scope }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "keywords" }}</td><td>{{ .Params.keyword }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "launch_date" }}</td><td>{{ .Params.launch_date }}</td></tr>
+                        <tr><td class="field-name">OAI-PMH URL</td><td>{{ .Params.oai_pmh_url }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "open_doar_id" }}</td><td>{{ .Params.open_doar_id }}</td></tr>
+                        <tr>
+                            <td class="field-name">{{ humanize "platform" }}</td>
+                            <td>
+                                {{ with .Site.GetPage (print "/platforms/" .Params.platform ".md" ) }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
+                            </td>
+                        </tr>
+                        <tr><td class="field-name">{{ humanize "platform_languages" }}</td><td>{{ .Params.platform_languages }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "record_count" }}</td><td>{{ .Params.record_count }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "repository_type" }}</td><td>{{ .Params.repository_type }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "service_pricing" }}</td><td>{{ .Params.service_pricing }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "status" }}</td><td>{{ .Params.status }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "terms_of_use" }}</td><td>{{ .Params.terms_of_use }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "last_update" }}</td><td>{{ .Params.last_update }}</td></tr>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="pills-governance" role="tabpanel" aria-labelledby="pills-governance-tab" style="background-color: #fcf7de;">
+{{/*                    <h4>Governance</h4>*/}}
+                    <table class="invisible-layout-table">
+                        <tr><td class="field-name">{{ humanize "accessibility_conflict_interest_procedures" }}</td><td>{{ .Params.accessibility_conflict_interest_procedures }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "business_model" }}</td><td>{{ .Params.business_model }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "funding" }}</td><td>{{ .Params.funding }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "objectives" }}</td><td>{{ .Params.objectives }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "owner_country" }}</td><td>{{ .Params.owner_country }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "owner_full_name" }}</td><td>{{ .Params.owner_full_name }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "owner_short_name" }}</td><td>{{ .Params.owner_short_name }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "owner_url" }}</td><td>{{ .Params.owner_url }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "ownership_type" }}</td><td>{{ .Params.ownership_type }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "scientific_committees" }}</td><td>{{ .Params.scientific_committees }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "user_committees" }}</td><td>{{ .Params.user_committees }}</td></tr>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="pills-features" role="tabpanel" aria-labelledby="pills-features-tab" style="background-color: #fddfdf;">
+{{/*                    <h4>Features &amp; Functions</h4>*/}}
+                    <table class="invisible-layout-table">
+                        <tr><td class="field-name">{{ humanize "access_to_content" }}</td><td>{{ .Params.access_to_content }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "access_to_metadata" }}</td><td>{{ .Params.access_to_metadata }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "account_creation" }}</td><td>{{ .Params.account_creation }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "backups" }}</td><td>{{ .Params.backups }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "functional_description" }}</td><td>{{ .Params.functional_description }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "interoperability" }}</td><td>{{ .Params.interoperability }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "metadata_formats" }}</td><td>{{ .Params.metadata_formats }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "metadata_languages" }}</td><td>{{ .Params.metadata_languages }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "metadata_properties" }}</td><td>{{ .Params.metadata_properties }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "metadata_reuse_method" }}</td><td>{{ .Params.metadata_reuse_method }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "open_source" }}</td><td>{{ .Params.open_source }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "metadata_reuse_permission" }}</td><td>{{ .Params.metadata_reuse_permission }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "persistent_of_content" }}</td><td>{{ .Params.persistent_of_content }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "preservation_policy" }}</td><td>{{ .Params.preservation_policy }}</td></tr>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="pills-editorial" role="tabpanel" aria-labelledby="pills-editorial-tab" style="background-color: #F0DEFD;">
+{{/*                    <h4>Editorial Process</h4>*/}}
+                    <table class="invisible-layout-table">
+                        <tr><td class="field-name">{{ humanize "academic_applicant_only" }}</td><td>{{ .Params.academic_applicant_only }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "accepted_content_formats" }}</td><td>{{ .Params.accepted_content_formats }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "accepted_content_language" }}</td><td>{{ .Params.accepted_content_language }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "accepted_content_level" }}</td><td>{{ .Params.accepted_content_level }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "accepted_supplementary_content" }}</td><td>{{ .Params.accepted_supplementary_content }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "associated_editor" }}</td><td>{{ .Params.associated_editor }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "associated_journal" }}</td><td>{{ .Params.associated_journal }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "author_pid" }}</td><td>{{ .Params.author_pid }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "availability_of_associated_content" }}</td><td>{{ .Params.availability_of_associated_content }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "journal_submission" }}</td><td>{{ .Params.journal_submission }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "licensing" }}</td><td>{{ .Params.licensing }}</td></tr>
+                        <tr><td class="field-name">Mechanisms to report concerns about content</td><td>{{ .Params.concerns_about_content }}</td></tr>
+                        <tr><td class="field-name">Mechanisms to report concerns about plagiarism</td><td>{{ .Params.concerns_about_plagiarism }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "moderation" }}</td><td>{{ .Params.moderation }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "peer_review_status" }}</td><td>{{ .Params.peer_review_status }}</td></tr>
+                        <tr><td class="field-name">Persistent Identifier(s)</td><td>{{ .Params.pid }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "text_embargo" }}</td><td>{{ .Params.text_embargo }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "time_submission_to_posting" }}</td><td>{{ .Params.time_submission_to_posting }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "versioning_policy" }}</td><td>{{ .Params.versioning_policy }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "who_can_deposit" }}</td><td>{{ .Params.who_can_deposit }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "withdrawal_authorisation" }}</td><td>{{ .Params.withdrawal_authorisation }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "withdrawal_policy" }}</td><td>{{ .Params.withdrawal_policy }}</td></tr>
+                        <tr><td class="field-name">{{ humanize "remining_indrawn_item" }}</td><td>{{ .Params.remining_indrawn_item }}</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{{ end }}
+
+
+
+
+
+{{/*<table class="invisible-layout-table">*/}}
+{{/*    <tr><td class="field-name">{{ humanize "title" }}</td><td>{{ .Title }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "description" }}</td><td>{{ .Params.description }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "academic_applicant_only" }}</td><td>{{ .Params.academic_applicant_only }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "accepted_content_formats" }}</td><td>{{ .Params.accepted_content_formats }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "accepted_content_language" }}</td><td>{{ .Params.accepted_content_language }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "accepted_content_level" }}</td><td>{{ .Params.accepted_content_level }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "accepted_content_types" }}</td><td>{{ .Params.accepted_content_types }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "accepted_supplementary_content" }}</td><td>{{ .Params.accepted_supplementary_content }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "access_to_content" }}</td><td>{{ .Params.access_to_content }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "access_to_metadata" }}</td><td>{{ .Params.access_to_metadata }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "accessibility_conflict_interest_procedures" }}</td><td>{{ .Params.accessibility_conflict_interest_procedures }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "account_creation" }}</td><td>{{ .Params.account_creation }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "associated_editor" }}</td><td>{{ .Params.associated_editor }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "associated_journal" }}</td><td>{{ .Params.associated_journal }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "author_pid" }}</td><td>{{ .Params.author_pid }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "availability_of_associated_content" }}</td><td>{{ .Params.availability_of_associated_content }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "backups" }}</td><td>{{ .Params.backups }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "business_model" }}</td><td>{{ .Params.business_model }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "certificate_or_labels" }}</td><td>{{ .Params.certificate_or_labels }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "closure_date" }}</td><td>{{ .Params.closure_date }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "concerns_about_content" }}</td><td>{{ .Params.concerns_about_content }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "concerns_about_plagiarism" }}</td><td>{{ .Params.concerns_about_plagiarism }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "contact" }}</td><td>{{ .Params.contact }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "disciplinary_scope" }}</td><td>{{ .Params.disciplinary_scope }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "functional_description" }}</td><td>{{ .Params.functional_description }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "funding" }}</td><td>{{ .Params.funding }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "interoperability" }}</td><td>{{ .Params.interoperability }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "journal_submission" }}</td><td>{{ .Params.journal_submission }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "keyword" }}</td><td>{{ .Params.keyword }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "last_update" }}</td><td>{{ .Params.last_update }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "launch_date" }}</td><td>{{ .Params.launch_date }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "licensing" }}</td><td>{{ .Params.licensing }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "metadata_formats" }}</td><td>{{ .Params.metadata_formats }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "metadata_languages" }}</td><td>{{ .Params.metadata_languages }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "metadata_properties" }}</td><td>{{ .Params.metadata_properties }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "metadata_reuse_method" }}</td><td>{{ .Params.metadata_reuse_method }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "metadata_reuse_permission" }}</td><td>{{ .Params.metadata_reuse_permission }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "moderation" }}</td><td>{{ .Params.moderation }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "objectives" }}</td><td>{{ .Params.objectives }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "open_doar_id" }}</td><td>{{ .Params.open_doar_id }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "open_source" }}</td><td>{{ .Params.open_source }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "owner_country" }}</td><td>{{ .Params.owner_country }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "owner_full_name" }}</td><td>{{ .Params.owner_full_name }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "owner_short_name" }}</td><td>{{ .Params.owner_short_name }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "owner_url" }}</td><td>{{ .Params.owner_url }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "ownership_type" }}</td><td>{{ .Params.ownership_type }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "pid" }}</td><td>{{ .Params.pid }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "peer_review_status" }}</td><td>{{ .Params.peer_review_status }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "persistent_of_content" }}</td><td>{{ .Params.persistent_of_content }}</td></tr>*/}}
+{{/*    <tr>*/}}
+{{/*        <td class="field-name">{{ humanize "platform" }}</td>*/}}
+{{/*        <td>*/}}
+{{/*            {{ with .Site.GetPage (print "/platforms/" .Params.platform ".md" ) }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}*/}}
+{{/*        </td>*/}}
+{{/*    </tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "platform_languages" }}</td><td>{{ .Params.platform_languages }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "preservation_policy" }}</td><td>{{ .Params.preservation_policy }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "record_count" }}</td><td>{{ .Params.record_count }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "remining_indrawn_item" }}</td><td>{{ .Params.remining_indrawn_item }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "repository_type" }}</td><td>{{ .Params.repository_type }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "scientific_committees" }}</td><td>{{ .Params.scientific_committees }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "service_pricing" }}</td><td>{{ .Params.service_pricing }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "short_name" }}</td><td>{{ .Params.short_name }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "status" }}</td><td>{{ .Params.status }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "terms_of_use" }}</td><td>{{ .Params.terms_of_use }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "text_embargo" }}</td><td>{{ .Params.text_embargo }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "time_submission_to_posting" }}</td><td>{{ .Params.time_submission_to_posting }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "repository_url" }}</td><td>{{ .Params.url }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "user_committees" }}</td><td>{{ .Params.user_committees }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "versioning_policy" }}</td><td>{{ .Params.versioning_policy }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "who_can_deposit" }}</td><td>{{ .Params.who_can_deposit }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "withdrawal_authorisation" }}</td><td>{{ .Params.withdrawal_authorisation }}</td></tr>*/}}
+{{/*    <tr><td class="field-name">{{ humanize "withdrawal_policy" }}</td><td>{{ .Params.withdrawal_policy }}</td></tr>*/}}
+{{/*</table>*/}}

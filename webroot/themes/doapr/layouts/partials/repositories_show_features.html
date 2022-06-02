@@ -1,0 +1,147 @@
+<table class="invisible-layout-table">
+    <tr>
+        <td class="field-name">
+            Access to Content:
+        </td>
+        <td>
+            {{ .Params.access_to_content }}
+        </td>
+    </tr>
+    <tr>
+        <td class="field-name">
+            Access to Metadata:
+        </td>
+        <td>
+            {{ .Params.access_to_metadata }}
+        </td>
+    </tr>
+    <tr>
+        <td class="field-name">
+            Account Creation:
+        </td>
+        <td>
+            {{ .Params.account_creation }}
+        </td>
+    </tr>
+    <tr>
+        <td class="field-name">
+            Backups:
+        </td>
+        <td>
+            {{ .Params.backups }}
+        </td>
+    </tr>
+    <tr>
+        <td class="field-name">
+            Functional Description:
+        </td>
+        <td>
+            {{ .Params.functional_description }}
+        </td>
+    </tr>
+    <tr>
+        <td class="field-name">
+            Interoperability:
+        </td>
+        <td>
+            {{ .Params.interoperability }}
+        </td>
+    </tr>
+    <tr>
+        <td class="field-name">
+            Metadata Formats:
+        </td>
+        <td>
+            {{ .Params.metadata_formats }}
+        </td>
+    </tr>
+    <tr>
+        <td class="field-name">
+            Metadata Languages:
+        </td>
+        <td>
+            {{ .Params.metadata_languages }}
+        </td>
+    </tr>
+    <tr>
+        <td class="field-name">
+            Metadata Properties:
+        </td>
+        <td>
+            {{ .Params.metadata_properties }}
+        </td>
+    </tr>
+    <tr>
+        <td class="field-name">
+            Method for Reuse of Metadata:
+        </td>
+        <td>
+            {{ .Params.metadata_reuse_method }}
+        </td>
+    </tr>
+    <tr>
+        <td class="field-name">
+            Open Source:
+        </td>
+        <td>
+            {{ .Params.open_source }}
+        </td>
+    </tr>
+    <tr>
+        <td class="field-name">
+            Permission for Re-use of Metadata:
+        </td>
+        <td>
+            {{ .Params.metadata_reuse_permission }}
+        </td>
+    </tr>
+    <tr>
+        <td class="field-name">
+            Persistence of Content:
+        </td>
+        <td>
+            {{ .Params.persistence_of_content }}
+        </td>
+    </tr>
+    <tr>
+        <td class="field-name">
+            Preservation Policy:
+        </td>
+        <td>
+            {{ .Params.preservation_policy }}
+        </td>
+    </tr>
+    <tr>
+        <td class="field-name">
+            Functions:
+        </td>
+        <td>
+            {{ with .Params.features }}
+                <table class="invisible-layout-table">
+                    <thead>
+                    <tr>
+                        <th>Function</th>
+                        <th>Service</th>
+                        <th>Details</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {{ range . }}
+                        {{ $service := "Local function" }}
+                        {{ if .service }}
+                            {{ $service := .service }}
+                        {{ end }}
+                        <tr>
+                            <td>{{ .function }}</td>
+                            <td>{{ $service }}</td>
+                            <td>{{ .description }}</td>
+                        </tr>
+
+                    {{ end }}
+                    </tbody>
+                </table>
+            {{ end }}
+        </td>
+    </tr>
+
+</table>

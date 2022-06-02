@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: PREreview
 service_id: prereview
@@ -8,12 +8,13 @@ description: A community and platform for the collaborative writing of preprint 
   (of preprints) written by any researcher with an Orcid iD. Authors do not submit
   their own preprints to PREreview for evaluation.
 service_url: https://www.prereview.org
-categories:
-- review
-integrations:
-- repository: preprints_org
-  feature: peer review
-  description:
+cost: completely_free
+functions:
+- peer-review
+repositories:
+- africarxiv
+- preprints-org
+repo_count: 2
 ---
 
 

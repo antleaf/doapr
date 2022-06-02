@@ -1,13 +1,15 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: Ouriginal
 service_id: ouriginal
 description: It is a similarity detection solution that combines text-matching with
   writing-style analysis to promote academic integrity and help prevent plagiarism.
 service_url: https://ouriginal.com/
-categories:
-- plagiarism_detection
+cost: premium_only
+functions:
+- plagiarism-detection
+repo_count: 0
 ---
 
 

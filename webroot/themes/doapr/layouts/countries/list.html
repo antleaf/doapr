@@ -11,8 +11,8 @@
     </div>
     <div class="row">
         <div class="col">
-            {{ partial "world_map" .Data.Pages }}
-            <br/>
+{{/*            {{ partial "world_map" .Data.Pages }}*/}}
+{{/*            <br/>*/}}
             <table id="countriesTable" class="sortable-table table table-sm table-striped">
                 <thead>
                 <tr class="column-header-row">
@@ -26,7 +26,11 @@
                 {{ range .Data.Pages }}
                     <tr>
                         <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-                        <td><img src="/images/flags/{{.File.ContentBaseName}}.png" class="countries_list_table_flag"/></td>
+                        {{ if .Params.code }}
+                            <td><img src="/images/flags/{{.Params.code | lower}}.png" class="countries_list_table_flag"/></td>
+                        {{ else }}
+                            <td><img src="/images/flags/_unknown.png" class="countries_list_table_flag"/></td>
+                        {{ end }}
                         <td>{{ .Params.continent }}</td>
                         <td class="number">{{ .Params.repo_count }}</td>
                     </tr>

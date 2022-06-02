@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 repository_id: ssoar
 title: SSOAR
@@ -9,7 +9,8 @@ description: The full-text server SSOAR, which is maintained at GESIS – Leibni
   the Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF
-accepted_content_language:
+accepted_content_language: English, German (Publications in other languages are made
+  on request on a case-by-case basis)
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Books, Chapters and Sections, Preprints,
   Postprints, Contributions to Working Papers, Working Paper Series, Monographs and
@@ -17,9 +18,9 @@ accepted_content_types: Journal Articles, Books, Chapters and Sections, Preprint
 accepted_supplementary_content: If the data records of a table (Excel, Libre/Open
   Office), a CSV file, or an XML file are available, they can be delivered to SSOAR
   in this format.
-access_to_content:
-access_to_metadata:
-accessibility_conflict_interest_procedures:
+access_to_content: Anyone may access full items free of charge
+access_to_metadata: Anyone may access the metadata free of charge
+accessibility_conflict_interest_procedures: 'No'
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -31,10 +32,10 @@ backups: 'Yes : The databases are automatically saved every three hours. Increme
   thereby ensuring the separation of server and backup. Security updates are carried
   out automatically and in a timely manner. If the system should fail, it can be reconstructed
   within a day with the standard software after the backed-up data has been imported.'
-business_model: Nonprofit
-certificate_or_labels:
+business_model: non-profit
+certificate_or_labels: German Initiative for Network Information DINI
 closure_date:
-concerns_about_content:
+concerns_about_content: Email administrator
 concerns_about_plagiarism: 'No'
 contact: team@ssoar.info
 disciplinary_scope: Social Sciences - in particular, sociology and political science
@@ -44,8 +45,8 @@ functional_description: 'No'
 funding: Internal funding
 interoperability: Yes via API
 journal_submission: Unrestricted
-keyword:
-last_update: '2022-02-11'
+keywords: Social Science, Repository
+last_update: 5/21/21
 launch_date: '2009'
 licensing: 'Authors are provided with a choice of licenses: CC0, CC BY, CC BY-SA,
   CC BY-NC-SA; with no preference for which license chosen'
@@ -59,10 +60,10 @@ metadata_reuse_method: Openly available via API
 metadata_reuse_permission: All metadata are made available under a CC0 (Creative Commons
   Zero) licence and can be harvested via the standardised OAI-PMH web interface and
   used freely without any restrictions.
-moderation: Before the publications are made freely accessible to the public on the
+moderation: 'Before the publications are made freely accessible to the public on the
   Internet, the metadata are checked by the SSOAR team and are supplemented with a
   classification, keywords (Thesaurus for the Social Sciences (GESIS)) and, if necessary,
-  with further information.
+  with further information. '
 oai_pmh_url: https://www.ssoar.info/OAIHandler/request
 objectives: GESIS provides essential and internationally relevant research-based services
   for the social sciences. As the largest European infrastructure institute for the
@@ -71,15 +72,17 @@ objectives: GESIS provides essential and internationally relevant research-based
   based on the latest scientific methods, and with high quality research data.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: DE
 owner_full_name: GESIS - Leibniz Institute for the Social Sciences
 owner_short_name: GESIS
 owner_url: http://www.gesis.org/
 ownership_type: Public, infrastructure institute for the social sciences
-pid:
-peer_review_status:
-persistent_of_content:
-platform: eprints
+pid: |-
+  URN (Uniform Resource Name);
+  DOI for primary publications and publications of GESIS-scientists
+peer_review_status: 'Yes'
+persistence_of_content: 'Yes : GESIS guarantees that content published on SSOAR will
+  be archived for at least five years.'
+platform:
 platform_languages: English and German
 preservation_policy: 'Yes: digital preservation via German  National Library'
 record_count: 'Full text:  62 963'
@@ -87,33 +90,44 @@ remining_indrawn_item: Full text isn't available anymore. However, the correspon
   metadata set will continue to be accessible via the URN in order to ensure stable
   linking.
 repository_type: Disciplinary
-scientific_committees: 'No   '
+scientific_committees: 'No'
 service_pricing: None
 short_name: SSOAR
-status: Open
-terms_of_use:
+status: open
+terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
-time_submission_to_posting:
+time_submission_to_posting: Different (usually up to 48 hours)
 repository_url: https://www.gesis.org/en/ssoar/home
-user_committees: 'No   '
+user_committees: 'No'
 versioning_policy: Accepts new version. Only the last version is visible for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform - asked by the author (or a third party)
-withdrawal_policy: 'Yes'
-integrations:
-- service: altmetric
-  feature: usage_metrics
-  description:
+withdrawal_policy: Yes. At the express request of the author or the right holder,
+  and where important, legal grounds exist
 features:
-- feature: search_engine
-  description: Search by filter
-- feature: bibliographic_references_management
-  description: BibTex and Endnote
-- feature: usage_metrics
-  description: Views and Downloads are visible to everyone
-- feature: comms_social_networking
-  description: 'Sharing via social media (Twitter, Reddit, Facebook and mail)      '
+- function: bibliographic-references-management
+  service:
+  description: 'Yes : BibTex and Endnote'
+- function: metrics
+  service:
+  description: 'Views and Downloads are visible to everyone      Altmetrics in development'
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, BASE (Bielefeld Academic Search Engine), Deutsche
+    Digitale Bibliothek (DDB), WorldCat, OpenAire'
+- function: indexing
+  service: google-scholar
+  description:
+- function: indexing
+  service: bielefeld-academic-search-engine
+  description:
+- function: indexing
+  service: worldcat
+  description:
+- function: indexing
+  service: openaire-explore
+  description:
 ---
 
 

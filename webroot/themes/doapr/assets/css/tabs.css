@@ -1,0 +1,24 @@
+div.tab-content {
+    width: 100%;
+}
+
+li.nav-item button.nav-link{
+    color: #23527c !important;
+    text-decoration: underline;
+}
+
+.tab-general {
+    background-color: #def3fd !important;
+}
+
+.tab-governance {
+    background-color: #fcf7de !important;
+}
+
+.tab-features {
+    background-color: #fddfdf !important;
+}
+
+.tab-editorial {
+    background-color: #f0defd !important;
+}

@@ -1,21 +1,23 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: WorldCat
 service_id: worldcat
-description: WorldCat is the world's largest network of library content and services.
-  WorldCat libraries are dedicated to providing access to their resources on the Web,
-  where most people start their search for information.
-service_url: https://www.worldcat.org/
-categories:
-- search
-integrations:
-- repository: research_square
-  feature: indexing
-  description:
-- repository: scielo_preprints
-  feature: indexing
-  description:
+description: 'WorldCat is the world''s most comprehensive database of information
+  about library collections. Unique in scale and unparalleled in data quality, WorldCat
+  makes library collections findable and accessible around the world. It''s where
+  you can locate a book, video, or other item of interest and discover which libraries
+  near you own the item. Individual member libraries in your community and elsewhere
+  provide access to the items represented in WorldCat. '
+service_url: https://www.worldcat.org
+cost: completely_free
+functions:
+- indexing
+repositories:
+- earth-prints-repository
+- econstor
+- ssoar
+repo_count: 3
 ---
 
 

@@ -1,29 +1,31 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 repository_id: frenxiv
 title: Frenxiv
 description:
 academic_applicant_only: 'No'
 accepted_content_formats: PDF
-accepted_content_language:
+accepted_content_language: Multilingual
 accepted_content_level: Any scholarly content
 accepted_content_types: Journal articles, Preprints
 accepted_supplementary_content: Supplementary data can be associated (image, datasets,
   etc.)
-access_to_content:
-access_to_metadata:
-accessibility_conflict_interest_procedures:
+access_to_content: Anyone may access full items free of charge
+access_to_metadata: Anyone may access the metadata free of charge
+accessibility_conflict_interest_procedures: 'Authors are asked, during the submission,
+  to declare any type of conflict of interest that might have around their manuscripts '
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups: Yes, monthly
-business_model: Nonprofit
-certificate_or_labels:
+business_model: non-profit
+certificate_or_labels: None
 closure_date: Closed for submission due to the lack of funding
-concerns_about_content:
+concerns_about_content: Email administrator, Readers encouraged to post concerns publicly
+  as new article
 concerns_about_plagiarism: Email administrator
 contact: khaledmoustafa@gmail.com or contact+frenxiv@osf.io
 disciplinary_scope: All scientific fileds
@@ -34,9 +36,9 @@ funding: Community operators pay a fee based on usage and COS subsidizes the oth
   portion through fundraised support
 interoperability:
 journal_submission: Unrestricted
-keyword:
-last_update: '2022-02-11'
-launch_date: '2018-01-01'
+keywords: French, OSF
+last_update: 7/15/21
+launch_date: Jan-18
 licensing: 'Authors are provided with a choice of licenses: No license, GNU Lesser
   General Public License (LGPL) 3.0, BSD 3-Clause "New"/"Revised" License, BSD 2-Clause
   "Simplified" License, GNU Lesser General Public License (LGPL) 2.1, CC BY Attribution
@@ -56,64 +58,66 @@ oai_pmh_url:
 objectives: Promoting open science, transparency and sharing of knowledge
 open_doar_id:
 open_source: 'Yes'
-owner_country: ''
 owner_full_name: Small group of enthusiasts
 owner_short_name:
 owner_url:
 ownership_type: Academic community group
-pid:
-peer_review_status:
-persistent_of_content:
+pid: DOI, single DOI retained for all versions
+peer_review_status: 'No'
+persistence_of_content: COS Preservation Fund to maintain read access for 50+ years
 platform:
 platform_languages: English
 preservation_policy: Yes. COS has a preservation fund for up to 50+ years
 record_count: 'Full text : 150'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes, various scientific fields are represented   Up to every member to continue as a member at a voluntary basis or to end his commitment '
+scientific_committees: Yes, various scientific fields are represented
 service_pricing: None
 short_name:
-status: Closed to submission only
-terms_of_use:
+status: closed-to-submission-only
+terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
-time_submission_to_posting:
+time_submission_to_posting: Up to 48 hours
 repository_url: https://frenxiv.org/
 user_committees: 'Yes, researchers included and the server is open to anyone from
-  around the world   Users are free to contribute without any condition or terms'
+  around the world    Users are free to contribute without any condition or terms'
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required (The
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: 'Yes'
-integrations:
-- service: google_scholar
-  feature: indexing
-  description:
-- service: hypothes_is
-  feature: commenting
-  description:
-- service: microsoft_academic_search
-  feature: indexing
-  description:
-- service: plaudit
-  feature: endorsement
-  description:
-- service: share
-  feature: indexing
-  description:
-- service: unpaywall
-  feature: indexing
-  description:
+withdrawal_policy: Yes. Plagiarism, false or inaccurate content
 features:
-- feature: search_engine
-  description: Simple Search or by filters (subject)
-- feature: usage_metrics
+- function: metrics
+  service:
   description: Downloads are visible to everyone
-- feature: commenting
-  description: Commenting (including annotation plug-ins)
-- feature: comms_social_networking
-  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      '
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
+- function: commenting
+  service:
+  description: 'Yes : Commenting (including annotation plug-ins)'
+- function: endorsement
+  service:
+  description: Yes, via Plaudit
+- function: commenting
+  service: hypothes-is
+  description:
+- function: endorsement
+  service: plaudit
+  description:
+- function: indexing
+  service: google-scholar
+  description:
+- function: indexing
+  service: share
+  description:
+- function: indexing
+  service: microsoft-academic
+  description:
+- function: indexing
+  service: unpaywall
+  description:
 ---
 
 

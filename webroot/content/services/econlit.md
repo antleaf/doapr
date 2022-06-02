@@ -1,24 +1,20 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: EconLit
 service_id: econlit
-description: |-
-  EconLit provides the coverage most needed by scholars to make new discoveries, develop important insights, and contribute valuable research to the economics community.
-
-  Peer-Reviewed Journal Articles
-  Working Papers
-  PhD Dissertations
-  Books and Book Reviews
-  Collective Volume Articles
-  Professionally classified, updated weekly, and including over 1.6 million records, EconLit covers economics literature published over the last 130 years from leading institutions in 74 countries.  In combination with the optional full-text package of over 500 journals, including the prestigious AEA journals, EconLit provides a comprehensive library of economics literature.
+description: Professionally classified, updated weekly, and including over 1.6 million
+  records, EconLit covers economics literature published over the last 130 years from
+  leading institutions in 74 countries.  In combination with the optional full-text
+  package of over 500 journals, including the prestigious AEA journals, EconLit provides
+  a comprehensive library of economics literature.
 service_url: https://www.aeaweb.org/econlit/
-categories:
-- search
-integrations:
-- repository: wellcome_open_research
-  feature: indexing
-  description:
+cost: completely_free
+functions:
+- indexing
+repositories:
+- munich-personal-repec-archive
+repo_count: 1
 ---
 
 

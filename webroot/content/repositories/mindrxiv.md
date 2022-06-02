@@ -1,29 +1,30 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 repository_id: mindrxiv
 title: MindRxiv
 description: Open archive for research on mind and contemplative practices
 academic_applicant_only: 'Yes'
 accepted_content_formats: Any format supported by OSF platform (PDF preferred)
-accepted_content_language:
+accepted_content_language: English
 accepted_content_level: Academic and Scholary research only
 accepted_content_types: Working papers, preprints, published papers, data, and code
-accepted_supplementary_content: Researchers can attach data, code, or other research
-  materials to their papers by including them in the associated project.
-access_to_content:
-access_to_metadata:
-accessibility_conflict_interest_procedures:
+accepted_supplementary_content: 'Researchers can attach data, code, or other research
+  materials to their papers by including them in the associated project. '
+access_to_content: Anyone may access full items free of charge
+access_to_metadata: Anyone may access the metadata free of charge
+accessibility_conflict_interest_procedures: 'No'
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
 author_pid: ORCID
-availability_of_associated_content:
+availability_of_associated_content: Sharing data and code on the Open Science Framework
+  is encouraged, in the spirit of openness and transparency.
 backups:
-business_model: Nonprofit
-certificate_or_labels:
+business_model: non-profit
+certificate_or_labels: None
 closure_date:
-concerns_about_content:
+concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
 contact: contact+mindrxiv@osf.io
 disciplinary_scope: Mind and contemplative practices
@@ -32,9 +33,9 @@ funding: Community operators pay a fee based on usage and COS subsidizes the oth
   portion through fundraised support
 interoperability:
 journal_submission: Unrestricted
-keyword:
-last_update: '2022-02-11'
-launch_date: '2017-08-01'
+keywords: Mind, Anthropology, Pyschology, Philosophy
+last_update: 6/15/21
+launch_date: Aug-17
 licensing: 'Authors are provided with a choice of licenses: CC0, CC BY, no license
   required; with CC0 preferred'
 metadata_formats: 'No'
@@ -52,63 +53,65 @@ objectives: This service is part of Mind & Life’s commitment to opening up con
   to build the future of scholarly communication.
 open_doar_id:
 open_source: 'Yes'
-owner_country: ''
 owner_full_name: Mind & Life Institute
 owner_short_name:
 owner_url: https://www.mindandlife.org/
 ownership_type: Academic institution
-pid:
-peer_review_status:
-persistent_of_content:
+pid: DOI, single DOI retained for all versions
+peer_review_status: 'No'
+persistence_of_content: COS Preservation Fund to maintain read access for 50+ years
 platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 242'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary
-scientific_committees: 'Yes : includes researchers   '
+scientific_committees: 'Yes : includes researchers'
 service_pricing: None
 short_name:
-status: Open
-terms_of_use:
+status: open
+terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
-time_submission_to_posting:
+time_submission_to_posting: Same day
 repository_url: https://mindrxiv.org/
-user_committees: "\L"
+user_committees:
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: 'Yes'
-integrations:
-- service: google_scholar
-  feature: indexing
-  description:
-- service: hypothes_is
-  feature: commenting
-  description:
-- service: microsoft_academic_search
-  feature: indexing
-  description:
-- service: plaudit
-  feature: endorsement
-  description:
-- service: share
-  feature: indexing
-  description:
-- service: unpaywall
-  feature: indexing
-  description:
+withdrawal_policy: Yes. Plagiarism, false or inaccurate content
 features:
-- feature: search_engine
-  description: Simple Search or by filters (subject)
-- feature: usage_metrics
+- function: metrics
+  service:
   description: Downloads are visible to everyone
-- feature: commenting
-  description: Commenting (including annotation plug-ins)
-- feature: comms_social_networking
-  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      https://twitter.com/MindRxiv'
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
+- function: commenting
+  service:
+  description: 'Yes : Commenting (including annotation plug-ins)'
+- function: endorsement
+  service:
+  description: Yes, via Plaudit
+- function: commenting
+  service: hypothes-is
+  description:
+- function: endorsement
+  service: plaudit
+  description:
+- function: indexing
+  service: google-scholar
+  description:
+- function: indexing
+  service: share
+  description:
+- function: indexing
+  service: microsoft-academic
+  description:
+- function: indexing
+  service: unpaywall
+  description:
 ---
 
 

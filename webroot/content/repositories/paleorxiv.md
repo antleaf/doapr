@@ -1,30 +1,31 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 repository_id: paleorxiv
 title: PaleorXiv
 description: A preprint archive for Paleontology
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, LaTeX, text
-accepted_content_language:
+accepted_content_language: Any Languages
 accepted_content_level: Research only
 accepted_content_types: Working papers, pre-prints, accepted manuscripts (post-prints),
   and published papers
 accepted_supplementary_content: full text, figures, data, image, coding, analyses.
   This is associated with the article via a specific link
-access_to_content:
-access_to_metadata:
-accessibility_conflict_interest_procedures:
+access_to_content: Anyone may access full items free of charge
+access_to_metadata: Anyone may access the metadata free of charge
+accessibility_conflict_interest_procedures: 'No'
 account_creation: Free, Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
 author_pid: ORCID
-availability_of_associated_content:
+availability_of_associated_content: You can assign final version publication DOIs
+  to your articles on paleorXiv.
 backups: 'Yes : Storage on paleorXiv beats a desktop hard-drive any day.'
-business_model: Nonprofit
-certificate_or_labels:
+business_model: non-profit
+certificate_or_labels: None
 closure_date:
-concerns_about_content:
+concerns_about_content: 'Email administrator; helpdesk support from COS : copyright@cos.io'
 concerns_about_plagiarism: 'Email administrator; helpdesk support from COS : copyright@cos.io'
 contact: paleorxiv@paleorxiv.org
 disciplinary_scope: Relating to paleontology and paleobiology
@@ -33,9 +34,9 @@ functional_description: Yes, Open source and community-led digital archive for P
 funding: External financial support
 interoperability: 'Yes'
 journal_submission: Unrestricted
-keyword:
-last_update: '2022-02-11'
-launch_date: '2017-08-01'
+keywords: Paleontology
+last_update: 4/19/21
+launch_date: 8/1/17
 licensing: All content is freely available under a CC BY 4.0 license, which maximises
   re-use potential while protecting authors
 metadata_formats: 'No'
@@ -52,65 +53,77 @@ objectives: PaleorXiv is dedicated to speeding and opening up paleontological re
   and helping to build the future of scholarly communication.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: ''
 owner_full_name: Center for Open Science
 owner_short_name: COS
 owner_url: https://www.cos.io/
 ownership_type: Charity
-pid:
-peer_review_status:
-persistent_of_content:
-platform: open_science_framework
+pid: DOI
+peer_review_status: 'Yes'
+persistence_of_content: 'Yes : COS Preservation Fund to maintain read access for 50+
+  years'
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 178'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Community-based
 scientific_committees: 'Yes : Steering Committee comprised of members from the global
-  Palaeontology community   '
+  Palaeontology community'
 service_pricing: None
 short_name:
-status: Open
-terms_of_use:
+status: open
+terms_of_use: 'Yes'
 text_embargo: 'Depending on journals. Look to the page for more informations : http://fossilsandshit.com/paleorxiv/journal-policies/'
-time_submission_to_posting:
+time_submission_to_posting: 1-3 business days
 repository_url: https://paleorxiv.org/
-user_committees: 'No   '
+user_committees: 'No'
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: 'Yes'
-integrations:
-- service: google_scholar
-  feature: indexing
-  description:
-- service: microsoft_academic_search
-  feature: indexing
-  description:
-- service: peer_community_in
-  feature: peer review
-  description:
-- service: plaudit
-  feature: commenting
-  description:
-- service: plaudit
-  feature: endorsement
-  description:
-- service: share
-  feature: indexing
-  description:
-- service: unpaywall
-  feature: indexing
-  description:
+withdrawal_policy: Yes. Plagiarism, false or inaccurate content
 features:
-- feature: usage_metrics
+- function: metrics
+  service:
   description: Endorsement score on author profile page and Downloads visible to everyone
-- feature: commenting
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
+- function: peer-review
+  service:
+  description: Yes, via Peer Community In
+- function: commenting
+  service:
   description: Commenting (including annotation plug-ins)
-- feature: comms_social_networking
-  description: 'Sharing via  social media (Facebook, Twitter and mail)      https://twitter.com/paleorxiv'
+- function: endorsement
+  service:
+  description: Yes, via Plaudit
+- function: plagiarism-detection
+  service:
+  description: 'Yes : Claims of copyright infringement should be sent to the Center
+    for Open Science in accordance with their policy'
+- function: peer-review
+  service: peer-community-in
+  description:
+- function: commenting
+  service: plaudit
+  description:
+- function: endorsement
+  service: plaudit
+  description:
+- function: indexing
+  service: google-scholar
+  description:
+- function: indexing
+  service: share
+  description:
+- function: indexing
+  service: microsoft-academic
+  description:
+- function: indexing
+  service: unpaywall
+  description:
 ---
 
 

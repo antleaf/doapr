@@ -1,19 +1,15 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: Matomo
 service_id: matomo
-description:
+description: Google Analytics alternative that protects your data and your customers'
+  privacy
 service_url: https://matomo.org
-categories:
-- usage_metrics
-integrations:
-- repository: agecon_search
-  feature: usage_metrics
-  description:
-- repository: zenodo
-  feature: usage_metrics
-  description:
+cost: premium_only
+functions:
+- metrics
+repo_count: 0
 ---
 
 

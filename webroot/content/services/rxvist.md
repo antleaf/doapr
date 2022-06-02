@@ -1,13 +1,15 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: rXvist
 service_id: rxvist
 description: Combines biology preprints from bioRxiv and medRxiv with data from Twitter
   to help users find the papers being discussed in their field.
 service_url: https://rxivist.org/
-categories:
-- usage_metrics
+cost: completely_free
+functions:
+- metrics
+repo_count: 0
 ---
 
 

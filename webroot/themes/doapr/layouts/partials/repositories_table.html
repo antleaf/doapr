@@ -3,7 +3,7 @@
     <tr class="column-header-row">
         <th>Name</th>
         <th>Status</th>
-        <th>Owner</th>
+        <th>Description</th>
     </tr>
     </thead>
     <tbody>
@@ -11,7 +11,7 @@
         <tr>
             <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
             <td>{{ .Params.status }}</td>
-            <td>{{ .Params.owner_full_name | truncate 40}}</td>
+            <td>{{ .Description}}</td>
         </tr>
     {{ end }}
     </tbody>

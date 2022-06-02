@@ -1,25 +1,22 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: CORE
 service_id: core
-description:
+description: One of the world’s largest collections of open access full texts, which
+  are used and referenced by people globally, including researchers, libraries, software
+  developers, funders and many more. CORE content covers all research disciplines
+  and comes from thousands of institutional and subject repositories and journals.
+  CORE is a not-for-profit service delivered by The Open University and Jisc.
 service_url: https://core.ac.uk/
-categories:
-- search
-integrations:
-- repository: dspace_at_mit
-  feature: indexing
-  description:
-- repository: earth_prints_repository
-  feature: indexing
-  description:
-- repository: hal
-  feature: indexing
-  description:
-- repository: scielo_preprints
-  feature: indexing
-  description:
+cost: completely_free
+functions:
+- indexing
+repositories:
+- earth-prints-repository
+- hal
+- lse-research-online
+repo_count: 3
 ---
 
 

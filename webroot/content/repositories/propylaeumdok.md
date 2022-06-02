@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 repository_id: propylaeumdok
 title: PropylaeumDok
@@ -11,22 +11,22 @@ description: Propylaeum-DOK - Digital Repository Classical Studies is the full-t
   the fields of Classical Studies can be stored on "Propylaeum-DOK".
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language:
+accepted_content_language: English and German
 accepted_content_level:
 accepted_content_types: Journal Articles, Theses and Dissertations, Books, Chapters
   and Sections, Preprints
 accepted_supplementary_content:
-access_to_content:
-access_to_metadata:
-accessibility_conflict_interest_procedures:
+access_to_content: Anyone may access full items free of charge
+access_to_metadata: Anyone may access the metadata free of charge
+accessibility_conflict_interest_procedures: 'No'
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-business_model: Nonprofit
-certificate_or_labels:
+business_model: non-profit
+certificate_or_labels: None
 closure_date:
 concerns_about_content:
 concerns_about_plagiarism: 'No'
@@ -36,8 +36,8 @@ functional_description: 'No'
 funding: Internal funding
 interoperability: Yes via API
 journal_submission: Unrestricted
-keyword:
-last_update: '2022-02-11'
+keywords: Classical Studies, History
+last_update: 5/26/21
 launch_date: '2007'
 licensing: Authors are provided with a choice of licenses but CC BY 4.0 is preferred
 metadata_formats: 'Yes : Formats are available on this page'
@@ -54,41 +54,37 @@ objectives: Firmly rooted in its history, the University is committed to expandi
   and education, acknowledging its responsibility to humanity, society, and nature.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: DE
 owner_full_name: Heidelberg University Library
 owner_short_name:
 owner_url: https://www.ub.uni-heidelberg.de/
 ownership_type: Academic institution
-pid:
-peer_review_status:
-persistent_of_content:
-platform: custom_software
+pid: DOI or URN
+peer_review_status: 'No'
+persistence_of_content:
+platform:
 platform_languages: English and German
 preservation_policy:
 record_count: 'Full text : 4 932'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees: "\L"
+scientific_committees:
 service_pricing: None
 short_name:
-status: Open
-terms_of_use:
+status: open
+terms_of_use: 'No'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: http://archiv.ub.uni-heidelberg.de/propylaeumdok/
-user_committees: "\L"
+user_committees:
 versioning_policy: Accepts new version.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation:
-withdrawal_policy:
+withdrawal_policy: '0'
 features:
-- feature: search_engine
-  description: Search Engine powered by Propylaeum
-- feature: usage_metrics
+- function: metrics
+  service:
   description: Downloads are visible to everyone
-- feature: comms_social_networking
-  description: 'Sharing via social media (Twitter, Facebook and mail)      https://twitter.com/Propylaeum_FID'
 ---
 
 

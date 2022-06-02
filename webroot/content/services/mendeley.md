@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: Mendeley
 service_id: mendeley
@@ -7,8 +7,10 @@ description: Provides products and services for academic researchers. It is most
   for its reference manager which is used to manage and share research papers and
   generate bibliographies for scholarly articles. Owned by Elsevier.
 service_url: https://www.mendeley.com
-categories:
-- communication_and_sharing
+cost: free_with_premium_features
+functions:
+- communication-and-sharing
+repo_count: 0
 ---
 
 

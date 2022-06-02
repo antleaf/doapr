@@ -1,16 +1,18 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
-title: ORCID (Open Researcher and Contributor ID)
+title: ORCID
 service_id: orcid
-description: A free service assigning a unique and permanent identifier to researchers
-  publishing articles and other items. Avoids the problems related to multiple email
-  addresses, and to the mobility during the career (the ID remains stable all along
-  the career of a researcher independently of his employer or situation). Not for
-  profit organisation.
+description: Open Researcher and Contributor ID - A free service assigning a unique
+  and permanent identifier to researchers publishing articles and other items. Avoids
+  the problems related to multiple email addresses, and to the mobility during the
+  career (the ID remains stable all along the career of a researcher independently
+  of his employer or situation). Not for profit organisation.
 service_url: https://orcid.org/
-categories:
-- researcher_identification
+cost: completely_free
+functions:
+- researcher-identification
+repo_count: 0
 ---
 
 

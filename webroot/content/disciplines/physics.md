@@ -1,13 +1,13 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: Physics
 repo_count: 5
 repositories:
 - arxiv
-- cern_document_server
-- focus_archive
-- mathematical_physics_preprint_archive
+- cern-document-server
+- focus-archive
+- mathematical-physics-preprint-archive
 - vixra
 ---
 

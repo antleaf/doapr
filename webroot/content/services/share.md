@@ -1,89 +1,43 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: SHARE
 service_id: share
 description: SHARE’s open API tools and services help bring together scholarship distributed
-  across research ecosystems for the purpose of greater discoverability.
+  across research ecosystems for the purpose of greater discoverability. However,
+  SHARE does not guarantee a complete aggregation of searched outputs. For this reason,
+  SHARE results should not be used for methodological analyses, such as systematic
+  reviews.
 service_url: https://share.osf.io
-categories:
-- search
-integrations:
-- repository: aas_open_research
-  feature: indexing
-  description:
-- repository: africarxiv
-  feature: indexing
-  description:
-- repository: arabixiv
-  feature: indexing
-  description:
-- repository: art_dok
-  feature: indexing
-  description:
-- repository: biohackrxiv
-  feature: indexing
-  description:
-- repository: bodoarxiv
-  feature: indexing
-  description:
-- repository: crossasia_repository
-  feature: indexing
-  description:
-- repository: ecsarxiv
-  feature: indexing
-  description:
-- repository: engrxiv
-  feature: indexing
-  description:
-- repository: f1000_research
-  feature: indexing
-  description:
-- repository: focus_archive
-  feature: indexing
-  description:
-- repository: frenxiv
-  feature: indexing
-  description:
-- repository: indiarxiv
-  feature: indexing
-  description:
-- repository: lis_scholarship_archive
-  feature: indexing
-  description:
-- repository: marxiv
-  feature: indexing
-  description:
-- repository: medrxiv
-  feature: indexing
-  description:
-- repository: metaarxiv
-  feature: indexing
-  description:
-- repository: mindrxiv
-  feature: indexing
-  description:
-- repository: nutrixiv
-  feature: indexing
-  description:
-- repository: osf_preprints
-  feature: indexing
-  description:
-- repository: outbreak_rapid_science_prereview
-  feature: indexing
-  description:
-- repository: paleorxiv
-  feature: indexing
-  description:
-- repository: pci
-  feature: indexing
-  description:
-- repository: sodha
-  feature: indexing
-  description:
-- repository: sportrxiv
-  feature: indexing
-  description:
+cost: completely_free
+functions:
+- indexing
+repositories:
+- africarxiv
+- arabixiv
+- arxiv
+- biohackrxiv
+- bodoarxiv
+- ecoevorxiv
+- ecsarxiv
+- engrxiv
+- essoar
+- f1000-research
+- focus-archive
+- frenxiv
+- indiarxiv
+- lawarxiv
+- lis-scholarship-archive
+- marxiv
+- metaarxiv
+- mindrxiv
+- nutrixiv
+- osf-preprints
+- paleorxiv
+- preprints-org
+- socarxiv
+- sportrxiv
+repo_count: 24
 ---
 
 

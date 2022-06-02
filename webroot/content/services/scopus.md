@@ -1,19 +1,21 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: Scopus
 service_id: scopus
-description:
-service_url: https://www.scopus.com/home.uri
-categories:
-- search
-integrations:
-- repository: e_lis
-  feature: indexing
-  description:
-- repository: rinarxiv
-  feature: indexing
-  description:
+description: Scopus uniquely combines a comprehensive, expertly curated abstract and
+  citation database with enriched data and linked scholarly literature across a wide
+  variety of disciplines.
+service_url: https://www.scopus.com
+cost: free_with_premium_features
+functions:
+- indexing
+repositories:
+- biorxiv
+- chemrxiv
+- medrxiv
+- nature-precedings
+repo_count: 4
 ---
 
 

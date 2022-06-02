@@ -1,14 +1,14 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: Economics
 repo_count: 6
 repositories:
-- agecon_search
-- corporate_governance_network
+- agecon-search
+- corporate-governance-network
 - econstor
-- munich_personal_repec_archive
-- nber_working_papers
+- munich-personal-repec-archive
+- nber-working-papers
 - repec
 ---
 

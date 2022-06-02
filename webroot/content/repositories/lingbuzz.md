@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 repository_id: lingbuzz
 title: LingBuzz
@@ -7,21 +7,21 @@ description: Welcome to LingBuzz, an article archive and a community space for L
   You are highly encouraged to upload your articles - old and new, published or not.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language:
+accepted_content_language: English
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Preprints
 accepted_supplementary_content:
-access_to_content:
-access_to_metadata:
-accessibility_conflict_interest_procedures:
+access_to_content: Anyone may access full items free of charge
+access_to_metadata: Anyone may access the metadata free of charge
+accessibility_conflict_interest_procedures: 'No'
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-business_model: Nonprofit
-certificate_or_labels:
+business_model: non-profit
+certificate_or_labels: None
 closure_date:
 concerns_about_content:
 concerns_about_plagiarism: 'No'
@@ -31,8 +31,8 @@ functional_description: 'No'
 funding: Internal funding
 interoperability:
 journal_submission: Unrestricted
-keyword:
-last_update: '2022-02-11'
+keywords: Language, Linguistic
+last_update: 5/25/21
 launch_date:
 licensing:
 metadata_formats: 'No'
@@ -45,37 +45,40 @@ oai_pmh_url:
 objectives:
 open_doar_id: X
 open_source: 'Yes'
-owner_country: 'NO'
 owner_full_name: UiT The Arctic University of Norway
 owner_short_name:
 owner_url: http://uit.no/startsida
 ownership_type: Academic institution
-pid:
-peer_review_status:
-persistent_of_content:
-platform: eprints
+pid: None
+peer_review_status: 'No'
+persistence_of_content:
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 5 838'
 remining_indrawn_item: Full text isn't available anymore.
 repository_type: Disciplinary
-scientific_committees: "\L"
+scientific_committees:
 service_pricing: None
 short_name:
-status: Open
-terms_of_use:
+status: open
+terms_of_use: 'No'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://ling.auf.net/lingbuzz
-user_committees: "\L"
+user_committees:
 versioning_policy: Accepts new version. All versions are avaible for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform
-withdrawal_policy: 'Yes'
+withdrawal_policy: Yes. Articles can also be marked as 'withdrawn' ('deprecated').
 features:
-- feature: usage_metrics
+- function: metrics
+  service:
   description: Downloads, Views are visible to everyone
+- function: endorsement
+  service:
+  description: 'Yes : Follow the endorsement system of arXiv'
 ---
 
 

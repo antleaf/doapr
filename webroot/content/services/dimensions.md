@@ -1,16 +1,16 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: Dimensions
 service_id: dimensions
 description: Database and search engine of articles and preprints
 service_url: https://www.dimensions.ai/
-categories:
-- search
-integrations:
-- repository: researchgate
-  feature: usage_metrics
-  description:
+cost: free_with_premium_features
+functions:
+- indexing
+repositories:
+- research-square
+repo_count: 1
 ---
 
 

@@ -1,13 +1,18 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: Scite
 service_id: scite
 description: A service to find citation of your article (preprint) in its context
   + categorization into “mention”, “support”, “dispute”. To pay.
 service_url: https://scite.ai/
-categories:
-- search
+cost: free_with_premium_features
+functions:
+- indexing
+- metrics
+repositories:
+- research-square
+repo_count: 1
 ---
 
 

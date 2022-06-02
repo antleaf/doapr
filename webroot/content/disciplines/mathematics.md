@@ -1,11 +1,11 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: Mathematics
 repo_count: 3
 repositories:
 - arxiv
-- mathematical_physics_preprint_archive
+- mathematical-physics-preprint-archive
 - vixra
 ---
 

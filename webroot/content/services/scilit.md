@@ -1,52 +1,28 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
-title: SciLit
+title: Scilit
 service_id: scilit
-description:
-service_url: SciLit
-categories:
-- search
-integrations:
-- repository: aas_open_research
-  feature: indexing
-  description:
-- repository: agecon_search
-  feature: indexing
-  description:
-- repository: amrc_open_research
-  feature: indexing
-  description:
-- repository: essoar
-  feature: indexing
-  description:
-- repository: f1000_research
-  feature: indexing
-  description:
-- repository: gates_open_research
-  feature: indexing
-  description:
-- repository: hrb_open_research
-  feature: indexing
-  description:
-- repository: icrisat
-  feature: indexing
-  description:
-- repository: medrxiv
-  feature: indexing
-  description:
-- repository: mni_open_research
-  feature: indexing
-  description:
-- repository: nature_precedings
-  feature: indexing
-  description:
-- repository: nber_working_papers
-  feature: indexing
-  description:
-- repository: open_research_europe
-  feature: indexing
-  description:
+description: Scilit is a free and comprehensive content aggregator platform for scholarly
+  publications.
+service_url: https://app.scilit.net
+cost: completely_free
+functions:
+- indexing
+repositories:
+- aas-open-research
+- agecon-search
+- amrc-open-research
+- arxiv
+- authorea
+- f1000-research
+- gates-open-research
+- hrb-open-research
+- mni-open-research
+- open-research-europe
+- preprints-org
+- wellcome-open-research
+repo_count: 12
 ---
 
 

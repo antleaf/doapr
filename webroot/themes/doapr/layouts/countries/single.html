@@ -1,13 +1,14 @@
 {{ define "main" }}
   <div class="row">
     <div class="col">
-      <h1 class="page-title">{{ .Title }} <img src="/images/flags/{{.File.ContentBaseName}}.png" class="country_title_flag"/></h1>
+      <h1 class="page-title">{{ .Title }} <img src="/images/flags/{{.Params.code | lower }}.png" class="country_title_flag"/></h1>
     </div>
   </div>
   <div class="row">
     <div class="col">
       {{ .Content }}
-      {{ $repos := (where .Site.RegularPages ".Params.owner_country" .Params.code ) }}
+{{/*      {{ $repos := (where .Site.RegularPages ".Params.owner_country" .Params.code ) }}*/}}
+      {{ $repos := where .Site.RegularPages ".Params.repository_id" "in" .Params.repositories }}
       <h3>Repositories hosted here</h3>
       {{ partial "repositories_table" $repos }}
     </div>

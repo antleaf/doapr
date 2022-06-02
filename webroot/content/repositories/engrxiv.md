@@ -1,29 +1,30 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 repository_id: engrxiv
 title: engrxiv
 description: The open archive of engineering
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, Word doc, LaTeX
-accepted_content_language:
+accepted_content_language: Any language - English preferred, title and abstract must
+  be in English, nonEnglish translations can be submitted as versions
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Preprints
 accepted_supplementary_content: full text, figures, data, image, coding, analyses.
   This is associated with the article via a specific link
-access_to_content:
-access_to_metadata:
-accessibility_conflict_interest_procedures:
+access_to_content: Anyone may access full items free of charge
+access_to_metadata: Anyone may access the metadata free of charge
+accessibility_conflict_interest_procedures: 'No'
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-business_model: Nonprofit
-certificate_or_labels:
+business_model: non-profit
+certificate_or_labels: None
 closure_date:
-concerns_about_content:
+concerns_about_content: Email administrator; helpdesk support from COS
 concerns_about_plagiarism: Email administrator; helpdesk support from COS
 contact: info@engrxiv.org.
 disciplinary_scope: Civil Engineering, Computers and IT, Electrical and Electronic
@@ -33,9 +34,9 @@ funding: Community operators pay a fee based on usage and COS subsidizes the oth
   portion through fundraised support
 interoperability:
 journal_submission: Unrestricted
-keyword:
-last_update: '2022-02-11'
-launch_date: '2016-07-01'
+keywords: Engineering, IT, Computers, OSF
+last_update: 5/31/21
+launch_date: Jul-16
 licensing: 'Authors are provided with a choice of licenses:  CC BY, CC BY-SA, CC BY-NC-SA,
   or CC0'
 metadata_formats: 'No'
@@ -55,64 +56,70 @@ objectives: Engineering Archive is partnered with the Center for Open Science to
   of research and design on a truly open access platform for all engineering disciplines.
 open_doar_id: X
 open_source: 'Yes'
-owner_country: ''
 owner_full_name: Open Engineering Inc
 owner_short_name:
 owner_url: https://www.openengr.com
 ownership_type: Open access scientific journal
-pid:
-peer_review_status:
-persistent_of_content:
-platform: open_science_framework
+pid: DOI, single DOI retained for all versions
+peer_review_status: 'Yes'
+persistence_of_content: 'Yes : COS Preservation Fund to maintain read access for 50+
+  years'
+platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 1 721'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : engrXiv is directed by a steering committee of engineers   '
+scientific_committees: 'Yes : engrXiv is directed by a steering committee of engineers'
 service_pricing: None
 short_name:
-status: Open
-terms_of_use:
+status: open
+terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
-time_submission_to_posting:
+time_submission_to_posting: A few days
 repository_url: https://engrxiv.org/
-user_committees: 'engrXiv is directed by a steering committee of members of the engineering
-  librarian community   '
+user_committees: engrXiv is directed by a steering committee of members of the engineering
+  librarian community
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: At author's request with moderator approval
-withdrawal_policy: 'Yes'
-integrations:
-- service: google_scholar
-  feature: indexing
-  description:
-- service: microsoft_academic_search
-  feature: indexing
-  description:
-- service: plaudit
-  feature: commenting
-  description:
-- service: plaudit
-  feature: endorsement
-  description:
-- service: share
-  feature: indexing
-  description:
-- service: unpaywall
-  feature: indexing
-  description:
+withdrawal_policy: Yes. Contravention of copyright, ethical and legal issues
 features:
-- feature: search_engine
-  description: Simple Search or by filters (subject or Licence)
-- feature: usage_metrics
+- function: metrics
+  service:
   description: Downloads are visible to everyone
-- feature: commenting
-  description: Commenting (including annotation plug-ins)
-- feature: comms_social_networking
-  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      '
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
+- function: commenting
+  service:
+  description: 'Yes : Commenting (including annotation plug-ins)'
+- function: endorsement
+  service:
+  description: Yes, via Plaudit
+- function: writing
+  service: overleaf
+  description:
+- function: commenting
+  service: plaudit
+  description:
+- function: endorsement
+  service: plaudit
+  description:
+- function: indexing
+  service: google-scholar
+  description:
+- function: indexing
+  service: share
+  description:
+- function: indexing
+  service: microsoft-academic
+  description:
+- function: indexing
+  service: unpaywall
+  description:
 ---
 
 

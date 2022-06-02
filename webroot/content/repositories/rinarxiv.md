@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 repository_id: rinarxiv
 title: RinarXiv
@@ -9,25 +9,25 @@ description: RINarxiv Beta Release 2.0 is a community-led digital archive for un
   Indonesian research output and to increase openness.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, Word doc, LaTeX, MarkDown
-accepted_content_language:
+accepted_content_language: English, Indonesian
 accepted_content_level: Research only
 accepted_content_types: Preprints, postprints, essay, datasets
 accepted_supplementary_content: 'RINarxiv is a platform to support research dissemination
   which allows you to share data and other supporting materials (eg: figures, illustrations,
-  sketches, photos, spatial dataset).'
-access_to_content:
-access_to_metadata:
-accessibility_conflict_interest_procedures:
+  sketches, photos, spatial dataset). '
+access_to_content: Anyone may access full items free of charge
+access_to_metadata: Anyone may access the metadata free of charge
+accessibility_conflict_interest_procedures: 'No'
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
 author_pid: ORCID
 availability_of_associated_content:
 backups:
-business_model: Nonprofit
-certificate_or_labels:
+business_model: non-profit
+certificate_or_labels: None
 closure_date:
-concerns_about_content:
+concerns_about_content: Admins
 concerns_about_plagiarism: Email administrator
 contact:
 disciplinary_scope: All scientific fields
@@ -36,9 +36,9 @@ funding: 'Completely free: supported by volunteers and hosted by gov''t institut
   We use Open Preprint System platform.'
 interoperability: 'No'
 journal_submission: Unrestricted
-keyword:
-last_update: '2022-02-11'
-launch_date: '2020-05-21'
+keywords: Indonesia, Indonesian Research
+last_update: 6/21/21
+launch_date: 5/21/20
 licensing: 'Authors are provided with a choice of licenses: GNU Lesser General Public
   License (LGPL) 3.0, BSD 3-Clause "New"/"Revised" License, BSD 2-Clause "Simplified"
   License, GNU Lesser General Public License (LGPL) 2.1, CC BY Attribution 4.0 International,
@@ -53,62 +53,55 @@ metadata_properties: Title, Identifier, Publication/deposition date, Author name
   License type(s), Subject category
 metadata_reuse_method: Openly available via API
 metadata_reuse_permission: None
-moderation: 'In retrospect : Doc type, data availability, Author Declaration,'
+moderation: 'In retrospect : Doc type, data availability, Author Declaration, '
 oai_pmh_url:
 objectives:
 open_doar_id:
 open_source: 'Yes'
-owner_country: ID
 owner_full_name: Indonesia open science team
 owner_short_name:
 owner_url:
 ownership_type: Academic community group
-pid:
-peer_review_status:
-persistent_of_content:
+pid: Persistent link (non DOI), support versioning with single link
+peer_review_status: 'No'
+persistence_of_content: In future development
 platform:
 platform_languages: English and Indonesian
 preservation_policy:
 record_count: 'Full text : 51'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary, National Common open archive platform
-scientific_committees: 'Yes : includes researchers   '
+scientific_committees: 'Yes : includes researchers'
 service_pricing: None
 short_name:
-status: Open
-terms_of_use:
+status: open
+terms_of_use: 'No'
 text_embargo: No, only if the publisher imposes an embargo period
-time_submission_to_posting:
+time_submission_to_posting: Up to three days
 repository_url: https://rinarxiv.lipi.go.id/lipi
-user_committees: "\L"
+user_committees:
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: Platform
-withdrawal_policy: 'Yes'
-integrations:
-- service: cas
-  feature: indexing
-  description:
-- service: crossref
-  feature: indexing
-  description:
-- service: europe_pmc
-  feature: indexing
-  description:
-- service: google_scholar
-  feature: indexing
-  description:
-- service: proquest
-  feature: indexing
-  description:
-- service: scopus
-  feature: indexing
-  description:
+withdrawal_policy: Yes. Plagiarism, false or inaccurate content
 features:
-- feature: search_engine
-  description: Advanced Search
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, Microsoft Academic'
+- function: commenting
+  service:
+  description: No, but hypothesis in development
+- function: writing
+  service: overleaf
+  description:
+- function: indexing
+  service: google-scholar
+  description:
+- function: indexing
+  service: microsoft-academic
+  description:
 ---
 
 

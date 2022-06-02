@@ -1,11 +1,11 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: History
 repo_count: 3
 repositories:
 - bodoarxiv
-- classics_research_network
+- classics-research-network
 - propylaeumdok
 ---
 

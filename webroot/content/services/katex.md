@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: KaTeX
 service_id: katex
@@ -8,8 +8,10 @@ description: KaTeX is a LaTeX-based typesetting tool for mathematical expression
   for the web because it renders math in real time without the need to reflow the
   page.
 service_url: https://katex.org/
-categories:
-- manuscript_formatting
+cost: completely_free
+functions:
+- writing
+repo_count: 0
 ---
 
 

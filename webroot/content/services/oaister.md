@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: OAIster
 service_id: oaister
@@ -9,15 +9,13 @@ description: OAIster is a union catalog of millions of records that represent op
   Today, OAIster includes more than 50 million records that represent digital resources
   from more than 2,000 contributors.
 service_url: https://www.oclc.org/en/oaister.html
-categories:
-- search
-integrations:
-- repository: open_anthropology_research_repository
-  feature: indexing
-  description:
-- repository: techrxiv
-  feature: indexing
-  description:
+cost: completely_free
+functions:
+- indexing
+repositories:
+- art-dok
+- crossasia-repository
+repo_count: 2
 ---
 
 

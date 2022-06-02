@@ -35,10 +35,10 @@ td.field-name {
     white-space: nowrap;
 }
 
-td.field-name::after {
-    content: ":";
-    font-weight: bold;
-}
+/*td.field-name::after {*/
+/*    content: ":";*/
+/*    font-weight: bold;*/
+/*}*/
 
 .more-details-link {
     float: right;

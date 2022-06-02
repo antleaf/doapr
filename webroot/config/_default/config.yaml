@@ -30,21 +30,21 @@ menu:
       name: Countries
       url: /countries/
       weight: 3
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 4
     - identifier: disciplines
       name: Disciplines
       url: /disciplines/
       weight: 5
-    - identifier: features
-      name: Features
-      url: /features/
-      weight: 6
-    - identifier: platforms
-      name: Platforms
-      url: /platforms/
+#    - identifier: statuses
+#      name: Statuses
+#      url: /statuses/
+#      weight: 7
+#    - identifier: business_models
+#      name: Business Models
+#      url: /business_models/
+#      weight: 8
+    - identifier: functions
+      name: Functions
+      url: /functions/
       weight: 7
     - identifier: about
       name: About

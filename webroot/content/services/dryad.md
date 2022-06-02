@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: Dryad
 service_id: dryad
@@ -7,8 +7,10 @@ description: An international repository of data underlying peer-reviewed scient
   and medical literature, and a membership organization, governed by journals, publishers,
   scientific societies, and other stakeholders
 service_url: https://datadryad.org/stash
-categories:
-- data_and_code_sharing
+cost: free_with_premium_features
+functions:
+- data-and-code-sharing
+repo_count: 0
 ---
 
 

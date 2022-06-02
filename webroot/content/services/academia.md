@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: Academia
 service_id: academia
@@ -7,8 +7,10 @@ description: An American commercial social networking website for academics. Ori
   a free and open repository of academic journal articles it now charges fees to put
   authors in contact with their readers.
 service_url: https://www.academia.edu
-categories:
-- communication_and_sharing
+cost: free_with_premium_features
+functions:
+- communication-and-sharing
+repo_count: 0
 ---
 
 

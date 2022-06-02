@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: StackExchange
 service_id: stackexchange
@@ -8,8 +8,10 @@ description: A network of question-and-answer (Q&A) websites on topics in divers
   are subject to a reputation award process. The reputation system allows the sites
   to be self-moderating.
 service_url: https://stackexchange.com/
-categories:
+cost: completely_free
+functions:
 - commenting
+repo_count: 0
 ---
 
 

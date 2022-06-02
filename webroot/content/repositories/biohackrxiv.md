@@ -1,12 +1,13 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 repository_id: biohackrxiv
 title: biohackrxiv
 description: Preprints for BioHackathons
 academic_applicant_only: 'No'
 accepted_content_formats: PDF
-accepted_content_language:
+accepted_content_language: English (American or British spelling are accepted but
+  do not mix them up)
 accepted_content_level: 'Documents from current list of eligible events : NBDC/DBCLS
   BioHackathon 2019, ELIXIR BioHackathon Europe 2019, Covid-19 Virtual BioHackathon
   2020'
@@ -16,19 +17,20 @@ accepted_supplementary_content: We do not require images or tables as a separate
   there is readable. Supplementary material is optional. If you want to faciliate
   text-minning tasks, please submit the PDF corresponding sources, i.e., Markdown,
   bibliography and figures, as supplementary material.
-access_to_content:
-access_to_metadata:
-accessibility_conflict_interest_procedures:
+access_to_content: Anyone may access full items free of charge
+access_to_metadata: Anyone may access the metadata free of charge
+accessibility_conflict_interest_procedures: 'No'
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
 author_pid: ORCID
-availability_of_associated_content:
+availability_of_associated_content: We also encourage you to share your code on GitHub,
+  with an open license whenever possible.
 backups:
-business_model: Nonprofit
-certificate_or_labels:
+business_model: non-profit
+certificate_or_labels: None
 closure_date:
-concerns_about_content:
+concerns_about_content: Email administrator
 concerns_about_plagiarism: 'Email administrator : biohackrxiv@googlegroups.com'
 contact: contact+biohackrxiv@osf.io
 disciplinary_scope: All scientific fields
@@ -37,9 +39,9 @@ funding: Community operators pay a fee based on usage and COS subsidizes the oth
   portion through fundraised support
 interoperability: 'No'
 journal_submission: Unrestricted
-keyword:
-last_update: '2022-02-11'
-launch_date: '2020-01-01'
+keywords: BioHackathons, CodeFests, OSF
+last_update: 6/22/21
+launch_date: Jan-20
 licensing: Authors must use CC-BY 4.0 license or CC0
 metadata_formats: 'No'
 metadata_languages: English
@@ -53,30 +55,29 @@ oai_pmh_url:
 objectives:
 open_doar_id:
 open_source: 'Yes'
-owner_country: ''
 owner_full_name: Center for Open Science controls and owns the infrastructure; Steering
   Board of volunteers run the platform
 owner_short_name:
 owner_url:
 ownership_type: Individual or community
-pid:
-peer_review_status:
-persistent_of_content:
+pid: DOI, single DOI retained for all versions
+peer_review_status: 'No'
+persistence_of_content: COS Preservation Fund to maintain read access for 50+ years
 platform:
 platform_languages: English
 preservation_policy:
 record_count: 'Full text : 17'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary
-scientific_committees: "\L"
+scientific_committees:
 service_pricing: None
 short_name:
-status: Open
-terms_of_use:
+status: open
+terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
-time_submission_to_posting:
+time_submission_to_posting: Up to 2 weeks
 repository_url: https://biohackrxiv.org/
-user_committees: 'Yes : Active moderation board members   '
+user_committees: 'Yes : Active moderation board members'
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
@@ -84,37 +85,41 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At author's request with moderator approval. Accepted articles
   can still be withdrawn (i.e., removed) with the approval of the BioHackrXiv steering
   committee.
-withdrawal_policy: 'Yes'
-integrations:
-- service: google_scholar
-  feature: indexing
-  description:
-- service: hypothes_is
-  feature: commenting
-  description:
-- service: microsoft_academic_search
-  feature: indexing
-  description:
-- service: plaudit
-  feature: endorsement
-  description:
-- service: share
-  feature: indexing
-  description:
-- service: unpaywall
-  feature: indexing
-  description:
+withdrawal_policy: Yes. Plagiarism, false or inaccurate content
 features:
-- feature: text_mining
-  description:
-- feature: search_engine
-  description: Simple Search or by filters (subject)
-- feature: usage_metrics
+- function: text-mining
+  service:
+  description: 'Yes'
+- function: metrics
+  service:
   description: Downloads are visible to everyone
-- feature: commenting
-  description: Commenting (including annotation plug-ins)
-- feature: comms_social_networking
-  description: 'Sharing via social media (Twitter, Facebook, LinkedIn and mail)      '
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
+- function: commenting
+  service:
+  description: 'Yes : Commenting (including annotation plug-ins)'
+- function: endorsement
+  service:
+  description: Yes, via Plaudit
+- function: commenting
+  service: hypothes-is
+  description:
+- function: endorsement
+  service: plaudit
+  description:
+- function: indexing
+  service: google-scholar
+  description:
+- function: indexing
+  service: share
+  description:
+- function: indexing
+  service: microsoft-academic
+  description:
+- function: indexing
+  service: unpaywall
+  description:
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: Sciety
 service_id: sciety
@@ -7,8 +7,10 @@ description: Service gathering reviews performed on preprints (for the moment on
   those deposited on bioRxiv) and endorsements of these preprints by journals and
   endorsement platforms (such as PCI).
 service_url: https://sciety.org/
-categories:
-- search
+cost: completely_free
+functions:
+- indexing
+repo_count: 0
 ---
 
 

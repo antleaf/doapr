@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="{{ $style_images.Permalink }}">
     {{ $style_leaflet := resources.Get "css/leaflet.css" | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style_leaflet.Permalink }}">
+    {{ $style_tabs := resources.Get "css/tabs.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style_tabs.Permalink }}">
 
     {{ $js_jquery := resources.Get "js/jquery-3.6.0.min.js" | resources.Fingerprint }}
     <script type="text/javascript" src="{{ $js_jquery.Permalink }}"></script>

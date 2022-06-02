@@ -1,16 +1,18 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: GitHub
 service_id: github
-description: A subsidiary of Microsoft which provides hosting for software development
+description: 'A subsidiary of Microsoft which provides hosting for software development
   and version control using Git. It offers the distributed version control and source
   code management (SCM) functionality of Git, plus its own features. It provides access
   control and several collaboration features such as bug tracking, feature requests,
-  task management, continuous integration and wikis for every project.
+  task management, continuous integration and wikis for every project. '
 service_url: https://github.com
-categories:
-- data_and_code_sharing
+cost: free_with_premium_features
+functions:
+- data-and-code-sharing
+repo_count: 0
 ---
 
 

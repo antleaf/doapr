@@ -1,36 +1,21 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: PubMed
 service_id: pubmed
-description: PubMed® comprises more than 33 million citations for biomedical literature
-  from MEDLINE, life science journals, and online books. Citations may include links
-  to full text content from PubMed Central and publisher web sites.
-service_url: https://pubmed.ncbi.nlm.nih.gov
-categories:
-- search
-integrations:
-- repository: chinaxiv
-  feature: indexing
-  description:
-- repository: classics_research_network
-  feature: indexing
-  description:
-- repository: earth_prints_repository
-  feature: indexing
-  description:
-- repository: hal
-  feature: indexing
-  description:
-- repository: science_open
-  feature: indexing
-  description:
-- repository: self_journal_of_science_co_science
-  feature: indexing
-  description:
-- repository: semantic_web_journal
-  feature: indexing
-  description:
+description: Database and search engine of articles and preprints (only those funded
+  by NIH)
+service_url: https://www.ncbi.nlm.nih.gov/pmc/
+cost: completely_free
+functions:
+- indexing
+repositories:
+- biorxiv
+- hal
+- jmir-preprints
+- medrxiv
+- scienceopen
+repo_count: 5
 ---
 
 

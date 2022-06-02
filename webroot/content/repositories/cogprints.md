@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 repository_id: cogprints
 title: Cogprints
@@ -10,22 +10,22 @@ description: Welcome to CogPrints, an electronic archive for self-archive papers
   of cognition.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, HTML
-accepted_content_language:
+accepted_content_language: English
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Conference and Workshop Papers, Theses and
   Dissertations, Reports and Working Papers, Books, Chapters and Sections, Preprints
 accepted_supplementary_content:
-access_to_content:
-access_to_metadata:
-accessibility_conflict_interest_procedures:
+access_to_content: Anyone may access full items free of charge
+access_to_metadata: Anyone may access the metadata free of charge
+accessibility_conflict_interest_procedures: 'No'
 account_creation: Not necessary to access the content
 associated_editor: 'No'
 associated_journal: 'No'
 author_pid: 'No'
 availability_of_associated_content:
 backups:
-business_model: Nonprofit
-certificate_or_labels:
+business_model: non-profit
+certificate_or_labels: None
 closure_date: Closed in 2017
 concerns_about_content:
 concerns_about_plagiarism: 'No'
@@ -36,8 +36,8 @@ functional_description: 'No'
 funding: Internal funding
 interoperability: Yes via API
 journal_submission: Unrestricted
-keyword:
-last_update: '2022-02-11'
+keywords: Life Sciences, Computer Science, Linguistic
+last_update: 8/24/21
 launch_date: '1997'
 licensing: Any copyright violations are entirely the responsibility of the authors/depositors.
   If the repository receives proof of copyright violation, the relevant item will
@@ -55,45 +55,44 @@ oai_pmh_url: http://cogprints.org/cgi/oai2
 objectives:
 open_doar_id: X
 open_source: 'Yes'
-owner_country: GB
 owner_full_name: University of Southampton
 owner_short_name:
 owner_url: https://www.southampton.ac.uk/
 ownership_type: Academic institution
-pid:
-peer_review_status:
-persistent_of_content:
-platform: eprints
+pid: 'No'
+peer_review_status: 'No'
+persistence_of_content:
+platform:
 platform_languages: English
 preservation_policy: Already closed, Universty of Southampton is hosting all data
 record_count: 'Full text : 4 230'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees: "\L"
+scientific_committees:
 service_pricing: None
 short_name:
-status: Closed to submission only
-terms_of_use:
+status: closed-to-submission-only
+terms_of_use: 'No'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: http://cogprints.org/
-user_committees: "\L"
+user_committees:
 versioning_policy:
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation:
-withdrawal_policy: 'No'
+withdrawal_policy: No.
 features:
-- feature: text_mining
-  description:
-- feature: search_engine
-  description: Search by Subjects, Year or Simple Search
-- feature: bibliographic_references_management
-  description: ASCII Citation, Atom, BibTeX, Dublin Core, EP3 XML, EPrints Application
-    Profile (experimental), EndNote, HTML Citation, ID Plus Text Citation, JSON, METS,
-    MODS, MPEG-21 DIDL, OpenURL ContextObject, OpenURL ContextObject in Span, RDF+N-Triples,
-    RDF+N3, RDF+XML, Refer, Reference Manager, Search Data Dump, Simple Metadata,
-    YAML
+- function: text-mining
+  service:
+  description: 'Yes'
+- function: bibliographic-references-management
+  service:
+  description: 'Yes : ASCII Citation, Atom, BibTeX, Dublin Core, EP3 XML, EPrints
+    Application Profile (experimental), EndNote, HTML Citation, ID Plus Text Citation,
+    JSON, METS, MODS, MPEG-21 DIDL, OpenURL ContextObject, OpenURL ContextObject in
+    Span, RDF+N-Triples, RDF+N3, RDF+XML, Refer, Reference Manager, Search Data Dump,
+    Simple Metadata, YAML'
 ---
 
 

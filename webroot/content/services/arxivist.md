@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: arxivist
 service_id: arxivist
@@ -8,8 +8,10 @@ description: It keeps track of the papers that you have clicked on previously - 
   the arxivist needs to rate a new article for you, it looks at your preference for
   each of the article's keywords and sums them up to get the total score.
 service_url: https://arxivist.com
-categories:
-- usage_metrics
+cost: completely_free
+functions:
+- metrics
+repo_count: 0
 ---
 
 

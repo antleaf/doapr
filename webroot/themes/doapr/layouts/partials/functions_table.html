@@ -1,0 +1,20 @@
+<table class="table table-sm table-striped sortable-table">
+    <thead>
+    <tr class="column-header-row">
+        <th>Name</th>
+        <th class="no-sort">Description</th>
+        <th>Repositories</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{ range . }}
+        <tr>
+            <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+            <td>
+                {{ .Description }}
+            </td>
+            <td class="number">{{ .Params.repo_count }}</td>
+        </tr>
+    {{ end }}
+    </tbody>
+</table>

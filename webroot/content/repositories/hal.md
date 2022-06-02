@@ -1,5 +1,5 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 repository_id: hal
 title: HAL
@@ -14,26 +14,29 @@ accepted_content_formats: tex, eps_tex, ps_tex, pstex, pdf_tex, pdf_t, pdftex, z
   aac, ac3, aif, aifc, aiff, au, bwf, mp2, mp3, M4r, ogg, ogm, ra, ram, wma, wav,
   avi, flv, mov, movie, mp4, mpe, mpeg, mpg, qt, rm, rmvb, rv, vob, wmv, m4a, c, py,
   h, m, mpl
-accepted_content_language:
+accepted_content_language: Any languages
 accepted_content_level: Research only
 accepted_content_types: Journal articles, Preprints, Working Papers, Reports, Conference
   papers, Theses, Book sections
 accepted_supplementary_content: full text, appendix, image, map, video, sound. Those
   are associated with the preprint
-access_to_content:
-access_to_metadata:
-accessibility_conflict_interest_procedures:
+access_to_content: Anyone may access full items free of charge
+access_to_metadata: Anyone may access the metadata free of charge
+accessibility_conflict_interest_procedures: 'Yes : Before filing, the agreement of
+  all co-authors must be obtained'
 account_creation: Free, Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
 author_pid: 'IdHAL and ORCID. For more informations : https://doc.archives-ouvertes.fr/identifiant-auteur-idhal-cv/'
-availability_of_associated_content:
+availability_of_associated_content: 'The full text of the publications you submit
+  may be supplemented by appendices: any document you consider useful such as illustrations,
+  maps, slideshows, etc.'
 backups: 'Yes : Text files in pdf format or image files are sent to CINES for long-term
   archiving'
-business_model: Nonprofit
-certificate_or_labels:
+business_model: non-profit
+certificate_or_labels: None
 closure_date:
-concerns_about_content:
+concerns_about_content: 'Support platform :  hal.support@ccsd.cnrs.fr'
 concerns_about_plagiarism: 'Support platform :  hal.support@ccsd.cnrs.fr'
 contact: hal.support@ccsd.cnrs.fr
 disciplinary_scope: All academic fields
@@ -44,9 +47,9 @@ funding: Financial support from MESRI, CNRS, INRIA and INRAÉ + institutional po
 interoperability: Yes, The HAL open archive and its portals are harvestable via the
   OAI-PMH protocol
 journal_submission: Unrestricted
-keyword:
-last_update: '2022-02-11'
-launch_date: '2002-09-23'
+keywords: Author self-archived, open archive
+last_update: 6/29/21
+launch_date: 9/23/02
 licensing: 'Authors are provided with a choice of licenses: CC0, CC BY, CC BY-NC,
   CC BY-ND, CC BY-NC-ND, or no reuse; with no preference for which license chosen'
 metadata_formats: 'Yes : Dublin Core, DC Terms, XML-TEI, BibTeX, EndNote. For more
@@ -66,7 +69,6 @@ objectives: HAL is a tool of direct scientific communication between researchers
   term accessible
 open_doar_id: X
 open_source: 'Yes'
-owner_country: FR
 owner_full_name: HAL is the French national open repository, it’s a research infrastructure
   of the French Ministry of higher Education, Research and Innovation. HAL is managed
   by the Center for Direct Scientific Communication (CCSD), a common service unit
@@ -74,79 +76,107 @@ owner_full_name: HAL is the French national open repository, it’s a research i
 owner_short_name: CNRS, INRIA and INRAÉ
 owner_url: https://www.cnrs.fr/
 ownership_type: Public scientific research organisation
-pid:
-peer_review_status:
-persistent_of_content:
-platform: custom_software
+pid: DOI
+peer_review_status: 'No'
+persistence_of_content: 'Yes : Text files in pdf format or image files are sent to
+  CINES for long-term archiving'
+platform:
 platform_languages: English and French
 preservation_policy:
 record_count: 'Full text : 827 597'
 remining_indrawn_item: Any deposit is definitive, no withdrawals will be made after
   the on-line posting of the publication (within the limits of the law)
 repository_type: National Common open archive platform
-scientific_committees: 'Yes : International scientific council   '
+scientific_committees: 'Yes : International scientific council'
 service_pricing: None
 short_name: HAL
-status: Open
-terms_of_use:
+status: open
+terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://hal.archives-ouvertes.fr/
-user_committees: 'Yes : Partners assembly and international scientific council   '
+user_committees: 'Yes : Partners assembly and international scientific council'
 versioning_policy: Updating a repository with a new version of the main file (content
   correction, layout improvement, editor version, etc.). Once it has been put online,
   the most recent version is proposed by default for consultation.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).
 withdrawal_authorisation: No one
-withdrawal_policy: 'No'
-integrations:
-- service: base
-  feature: indexing
-  description:
-- service: core
-  feature: indexing
-  description:
-- service: dart_europe
-  feature: indexing
-  description:
-- service: google_scholar
-  feature: indexing
-  description:
-- service: isidore
-  feature: indexing
-  description:
-- service: openaire_explore
-  feature: indexing
-  description:
-- service: peer_community_in
-  feature: peer review
-  description:
-- service: pubmed
-  feature: indexing
-  description:
-- service: repec
-  feature: indexing
-  description:
-- service: scanr
-  feature: indexing
-  description:
+withdrawal_policy: No. No withdrawals possible
 features:
-- feature: text_mining
+- function: text-mining
+  service:
   description: Yes, but it should not be for commercial use
-- feature: search_engine
-  description: Advanced research, RSS, alerts
-- feature: bibliographic_references_management
-  description: BibTeX, TEI, DC, Dcterms and EndNote
-- feature: usage_metrics
+- function: bibliographic-references-management
+  service:
+  description: 'Yes : BibTeX, TEI, DC, Dcterms and EndNote'
+- function: metrics
+  service:
   description: 'Number of views of the record and the number of downloads of the file
     in a widget called Metrics. Metrics are available for :  author, depositor, structure,
-    collection, portal'
-- feature: endorsement
-  description: 'Episciences : overlay platform for journals'
-- feature: comms_social_networking
-  description: 'Sharing features : Twitter, Facebook, Email, Linkedln and any communication
-    tool      '
+    collection, portal      Metrics can be found on each preprint''s Metrics tab : view, clicks '
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, BASE, CORE, Isidore, ScanR, DART-Europe, OpenAIRE,
+    arXiv, PubMed, PubMed Central, RePec, Software-Heritage, Episciences'
+- function: writing
+  service:
+  description: 'Yes : Compiling from LaTex possible'
+- function: peer-review
+  service:
+  description: Yes, via Peer Community In
+- function: endorsement
+  service:
+  description: 'Yes : Episciences : overlay platform for journals'
+- function: plagiarism-detection
+  service:
+  description: 'Interoperability with PCI : work in progress / Episciences : overlay
+    service on HAL'
+- function: peer-review
+  service: peer-community-in
+  description:
+- function: endorsement
+  service: episcience
+  description:
+- function: plagiarism-detection
+  service: peer-community-in
+  description:
+- function: plagiarism-detection
+  service: episcience
+  description:
+- function: indexing
+  service: google-scholar
+  description:
+- function: indexing
+  service: bielefeld-academic-search-engine
+  description:
+- function: indexing
+  service: core
+  description:
+- function: indexing
+  service: openaire-explore
+  description:
+- function: indexing
+  service: isidore
+  description:
+- function: indexing
+  service: scanr
+  description:
+- function: indexing
+  service: dart-europe
+  description:
+- function: indexing
+  service: pubmed
+  description:
+- function: indexing
+  service: repec
+  description:
+- function: indexing
+  service: software-heritage
+  description:
+- function: indexing
+  service: episcience
+  description:
 ---
 
 

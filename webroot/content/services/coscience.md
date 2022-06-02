@@ -1,13 +1,17 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: CoScience
 service_id: coscience
-description: It can search the web for content similar to a given article, and graphically
-  compare an article to a specific URL.
+description: A platform for depositing and discussing/commenting articles. Every affiliated
+  scientist can discuss papers. Papers can be discussed forever. Allows user to gather
+  articles into (self-)journals. Free service
 service_url: https://www.sjscience.org
-categories:
+cost: completely_free
+functions:
 - endorsement
+- peer-review
+repo_count: 0
 ---
 
 

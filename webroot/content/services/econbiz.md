@@ -1,16 +1,14 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: EconBiz
 service_id: econbiz
-description: Journals, Working Papers & Conferences
+description:
 service_url: https://www.econbiz.de
-categories:
-- search
-integrations:
-- repository: research_square
-  feature: indexing
-  description:
+cost: completely_free
+functions:
+- indexing
+repo_count: 0
 ---
 
 

@@ -1,13 +1,13 @@
 ---
-date: 2022-04-05
+date: 2022-06-02
 draft: false
 title: Agriculture
 repo_count: 4
 repositories:
-- agecon_search
+- agecon-search
 - agrirxiv
 - icrisat
-- organic_eprints
+- organic-eprints
 ---
 
 
