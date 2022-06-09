@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: earth-prints-repository
 title: Earth-prints Repository
@@ -117,6 +117,8 @@ features:
 - function: indexing
   service: worldcat
   description:
+countries:
+- italy
 ---
 
 

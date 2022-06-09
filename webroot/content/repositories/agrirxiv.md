@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: agrirxiv
 title: AgriRxiv
@@ -124,6 +124,8 @@ features:
 - function: indexing
   service: cab-abstracts
   description:
+countries:
+- united-kingdom
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: eric
 title: ERIC
@@ -94,6 +94,8 @@ features:
 - function: metrics
   service:
   description: Downloads and views
+countries:
+- united-states
 ---
 
 

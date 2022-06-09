@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: hal
 title: HAL
@@ -177,6 +177,8 @@ features:
 - function: indexing
   service: episcience
   description:
+countries:
+- france
 ---
 
 

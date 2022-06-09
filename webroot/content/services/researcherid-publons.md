@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 title: ResearcherID (Publons)
 service_id: researcherid-publons

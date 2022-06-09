@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: rutgers-optimality-archive
 title: Rutgers Optimality Archive
@@ -80,6 +80,8 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At author's request
 withdrawal_policy: Yes.  At the author's request, a paper may be withdrawn from the
   archive; in this case, the link to the article is deactivated.
+countries:
+- united-states
 ---
 
 

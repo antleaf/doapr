@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: chemrxiv
 title: ChemRxiv
@@ -135,6 +135,12 @@ features:
 - function: indexing
   service: proquest
   description:
+countries:
+- china
+- germany
+- japan
+- united-kingdom
+- united-states
 ---
 
 

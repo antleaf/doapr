@@ -10,7 +10,11 @@
     {{ range . }}
         <tr>
             <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-            <td>{{ .Params.status }}</td>
+            <td>
+                {{ with .Params.status }}
+                    {{ partial "link_to_status" . }}
+                {{ end }}
+            </td>
             <td>{{ .Description}}</td>
         </tr>
     {{ end }}

@@ -1,0 +1,2 @@
+{{ $status := site.GetPage (print "/statuses/" .) }}
+<a href="{{ $status.Permalink }}">{{ $status.Title }}</a>

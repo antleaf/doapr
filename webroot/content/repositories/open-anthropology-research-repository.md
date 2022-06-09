@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: open-anthropology-research-repository
 title: Open Anthropology Research Repository
@@ -119,6 +119,8 @@ features:
 - function: indexing
   service: crossref
   description:
+countries:
+- united-states
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: organic-eprints
 title: Organic Eprints
@@ -98,6 +98,8 @@ features:
 - function: metrics
   service:
   description: Downloads and Hits are visible to everyone
+countries:
+- denmark
 ---
 
 

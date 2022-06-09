@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: mathematical-physics-preprint-archive
 title: Mathematical Physics Preprint Archive
@@ -72,6 +72,8 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
   creation of the account is free).
 withdrawal_authorisation:
 withdrawal_policy: No.
+countries:
+- united-states
 ---
 
 

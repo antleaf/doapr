@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: art-dok
 title: ART-Dok
@@ -99,6 +99,8 @@ features:
 - function: indexing
   service: bielefeld-academic-search-engine
   description:
+countries:
+- germany
 ---
 
 

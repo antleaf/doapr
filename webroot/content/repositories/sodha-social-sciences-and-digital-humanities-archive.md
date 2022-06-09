@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: sodha-social-sciences-and-digital-humanities-archive
 title: SODHA – Social Sciences and Digital Humanities Archive

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: frenxiv
 title: Frenxiv
@@ -118,6 +118,9 @@ features:
 - function: indexing
   service: unpaywall
   description:
+countries:
+- canada
+- france
 ---
 
 

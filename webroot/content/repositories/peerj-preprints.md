@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: peerj-preprints
 title: PeerJ Preprints
@@ -102,6 +102,9 @@ features:
 - function: indexing
   service: europe-pmc
   description:
+countries:
+- united-kingdom
+- united-states
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: f1000-research
 title: F1000 Research
@@ -145,6 +145,8 @@ features:
 - function: indexing
   service: prepubmed
   description:
+countries:
+- united-kingdom
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: apsa-preprints
 title: APSA Preprints
@@ -117,6 +117,9 @@ features:
 - function: indexing
   service: google-scholar
   description:
+countries:
+- united-kingdom
+- united-states
 ---
 
 

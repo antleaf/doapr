@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: munich-personal-repec-archive
 title: Munich Personal RePEc Archive
@@ -106,6 +106,8 @@ features:
 - function: indexing
   service: ebsco
   description:
+countries:
+- germany
 ---
 
 

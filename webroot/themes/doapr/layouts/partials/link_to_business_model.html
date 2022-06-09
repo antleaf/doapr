@@ -1,0 +1,2 @@
+{{ $businessModel := site.GetPage (print "/business_models/" .) }}
+<a href="{{ $businessModel.Permalink }}">{{ $businessModel.Title }}</a>

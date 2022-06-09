@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: lingbuzz
 title: LingBuzz
@@ -79,6 +79,8 @@ features:
 - function: endorsement
   service:
   description: 'Yes : Follow the endorsement system of arXiv'
+countries:
+- norway
 ---
 
 

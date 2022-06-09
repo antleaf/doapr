@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: chinaxiv
 title: ChinaXiv
@@ -97,6 +97,8 @@ features:
 - function: commenting
   service:
   description: 'Yes : Commenting, free of charge,'
+countries:
+- china
 ---
 
 

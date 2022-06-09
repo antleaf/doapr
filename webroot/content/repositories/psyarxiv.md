@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: psyarxiv
 title: PsyArXiv
@@ -102,6 +102,8 @@ features:
 - function: indexing
   service: google-scholar
   description:
+countries:
+- united-states
 ---
 
 

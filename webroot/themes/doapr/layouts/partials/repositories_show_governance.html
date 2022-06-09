@@ -12,7 +12,9 @@
             Business Model:
         </td>
         <td>
-            {{ .Params.business_model }}
+            {{ with .Params.business_model }}
+                {{ partial "link_to_business_model" . }}
+            {{ end }}
         </td>
     </tr>
     <tr>
@@ -36,8 +38,16 @@
             Countries:
         </td>
         <td>
-            <mark>TODO</mark>
-            <!--@TODO-->
+            {{ with .Params.countries }}
+                {{ $countries := slice }}
+                {{ $countryLinks := slice }}
+                {{ range . }}
+                    {{ $country := ($.GetPage (print "/countries/" . )) }}
+                    {{ $countries = $countries | append $country }}
+                    {{ $countryLinks = $countryLinks | append (print "<a href=\"" $country.Permalink "\">" $country.Title "</a>") }}
+                {{ end }}
+                {{ delimit $countryLinks ", "}}
+            {{ end }}
         </td>
     </tr>
     <tr>

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: gates-open-research
 title: Gates Open Research
@@ -129,6 +129,8 @@ features:
 - function: indexing
   service: scilit
   description:
+countries:
+- united-states
 ---
 
 

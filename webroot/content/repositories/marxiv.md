@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: marxiv
 title: MarXiv
@@ -120,6 +120,8 @@ features:
 - function: indexing
   service: openchannels-org
   description:
+countries:
+- united-states
 ---
 
 

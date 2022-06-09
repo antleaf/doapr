@@ -76,7 +76,7 @@
             Keywords:
         </td>
         <td>
-            {{ .Params.keywords }}
+            {{ delimit .Params.keywords " " }}
         </td>
     </tr>
     <tr>
@@ -92,7 +92,9 @@
             OAI-PMH URL:
         </td>
         <td>
-            {{ .Params.oai_pmh_url }}
+            {{ with .Params.oai_pmh_url }}
+                <a href="{{ . }}">{{ . }}</a>
+            {{ end }}
         </td>
     </tr>
     <tr>
@@ -148,7 +150,9 @@
             Status:
         </td>
         <td>
-            {{ .Params.status }}
+            {{ with .Params.status }}
+                {{ partial "link_to_status" . }}
+            {{ end }}
         </td>
     </tr>
     <tr>

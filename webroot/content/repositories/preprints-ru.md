@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: preprints-ru
 title: Preprints.ru
@@ -83,6 +83,8 @@ features:
 - function: commenting
   service:
   description: 'Yes : Commenting (including annotation plug-ins), Disqus'
+countries:
+- russia
 ---
 
 

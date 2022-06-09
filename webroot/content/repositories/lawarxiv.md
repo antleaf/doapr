@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02
+date: 2022-06-09
 draft: false
 repository_id: lawarxiv
 title: LawArxiv
@@ -109,6 +109,8 @@ features:
 - function: indexing
   service: unpaywall
   description:
+countries:
+- united-states
 ---
 
 
