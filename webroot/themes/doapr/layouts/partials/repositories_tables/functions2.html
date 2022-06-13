@@ -1,0 +1,28 @@
+{{ $functionsList := where (where site.RegularPages "Section" "functions") "Params.repo_count" ">" 0 }}
+<h4 class="table-caption">Features &amp; Functions</h4>
+<table class="table sortable-table table-sm table-striped sortable-table" id="repositories-functions">
+    <thead>
+    <tr class="column-header-row">
+        <th>Name</th>
+        {{ range $functionsList }}
+            <th class="yes-no">
+                <div class="vertical-text">{{ .Title }}</div>
+            </th>
+        {{ end }}
+    </tr>
+    </thead>
+    <tbody>
+    {{ range . }}
+        {{ $repository := . }}
+        <tr>
+            <td><a href="{{ $repository.Permalink }}">{{ $repository.Title }}</a></td>
+            {{ range $functionsList }}
+                {{ $function := . }}
+                <td>
+                    {{ partial "repositories_tables/function_yes_no" (dict "function_id" $function.Params.function_id "repository_id" $repository.Params.repository_id) }}
+                </td>
+            {{ end }}
+        </tr>
+    {{ end }}
+    </tbody>
+</table>
