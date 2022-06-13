@@ -10,7 +10,7 @@
 {{/*      {{ $repos := (where .Site.RegularPages ".Params.owner_country" .Params.code ) }}*/}}
       {{ $repos := where .Site.RegularPages ".Params.repository_id" "in" .Params.repositories }}
       <h3>Repositories hosted here</h3>
-      {{ partial "repositories_table" $repos }}
+      {{ partial "repositories_tables/_default" $repos }}
     </div>
   </div>
 {{ end }}

@@ -35,16 +35,16 @@
             </ul>
             <div class="tab-content" id="tabContent">
                 <div class="tab-pane fade show active tab-general" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    {{ partial "repositories_show_general" . }}
+                    {{ partial "repository_single/general" . }}
                 </div>
                 <div class="tab-pane fade tab-governance" id="governance" role="tabpanel" aria-labelledby="governance-tab">
-                    {{ partial "repositories_show_governance" . }}
+                    {{ partial "repository_single/governance" . }}
                 </div>
                 <div class="tab-pane fade tab-features" id="features" role="tabpanel" aria-labelledby="features-tab">
-                    {{ partial "repositories_show_features" . }}
+                    {{ partial "repository_single/features" . }}
                 </div>
                 <div class="tab-pane fade tab-editorial" id="editorial" role="tabpanel" aria-labelledby="editorial-tab">
-                    {{ partial "repositories_show_editorial" . }}
+                    {{ partial "repository_single/editorial" . }}
                 </div>
             </div>
         </div>

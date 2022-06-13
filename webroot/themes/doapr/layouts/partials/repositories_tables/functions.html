@@ -1,0 +1,141 @@
+<h4 class="table-caption">Features &amp; Functions</h4>
+<table class="table sortable-table table-sm table-striped sortable-table" id="repositories-functions">
+    <thead>
+    <tr class="column-header-row">
+        <th>Name</th>
+        <th class="yes-no">
+            <div class="vertical-text">Annotation</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Bibliographic</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Commenting</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Communication</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Data/Code Sharing</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Endorsement</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Publication</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Helpdesk</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Indexing</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Formatting</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Metrics</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Peer Review</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Plagiarism Detection</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Preservation</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Researcher ID</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Revision</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Revision Follow-up</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Search</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Text Mining</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">User Forum</div>
+        </th>
+        <th class="yes-no">
+            <div class="vertical-text">Writing Support</div>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    {{ range . }}
+        <tr>
+            <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "annotation" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "bibliographic-references-management" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "commenting" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "communication-and-sharing" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "data-and-code-sharing" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "endorsement" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "publication" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "help-desk" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "indexing" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "manuscript-formatting" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "metrics" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "peer-review" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "plagiarism-detection" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "preservation" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "researcher-identification" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "revision" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "revision-follow-up" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "search" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "text-mining" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "user-forum" "repository_id" .Params.repository_id) }}
+            </td>
+            <td>
+                {{ partial "repositories_tables/function_yes_no" (dict "function_id" "writing" "repository_id" .Params.repository_id) }}
+            </td>
+        </tr>
+    {{ end }}
+    </tbody>
+</table>

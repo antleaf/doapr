@@ -13,7 +13,7 @@
     <div class="col">
       {{ $repositories := (where .Site.RegularPages ".Params.repository_id" "in" .Params.repositories ) }}
       <h3>Repositories providing this function</h3>
-      {{ partial "repositories_table" $repositories }}
+      {{ partial "repositories_tables/_default" $repositories }}
     </div>
     <div class="col">
       {{ $services := (where .Site.RegularPages ".Params.service_id" "in" .Params.services ) }}

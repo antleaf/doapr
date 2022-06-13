@@ -9,7 +9,7 @@
       {{ .Content }}
       {{ $repositories := (where .Site.RegularPages ".Params.repository_id" "in" .Params.repositories ) }}
       <h3>Repositories with this status</h3>
-      {{ partial "repositories_table" $repositories }}
+      {{ partial "repositories_tables/_default" $repositories }}
     </div>
   </div>
 {{ end }}

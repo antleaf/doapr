@@ -4,10 +4,22 @@ $(document).ready(function () {
         paging: false,
         info: false,
         ordering: true,
-        "columnDefs": [ {
-            "targets"  : 'no-sort',
+        "columnDefs": [{
+            "targets": 'no-sort',
             "orderable": false,
-        }]
+        },
+            {
+                "targets": 'yes-no',
+                render: function (data, type, row) {
+                    if (type === 'display' || type === 'filter') {
+                        if (data == 1) {
+                            return '<span><img src="/images/icons/yes.png" width="20"/></span>'
+                        } else return '<span><img src="/images/icons/no.png" width="20"/></span>';
+                    }
+                    return data;
+                }
+            }]
     });
 });
+
 
