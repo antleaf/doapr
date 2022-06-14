@@ -4,6 +4,7 @@
     <tr class="column-header-row">
         <th>Name</th>
         <th>Status</th>
+        <th>Languages</th>
         <th>Description</th>
     </tr>
     </thead>
@@ -16,6 +17,7 @@
                     {{ partial "link_to_status" . }}
                 {{ end }}
             </td>
+            <td>{{ .Params.accepted_content_language }}</td>
             <td>{{ .Description}}</td>
         </tr>
     {{ end }}
