@@ -1,7 +1,8 @@
 ---
-date: 2022-06-09
+date: 2022-06-14
 draft: false
 title: General Publication
+short_label: Publication
 function_id: general-publication
 services:
 - authorea

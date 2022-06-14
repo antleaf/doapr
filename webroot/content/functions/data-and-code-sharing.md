@@ -1,7 +1,8 @@
 ---
-date: 2022-06-09
+date: 2022-06-14
 draft: false
 title: Data And Code Sharing
+short_label: Data/Code
 function_id: data-and-code-sharing
 services:
 - dryad

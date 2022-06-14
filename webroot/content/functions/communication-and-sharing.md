@@ -1,7 +1,8 @@
 ---
-date: 2022-06-09
+date: 2022-06-14
 draft: false
 title: Communication And Sharing
+short_label: Communications
 function_id: communication-and-sharing
 services:
 - academia

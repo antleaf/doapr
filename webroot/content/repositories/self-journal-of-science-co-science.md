@@ -1,5 +1,5 @@
 ---
-date: 2022-06-09
+date: 2022-06-14
 draft: false
 repository_id: self-journal-of-science-co-science
 title: Self Journal of Science (Co-Science)

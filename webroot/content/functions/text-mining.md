@@ -1,7 +1,8 @@
 ---
-date: 2022-06-09
+date: 2022-06-14
 draft: false
 title: Text Mining
+short_label: Text Mining
 function_id: text-mining
 repositories:
 - aas-open-research

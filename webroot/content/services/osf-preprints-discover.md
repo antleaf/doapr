@@ -1,5 +1,5 @@
 ---
-date: 2022-06-09
+date: 2022-06-14
 draft: false
 title: OSF preprints discover
 service_id: osf-preprints-discover

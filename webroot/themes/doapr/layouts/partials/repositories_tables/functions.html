@@ -6,7 +6,10 @@
         <th>Name</th>
         {{ range $functionsList }}
             <th class="yes-no">
-                <div class="vertical-text">{{ .Title }}</div>
+                <div class="hover-over">
+                    <div class="vertical-text">{{ .Params.short_label }}</div>
+                    <span class="hover-over-text">{{ .Title }}</span>
+                </div>
             </th>
         {{ end }}
     </tr>

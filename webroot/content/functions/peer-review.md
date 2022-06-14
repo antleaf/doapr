@@ -1,7 +1,8 @@
 ---
-date: 2022-06-09
+date: 2022-06-14
 draft: false
 title: Peer Review
+short_label: Peer Review
 function_id: peer-review
 repositories:
 - aas-open-research

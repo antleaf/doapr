@@ -1,7 +1,8 @@
 ---
-date: 2022-06-09
+date: 2022-06-14
 draft: false
 title: Preservation
+short_label: Preservation
 function_id: preservation
 services:
 - software-heritage

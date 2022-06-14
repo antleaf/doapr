@@ -1,7 +1,8 @@
 ---
-date: 2022-06-09
+date: 2022-06-14
 draft: false
 title: Revision Follow-up
+short_label: Rev. Follow-up
 function_id: revision-follow-up
 repositories:
 - aas-open-research

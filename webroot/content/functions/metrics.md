@@ -1,7 +1,8 @@
 ---
-date: 2022-06-09
+date: 2022-06-14
 draft: false
 title: Metrics
+short_label: Metrics
 function_id: metrics
 repositories:
 - aas-open-research

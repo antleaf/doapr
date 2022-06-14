@@ -1,7 +1,8 @@
 ---
-date: 2022-06-09
+date: 2022-06-14
 draft: false
 title: Researcher Identification
+short_label: Researcher ID
 function_id: researcher-identification
 services:
 - orcid
