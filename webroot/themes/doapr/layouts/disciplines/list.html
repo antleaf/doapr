@@ -20,10 +20,12 @@
                 </thead>
                 <tbody>
                 {{ range .Data.Pages }}
-                    <tr>
-                        <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-                        <td class="number">{{ .Params.repo_count }}</td>
-                    </tr>
+                    {{ if gt .Params.repo_count 0 }}
+                        <tr>
+                            <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+                            <td class="number">{{ .Params.repo_count }}</td>
+                        </tr>
+                    {{ end }}
                 {{ end }}
                 </tbody>
             </table>

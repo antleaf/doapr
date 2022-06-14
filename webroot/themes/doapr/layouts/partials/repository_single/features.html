@@ -127,13 +127,15 @@
                     </thead>
                     <tbody>
                     {{ range . }}
-                        {{ $service := "Local function" }}
-                        {{ if .service }}
-                            {{ $service = ($.GetPage (print "/services/" .service)).Title }}
-                        {{ end }}
+                        {{ $function := site.GetPage (print "/functions/" .function)}}
                         <tr>
-                            <td>{{ ($.GetPage (print "/functions/" .function)).Title }}</td>
-                            <td>{{ $service }}</td>
+                            <td><a href="{{ $function.Permalink }}">{{ $function.Title }}</a></td>
+                            {{ if .service }}
+                                {{ $service := site.GetPage (print "/services/" .service) }}
+                                <td><a href="{{ $service.Permalink }}">{{ $service.Title }}</a></td>
+                            {{ else }}
+                                <td>Local function</td>
+                            {{ end }}
                             <td>{{ .description }}</td>
                         </tr>
                     {{ end }}

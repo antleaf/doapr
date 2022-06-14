@@ -1,8 +1,8 @@
+<h4 class="table-caption">General Properties</h4>
 <table class="table table-sm table-striped sortable-table">
     <thead>
     <tr class="column-header-row">
         <th>Name</th>
-{{/*        <th class="no-sort">URL</th>*/}}
         <th>Cost</th>
         <th class="no-sort">Description</th>
         <th>Repositories</th>
@@ -10,16 +10,17 @@
     </thead>
     <tbody>
     {{ range . }}
-        <tr>
-            <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-{{/*            <td><a href="{{ .Params.service_url }}">{{ .Params.service_url }}</a></td>*/}}
-            <td>{{ humanize .Params.cost }}</td>
-            <td>
-                <a href="{{ .Params.service_url }}">{{ .Params.service_url }}</a> -
-                {{ .Description }}
-            </td>
-            <td class="number">{{ .Params.repo_count }}</td>
-        </tr>
+        {{ if gt .Params.repo_count 0 }}
+            <tr>
+                <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+                <td>{{ humanize .Params.cost }}</td>
+                <td>
+                    <a href="{{ .Params.service_url }}">{{ .Params.service_url }}</a> -
+                    {{ .Description }}
+                </td>
+                <td class="number">{{ .Params.repo_count }}</td>
+            </tr>
+        {{ end }}
     {{ end }}
     </tbody>
 </table>

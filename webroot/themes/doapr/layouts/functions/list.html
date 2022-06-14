@@ -22,12 +22,14 @@
                 </thead>
                 <tbody>
                 {{ range .Data.Pages }}
-                    <tr>
-                        <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-                        <td>{{ .Description }}</td>
-                        <td class="number">{{ .Params.repo_count }}</td>
-                        <td class="number">{{ .Params.service_count }}</td>
-                    </tr>
+                    {{ if or (gt .Params.repo_count 0) (gt .Params.service_count 0) }}
+                        <tr>
+                            <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+                            <td>{{ .Description }}</td>
+                            <td class="number">{{ .Params.repo_count }}</td>
+                            <td class="number">{{ .Params.service_count }}</td>
+                        </tr>
+                    {{ end }}
                 {{ end }}
                 </tbody>
             </table>
