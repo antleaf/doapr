@@ -9,38 +9,29 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
 
     {{ $style_bootstrap := resources.Get "css/bootstrap.css" | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style_bootstrap.Permalink }}">
     {{ $style_main := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style_main.Permalink }}">
     {{ $style_header := resources.Get "css/header.css" | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style_header.Permalink }}">
     {{ $style_tables := resources.Get "css/tables.css" | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style_tables.Permalink }}">
     {{ $style_footer := resources.Get "css/footer.css" | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style_footer.Permalink }}">
     {{ $style_datatables := resources.Get "css/datatables.min.css" | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style_datatables.Permalink }}">
     {{ $style_navbar := resources.Get "css/navbar.css" | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style_navbar.Permalink }}">
     {{ $style_images := resources.Get "css/images.css" | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style_images.Permalink }}">
-{{/*    {{ $style_leaflet := resources.Get "css/leaflet.css" | resources.Minify | resources.Fingerprint }}*/}}
-{{/*    <link rel="stylesheet" href="{{ $style_leaflet.Permalink }}">*/}}
     {{ $style_tabs := resources.Get "css/tabs.css" | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style_tabs.Permalink }}">
     {{ $style_tooltips := resources.Get "css/tooltips.css" | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style_tooltips.Permalink }}">
+    {{/*    {{ $style_leaflet := resources.Get "css/leaflet.css" | resources.Minify | resources.Fingerprint }}*/}}
+    {{ $css := slice $style_bootstrap $style_main $style_header $style_tables $style_footer $style_datatables $style_navbar $style_images $style_tabs $style_tooltips | resources.Concat "css/bundle.css" }}
+    <link rel="stylesheet" href="{{ $css.Permalink }}">
 
     {{ $js_jquery := resources.Get "js/jquery-3.6.0.min.js" | resources.Fingerprint }}
-    <script type="text/javascript" src="{{ $js_jquery.Permalink }}"></script>
     {{ $js_bootstrap := resources.Get "js/bootstrap.bundle.js" | resources.Minify | resources.Fingerprint }}
-    <script type="text/javascript" src="{{ $js_bootstrap.Permalink }}"></script>
     {{ $js_datatables := resources.Get "js/datatables.min.js" | resources.Fingerprint }}
-    <script type="text/javascript" src="{{ $js_datatables.Permalink }}"></script>
     {{ $js_main := resources.Get "js/main.js"| resources.Minify | resources.Fingerprint }}
-    <script type="text/javascript" src="{{ $js_main.Permalink }}"></script>
-{{/*    {{ $js_leaflet := resources.Get "js/leaflet.js"| resources.Minify | resources.Fingerprint }}*/}}
-{{/*    <script type="text/javascript" src="{{ $js_leaflet.Permalink }}"></script>*/}}
+    {{/*    {{ $js_leaflet := resources.Get "js/leaflet.js"| resources.Minify | resources.Fingerprint }}*/}}
+    {{ $js := slice $js_jquery $js_bootstrap $js_datatables $js_main | resources.Concat "js/bundle.js" }}
+    <script type="text/javascript" src="{{ $js.Permalink }}"></script>
+
+
+
 
 
 </head>
