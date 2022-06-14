@@ -4,6 +4,7 @@
     <thead>
     <tr class="column-header-row">
         <th>Name</th>
+        <th>Languages</th>
         {{ range $functionsList }}
             <th class="yes-no">
                 <div class="hover-over">
@@ -19,6 +20,7 @@
         {{ $repository := . }}
         <tr>
             <td><a href="{{ $repository.Permalink }}">{{ $repository.Title }}</a></td>
+            <td>{{ $repository.Params.accepted_content_language }}</td>
             {{ range $functionsList }}
                 {{ $function := . }}
                 <td>
