@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: essoar
 title: ESSOAr
@@ -79,9 +79,9 @@ preservation_policy:
 record_count: 'Full text : 6,100'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees: 'Yes : ESSOAr is governed by an Advisory Board made up of leaders
+scientific_committees: "Yes : ESSOAr is governed by an Advisory Board made up of leaders
   of the participating international Earth, environmental, and space science societies.
-  An up-to-date list is here: https://www.essoar.org/advisoryboard'
+  An up-to-date list is here: https://www.essoar.org/advisoryboard.\n\n"
 service_pricing: None
 short_name: ESSOAr
 status: open

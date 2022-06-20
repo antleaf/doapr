@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: self-journal-of-science-co-science
 title: Self Journal of Science (Co-Science)
@@ -58,7 +58,7 @@ preservation_policy:
 record_count:
 remining_indrawn_item:
 repository_type:
-scientific_committees:
+scientific_committees: ".\n\n"
 service_pricing:
 short_name:
 terms_of_use:

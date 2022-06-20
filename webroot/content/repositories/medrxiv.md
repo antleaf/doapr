@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: medrxiv
 title: MedRxiv
@@ -75,9 +75,9 @@ record_count: 'Full text : 20,315 '
 remining_indrawn_item: Withdrawn articles remain visible; For removed articles, basic
   information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : medRxiv Affiliates are members of the life sciences
+scientific_committees: "Yes : medRxiv Affiliates are members of the life sciences
   community who provide feedback on the service, act as advocates, and help in screening
-  material submitted.'
+  material submitted..\n\n"
 service_pricing: None
 short_name:
 status: open

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: earth-prints-repository
 title: Earth-prints Repository
@@ -68,7 +68,7 @@ preservation_policy:
 record_count: 'Full text : 12 250'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name:
 status: open

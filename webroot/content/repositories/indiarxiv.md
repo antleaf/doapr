@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: indiarxiv
 title: IndiArxiv
@@ -69,7 +69,7 @@ preservation_policy: The content is kept by OSFto be visible. Advisory team advi
 record_count: 'Full text : 148'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: National Common open archive platform
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name: IndiaRxiv
 status: closed-to-submission-only

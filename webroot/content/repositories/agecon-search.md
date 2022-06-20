@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: agecon-search
 title: AgEcon Search
@@ -82,7 +82,10 @@ record_count: 'Full text : 159 106'
 remining_indrawn_item: When an item is removed, the original citation along with a
   brief statement will appear in its place.
 repository_type: Disciplinary
-scientific_committees: 'Yes : scientists are part of the advisory board'
+scientific_committees: |-
+  Yes : scientists are part of the advisory board .
+
+  Five year terms
 service_pricing: There is a small charge per paper for groups that ask us to submit
   their papers. Charges are from 1 to 5 USD per paper depending on how much extra
   processing is involved
@@ -92,7 +95,10 @@ terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Immediate
 repository_url: https://ageconsearch.umn.edu/?ln=en
-user_committees: 'Yes: Advisory Board, international representation    Five year terms'
+user_committees: |-
+  Yes: Advisory Board, international representation.
+
+  Five year terms
 versioning_policy: Accepts new version. Only one version is visble for readers
 who_can_deposit: 'Only organizations can post on the website : Universities, professional
   associations, research institutes and Government agencies'

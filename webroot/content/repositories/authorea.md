@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: authorea
 title: Authorea
@@ -77,7 +77,7 @@ record_count: 'Full text : 15241'
 remining_indrawn_item: All data concerning the admission journal must be deleted in
   case the document isn't accepted. Otherwise, all the document remains available
 repository_type: Multidisciplinary
-scientific_committees: 'No'
+scientific_committees: "No.\n\n"
 service_pricing: Authorea is free to use. You can upgrade for additional private documents
   and Premium features
 short_name:

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: lawarxiv
 title: LawArxiv
@@ -64,7 +64,7 @@ preservation_policy: The content is kept by OSF
 record_count: 'Full text : 1 393'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees: 'Yes : Legal Scholarship Advisory Board'
+scientific_committees: "Yes : Legal Scholarship Advisory Board.\n\n"
 service_pricing: None
 short_name:
 status: closed-to-submission-only

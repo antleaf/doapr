@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: vixra
 title: ViXra
@@ -71,7 +71,7 @@ preservation_policy: 'Yes : Mirror Site (rxiv.org)'
 record_count: 'Full text : 37 034'
 remining_indrawn_item: No web presence retained
 repository_type: Disciplinary
-scientific_committees: 'Yes : scientists are part of the advisory board'
+scientific_committees: "Yes : scientists are part of the advisory board .\n\n"
 service_pricing: None
 short_name:
 status: open

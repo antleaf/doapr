@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: cryptology-eprint-archive
 title: Cryptology ePrint Archive
@@ -65,7 +65,7 @@ record_count: 'Full text : 16 700'
 remining_indrawn_item: Withdrawn items are not deleted but are removed from public
   view
 repository_type: Disciplinary
-scientific_committees: Editors, appointed by the IACR.
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name:
 status: open
@@ -73,8 +73,8 @@ terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Some days.
 repository_url: https://eprint.iacr.org/
-user_committees: 'No user committee, but governed by the IACR through its Board of
-  Directors.    '
+user_committees: "No user committee, but governed by the IACR through its Board of
+  Directors..\n\n"
 versioning_policy: If necessary, an updated version may be deposited, and history
   is kept
 who_can_deposit: Accredited Community Members only

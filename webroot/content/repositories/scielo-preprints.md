@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: scielo-preprints
 title: SciELO Preprints
@@ -80,7 +80,7 @@ preservation_policy: 'The preservation flow is: -creating a webarchiving file in
 record_count: 'Full text : 13 713'
 remining_indrawn_item: The metadata and the reason for retraction remain on the server;
 repository_type: Multidisciplinary international cooperation program
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name:
 status: open
@@ -88,10 +88,10 @@ terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: A few days
 repository_url: https://preprints.scielo.org/index.php/scielo
-user_committees: 'Yes : board of moderators is composed by Editor-in-Chiefs of the
-  SciELO journals or someone appointed by them.    As this position changes within our journals, their roles as area moderators in
-  SciELO Preprints can also change. An area moderator can request to leave the board
-  at any time.'
+user_committees: |-
+  Yes : board of moderators is composed by Editor-in-Chiefs of the SciELO journals or someone appointed by them..
+
+  As this position changes within our journals, their roles as area moderators in SciELO Preprints can also change. An area moderator can request to leave the board at any time.
 versioning_policy: Accepts new versions of content until acceptance at journal.  OPS
   always operates with the latest preprint version, but each version keeps a connection
   with the previous one, so that all versions are kept on the server

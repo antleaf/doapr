@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: osf-preprints
 title: OSF preprints
@@ -72,7 +72,7 @@ record_count: 'Metadata: 2 097 029'
 remining_indrawn_item: Preprints cannot be deleted, but can be withdrawn, leaving
   behind metadata about the resource.
 repository_type: Aggregating
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name: OSF
 status: open
@@ -80,8 +80,8 @@ terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to 24 hours
 repository_url: https://osf.io/preprints/
-user_committees: 'Yes, Advisory group includes leaders in preprints and scholarly
-  communication.    '
+user_committees: "Yes, Advisory group includes leaders in preprints and scholarly
+  communication..\n\n"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

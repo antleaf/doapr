@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: scienceopen
 title: ScienceOpen
@@ -65,8 +65,8 @@ preservation_policy:
 record_count: 'Full text : 2 140'
 remining_indrawn_item:
 repository_type: Aggregating
-scientific_committees: 'Yes : Advisory and Editorial group. For more information :
-  https://about.scienceopen.com/editorial-board/#more-30'
+scientific_committees: "Yes : Advisory and Editorial group. For more information :
+  https://about.scienceopen.com/editorial-board/#more-30.\n\n"
 service_pricing: None
 short_name:
 status: open

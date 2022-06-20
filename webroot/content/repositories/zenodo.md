@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: zenodo
 title: Zenodo
@@ -74,7 +74,7 @@ record_count: 1 905 864 records (in all categories)
 remining_indrawn_item: The reason for the withdrawal will be indicated on a tombstone
   page,
 repository_type: International, across institutions
-scientific_committees:
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name:
 status: open

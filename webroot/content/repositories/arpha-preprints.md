@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: arpha-preprints
 title: ARPHA Preprints
@@ -63,8 +63,8 @@ preservation_policy: 'No'
 record_count: 'Full text : 69'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary
-scientific_committees: Managed by the publisher and supported by the editorial boards
-  of the participating journals
+scientific_committees: "Managed by the publisher and supported by the editorial boards
+  of the participating journals.\n\n"
 service_pricing: None
 short_name:
 status: open
@@ -72,11 +72,10 @@ terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to 48 hours
 repository_url: https://preprints.arphahub.com/
-user_committees: 'No    Once the manuscript is published in the ARPHA-hosted journal, the status of the
-  preprint changes to "Published in <the corresponding ARPHA-hosted journal>". Additionally,
-  the citation details of the published paper will be made available along with those
-  of the preprint, in order to prompt further citations of the paper rather than the
-  preprint. ARPHA Preprints will link the DOIs of the two publications through CrossRef.'
+user_committees: |-
+  No.
+
+  Once the manuscript is published in the ARPHA-hosted journal, the status of the preprint changes to "Published in <the corresponding ARPHA-hosted journal>". Additionally, the citation details of the published paper will be made available along with those of the preprint, in order to prompt further citations of the paper rather than the preprint. ARPHA Preprints will link the DOIs of the two publications through CrossRef.
 versioning_policy: No versioning; published articles linked to their preprints.
 who_can_deposit: ARPHA-hosted journals that opted in for preprint services.  Posting
   a preprint on ARPHA Preprints is part of the submission process of the participating

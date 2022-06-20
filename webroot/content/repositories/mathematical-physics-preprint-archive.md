@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: mathematical-physics-preprint-archive
 title: Mathematical Physics Preprint Archive
@@ -58,7 +58,7 @@ preservation_policy:
 record_count:
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name: mp_arc
 status: open

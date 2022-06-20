@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: chemrxiv
 title: ChemRxiv
@@ -79,7 +79,7 @@ record_count: 'Full text: 9 153'
 remining_indrawn_item: Content remains with a version indicating that the content
   has been retracted.
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name:
 status: open

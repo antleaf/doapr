@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 title: Classical research journals
 service_id: classical-research-journals

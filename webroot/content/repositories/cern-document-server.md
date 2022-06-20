@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: cern-document-server
 title: CERN document server
@@ -66,7 +66,7 @@ preservation_policy:
 record_count: 'Full text : 473 744 ( 138 168 preprint)'
 remining_indrawn_item: Full-Text
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name: CDS
 status: open

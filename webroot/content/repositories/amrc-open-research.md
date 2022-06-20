@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: amrc-open-research
 title: AMRC Open Research
@@ -77,7 +77,7 @@ preservation_policy:
 record_count: 'Full text : 22'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: 'Yes : Author fee applies (min £120; max £800; £20 per poster, slide
   or document)'
 short_name:

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: crossasia-repository
 title: CrossAsia-Repository
@@ -67,7 +67,7 @@ preservation_policy:
 record_count: 'Full text : 4 341'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name: Xasia
 status: open

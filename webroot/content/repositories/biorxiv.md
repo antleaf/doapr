@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: biorxiv
 title: bioRxiv
@@ -69,9 +69,7 @@ record_count: 'Metadata: 1,254'
 remining_indrawn_item: Withdrawn articles remain visible; For removed articles, basic
   information remains on a tombstone page
 repository_type: Community-based
-scientific_committees: Yes :bioRxiv Affiliates are members of the life sciences community
-  who provide feedback on the service, act as advocates, and help in screening material
-  submitted.
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name:
 status: open
@@ -79,8 +77,8 @@ terms_of_use: 'Yes'
 text_embargo: 'No'
 time_submission_to_posting: It is usually between 24-48h
 repository_url: https://www.biorxiv.org/
-user_committees: 'Yes, Advisory group includes leaders in preprints and scholarly
-  communication.    '
+user_committees: "Yes, Advisory group includes leaders in preprints and scholarly
+  communication..\n\n"
 versioning_policy: Accepts new versions until acceptance at journal. All versions
   are available and visible for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

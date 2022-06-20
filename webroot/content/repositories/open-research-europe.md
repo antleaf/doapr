@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: open-research-europe
 title: Open Research Europe
@@ -78,7 +78,7 @@ preservation_policy:
 record_count: 'Full text : 71'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: European project
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name:
 status: open

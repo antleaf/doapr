@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: figshare
 title: Figshare
@@ -77,7 +77,7 @@ record_count: |
 remining_indrawn_item: It will be replaced with a public notice to provide a record
   of the removal
 repository_type: Multidisciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name:
 status: open
@@ -87,7 +87,10 @@ text_embargo: No, only if the publisher imposes an embargo period. Possible to a
 time_submission_to_posting: "Figshare.com can post on completion of submission. Preprint/Institutions
   depends on review time and can differ\n "
 repository_url: https://figshare.com/
-user_committees: 'Yes : Ambassadors program    For more information : https://knowledge.figshare.com/ambassadors'
+user_committees: |-
+  Yes : Ambassadors program.
+
+  For more information : https://knowledge.figshare.com/ambassadors
 versioning_policy: Accepts new version. All version are available for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

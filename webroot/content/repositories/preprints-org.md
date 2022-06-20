@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: preprints-org
 title: Preprints.org
@@ -69,10 +69,7 @@ record_count: 'Full text : 21 880'
 remining_indrawn_item: Basic information remains on a tombstone page if DOI has been
   issued, otherwise no web presence retained
 repository_type: Multidisciplinary
-scientific_committees: 'Yes : It includes research from a wide range of subjects (Art
-  & Humanities, Behavorial Sciences, Biology, Chemistry, Earth Sciences, Engineering,
-  Lifes sciences, Material Science, Mathematics & Computer Science, Medicine & Pharmacology,
-  Physcial Sciences, Social Sciences)'
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name:
 status: open

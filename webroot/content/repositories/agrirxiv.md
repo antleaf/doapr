@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: agrirxiv
 title: AgriRxiv
@@ -72,7 +72,10 @@ preservation_policy: CABI commits to preserving availability of the content
 record_count: 'Full text : 138'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: Yes advisory board is made up of active researchers and users
+scientific_committees: |-
+  Yes advisory board is made up of active researchers and users.
+
+  Renewal of membership is based on regular discussion and confirmation of commitment
 service_pricing: None
 short_name:
 status: open
@@ -80,7 +83,10 @@ terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Within 72h
 repository_url: https://agrirxiv.org/
-user_committees: 'Yes advisory board is made up of active researchers and users    Renewal of membership is based on regular discussion and confirmation of commitment'
+user_committees: |-
+  Yes advisory board is made up of active researchers and users.
+
+  Renewal of membership is based on regular discussion and confirmation of commitment
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

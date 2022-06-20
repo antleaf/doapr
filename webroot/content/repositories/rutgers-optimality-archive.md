@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: rutgers-optimality-archive
 title: Rutgers Optimality Archive
@@ -65,7 +65,7 @@ record_count: 'Full text : 1 386'
 remining_indrawn_item: Title and author information will remain, with an indication
   that the paper has been withdrawn.
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name: ROA
 status: open

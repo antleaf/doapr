@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: psyarxiv
 title: PsyArXiv
@@ -65,7 +65,7 @@ preservation_policy:
 record_count: 'Full text : 16 187'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees: 'Yes : Scientific Advisory Board'
+scientific_committees: "Yes : Scientific Advisory Board.\n\n"
 service_pricing: None
 short_name:
 status: open

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: beilstein-archive
 title: Beilstein Archive
@@ -72,8 +72,8 @@ preservation_policy: The repository will try to ensure continued readability and
 record_count: 'Full text : 350'
 remining_indrawn_item: Withdrawn items are deleted entirely from the database
 repository_type: Disciplinary
-scientific_committees: 'Yes : The Advisory Board of the Beilstein Archives includes
-  scientists who are knowledgeable in the subject areas outlined in the scope.'
+scientific_committees: "Yes : The Advisory Board of the Beilstein Archives includes
+  scientists who are knowledgeable in the subject areas outlined in the scope..\n\n"
 service_pricing: None
 short_name:
 status: open

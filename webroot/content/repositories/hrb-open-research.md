@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: hrb-open-research
 title: HRB Open Research
@@ -73,7 +73,7 @@ preservation_policy:
 record_count: 'Full text : 223'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name: HRB
 status: open

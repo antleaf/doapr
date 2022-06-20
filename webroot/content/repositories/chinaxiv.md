@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: chinaxiv
 title: ChinaXiv
@@ -68,8 +68,7 @@ record_count: 'Full text : 15 134'
 remining_indrawn_item: Public can not see a withdrawled paper record at all. The administer
   of the preprint can see it.
 repository_type: National Preprint platform
-scientific_committees: Yes. We invite some of the researchers of Chinese Academy of
-  Sciences to be our Scientific committee
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name:
 status: open

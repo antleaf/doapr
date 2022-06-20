@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: easychair-preprints
 title: EasyChair preprints
@@ -61,7 +61,7 @@ preservation_policy:
 record_count:
 remining_indrawn_item:
 repository_type: Multidisciplinary
-scientific_committees:
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name:
 status: open

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: paleorxiv
 title: PaleorXiv
@@ -67,8 +67,8 @@ preservation_policy:
 record_count: 'Full text : 178'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Community-based
-scientific_committees: 'Yes : Steering Committee comprised of members from the global
-  Palaeontology community'
+scientific_committees: "Yes : Steering Committee comprised of members from the global
+  Palaeontology community.\n\n"
 service_pricing: None
 short_name:
 status: open

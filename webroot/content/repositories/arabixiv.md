@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: arabixiv
 title: Arabixiv
@@ -71,7 +71,8 @@ preservation_policy: Yes. COS has a preservation fund for up to 50+ years
 record_count: 'Full text : 328'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: Yes, various scientific fields are represented
+scientific_committees: "Yes, various scientific fields are represented.\n\nUp to every
+  member to continue as a member at a voluntary basis or to end his commitment "
 service_pricing: None
 short_name:
 status: closed-to-submission-only
@@ -79,8 +80,10 @@ terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to 48 hours
 repository_url: http://about.arabixiv.org/
-user_committees: 'Yes, researchers included and the server is open to anyone from
-  around the world    Users are free to contribute without any condition or terms'
+user_committees: |-
+  Yes, researchers included and the server is open to anyone from around the world.
+
+  Users are free to contribute without any condition or terms
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required (The

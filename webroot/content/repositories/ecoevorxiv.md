@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: ecoevorxiv
 title: EcoEvoRxiv
@@ -68,8 +68,8 @@ preservation_policy:
 record_count: 'Full text : 525'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : The Committee is made up of academics involved in ecological,
-  evolutionary and conservation research who created and support the EcoEvoRxiv repository.'
+scientific_committees: "Yes : The Committee is made up of academics involved in ecological,
+  evolutionary and conservation research who created and support the EcoEvoRxiv repository..\n\n"
 service_pricing: None
 short_name: EcoEvoRxiv
 status: open

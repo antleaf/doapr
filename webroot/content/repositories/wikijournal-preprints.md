@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: wikijournal-preprints
 title: WikiJournal Preprints
@@ -74,7 +74,10 @@ preservation_policy: Wikimedia Foundation archive servers
 record_count: 'Full text : 52'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: |-
+  Yes : includes researchers.
+
+  Apply to be an associate editor to help organise peer review, formatting and Wikipedia-integration of potential upcoming articles. For more information : https://en.wikiversity.org/wiki/WikiJournal_User_Group/Associate_editors
 service_pricing: None
 short_name: WikiJPre
 status: open
@@ -83,7 +86,9 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Instant
 repository_url: https://en.m.wikiversity.org/wiki/WikiJournal_Preprints
 user_committees: |-
-  Yes : Advisory Board    Board members have four-year terms (no consecutive term limit).
+  Yes : Advisory Board.
+
+  Board members have four-year terms (no consecutive term limit).
   https://en.wikiversity.org/wiki/WikiJournal_User_Group/Bylaws#Section_5._Duration_of_Term
   https://en.wikiversity.org/wiki/WikiJournal_User_Group/Individual_WikiJournal_bylaws#Section_4._Duration_of_Term
 versioning_policy: Accepts new version

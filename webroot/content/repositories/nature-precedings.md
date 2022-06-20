@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: nature-precedings
 title: Nature Precedings
@@ -63,7 +63,7 @@ preservation_policy: The content is kept by Nature to be visible
 record_count: 'Full text : 3 423'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name:
 status: closed-to-submission-only

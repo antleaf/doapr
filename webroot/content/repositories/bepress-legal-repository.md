@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: bepress-legal-repository
 title: Bepress Legal Repository
@@ -62,7 +62,7 @@ preservation_policy:
 record_count: 'Full text : 169 686'
 remining_indrawn_item: Papers are totally removed
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name:
 status: open

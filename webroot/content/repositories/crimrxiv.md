@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: crimrxiv
 title: CrimRxiv
@@ -69,7 +69,7 @@ preservation_policy:
 record_count: 'Full text : 83'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name:
 status: open

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: f1000-research
 title: F1000 Research
@@ -73,10 +73,10 @@ preservation_policy:
 record_count: 'Full text : 4 144'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers. F1000Research has an Advisory
+scientific_committees: "Yes : includes researchers. F1000Research has an Advisory
   Board comprising a large group of leading subject experts; they provide strategic
   input, advise occasionally on issues arising with specific articles, and some members
-  of the board also act as invited reviewers.'
+  of the board also act as invited reviewers..\n\n"
 service_pricing: 'Only for author(s) : The cost of publishing an article is US$1,350
   (Dec 2020), less for a shorter contribution (min $150; max $2000 US)'
 short_name: F1000

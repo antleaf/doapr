@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: engrxiv
 title: engrxiv
@@ -70,7 +70,7 @@ preservation_policy:
 record_count: 'Full text : 1 721'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : engrXiv is directed by a steering committee of engineers'
+scientific_committees: "Yes : engrXiv is directed by a steering committee of engineers.\n\n"
 service_pricing: None
 short_name:
 status: open

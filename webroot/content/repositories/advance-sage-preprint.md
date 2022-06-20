@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: advance-sage-preprint
 title: Advance (Sage preprint)
@@ -77,7 +77,7 @@ record_count: |-
 remining_indrawn_item: It will be replaced with a public notice to provide a record
   of the removal
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes a diverse range of researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name:
 status: open

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: africarxiv
 title: AfricArxiv
@@ -80,7 +80,7 @@ record_count: 'Full text (articles, theses): 248 (OSF), Zenodo (171), ScienceOpe
   (13), Figshare ( 2) '
 remining_indrawn_item: Basic information remains on a tombstone page (OSF)
 repository_type: Decentralised/independent/aggregating open archive platform
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name:
 status: open

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: dspace-mit
 title: Dspace @ MIT
@@ -75,7 +75,7 @@ record_count: 'Full text : 115 333'
 remining_indrawn_item: URLs will continue to point to 'tombstone' citations. URLs
   will contain a note explaining the reasons for withdrawal
 repository_type: Institutional multidisciplinary
-scientific_committees: 'No'
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name:
 status: open

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: cell-press-sneak-peek
 title: Cell Press Sneak peek
@@ -65,7 +65,7 @@ preservation_policy:
 record_count: 'Full text : 3 375'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: 'Yes : To access full content of text'
 short_name:
 status: open

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: arxiv
 title: arXiv
@@ -79,7 +79,10 @@ preservation_policy: 'Yes : mirror sites, public data sets via Kaggle'
 record_count: 'Full text : 1 878 329'
 remining_indrawn_item: Web link with metadata remains available
 repository_type: Multidisciplinary and international
-scientific_committees: 'Yes : Scientific advisory board'
+scientific_committees: |-
+  Yes : Scientific advisory board.
+
+  The Board is governed by Bylaws that detail its duties, composition, and operation as well as the election of its members.
 service_pricing: None
 short_name:
 status: open
@@ -87,8 +90,10 @@ terms_of_use: 'Yes'
 text_embargo: 'No'
 time_submission_to_posting: Less than 48h
 repository_url: https://arxiv.org/
-user_committees: 'Yes : Member advisory board (libraries, research institutions, laboratories
-  or foundations)    Elections are organised : you can go here for more informations on the process https://arxiv.org/about/mab_bylaws'
+user_committees: |-
+  Yes : Member advisory board (libraries, research institutions, laboratories or foundations).
+
+  Elections are organised : you can go here for more informations on the process https://arxiv.org/about/mab_bylaws
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

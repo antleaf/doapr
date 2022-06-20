@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: open-anthropology-research-repository
 title: Open Anthropology Research Repository
@@ -68,7 +68,10 @@ preservation_policy:
 record_count: 'Full text : 144'
 remining_indrawn_item: Supression of metadata, DOI, etc
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: |-
+  Yes : includes researchers.
+
+  If you are interested in joining the OARR editorial board and reviewing submissions, please send an email to pubs@americananthro.org that includes a copy of your CV as well as what subfields and languages in which you are comfortable reviewing.
 service_pricing: None
 short_name: OARR
 status: open
@@ -76,11 +79,10 @@ terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Within 7 business days
 repository_url: https://www.openanthroresearch.org/
-user_committees: 'The editorial board will be composed of volunteers and strives to
-  represent the diversity of the field of anthropology, as well as speak to its variety
-  of subfields. There is also an Advisory Group : https://www.openanthroresearch.org/advisorygroup    If you are interested in joining the OARR editorial board and reviewing submissions,
-  please send an email to pubs@americananthro.org that includes a copy of your CV
-  as well as what subfields and languages in which you are comfortable reviewing.'
+user_committees: |-
+  The editorial board will be composed of volunteers and strives to represent the diversity of the field of anthropology, as well as speak to its variety of subfields. There is also an Advisory Group : https://www.openanthroresearch.org/advisorygroup.
+
+  If you are interested in joining the OARR editorial board and reviewing submissions, please send an email to pubs@americananthro.org that includes a copy of your CV as well as what subfields and languages in which you are comfortable reviewing.
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

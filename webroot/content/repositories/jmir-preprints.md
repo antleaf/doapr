@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: jmir-preprints
 title: JMIR Preprints
@@ -62,7 +62,7 @@ preservation_policy:
 record_count: 'Full text : 58'
 remining_indrawn_item: JMIR  will remove the content from the collection
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name:
 status: open

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: ssoar
 title: SSOAR
@@ -90,7 +90,8 @@ remining_indrawn_item: Full text isn't available anymore. However, the correspon
   metadata set will continue to be accessible via the URN in order to ensure stable
   linking.
 repository_type: Disciplinary
-scientific_committees: 'No'
+scientific_committees: "Yes : A team of permanently employed scientists runs SSOAR
+  .\n\n"
 service_pricing: None
 short_name: SSOAR
 status: open

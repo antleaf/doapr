@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: ssrn
 title: SSRN
@@ -71,7 +71,7 @@ record_count: 'Full text : 816 075'
 remining_indrawn_item: Remove the attached PDF, Make it Privately Available, Make
   it inactive
 repository_type: Community-based
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name: SSRN
 status: open

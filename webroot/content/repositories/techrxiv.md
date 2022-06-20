@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: techrxiv
 title: TechRxiv
@@ -70,9 +70,9 @@ remining_indrawn_item: Tthe preprint will still appear in TechRxiv but it will b
   marked as "withdrawn" and annotated with comments explaining the reason for the
   withdrawal
 repository_type: Disciplinary
-scientific_committees: 'Yes : The TechRxiv Advisory Board is a group of experts across
+scientific_committees: "Yes : The TechRxiv Advisory Board is a group of experts across
   diverse subject areas who advise the management of TechRxiv on the standards that
-  TechRxiv-hosted preprints should be held to.'
+  TechRxiv-hosted preprints should be held to. .\n\n"
 service_pricing: None
 short_name:
 status: open

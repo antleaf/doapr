@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: cogprints
 title: Cogprints
@@ -68,7 +68,7 @@ preservation_policy: Already closed, Universty of Southampton is hosting all dat
 record_count: 'Full text : 4 230'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name:
 status: closed-to-submission-only

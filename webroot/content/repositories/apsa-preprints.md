@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: apsa-preprints
 title: APSA Preprints
@@ -76,7 +76,7 @@ preservation_policy: We plan to work with a preservation service to ensure that 
 record_count: 'Full text : 349'
 remining_indrawn_item: The content remains accessible
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: Free to user, business relationships with partners for hosting services.
 short_name: APSA
 status: open

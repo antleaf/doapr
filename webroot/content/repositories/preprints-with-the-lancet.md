@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: preprints-with-the-lancet
 title: Preprints with The Lancet
@@ -64,7 +64,10 @@ preservation_policy:
 record_count: 'Full text : 8 719'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees:
+scientific_committees: |-
+  Yes : It includes research from a wide range of subjects (Art & Humanities, Behavorial Sciences, Biology, Chemistry, Earth Sciences, Engineering, Lifes sciences, Material Science, Mathematics & Computer Science, Medicine & Pharmacology, Physcial Sciences, Social Sciences).
+
+  You can contact info@preprints.org with a copy of your CV to make an application.
 service_pricing: 'Yes : To access full content of text'
 short_name:
 status: open

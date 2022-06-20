@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: e-lis
 title: E-lis
@@ -74,10 +74,10 @@ record_count: 'Full text : 23 091'
 remining_indrawn_item: Bibliopraphic metatada remaining in the server with document
   but inside in the dark side of repository
 repository_type: Disciplinary
-scientific_committees: 'Yes : 3 people manage the Administrative Board supported by
+scientific_committees: "Yes : 3 people manage the Administrative Board supported by
   a restrict Executive Board with specific competencies and a editorial board composed
   by 73 librarians and information scientists from 47 countries and support for 22
-  languages'
+  languages.\n\n"
 service_pricing: None
 short_name: E-LIS
 status: open

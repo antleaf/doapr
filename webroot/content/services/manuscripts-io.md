@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 title: Manuscripts.io
 service_id: manuscripts-io

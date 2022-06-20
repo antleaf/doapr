@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: marxiv
 title: MarXiv
@@ -73,7 +73,7 @@ record_count: 'Full text : 456 on OSF (https://osf.io/preprints/marxiv/discover)
 remining_indrawn_item: The reason for the withdrawal will be indicated on a tombstone
   page
 repository_type: Disciplinary
-scientific_committees: Not any more
+scientific_committees: "Not any more.\n\n"
 service_pricing: None
 short_name:
 status: open

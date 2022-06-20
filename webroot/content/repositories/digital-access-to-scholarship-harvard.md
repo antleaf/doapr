@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: digital-access-to-scholarship-harvard
 title: Digital Access to Scholarship Harvard
@@ -73,7 +73,7 @@ preservation_policy:
 record_count: '54,563'
 remining_indrawn_item: Work is not made available publicly
 repository_type: Institutional and Multidisciplinary
-scientific_committees:
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name: DASH
 status: open

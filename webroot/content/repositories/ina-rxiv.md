@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: ina-rxiv
 title: INA-Rxiv
@@ -64,7 +64,7 @@ preservation_policy: The content is kept by OSF. Advisory team advises to turn t
 record_count: 'Full text : 16 746'
 remining_indrawn_item:
 repository_type: National Common open archive platform
-scientific_committees: 'Yes : Include Scientists'
+scientific_committees: "Yes : Include Scientists.\n\n"
 service_pricing: None
 short_name:
 status: closed-to-submission-only

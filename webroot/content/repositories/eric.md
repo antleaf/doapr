@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: eric
 title: ERIC
@@ -75,7 +75,7 @@ preservation_policy:
 record_count: 'Total records: more than 1.8 million; Full text: 447,506 as of 6/29/21'
 remining_indrawn_item: ERIC will remove the content from the collection
 repository_type: Disciplinary
-scientific_committees: 'Yes : advisory group'
+scientific_committees: "Yes : advisory group.\n\n"
 service_pricing: None
 short_name: ERIC
 status: open

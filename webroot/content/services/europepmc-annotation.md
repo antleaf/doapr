@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 title: EuropePMC annotation
 service_id: europepmc-annotation

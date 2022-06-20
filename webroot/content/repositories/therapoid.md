@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: therapoid
 title: Therapoid
@@ -64,7 +64,7 @@ preservation_policy:
 record_count: 'Full text : 14'
 remining_indrawn_item: No web presence retained
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name:
 status: open

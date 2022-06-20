@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: munich-personal-repec-archive
 title: Munich Personal RePEc Archive
@@ -63,7 +63,7 @@ preservation_policy:
 record_count: 'Full text : 52 042'
 remining_indrawn_item: MPRA refuse to remove submissions from the archive
 repository_type: Institutional
-scientific_committees:
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name: MRPA
 status: open

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: lse-research-online
 title: LSE Research Online
@@ -93,7 +93,7 @@ record_count: |-
   Full text: 45 304
 remining_indrawn_item: Permanently withdrawn
 repository_type: Institutional
-scientific_committees: Operations Group to discuss technical issues
+scientific_committees: ".\n\n"
 service_pricing: None
 short_name: LSERO
 status: open

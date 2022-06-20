@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: hal
 title: HAL
@@ -87,7 +87,7 @@ record_count: 'Full text : 827 597'
 remining_indrawn_item: Any deposit is definitive, no withdrawals will be made after
   the on-line posting of the publication (within the limits of the law)
 repository_type: National Common open archive platform
-scientific_committees: 'Yes : International scientific council'
+scientific_committees: "Yes : International scientific council.\n\n"
 service_pricing: None
 short_name: HAL
 status: open

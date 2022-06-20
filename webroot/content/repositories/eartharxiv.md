@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: eartharxiv
 title: EarthArXiv
@@ -73,7 +73,10 @@ preservation_policy: 'Yes'
 record_count: 'Full text: 2 300'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : The commitee include researchers'
+scientific_committees: |-
+  Yes : The commitee include researchers.
+
+  This commitee will serve a 2-year term
 service_pricing: None
 short_name:
 status: open

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: peerj-preprints
 title: PeerJ Preprints
@@ -65,7 +65,7 @@ preservation_policy: All published content will be fully accessible and archived
 record_count: 'Full text : 5 068'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name:
 status: closed-to-submission-only

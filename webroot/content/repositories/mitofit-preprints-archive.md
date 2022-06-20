@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: mitofit-preprints-archive
 title: MitoFit Preprints Archive
@@ -69,7 +69,7 @@ preservation_policy: 'Yes'
 record_count: 'Full text : 23'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name: MitoFit Prep
 status: open
@@ -77,7 +77,7 @@ terms_of_use: Yes, https://www.mitofit.org/index.php/MitoFit_Preprints
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to 1 week
 repository_url: https://www.mitofit.org/index.php/MitoFit_Preprints
-user_committees: 'No, only scientific committee    '
+user_committees: "No, only scientific committee.\n\n"
 versioning_policy: Accepts new versions until acceptance at journal
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

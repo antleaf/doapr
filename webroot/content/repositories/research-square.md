@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: research-square
 title: Research Square
@@ -76,7 +76,7 @@ record_count: 'Full text : 88 442'
 remining_indrawn_item: For withdrawals, v2 is posted with withdrawal notice but v1
   still fully visible. For removals, v1 is replaced by removal notice.
 repository_type: Multidisciplinary
-scientific_committees: 'Yes : scientists are part of the advisory board'
+scientific_committees: "Yes : scientists are part of the advisory board .\n\n"
 service_pricing: None
 short_name:
 status: open

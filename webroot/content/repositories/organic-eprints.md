@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: organic-eprints
 title: Organic Eprints
@@ -73,7 +73,7 @@ record_count: 'Full text : 17 713'
 remining_indrawn_item: Withdrawn items are not deleted, but are removed from public
   view
 repository_type: Disciplinary
-scientific_committees: 'Yes : includes researchers'
+scientific_committees: "Yes : includes researchers.\n\n"
 service_pricing: None
 short_name:
 status: open

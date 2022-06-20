@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: philsci-archive
 title: Philsci Archive
@@ -73,8 +73,10 @@ remining_indrawn_item: URLs will continue to point to 'tombstone' citations, URL
   will contain a link to a replacement version, where available, URLs will contain
   a note explaining the reasons for withdrawal
 repository_type: Disciplinary
-scientific_committees: 'Yes : The Board is comprised of philosophers of science with
-  recognized standing in the profession'
+scientific_committees: |-
+  Yes : The Board is comprised of philosophers of science with recognized standing in the profession.
+
+  Board members are appointed for three year, renewable terms. Membership of the Board and extension of membership term is by invitation from a consensus of current Board members. The Board’s Executive Committee consists of an Editor-in-Chief and two board members whose terms are staggered. Each is appointed for a renewable three year term by a consensus of current Board members. For more information : http://philsci-archive.pitt.edu/information.html
 service_pricing: None
 short_name: PS
 status: open
@@ -83,7 +85,10 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to two business days for a paper and up to one to two
   weeks for a monograph
 repository_url: http://philsci-archive.pitt.edu/
-user_committees: 'N/A    N/A'
+user_committees: |-
+  N/A.
+
+  N/A
 versioning_policy: If necessary, an updated version may be deposited
 who_can_deposit: Accredited Community Members
 withdrawal_authorisation: Platform

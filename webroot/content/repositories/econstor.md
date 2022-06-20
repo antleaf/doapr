@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: econstor
 title: ECONSTOR
@@ -69,7 +69,7 @@ record_count: 'Full text :  212 106'
 remining_indrawn_item: In order to maintain stable linking, only the PDF full-text
   will be removed; the corresponding bibliographic record will remain on EconStor.
 repository_type: Disciplinary
-scientific_committees: 'No'
+scientific_committees: "No.\n\n"
 service_pricing: None
 short_name:
 status: open

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-14
+date: 2022-06-20
 draft: false
 repository_id: socarxiv
 title: SocArxiv
@@ -72,8 +72,8 @@ preservation_policy:
 record_count: 'Full text : 8 177'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: 'Yes : SocArXiv is housed at the University of Maryland, and
-  is directed by a steering committee of social scientists'
+scientific_committees: "Yes : SocArXiv is housed at the University of Maryland, and
+  is directed by a steering committee of social scientists.\n\n"
 service_pricing: None
 short_name:
 status: open
@@ -82,7 +82,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Less than 2 days
 repository_url: https://osf.io/preprints/socarxiv/
 user_committees: "SocArXiv is housed at the University of Maryland, and is directed
-  by a steering committee of members of the research library community. \L\L"
+  by a steering committee of members of the research library community. .\n\n"
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
