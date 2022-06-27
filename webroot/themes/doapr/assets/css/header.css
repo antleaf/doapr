@@ -4,14 +4,15 @@
 }
 
 div#header {
-    text-align: center;
+    /*text-align: center;*/
+}
+div#header a {
+    text-decoration: none;
 }
 
-img#header-logo {
-    max-width: 40%;
-}
 
 h1.site-title {
     font-family: 'Secular One', sans-serif;
     color: steelblue;
+    font-weight: bold;
 }
