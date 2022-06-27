@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: lse-research-online
 title: LSE Research Online
@@ -18,7 +18,9 @@ accepted_supplementary_content: Datasets (though we would encourage deposit in s
   and slides
 access_to_content: Open access and free of charge, "request a copy" service for items
   embargoed according to publisher policies.
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: 'Yes : Takedown Policy'
 account_creation: No account required for accessing material. LSE Library staff have
   administrator accounts for creating records/adding content
@@ -34,7 +36,7 @@ backups: "Yes - Eprints is hosted on a virtual server. We backup database and ep
   up nightly using vmware backup tools.\nOur configuration is hosted in a git repository
   and this is also backed up nightly with standard gitlab backups."
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -88,12 +90,14 @@ persistence_of_content: N/A
 platform:
 platform_languages: English
 preservation_policy: 'No'
+preservation_policy_binary: false
 record_count: |-
   Total: 82 769
   Full text: 45 304
 remining_indrawn_item: Permanently withdrawn
 repository_type: Institutional
-scientific_committees: ".\n\n"
+scientific_committees:
+scientific_committees_binary: false
 service_pricing: None
 short_name: LSERO
 status: open
@@ -104,6 +108,7 @@ repository_url: http://eprints.lse.ac.uk/
 user_committees: 'Yes : Library staff managing the repository are information professionals
   with experience of working with researchers and of creating high quality catalogue
   and index records.'
+user_committees_binary: true
 versioning_policy: Accepts new version. Only one version is visble for readers, old
   version kept on file for posterity.
 who_can_deposit: Mediated deposit, staff can't  create an account or deposit their

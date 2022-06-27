@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: nutrixiv
 title: NutriXiv
@@ -11,8 +11,10 @@ accepted_content_level: Research only
 accepted_content_types: Journal articles, Preprints
 accepted_supplementary_content:
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -20,7 +22,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date: 5/15/21
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -57,10 +59,12 @@ persistence_of_content: COS Preservation Fund to maintain read access for 50+ ye
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 84'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
-scientific_committees: ".\n\n"
+scientific_committees:
+scientific_committees_binary: false
 service_pricing: None
 short_name:
 status: closed-to-submission-only
@@ -69,6 +73,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://osf.io/preprints/nutrixiv
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new version
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

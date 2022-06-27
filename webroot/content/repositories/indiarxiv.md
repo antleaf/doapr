@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: indiarxiv
 title: IndiArxiv
@@ -12,8 +12,10 @@ accepted_content_types: All article types, datasets, posters, Preprints
 accepted_supplementary_content: full text, figures, data, image, coding, analyses.
   This is associated with the article via a specific link
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -21,7 +23,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: Harvested by various repositories such as https://explore.openaire.eu/
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date: No funds to support for its sustainability. Now working with other agencies
   to host the same perpetually without any financial obligations.
 concerns_about_content: Can be contacted via Support/Contact email
@@ -66,10 +68,12 @@ platform:
 platform_languages: English
 preservation_policy: The content is kept by OSFto be visible. Advisory team advises
   to turn to RINarxiv to post new content.
+preservation_policy_binary: true
 record_count: 'Full text : 148'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: National Common open archive platform
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name: IndiaRxiv
 status: closed-to-submission-only
@@ -78,6 +82,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://indiarxiv.org/
 user_committees: 'Yes : Steering Commitee'
+user_committees_binary: true
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit:

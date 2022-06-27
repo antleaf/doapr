@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: agrirxiv
 title: AgriRxiv
@@ -14,7 +14,9 @@ accepted_supplementary_content: Authors should upload a single PDF file includin
   their full article, tables and figures. We recommend data sets are deposited into
   a data repository such as CKAN, to which the preprint will be linked.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: Yes, advisory board members commit to
   declaring 'any interests (financial and non-financial) that may influence, or may
   be perceived to influence, their input into agriRxiv and its plans'
@@ -29,7 +31,7 @@ availability_of_associated_content: 'Publishing data along with your paper has b
   data: https://ckan.cabi.org/data'
 backups: CABI takes a back up of its content every 24 hours
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator. Staff, volunteers
 concerns_about_plagiarism: Email support (support@agrirxiv.org)
@@ -69,6 +71,7 @@ persistence_of_content: CABI commits to preserving availability of the content
 platform:
 platform_languages: English
 preservation_policy: CABI commits to preserving availability of the content
+preservation_policy_binary: true
 record_count: 'Full text : 138'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
@@ -76,6 +79,7 @@ scientific_committees: |-
   Yes advisory board is made up of active researchers and users.
 
   Renewal of membership is based on regular discussion and confirmation of commitment
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -87,6 +91,7 @@ user_committees: |-
   Yes advisory board is made up of active researchers and users.
 
   Renewal of membership is based on regular discussion and confirmation of commitment
+user_committees_binary: true
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

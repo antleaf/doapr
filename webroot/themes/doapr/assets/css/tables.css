@@ -1,3 +1,11 @@
+.dataTable > thead > tr > th[class*="sort"]:before,
+.dataTable > thead > tr > th[class*="sort"]:after {
+    content: "" !important;
+}
+.dataTable > thead > tr > th {
+    padding: 5px !important;
+}
+
 h4.table-caption {
     text-align: center;
     margin-top: 10px;
@@ -23,9 +31,21 @@ h4.table-caption {
     /*writing-mode: sideways-lr;*/
 }
 
-tr.column-header-row {
-    /*height: 100px;*/
+thead tr {
+    background-color: steelblue;
 }
+
+thead tr th {
+    color: white;
+}
+
+/*tr.column-header-row {*/
+/*    background-color: steelblue;*/
+/*}*/
+
+/*tr.column-header-row th {*/
+/*    color: white;*/
+/*}*/
 
 span.yes {
     color: green;

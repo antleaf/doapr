@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: hal
 title: HAL
@@ -21,7 +21,9 @@ accepted_content_types: Journal articles, Preprints, Working Papers, Reports, Co
 accepted_supplementary_content: full text, appendix, image, map, video, sound. Those
   are associated with the preprint
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: 'Yes : Before filing, the agreement of
   all co-authors must be obtained'
 account_creation: Free, Only needed for submission
@@ -34,7 +36,7 @@ availability_of_associated_content: 'The full text of the publications you submi
 backups: 'Yes : Text files in pdf format or image files are sent to CINES for long-term
   archiving'
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: 'Support platform :  hal.support@ccsd.cnrs.fr'
 concerns_about_plagiarism: 'Support platform :  hal.support@ccsd.cnrs.fr'
@@ -83,11 +85,13 @@ persistence_of_content: 'Yes : Text files in pdf format or image files are sent 
 platform:
 platform_languages: English and French
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 827 597'
 remining_indrawn_item: Any deposit is definitive, no withdrawals will be made after
   the on-line posting of the publication (within the limits of the law)
 repository_type: National Common open archive platform
 scientific_committees: "Yes : International scientific council.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name: HAL
 status: open
@@ -96,6 +100,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://hal.archives-ouvertes.fr/
 user_committees: 'Yes : Partners assembly and international scientific council'
+user_committees_binary: true
 versioning_policy: Updating a repository with a new version of the main file (content
   correction, layout improvement, editor version, etc.). Once it has been put online,
   the most recent version is proposed by default for consultation.

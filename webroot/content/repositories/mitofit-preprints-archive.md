@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: mitofit-preprints-archive
 title: MitoFit Preprints Archive
@@ -14,8 +14,10 @@ accepted_content_types: |-
 accepted_supplementary_content: Please prepare the manuscript with embedded figures.
   Avoid oversized submissions and reduce figure size as far as possible
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Submissions by e-mail
 associated_editor: 'No'
 associated_journal: BEC
@@ -23,7 +25,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: Backup kept in secondary server
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Community moderation via commenting
 concerns_about_plagiarism: Staff
@@ -66,10 +68,12 @@ persistence_of_content: Yes, the content will be permanently available
 platform:
 platform_languages: English
 preservation_policy: 'Yes'
+preservation_policy_binary: true
 record_count: 'Full text : 23'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name: MitoFit Prep
 status: open
@@ -78,6 +82,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to 1 week
 repository_url: https://www.mitofit.org/index.php/MitoFit_Preprints
 user_committees: "No, only scientific committee.\n\n"
+user_committees_binary: false
 versioning_policy: Accepts new versions until acceptance at journal
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

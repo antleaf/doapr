@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: cogprints
 title: Cogprints
@@ -16,8 +16,10 @@ accepted_content_types: Journal Articles, Conference and Workshop Papers, Theses
   Dissertations, Reports and Working Papers, Books, Chapters and Sections, Preprints
 accepted_supplementary_content:
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Not necessary to access the content
 associated_editor: 'No'
 associated_journal: 'No'
@@ -25,7 +27,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date: Closed in 2017
 concerns_about_content:
 concerns_about_plagiarism: 'No'
@@ -65,18 +67,21 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy: Already closed, Universty of Southampton is hosting all data
+preservation_policy_binary: true
 record_count: 'Full text : 4 230'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees: ".\n\n"
+scientific_committees:
+scientific_committees_binary: false
 service_pricing: None
 short_name:
 status: closed-to-submission-only
-terms_of_use: 'No'
+terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: http://cogprints.org/
 user_committees:
+user_committees_binary: false
 versioning_policy:
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

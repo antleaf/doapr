@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: amrc-open-research
 title: AMRC Open Research
@@ -18,8 +18,10 @@ accepted_supplementary_content: 'Supplementary data must be deposited in an appr
   must be cited and discussed in the article text, and their titles and legends should
   be provided in the revised/updated manuscript.'
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: AMRC Open Research
@@ -30,7 +32,7 @@ availability_of_associated_content: 'If your article contains data or source cod
   of the article. '
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Community moderation via commenting
 concerns_about_plagiarism: Community moderation via commenting
@@ -74,19 +76,22 @@ persistence_of_content: Preprints permanently archived in Portico
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 22'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: 'Yes : Author fee applies (min £120; max £800; £20 per poster, slide
   or document)'
 short_name:
 status: open
-terms_of_use: 'No'
+terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to 1 week
 repository_url: https://amrcopenresearch.org/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

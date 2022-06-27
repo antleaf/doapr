@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: vixra
 title: ViXra
@@ -17,7 +17,9 @@ accepted_content_level: 'Quite wide : All researchers and scholars, both formall
 accepted_content_types: Journal Articles, Preprints
 accepted_supplementary_content:
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata:
+access_to_metadata_binary: false
 accessibility_conflict_interest_procedures: 'Yes'
 account_creation: Free, Only needed for submission
 associated_editor: 'No'
@@ -27,7 +29,7 @@ availability_of_associated_content: Figshare is highly recommended for sharing o
   research data and files of all types
 backups: 'Yes : Cloud Storage'
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -68,10 +70,12 @@ persistence_of_content: 'Yes : Long-term archiving provided by mirror site and c
 platform:
 platform_languages: English
 preservation_policy: 'Yes : Mirror Site (rxiv.org)'
+preservation_policy_binary: true
 record_count: 'Full text : 37 034'
 remining_indrawn_item: No web presence retained
 repository_type: Disciplinary
 scientific_committees: "Yes : scientists are part of the advisory board .\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -80,6 +84,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to 48h
 repository_url: https://www.vixra.org/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

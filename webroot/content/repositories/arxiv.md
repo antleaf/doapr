@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: arxiv
 title: arXiv
@@ -17,7 +17,9 @@ accepted_supplementary_content: figures, data sets, programs, images (in JPEG, P
   GIF).  There are limited facilities for including data sets and ancillary files
   (data, programs, etc.) that are associated with articles submitted to arXiv.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: 'Yes : Code of Conduct has to be followed'
 account_creation: Free, Only needed for submission
 associated_editor: 'No'
@@ -26,7 +28,7 @@ author_pid: ORCID
 availability_of_associated_content: You can share content thanks to arXivLabs
 backups: 'Yes : hourly, daily incremental backups on-site; daily backups on- and off-site'
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Notification/email to administrator
 concerns_about_plagiarism: Notification/email to administrator
@@ -76,6 +78,7 @@ persistence_of_content: 'No : no external preservation services used as yet'
 platform:
 platform_languages: English
 preservation_policy: 'Yes : mirror sites, public data sets via Kaggle'
+preservation_policy_binary: true
 record_count: 'Full text : 1 878 329'
 remining_indrawn_item: Web link with metadata remains available
 repository_type: Multidisciplinary and international
@@ -83,6 +86,7 @@ scientific_committees: |-
   Yes : Scientific advisory board.
 
   The Board is governed by Bylaws that detail its duties, composition, and operation as well as the election of its members.
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -94,6 +98,7 @@ user_committees: |-
   Yes : Member advisory board (libraries, research institutions, laboratories or foundations).
 
   Elections are organised : you can go here for more informations on the process https://arxiv.org/about/mab_bylaws
+user_committees_binary: true
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

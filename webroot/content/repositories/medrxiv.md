@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: medrxiv
 title: MedRxiv
@@ -15,7 +15,9 @@ accepted_content_types: Research articles, systematic reviews and meta-analyses,
 accepted_supplementary_content: If images and tables are submitted as separate files,
   acceptable file formats are GIF, TIFF, EPS, and JPEG,
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: 'Yes : Guidelines are available on this
   page'
 account_creation: Free, Only needed for submission
@@ -26,7 +28,7 @@ availability_of_associated_content: Material associated with journal is hosted a
   by the platform
 backups: 'Yes : Preprints permanently archived in Portico'
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email medrxiv@cshl.edu
@@ -71,6 +73,7 @@ persistence_of_content: 'Yes : Preprints permanently archived in Portico'
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 20,315 '
 remining_indrawn_item: Withdrawn articles remain visible; For removed articles, basic
   information remains on a tombstone page
@@ -78,6 +81,7 @@ repository_type: Disciplinary
 scientific_committees: "Yes : medRxiv Affiliates are members of the life sciences
   community who provide feedback on the service, act as advocates, and help in screening
   material submitted..\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -86,6 +90,7 @@ text_embargo: 'No'
 time_submission_to_posting: Between 3 and 5 days
 repository_url: https://www.medrxiv.org/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new versions until acceptance at journal
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: jmir-preprints
 title: JMIR Preprints
@@ -14,8 +14,10 @@ accepted_supplementary_content:
 access_to_content: 'Author choice: No reader registration required, or reader can
   view basic content (title, abstract) without account but must register to view and
   download full content'
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Needed for submission or to access full content regarding the choice
   of the author
 associated_editor: 'No'
@@ -24,7 +26,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 business_model: for-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -59,10 +61,12 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 58'
 remining_indrawn_item: JMIR  will remove the content from the collection
 repository_type: Disciplinary
-scientific_committees: ".\n\n"
+scientific_committees:
+scientific_committees_binary: false
 service_pricing: None
 short_name:
 status: open
@@ -71,6 +75,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Same day
 repository_url: https://preprints.jmir.org/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts first submission only
 who_can_deposit: JMIR Publications facilitates this by allowing its authors to expose
   submitted manuscripts on its preprint server with a simple checkbox when submitting

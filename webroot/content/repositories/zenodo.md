@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: zenodo
 title: Zenodo
@@ -16,8 +16,10 @@ accepted_supplementary_content: All formats are allowed - even preservation unfr
   Total files size limit per record is 50GB. Higher quotas can be requested and granted
   on a case-by-case basis.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -70,11 +72,13 @@ platform_languages: English
 preservation_policy: In case of closure of the repository, best efforts will be made
   to integrate all content into suitable alternative institutional and/or subject
   based repositories.
+preservation_policy_binary: true
 record_count: 1 905 864 records (in all categories)
 remining_indrawn_item: The reason for the withdrawal will be indicated on a tombstone
   page,
 repository_type: International, across institutions
-scientific_committees: ".\n\n"
+scientific_committees:
+scientific_committees_binary: false
 service_pricing: None
 short_name:
 status: open
@@ -83,6 +87,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Immediately available
 repository_url: https://zenodo.org/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers. A DOI representing the specific version of your record. A DOI representing
   all of the versions of your record.

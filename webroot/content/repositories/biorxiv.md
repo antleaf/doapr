@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: biorxiv
 title: bioRxiv
@@ -15,7 +15,9 @@ accepted_content_types: 'Research manuscripts only ( white papers accepted in Sc
 accepted_supplementary_content: If images and tables are submitted as separate files,
   acceptable file formats are GIF, TIFF, EPS, and JPEG,
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: Yes, find here
 account_creation: Free, Only needed for submission
 associated_editor: 'No'
@@ -24,7 +26,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: 'Yes : All bioRxiv papers are archived at Portico.'
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -65,11 +67,13 @@ persistence_of_content: 'Yes : All bioRxiv papers are archived at Portico.'
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Metadata: 1,254'
 remining_indrawn_item: Withdrawn articles remain visible; For removed articles, basic
   information remains on a tombstone page
 repository_type: Community-based
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -79,6 +83,7 @@ time_submission_to_posting: It is usually between 24-48h
 repository_url: https://www.biorxiv.org/
 user_committees: "Yes, Advisory group includes leaders in preprints and scholarly
   communication..\n\n"
+user_committees_binary: true
 versioning_policy: Accepts new versions until acceptance at journal. All versions
   are available and visible for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: chemrxiv
 title: ChemRxiv
@@ -13,7 +13,9 @@ accepted_content_types: Research manuscripts only (Preprints)
 accepted_supplementary_content: Any type of supplementary file or weblink can be associated
   as supporting information on the preprint page.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: 'Yes : view Policies and Procedures'
 account_creation: Only needed for submission
 associated_editor: 'No'
@@ -23,7 +25,7 @@ availability_of_associated_content: Material associated with preprint is hosted 
   by the platform
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administator
@@ -75,11 +77,13 @@ persistence_of_content: 'Yes : Agreement to dark archive content with TIB (Leibn
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text: 9 153'
 remining_indrawn_item: Content remains with a version indicating that the content
   has been retracted.
 repository_type: Disciplinary
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -88,6 +92,7 @@ text_embargo: 'No'
 time_submission_to_posting: Up to 48 hours
 repository_url: https://chemrxiv.org/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new version. Your original version will remain publicly
   accessible with a date and time stamp.
 who_can_deposit: Anyone can post on the platform. Only an ORCID account is required

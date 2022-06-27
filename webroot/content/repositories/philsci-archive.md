@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: philsci-archive
 title: Philsci Archive
@@ -15,8 +15,10 @@ accepted_content_types: Journal Articles, Conference and Workshop Papers, Books,
   and Sections, Preprints
 accepted_supplementary_content: Supplementary data can be associated on the same page
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -26,7 +28,7 @@ availability_of_associated_content: Material associated with preprint is hosted 
 backups: 'Yes : The repository regularly backs up its file according to current best
   practices'
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: 'No'
@@ -68,6 +70,7 @@ persistence_of_content: 'Yes : The repository will try to ensure continued reada
 platform:
 platform_languages: English
 preservation_policy: 'No'
+preservation_policy_binary: false
 record_count: 'Full text : 9 031'
 remining_indrawn_item: URLs will continue to point to 'tombstone' citations, URLs
   will contain a link to a replacement version, where available, URLs will contain
@@ -77,6 +80,7 @@ scientific_committees: |-
   Yes : The Board is comprised of philosophers of science with recognized standing in the profession.
 
   Board members are appointed for three year, renewable terms. Membership of the Board and extension of membership term is by invitation from a consensus of current Board members. The Board’s Executive Committee consists of an Editor-in-Chief and two board members whose terms are staggered. Each is appointed for a renewable three year term by a consensus of current Board members. For more information : http://philsci-archive.pitt.edu/information.html
+scientific_committees_binary: true
 service_pricing: None
 short_name: PS
 status: open
@@ -85,10 +89,8 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to two business days for a paper and up to one to two
   weeks for a monograph
 repository_url: http://philsci-archive.pitt.edu/
-user_committees: |-
-  N/A.
-
-  N/A
+user_committees:
+user_committees_binary: false
 versioning_policy: If necessary, an updated version may be deposited
 who_can_deposit: Accredited Community Members
 withdrawal_authorisation: Platform

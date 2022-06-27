@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: marxiv
 title: MarXiv
@@ -14,8 +14,10 @@ accepted_supplementary_content: All formats are allowed - even preservation unfr
   Total files size limit per record is 50GB. Higher quotas can be requested and granted
   on a case-by-case basis.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -24,7 +26,7 @@ availability_of_associated_content: Material associated with preprint is hosted 
   by the platform. You can also associate your content with Github.
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date: Originally on OSF in November 2017. Moved over to Zenodo permanently
   in early 2020.
 concerns_about_content: Moderator
@@ -68,20 +70,23 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 456 on OSF (https://osf.io/preprints/marxiv/discover) and
   19 on Zenodo'
 remining_indrawn_item: The reason for the withdrawal will be indicated on a tombstone
   page
 repository_type: Disciplinary
-scientific_committees: "Not any more.\n\n"
+scientific_committees: Not any more
+scientific_committees_binary: false
 service_pricing: None
 short_name:
 status: open
-terms_of_use: 'No'
+terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to 24 hours usually
 repository_url: https://osf.io/preprints/marxiv
 user_committees: Not any more
+user_committees_binary: false
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

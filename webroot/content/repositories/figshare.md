@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: figshare
 title: Figshare
@@ -13,8 +13,10 @@ accepted_content_types: 'Full list of content/item types : https://help.figshare
 accepted_supplementary_content: Your paper may include all of your tables and figures,
   or you can choose to upload them as separate files.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -26,7 +28,7 @@ availability_of_associated_content: 'Additional data and supplementary materials
 backups: Figshare will use the DuraSpace DuraCloud Vault deposit node to add content
   into Chronopolis to preserve the public corpus of multi-disciplinary data.
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -71,6 +73,7 @@ platform_languages: "Support other languages, e.g. JStage - This feature is in d
   (Russia).\n\nWork on accessibilitu WCAG 2.1 in 2020/21 allows for multi-language
   support\n "
 preservation_policy: Figshare.com preservation policy https://help.figshare.com/article/preservation-and-continuity-of-access-policy
+preservation_policy_binary: true
 record_count: |
   Preprints only: 5400+ includes preprints posted to figshare.com, institutional repositories and preprint repositories
   Total for all content: 5 688 120
@@ -78,6 +81,7 @@ remining_indrawn_item: It will be replaced with a public notice to provide a rec
   of the removal
 repository_type: Multidisciplinary
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -91,6 +95,7 @@ user_committees: |-
   Yes : Ambassadors program.
 
   For more information : https://knowledge.figshare.com/ambassadors
+user_committees_binary: true
 versioning_policy: Accepts new version. All version are available for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

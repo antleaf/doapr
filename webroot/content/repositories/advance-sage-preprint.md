@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: advance-sage-preprint
 title: Advance (Sage preprint)
@@ -15,8 +15,10 @@ accepted_content_types: Original research, literature reviews, commentaries, and
 accepted_supplementary_content: Your paper may include all of your tables and figures,
   or you can choose to upload them as separate files.
 access_to_content: Anyone may access all content free of charge
+access_to_content_binary: true
 access_to_metadata: Openly available
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: SAGE publishing
 associated_journal: SAGE journals
@@ -27,7 +29,7 @@ availability_of_associated_content: 'Additional data and supplementary materials
   include a link to the data set in the "References" field. '
 backups:
 business_model: for-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: 'No'
@@ -71,6 +73,7 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy: Not currently, but we are actively looking into this
+preservation_policy_binary: false
 record_count: |-
   Total submissions since launch : 2,522
   Total preprints live on the site  : 1,118
@@ -78,6 +81,7 @@ remining_indrawn_item: It will be replaced with a public notice to provide a rec
   of the removal
 repository_type: Disciplinary
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -86,6 +90,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: 3 to 4 business days
 repository_url: https://advance.sagepub.com/
 user_committees: 'No'
+user_committees_binary: false
 versioning_policy: Accepts new version. All version are available for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

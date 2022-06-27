@@ -28,6 +28,10 @@ div.doapr-navbar ul li a {
     text-decoration: none;
 }
 
+a.nav-link {
+    /*color: white;*/
+}
+
 /*div.antleaf-navbar ul li.selected:before, div.antleaf-navbar ul li.selected:after {*/
 /*    content: "•"*/
 /*}*/

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: cell-press-sneak-peek
 title: Cell Press Sneak peek
@@ -13,9 +13,11 @@ accepted_content_types: Content criteria as directed by associated journal(s) (C
 accepted_supplementary_content: Supplemental movies and data files will not be posted.
 access_to_content: Reader can view basic content (title, abstract) without account
   but must register to view and download full content
+access_to_content_binary: true
 access_to_metadata: Reader can view basic metadata without account but must register
   to view and download full content
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Needed for reading
 associated_editor: Elsevier
 associated_journal: Cell Press journal
@@ -23,7 +25,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 business_model: for-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content:
 concerns_about_plagiarism: 'No'
@@ -62,18 +64,21 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 3 375'
 remining_indrawn_item:
 repository_type: Disciplinary
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: 'Yes : To access full content of text'
 short_name:
 status: open
-terms_of_use: 'No'
+terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: 2-3 business days
 repository_url: https://www.ssrn.com/index.cfm/en/cell-press-sneak-peek/
 user_committees:
+user_committees_binary: false
 versioning_policy: The offer to post is open only for the initially submitted manuscript
   only
 who_can_deposit: Authors, whose papers are selected by the editors (Cell Press ) to

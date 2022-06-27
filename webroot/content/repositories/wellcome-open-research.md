@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: wellcome-open-research
 title: Wellcome Open Research
@@ -19,8 +19,10 @@ accepted_supplementary_content: Additional materials that support the key claims
   as extended data; descriptions of the materials and methods should be in the main
   article
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor:
 associated_journal: Wellcome Open Research
@@ -31,7 +33,7 @@ availability_of_associated_content: If you are describing new software, please m
   the software can be used in the article.
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Community moderation via commenting
 concerns_about_plagiarism: Email administrator
@@ -73,10 +75,12 @@ persistence_of_content: Preprints permanently archived in Portico
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 967'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: 'Yes'
 short_name:
 status: open
@@ -86,6 +90,7 @@ time_submission_to_posting: Up to 1 week
 repository_url: https://wellcomeopenresearch.org/
 user_committees: 'Yes : Advisory Board comprises individuals who have a strong interest
   in open research and improving the way research findings are disseminated.'
+user_committees_binary: true
 versioning_policy: Accepts new version. All version are available for readers.
 who_can_deposit: Only member of Wellcome can post on the platform
 withdrawal_authorisation: Platform

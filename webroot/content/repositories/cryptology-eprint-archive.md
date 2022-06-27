@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: cryptology-eprint-archive
 title: Cryptology ePrint Archive
@@ -14,7 +14,9 @@ accepted_content_level: Research only
 accepted_content_types: Reports and Working Papers, Preprints
 accepted_supplementary_content:
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: Yes, conflict-of-interest policy of the
   IACR.
 account_creation: No user account needed.
@@ -24,7 +26,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups: 'Yes'
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Yes, manual process by the editors.
@@ -61,11 +63,13 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy: 'Yes'
+preservation_policy_binary: true
 record_count: 'Full text : 16 700'
 remining_indrawn_item: Withdrawn items are not deleted but are removed from public
   view
 repository_type: Disciplinary
-scientific_committees: ".\n\n"
+scientific_committees:
+scientific_committees_binary: false
 service_pricing: None
 short_name:
 status: open
@@ -75,6 +79,7 @@ time_submission_to_posting: Some days.
 repository_url: https://eprint.iacr.org/
 user_committees: "No user committee, but governed by the IACR through its Board of
   Directors..\n\n"
+user_committees_binary: false
 versioning_policy: If necessary, an updated version may be deposited, and history
   is kept
 who_can_deposit: Accredited Community Members only

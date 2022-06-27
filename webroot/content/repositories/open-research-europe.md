@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: open-research-europe
 title: Open Research Europe
@@ -19,8 +19,10 @@ accepted_supplementary_content: 'Supplementary data must be deposited in an appr
   must be cited and discussed in the article text, and their titles and legends should
   be provided in the revised/updated manuscript.'
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -31,7 +33,7 @@ availability_of_associated_content: 'If your article contains data or source cod
   of the article. '
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Community moderation via commenting
 concerns_about_plagiarism: Email administrator
@@ -75,10 +77,12 @@ persistence_of_content: Preprints permanently archived in Portico
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 71'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: European project
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -87,6 +91,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Within 10 days
 repository_url: https://open-research-europe.ec.europa.eu/
 user_committees: 'Yes : Advisory board'
+user_committees_binary: true
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Only open to research participating in Horizon 2020 program

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: techrxiv
 title: TechRxiv
@@ -14,7 +14,9 @@ accepted_content_types: Journal Articles, Preprints
 accepted_supplementary_content: Supplementary data can be associated on the same page
   (or associated via FigShare)
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: 'Yes  : There is an user code of conduct'
 account_creation: Only needed for submission
 associated_editor: 'No'
@@ -24,7 +26,7 @@ availability_of_associated_content: Material associated with preprint is hosted 
   by the platform
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email Administrator
 concerns_about_plagiarism: 'Copyright Agent can be reach here : copyrights@ieee.org'
@@ -65,6 +67,7 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 1 043'
 remining_indrawn_item: Tthe preprint will still appear in TechRxiv but it will be
   marked as "withdrawn" and annotated with comments explaining the reason for the
@@ -73,6 +76,7 @@ repository_type: Disciplinary
 scientific_committees: "Yes : The TechRxiv Advisory Board is a group of experts across
   diverse subject areas who advise the management of TechRxiv on the standards that
   TechRxiv-hosted preprints should be held to. .\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -81,6 +85,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: 4 business days
 repository_url: https://www.techrxiv.org/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new version. Your original version will remain publicly
   accessible with a date and time stamp. Revisions will have the same DOI as the original
   preprint plus a version indicator.

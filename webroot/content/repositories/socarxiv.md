@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: socarxiv
 title: SocArxiv
@@ -14,8 +14,10 @@ accepted_content_types: Research manuscripts only (Working papers, Preprint and 
 accepted_supplementary_content: Any file you add to the project is given a unique,
   persistent URL, meaning that it can be cited or linked to individually
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -26,7 +28,7 @@ availability_of_associated_content: 'Researchers can attach data, code, or other
   transparency. '
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator; helpdesk support from COS
 concerns_about_plagiarism: 'No'
@@ -69,11 +71,13 @@ persistence_of_content: 'Yes : COS Preservation Fund to maintain read access for
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 8 177'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
 scientific_committees: "Yes : SocArXiv is housed at the University of Maryland, and
   is directed by a steering committee of social scientists.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -83,6 +87,7 @@ time_submission_to_posting: Less than 2 days
 repository_url: https://osf.io/preprints/socarxiv/
 user_committees: "SocArXiv is housed at the University of Maryland, and is directed
   by a steering committee of members of the research library community. .\n\n"
+user_committees_binary: true
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

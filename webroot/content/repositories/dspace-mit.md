@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: dspace-mit
 title: Dspace @ MIT
@@ -19,7 +19,9 @@ accepted_supplementary_content: We accept all file formats and most forms of res
   metadata, we can links to associated content that is stored either in another DSpace
   collection or in an external system.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: Yes, look for polices
 account_creation: Free, only for MIT student, scientists or institutes linked to MIT
 associated_editor: 'No'
@@ -28,7 +30,7 @@ author_pid: ORCID
 availability_of_associated_content: MIT provides help to supports data management
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -71,11 +73,13 @@ persistence_of_content: 'Yes : Maintain by Dspace'
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 115 333'
 remining_indrawn_item: URLs will continue to point to 'tombstone' citations. URLs
   will contain a note explaining the reasons for withdrawal
 repository_type: Institutional multidisciplinary
-scientific_committees: ".\n\n"
+scientific_committees:
+scientific_committees_binary: false
 service_pricing: None
 short_name:
 status: open
@@ -84,6 +88,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Varies widely
 repository_url: http://dspace.mit.edu/
 user_committees: 'No'
+user_committees_binary: false
 versioning_policy: About to deploy new functionality to allow versioning of an item,
   which will replace the older version in the search index, but provide a version
   history with links to the all versions of the metadata and files

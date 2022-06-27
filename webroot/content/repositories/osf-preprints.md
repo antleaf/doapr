@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: osf-preprints
 title: OSF preprints
@@ -16,7 +16,9 @@ accepted_content_types: Multiple types (including research articles, posters, ne
 accepted_supplementary_content: full text, figures, data, image, coding, analyses.
   This is associated with the article via a specific link
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: 'Yes : If there is a conflict between
   these Terms of Use and the updated and/or additional terms and conditions, the updated
   and/or additional terms and conditions will control.'
@@ -27,7 +29,7 @@ author_pid: ORCID
 availability_of_associated_content: Metadata and Data
 backups: 'Yes : COS Preservation Fund to maintain read access for 50+ years'
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: 'Email, call, notification to moderation etc. '
 concerns_about_plagiarism: 'Email administrator; helpdesk support from COS : copyright@cos.io'
@@ -68,11 +70,13 @@ persistence_of_content: 'Yes : COS Preservation Fund to maintain read access for
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Metadata: 2 097 029'
 remining_indrawn_item: Preprints cannot be deleted, but can be withdrawn, leaving
   behind metadata about the resource.
 repository_type: Aggregating
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name: OSF
 status: open
@@ -82,6 +86,7 @@ time_submission_to_posting: Up to 24 hours
 repository_url: https://osf.io/preprints/
 user_committees: "Yes, Advisory group includes leaders in preprints and scholarly
   communication..\n\n"
+user_committees_binary: true
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

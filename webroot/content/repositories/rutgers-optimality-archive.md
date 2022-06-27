@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: rutgers-optimality-archive
 title: Rutgers Optimality Archive
@@ -14,8 +14,10 @@ accepted_content_types: Papers, monographs, dissertations, and may extend to han
   arguments, Preprints
 accepted_supplementary_content:
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata:
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: false
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -23,7 +25,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content:
 concerns_about_plagiarism: 'No'
@@ -61,11 +63,13 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 1 386'
 remining_indrawn_item: Title and author information will remain, with an indication
   that the paper has been withdrawn.
 repository_type: Disciplinary
-scientific_committees: ".\n\n"
+scientific_committees:
+scientific_committees_binary: false
 service_pricing: None
 short_name: ROA
 status: open
@@ -74,6 +78,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://roa.rutgers.edu/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new version. All versions are linked and visible to everyone
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

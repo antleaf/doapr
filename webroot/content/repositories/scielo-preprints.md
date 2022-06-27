@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: scielo-preprints
 title: SciELO Preprints
@@ -16,8 +16,10 @@ accepted_content_types: Multiple article types (including research manuscripts, 
   papers, case studies, opinion papers, dataset description papers), Preprints
 accepted_supplementary_content:
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -29,7 +31,7 @@ backups: The backup is done daily. We use a backup software called ArcServe to d
   the backup flow. Also we have a Disaster Recovery plan in case of the Datacenter
   failure.
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Automated, Staff, Volunteers that takes responsibility for
   screening or Email administrator
@@ -77,10 +79,12 @@ preservation_policy: 'The preservation flow is: -creating a webarchiving file in
   the files in Datasets we use Archivematica to do the preservation. The AIP (Archival
   Information Package) are saved in AWS S3 (AWS guarantee the files are saved in 3
   different locations).'
+preservation_policy_binary: true
 record_count: 'Full text : 13 713'
 remining_indrawn_item: The metadata and the reason for retraction remain on the server;
 repository_type: Multidisciplinary international cooperation program
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -92,6 +96,7 @@ user_committees: |-
   Yes : board of moderators is composed by Editor-in-Chiefs of the SciELO journals or someone appointed by them..
 
   As this position changes within our journals, their roles as area moderators in SciELO Preprints can also change. An area moderator can request to leave the board at any time.
+user_committees_binary: true
 versioning_policy: Accepts new versions of content until acceptance at journal.  OPS
   always operates with the latest preprint version, but each version keeps a connection
   with the previous one, so that all versions are kept on the server

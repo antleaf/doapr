@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: africarxiv
 title: AfricArxiv
@@ -19,7 +19,9 @@ accepted_content_types: Research articles, Review papers, Project proposals, Cas
 accepted_supplementary_content: With each manuscript you can add supplementary files
   in any format with unlimited storage.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: Just like a published article, it’s important
   to ensure that all ethical requirements are met before making a preprint public.
   It is particularly important to check that your manuscript is free from patient
@@ -33,7 +35,7 @@ availability_of_associated_content: 'You also can integrate files hosted using o
 backups: The content is currently hosted by 3rd party services who take care of the
   backups, see table at https://info.africarxiv.org/submit/
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -76,11 +78,13 @@ platform:
 platform_languages: English
 preservation_policy: The content is currently hosted by 3rd party services and will
   thus continue to be online in case of closure
+preservation_policy_binary: true
 record_count: 'Full text (articles, theses): 248 (OSF), Zenodo (171), ScienceOpen
   (13), Figshare ( 2) '
 remining_indrawn_item: Basic information remains on a tombstone page (OSF)
 repository_type: Decentralised/independent/aggregating open archive platform
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -89,6 +93,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: 3 to 5 business days
 repository_url: https://info.africarxiv.org/
 user_committees: 'No'
+user_committees_binary: false
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: "African scientists based on the African continent \nAfrican scientists

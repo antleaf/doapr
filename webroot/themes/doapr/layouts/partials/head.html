@@ -5,33 +5,26 @@
     <title>{{.Site.Title}}{{if .Title}}: {{ .Title | markdownify }}{{end}}</title>
     {{hugo.Generator}}
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
-
-    {{ $style_bootstrap := resources.Get "css/bootstrap.css" | resources.Minify | resources.Fingerprint }}
-    {{ $style_main := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
-    {{ $style_header := resources.Get "css/header.css" | resources.Minify | resources.Fingerprint }}
-    {{ $style_tables := resources.Get "css/tables.css" | resources.Minify | resources.Fingerprint }}
-    {{ $style_footer := resources.Get "css/footer.css" | resources.Minify | resources.Fingerprint }}
-    {{ $style_datatables := resources.Get "css/datatables.min.css" | resources.Fingerprint }}
-    {{ $style_navbar := resources.Get "css/navbar.css" | resources.Minify | resources.Fingerprint }}
-    {{ $style_images := resources.Get "css/images.css" | resources.Minify | resources.Fingerprint }}
-    {{ $style_tabs := resources.Get "css/tabs.css" | resources.Minify | resources.Fingerprint }}
-    {{ $style_tooltips := resources.Get "css/tooltips.css" | resources.Minify | resources.Fingerprint }}
-    {{/*    {{ $style_leaflet := resources.Get "css/leaflet.css" | resources.Minify | resources.Fingerprint }}*/}}
-    {{ $css := slice $style_bootstrap $style_main $style_header $style_tables $style_footer $style_datatables $style_navbar $style_images $style_tabs $style_tooltips | resources.Concat "css/bundle.css" }}
+    
+    {{ $cssNames := slice "bootstrap" "main" "header" "tables" "footer" "datatables.min" "navbar" "images" "tabs" "tooltips" }}
+    {{ $css := slice }}
+    {{ range $cssNames }}
+        {{ $css = $css | append (resources.Get (print "css/" . ".css")) }}
+    {{ end }}
+    {{ $css = $css | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $css.Permalink }}">
 
-    {{ $js_jquery := resources.Get "js/jquery-3.6.0.min.js" | resources.Fingerprint }}
-    {{ $js_bootstrap := resources.Get "js/bootstrap.bundle.js" | resources.Minify | resources.Fingerprint }}
-    {{ $js_datatables := resources.Get "js/datatables.min.js" | resources.Fingerprint }}
-    {{ $js_main := resources.Get "js/main.js"| resources.Minify | resources.Fingerprint }}
-    {{/*    {{ $js_leaflet := resources.Get "js/leaflet.js"| resources.Minify | resources.Fingerprint }}*/}}
-    {{ $js := slice $js_jquery $js_bootstrap $js_datatables $js_main | resources.Concat "js/bundle.js" }}
+    {{ $jsNames := slice "jquery-3.6.0.min" "bootstrap.bundle" "datatables.min" "main" }}
+    {{ $js := slice }}
+    {{ range $jsNames }}
+        {{ $js = $js | append (resources.Get (print "js/" . ".js")) }}
+    {{ end }}
+    {{ $js = $js | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
     <script type="text/javascript" src="{{ $js.Permalink }}"></script>
-
-
-
-
 
 </head>

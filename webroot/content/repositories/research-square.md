@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: research-square
 title: Research Square
@@ -17,7 +17,9 @@ accepted_supplementary_content: data set can be associated to the file under the
   DOI. Videos and protocols can also be associated via "associated publications" (not
   captured in metadata)
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: Yes, Code of Conduct
 account_creation: Free, Only needed for submission
 associated_editor: Submit directly or upon submission to BMC journals, Nature journals,
@@ -28,7 +30,7 @@ author_pid: ORCID
 availability_of_associated_content: Supplementary files are gathered within the platform
 backups: 'Yes : Preprints permanently archived in Portico'
 business_model: for-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -72,11 +74,13 @@ persistence_of_content: 'Yes : Preprints permanently archived in Portico'
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 88 442'
 remining_indrawn_item: For withdrawals, v2 is posted with withdrawal notice but v1
   still fully visible. For removals, v1 is replaced by removal notice.
 repository_type: Multidisciplinary
 scientific_committees: "Yes : scientists are part of the advisory board .\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -85,6 +89,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Between 24h to 48h
 repository_url: https://www.researchsquare.com/
 user_committees: 'Yes : Advisory Board'
+user_committees_binary: true
 versioning_policy: Accepts new version. All version are archived and visible for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: cern-document-server
 title: CERN document server
@@ -15,8 +15,10 @@ accepted_content_types: Journal Articles, Conference and Workshop Papers, Theses
 accepted_supplementary_content: 'Every item are under the same report number and must
   be produced by CERN : video, images'
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: 'Authorized to create an account : Accredited Community Members,
   Academic Staff of CERN Institute'
 associated_editor: 'No'
@@ -26,7 +28,7 @@ availability_of_associated_content: Material associated with journal is hosted a
   by the platform
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Contact form
@@ -63,18 +65,21 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 473 744 ( 138 168 preprint)'
 remining_indrawn_item: Full-Text
 repository_type: Disciplinary
-scientific_committees: ".\n\n"
+scientific_committees:
+scientific_committees_binary: false
 service_pricing: None
 short_name: CDS
 status: open
-terms_of_use: 'No'
+terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: It may be a long delay (no precise time is written)
 repository_url: https://cds.cern.ch/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Acccount needed, it's free. Only Accredited Community Members of

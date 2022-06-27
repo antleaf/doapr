@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: earth-prints-repository
 title: Earth-prints Repository
@@ -19,8 +19,10 @@ accepted_supplementary_content: Files can be associated on the same page as the 
   to keep size files as much reduced as possible, though maintaining a sufficient
   readibility, but not exceeding 10MB of total space used.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -29,7 +31,7 @@ availability_of_associated_content: Material associated with preprint is hosted 
   by the platform
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content:
 concerns_about_plagiarism: 'No'
@@ -65,10 +67,12 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 12 250'
 remining_indrawn_item:
 repository_type: Disciplinary
-scientific_committees: ".\n\n"
+scientific_committees:
+scientific_committees_binary: false
 service_pricing: None
 short_name:
 status: open
@@ -77,6 +81,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.earth-prints.org/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new version (replace the older)
 who_can_deposit: Accredited Community Members
 withdrawal_authorisation: Platform

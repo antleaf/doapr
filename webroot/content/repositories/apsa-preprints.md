@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: apsa-preprints
 title: APSA Preprints
@@ -15,7 +15,9 @@ accepted_supplementary_content: 'Any file type can be uploaded as supplementary 
   data, code, appendices, and other supporting materials to supplement your main content.
   Any file type is permitted but the maximum file size will be 500MB. '
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Free access
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: 'Yes : We have description of our conflict
   of interest procedure in our Author FAQs, How to Submit page, and Policies. We ask
   authors to declare whether they have any COI, and if so, to describe it in a declaration
@@ -30,7 +32,7 @@ availability_of_associated_content: Links to third-party sites containing supple
   Materials" area on the content landing page
 backups: 'Yes'
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator. It is also possible for any user to 'Report'
   user comments
@@ -73,10 +75,12 @@ platform:
 platform_languages: English
 preservation_policy: We plan to work with a preservation service to ensure that all
   content is preserved in perpetuity in the event that the platform closes.
+preservation_policy_binary: true
 record_count: 'Full text : 349'
 remining_indrawn_item: The content remains accessible
 repository_type: Disciplinary
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: Free to user, business relationships with partners for hosting services.
 short_name: APSA
 status: open
@@ -85,6 +89,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: 3 to 5 business days
 repository_url: https://preprints.apsanet.org/engage/apsa/public-dashboard
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Registrants must have an APSA Member ID, but this is also free.

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: agecon-search
 title: AgEcon Search
@@ -17,7 +17,9 @@ accepted_content_types: Conference papers and posters, Working papers and report
   post-prints of journal articles
 accepted_supplementary_content: Supplementary data can be associated with the preprint
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: 'Yes : Procedures are visible on the policies
   page'
 account_creation: Free, Only needed for submission or for using Personalization features.
@@ -28,7 +30,7 @@ availability_of_associated_content: Files can be associated on the page
 backups: 'Yes : Content is backed by TIND daily and also locally at the University
   of Minnesota, and will be migrated to a new platform if necessary.'
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -78,6 +80,7 @@ platform_languages: Advanced Search available in French (effective July 2021) wi
   all six UK languages to be added.
 preservation_policy: 'Yes : Content is backed up by TIND and also locally at the University
   of Minnesota, and will be migrated to a new platform if necessary.'
+preservation_policy_binary: true
 record_count: 'Full text : 159 106'
 remining_indrawn_item: When an item is removed, the original citation along with a
   brief statement will appear in its place.
@@ -86,6 +89,7 @@ scientific_committees: |-
   Yes : scientists are part of the advisory board .
 
   Five year terms
+scientific_committees_binary: true
 service_pricing: There is a small charge per paper for groups that ask us to submit
   their papers. Charges are from 1 to 5 USD per paper depending on how much extra
   processing is involved
@@ -99,6 +103,7 @@ user_committees: |-
   Yes: Advisory Board, international representation.
 
   Five year terms
+user_committees_binary: true
 versioning_policy: Accepts new version. Only one version is visble for readers
 who_can_deposit: 'Only organizations can post on the website : Universities, professional
   associations, research institutes and Government agencies'

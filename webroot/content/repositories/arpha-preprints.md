@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: arpha-preprints
 title: ARPHA Preprints
@@ -11,7 +11,9 @@ accepted_content_level: Research only
 accepted_content_types: All article types, Preprints
 accepted_supplementary_content:
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: Authors state the absence of conflict
   of interest while submitting the manuscript to the journal. This applies to the
   preprints too.
@@ -22,7 +24,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups: CLOCKS and  Zenodo
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Managing editors of the particpating journals
 concerns_about_plagiarism: Email administrator
@@ -60,11 +62,13 @@ persistence_of_content: 'Yes'
 platform:
 platform_languages: English
 preservation_policy: 'No'
+preservation_policy_binary: false
 record_count: 'Full text : 69'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary
 scientific_committees: "Managed by the publisher and supported by the editorial boards
   of the participating journals.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -76,6 +80,7 @@ user_committees: |-
   No.
 
   Once the manuscript is published in the ARPHA-hosted journal, the status of the preprint changes to "Published in <the corresponding ARPHA-hosted journal>". Additionally, the citation details of the published paper will be made available along with those of the preprint, in order to prompt further citations of the paper rather than the preprint. ARPHA Preprints will link the DOIs of the two publications through CrossRef.
+user_committees_binary: false
 versioning_policy: No versioning; published articles linked to their preprints.
 who_can_deposit: ARPHA-hosted journals that opted in for preprint services.  Posting
   a preprint on ARPHA Preprints is part of the submission process of the participating

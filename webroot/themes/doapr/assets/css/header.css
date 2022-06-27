@@ -10,3 +10,8 @@ div#header {
 img#header-logo {
     max-width: 40%;
 }
+
+h1.site-title {
+    font-family: 'Secular One', sans-serif;
+    color: steelblue;
+}

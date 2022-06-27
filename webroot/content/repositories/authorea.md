@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: authorea
 title: Authorea
@@ -15,8 +15,10 @@ accepted_supplementary_content: Not just PDFs. You can publish d3.js and Plot.ly
   data, code, Jupyter notebooks. Every Authorea document is a Git repository that
   can host data, source code and any other related supplemental material
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Yes via JATSXML, available programmatically or manually (under
   Download button at top of document)
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: Yes, they put forward a good practice
   guide
 account_creation: Free, Only needed for submission
@@ -28,7 +30,7 @@ availability_of_associated_content: Each Authorea document has a file repository
 backups: 'No : You are solely responsible for creating and maintaining your own backup
   copies of your User Content if you desire'
 business_model: for-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Authorea reserves the right to identify and remove any articles
   that contain plagiarized or infringing material. Please contact help@authorea.com
@@ -73,11 +75,13 @@ persistence_of_content: 'Yes : Preprints permanently archived in Portico'
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 15241'
 remining_indrawn_item: All data concerning the admission journal must be deleted in
   case the document isn't accepted. Otherwise, all the document remains available
 repository_type: Multidisciplinary
-scientific_committees: "No.\n\n"
+scientific_committees: 'No'
+scientific_committees_binary: false
 service_pricing: Authorea is free to use. You can upgrade for additional private documents
   and Premium features
 short_name:
@@ -88,6 +92,7 @@ text_embargo: No. Authorea does not embargo research that has been made publicly
 time_submission_to_posting: Between 48h and 72h
 repository_url: https://www.authorea.com/
 user_committees: 'No'
+user_committees_binary: false
 versioning_policy: 'Versioned DOIs to link preprint all together. For more informations
   : https://support.authorea.com/en-us/article/can-i-update-my-article-after-assigning-a-doi-13kf0vc/'
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

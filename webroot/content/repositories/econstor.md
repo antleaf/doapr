@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: econstor
 title: ECONSTOR
@@ -14,8 +14,10 @@ accepted_content_types: Article, Book Chapter, Working Paper/Preprint, Conferenc
 accepted_supplementary_content: 'Additional upload of supplementary material is accepted:
   Datasets, tables, graphics, text. The information is not recorded in crossref.'
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -65,11 +67,13 @@ persistence_of_content: The long-term preservation of digital documents is guara
 platform:
 platform_languages: English and German
 preservation_policy: Long-term preservation is ensured
+preservation_policy_binary: true
 record_count: 'Full text :  212 106'
 remining_indrawn_item: In order to maintain stable linking, only the PDF full-text
   will be removed; the corresponding bibliographic record will remain on EconStor.
 repository_type: Disciplinary
-scientific_committees: "No.\n\n"
+scientific_committees: 'No'
+scientific_committees_binary: false
 service_pricing: None
 short_name:
 status: open
@@ -78,6 +82,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: A few days
 repository_url: https://www.econstor.eu/
 user_committees: 'No'
+user_committees_binary: false
 versioning_policy: Accepts new version
 who_can_deposit: 'Accredited Community Members or Employees of Econstor (check for
   partner institutions here : https://www.econstor.eu/community-list) and single accredited

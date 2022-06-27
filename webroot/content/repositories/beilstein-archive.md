@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: beilstein-archive
 title: Beilstein Archive
@@ -15,8 +15,10 @@ accepted_supplementary_content: The author may include images and text in the ma
   spectra, images, etc.). The supporting information has the same DOI as the main
   text.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Metadata delivered to Crossref upon registration.
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: Yes. Managing Editor
 associated_journal: Beilstein Journals
@@ -27,7 +29,7 @@ availability_of_associated_content: The authors are highly encouraged to include
   to the main text.
 backups: Backups twice daily on two servers hosted by the Beilstein-Institut
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email Managing Editor
 concerns_about_plagiarism: Email Managing Editor
@@ -69,11 +71,13 @@ platform:
 platform_languages: English
 preservation_policy: The repository will try to ensure continued readability and accessibility.
   Items will be migrated to new file formats where necessary
+preservation_policy_binary: true
 record_count: 'Full text : 350'
 remining_indrawn_item: Withdrawn items are deleted entirely from the database
 repository_type: Disciplinary
 scientific_committees: "Yes : The Advisory Board of the Beilstein Archives includes
   scientists who are knowledgeable in the subject areas outlined in the scope..\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -83,6 +87,7 @@ time_submission_to_posting: 'Average: 2 days; Maximum: 3 days'
 repository_url: https://www.beilstein-archives.org/xiv/
 user_committees: 'Yes : The Advisory Board of the Beilstein Archives includes leaders
   in scholarly communication'
+user_committees_binary: true
 versioning_policy: If necessary, an updated version may be deposited. There will be
   links between earlier and later versions, with the most recent version clearly identified
 who_can_deposit: The submitting author must create a simple account in the Beilstein

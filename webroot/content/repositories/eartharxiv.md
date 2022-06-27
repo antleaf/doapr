@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: eartharxiv
 title: EarthArXiv
@@ -14,7 +14,9 @@ accepted_content_types: Multiple article types (including research manuscripts, 
   papers, case studies, technical notes, dataset description papers), Preprints
 accepted_supplementary_content: URLs to associated files
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: 'Yes : Author Responsibilities'
 account_creation: Only needed for submission
 associated_editor: 'No'
@@ -24,7 +26,7 @@ availability_of_associated_content: EarthArXiv encourages authors to use free ho
   sites such as GitHub, Zenodo, FigShare, and others.
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -70,6 +72,7 @@ persistence_of_content: 'Yes: content is preserved in the University of Californ
 platform:
 platform_languages: English
 preservation_policy: 'Yes'
+preservation_policy_binary: true
 record_count: 'Full text: 2 300'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
@@ -77,6 +80,7 @@ scientific_committees: |-
   Yes : The commitee include researchers.
 
   This commitee will serve a 2-year term
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -86,6 +90,7 @@ time_submission_to_posting: Up to 1 week
 repository_url: https://eartharxiv.org/
 user_committees: Open Loomio Community for all interested public volunteers to provide
   ideas and feedback.
+user_committees_binary: true
 versioning_policy: Accepts new version (replace the older)
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

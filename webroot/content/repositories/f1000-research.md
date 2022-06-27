@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: f1000-research
 title: F1000 Research
@@ -16,8 +16,10 @@ accepted_content_types: Journal Articles, Faculty reviews; Data Set, Posters, Sl
 accepted_supplementary_content: Data Set must be associated with the article. No information
   if DOI are linked
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: F1000 Research
 associated_journal: Taylor & Francis
@@ -28,7 +30,7 @@ availability_of_associated_content: 'All methodological details and relevant dat
   about data policies  : https://f1000research.com/for-authors/data-guidelines'
 backups:
 business_model: for-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -70,6 +72,7 @@ persistence_of_content: Preprints permanently archived in Portico
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 4 144'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
@@ -77,6 +80,7 @@ scientific_committees: "Yes : includes researchers. F1000Research has an Advisor
   Board comprising a large group of leading subject experts; they provide strategic
   input, advise occasionally on issues arising with specific articles, and some members
   of the board also act as invited reviewers..\n\n"
+scientific_committees_binary: true
 service_pricing: 'Only for author(s) : The cost of publishing an article is US$1,350
   (Dec 2020), less for a shorter contribution (min $150; max $2000 US)'
 short_name: F1000
@@ -86,6 +90,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to 1 week
 repository_url: https://f1000research.com/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new version. All version are available for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

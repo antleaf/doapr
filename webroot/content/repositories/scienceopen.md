@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: scienceopen
 title: ScienceOpen
@@ -15,8 +15,10 @@ accepted_content_level: Research only
 accepted_content_types: Journal articles, Preprints
 accepted_supplementary_content: You may deposit data with your preprint
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -26,7 +28,7 @@ availability_of_associated_content: We are currently seeing how we can work with
   available on ScienceOpen.
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -62,11 +64,13 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 2 140'
 remining_indrawn_item:
 repository_type: Aggregating
 scientific_committees: "Yes : Advisory and Editorial group. For more information :
   https://about.scienceopen.com/editorial-board/#more-30.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -75,6 +79,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.scienceopen.com/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new version. All version are available for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

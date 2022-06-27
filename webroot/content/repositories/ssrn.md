@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: ssrn
 title: SSRN
@@ -13,7 +13,9 @@ accepted_content_types: Papers and abstracts, gray literature, book reviews, mul
   files, and datasets, Preprints
 accepted_supplementary_content:
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: 'Yes : Some content types, such as Health
   Science Case Reports, have additional requirements such as evidence that patient
   confidentiality, patient consent, and conflict of interest and/or funding concerns
@@ -25,7 +27,7 @@ author_pid: ORCID
 availability_of_associated_content: 'Yes : Mendely Data'
 backups: 'No'
 business_model: for-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -67,11 +69,13 @@ persistence_of_content: 'Yes : Once the DOI has been assigned, it becomes a perm
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 816 075'
 remining_indrawn_item: Remove the attached PDF, Make it Privately Available, Make
   it inactive
 repository_type: Community-based
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name: SSRN
 status: open
@@ -80,6 +84,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to 48h
 repository_url: https://www.ssrn.com/index.cfm/en/
 user_committees: 'No'
+user_committees_binary: false
 versioning_policy: Accepts any new versions. Replace the older version of the paper.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

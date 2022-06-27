@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: bepress-legal-repository
 title: Bepress Legal Repository
@@ -12,8 +12,10 @@ accepted_content_level: Research only
 accepted_content_types: Journal Articles, Reports and Working Papers, Preprints
 accepted_supplementary_content:
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission. It's free
 associated_editor: 'No'
 associated_journal: 'No'
@@ -21,7 +23,7 @@ author_pid: 'No'
 availability_of_associated_content:
 backups:
 business_model: for-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email Administrator
 concerns_about_plagiarism: 'No'
@@ -59,18 +61,21 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 169 686'
 remining_indrawn_item: Papers are totally removed
 repository_type: Disciplinary
-scientific_committees: ".\n\n"
+scientific_committees:
+scientific_committees_binary: false
 service_pricing: None
 short_name:
 status: open
-terms_of_use: 'No'
+terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://law.bepress.com/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new version (replace the older)
 who_can_deposit: Authors from associated Universities
 withdrawal_authorisation: Send an email to working_papers@bepress.com and we will

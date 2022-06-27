@@ -22,6 +22,11 @@
             Functions
           </button>
         </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="open-science-tab" data-bs-toggle="tab" data-bs-target="#open-science" type="button" role="tab" aria-controls="open-science", aria-selected="false">
+            Open Science
+          </button>
+        </li>
       </ul>
       <div class="tab-content" id="tabContent">
         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -29,6 +34,9 @@
         </div>
         <div class="tab-pane fade" id="functions" role="tabpanel" aria-labelledby="functions-tab">
           {{ partial "repositories_tables/functions" .Data.Pages }}
+        </div>
+        <div class="tab-pane fade" id="open-science" role="tabpanel" aria-labelledby="open-science-tab">
+          {{ partial "repositories_tables/open_science" .Data.Pages }}
         </div>
       </div>
     </div>

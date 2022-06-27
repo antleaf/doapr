@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: organic-eprints
 title: Organic Eprints
@@ -17,8 +17,10 @@ accepted_content_types: Journal Articles, Bibliographic References, Conference a
 accepted_supplementary_content: Your paper may include all of your tables and figures,
   or you can choose to upload them as separate files.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -27,7 +29,7 @@ availability_of_associated_content: Additional data and supplementary materials 
   also be uploaded alongside your paper.
 backups: The repository regularly backs up its file according to current best practices
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -69,20 +71,23 @@ persistence_of_content:
 platform:
 platform_languages: English and German
 preservation_policy: Items will be retained indefinitely
+preservation_policy_binary: true
 record_count: 'Full text : 17 713'
 remining_indrawn_item: Withdrawn items are not deleted, but are removed from public
   view
 repository_type: Disciplinary
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
-terms_of_use: 'No'
+terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.orgprints.org/
 user_committees: 'Yes : National editors from 25 countries act as editors for entries
   from these countries.'
+user_committees_binary: true
 versioning_policy: 'If necessary, an updated version may be deposited. All version
   are available for readers. '
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

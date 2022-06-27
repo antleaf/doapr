@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: preprints-with-the-lancet
 title: Preprints with The Lancet
@@ -15,8 +15,10 @@ accepted_content_types: Preprints
 accepted_supplementary_content:
 access_to_content: Reader can view basic content (title, abstract) without account
   but must register to view and download full content
+access_to_content_binary: true
 access_to_metadata:
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: false
+accessibility_conflict_interest_procedures:
 account_creation: Needed for reading
 associated_editor: Elsevier
 associated_journal: The Lancet portfolio of titles
@@ -24,7 +26,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 business_model: for-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: 'No'
@@ -61,6 +63,7 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 8 719'
 remining_indrawn_item:
 repository_type: Disciplinary
@@ -68,14 +71,16 @@ scientific_committees: |-
   Yes : It includes research from a wide range of subjects (Art & Humanities, Behavorial Sciences, Biology, Chemistry, Earth Sciences, Engineering, Lifes sciences, Material Science, Mathematics & Computer Science, Medicine & Pharmacology, Physcial Sciences, Social Sciences).
 
   You can contact info@preprints.org with a copy of your CV to make an application.
+scientific_committees_binary: true
 service_pricing: 'Yes : To access full content of text'
 short_name:
 status: open
-terms_of_use: 'No'
+terms_of_use:
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to 2 weeks
 repository_url: https://www.thelancet.com/preprints
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts first submission only
 who_can_deposit: You must be appliant to Lancet Journals
 withdrawal_authorisation: Platform

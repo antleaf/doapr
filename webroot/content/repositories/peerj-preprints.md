@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: peerj-preprints
 title: PeerJ Preprints
@@ -12,8 +12,10 @@ accepted_content_types: Journal Articles, Preprints
 accepted_supplementary_content: Associated files (data and software) can be uploaded
   at the time of submission and will be hosted alongside the paper.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Not necessary to access the content
 associated_editor: PeerJ
 associated_journal: PeerJ Journals
@@ -22,7 +24,7 @@ availability_of_associated_content: Material associated with preprint is hosted 
   by the platform
 backups:
 business_model: for-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date: 'Closed in 2019 : " As the community’s appetite for preprints has now
   been cemented, we too want to focus our efforts more fully on our portfolio of peer-reviewed
   journals and primary mission."'
@@ -62,10 +64,12 @@ platform:
 platform_languages: English
 preservation_policy: All published content will be fully accessible and archived by
   PeerJ and their partners
+preservation_policy_binary: true
 record_count: 'Full text : 5 068'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: closed-to-submission-only
@@ -74,6 +78,7 @@ text_embargo: 'No'
 time_submission_to_posting:
 repository_url: https://peerj.com/preprints/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts any new versions until publication in a journal. All version
   are visible
 who_can_deposit:

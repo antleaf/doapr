@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: paleorxiv
 title: PaleorXiv
@@ -13,8 +13,10 @@ accepted_content_types: Working papers, pre-prints, accepted manuscripts (post-p
 accepted_supplementary_content: full text, figures, data, image, coding, analyses.
   This is associated with the article via a specific link
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Free, Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -23,7 +25,7 @@ availability_of_associated_content: You can assign final version publication DOI
   to your articles on paleorXiv.
 backups: 'Yes : Storage on paleorXiv beats a desktop hard-drive any day.'
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: 'Email administrator; helpdesk support from COS : copyright@cos.io'
 concerns_about_plagiarism: 'Email administrator; helpdesk support from COS : copyright@cos.io'
@@ -64,11 +66,13 @@ persistence_of_content: 'Yes : COS Preservation Fund to maintain read access for
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 178'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Community-based
 scientific_committees: "Yes : Steering Committee comprised of members from the global
   Palaeontology community.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -77,6 +81,7 @@ text_embargo: 'Depending on journals. Look to the page for more informations : h
 time_submission_to_posting: 1-3 business days
 repository_url: https://paleorxiv.org/
 user_committees: 'No'
+user_committees_binary: false
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: chinaxiv
 title: ChinaXiv
@@ -14,8 +14,10 @@ accepted_content_types: Research papers
 accepted_supplementary_content: Supplementary data can be associated on the same page
   (ZIP file)
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'Yes : Multiple, listed at http://chinaxiv.org/journal/browse.htm'
@@ -24,7 +26,7 @@ availability_of_associated_content: Material associated with preprint is hosted 
   by the platform
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: 'Email, WeChat official account '
 concerns_about_plagiarism: 'No'
@@ -64,11 +66,13 @@ persistence_of_content: 'Yes : Long term preservation in local'
 platform:
 platform_languages: English and Chinese
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 15 134'
 remining_indrawn_item: Public can not see a withdrawled paper record at all. The administer
   of the preprint can see it.
 repository_type: National Preprint platform
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -78,6 +82,7 @@ time_submission_to_posting: 1-3 days usually
 repository_url: http://chinaxiv.org/home.htm
 user_committees: Yes. We invite some of the researchers of Chinese Academy of Sciences
   to be our users committee
+user_committees_binary: true
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Only scientific research personnel can submit. We accept the paper

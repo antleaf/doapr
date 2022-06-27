@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: wikijournal-preprints
 title: WikiJournal Preprints
@@ -15,7 +15,9 @@ accepted_supplementary_content: Images should be added to relevant articles, as 
   as they do not illustrate unpublished ideas or arguments. The WikiJournal article
   should be cited as a reference in the image caption in Wikipedia.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: Yes. https://en.wikiversity.org/wiki/WikiJournal_User_Group/Ethics_statement#Disclosure_and_Conflict_of_Interest
 account_creation: Only needed for submission
 associated_editor: |-
@@ -30,7 +32,7 @@ availability_of_associated_content: Detailed metadata Wikidata. Figures into wik
   heavily on data type)
 backups: Backup kept in secondary server
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date: N/A
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -71,6 +73,7 @@ persistence_of_content: Yes, indefinite
 platform:
 platform_languages: English
 preservation_policy: Wikimedia Foundation archive servers
+preservation_policy_binary: true
 record_count: 'Full text : 52'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary
@@ -78,6 +81,7 @@ scientific_committees: |-
   Yes : includes researchers.
 
   Apply to be an associate editor to help organise peer review, formatting and Wikipedia-integration of potential upcoming articles. For more information : https://en.wikiversity.org/wiki/WikiJournal_User_Group/Associate_editors
+scientific_committees_binary: true
 service_pricing: None
 short_name: WikiJPre
 status: open
@@ -91,6 +95,7 @@ user_committees: |-
   Board members have four-year terms (no consecutive term limit).
   https://en.wikiversity.org/wiki/WikiJournal_User_Group/Bylaws#Section_5._Duration_of_Term
   https://en.wikiversity.org/wiki/WikiJournal_User_Group/Individual_WikiJournal_bylaws#Section_4._Duration_of_Term
+user_committees_binary: true
 versioning_policy: Accepts new version
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

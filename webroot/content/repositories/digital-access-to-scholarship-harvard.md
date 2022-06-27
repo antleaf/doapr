@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: digital-access-to-scholarship-harvard
 title: Digital Access to Scholarship Harvard
@@ -19,7 +19,9 @@ accepted_supplementary_content: Eligible depositors must deposit bibliographic m
   that includes third-party material (e.g., an image) protected by copyright, we can
   only distribute it with your text if you have the right to share that material.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: 'Yes : Policies'
 account_creation: 'Authorized to create an account : Accredited Community Members,
   Academic Staff and Registered Students of Harvard University'
@@ -30,7 +32,7 @@ availability_of_associated_content: Only the full text is available
 backups: 'Yes : The repository has the institution of Harvard standing behind it to
   ensure its availability, longevity, and functionality.'
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: 'No'
@@ -70,10 +72,12 @@ persistence_of_content: 'Yes : The repository has the institution of Harvard sta
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: '54,563'
 remining_indrawn_item: Work is not made available publicly
 repository_type: Institutional and Multidisciplinary
-scientific_committees: ".\n\n"
+scientific_committees:
+scientific_committees_binary: false
 service_pricing: None
 short_name: DASH
 status: open
@@ -83,6 +87,7 @@ time_submission_to_posting:
 repository_url: https://dash.harvard.edu/
 user_committees: No committee oversight of DASH; managed by the Harvard Library Office
   for Scholarly Communition
+user_committees_binary: false
 versioning_policy: Accepts new version. Only one version is visble for readers
 who_can_deposit: Account needed, it's free. Only academic staff of Harvard University
   can post on the platform

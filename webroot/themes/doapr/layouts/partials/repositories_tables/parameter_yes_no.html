@@ -1,0 +1,5 @@
+{{ $returnValue := 0 }}
+{{ with .parameterValue }}
+    {{ $returnValue = 1 }}
+{{ end }}
+{{ $returnValue }}

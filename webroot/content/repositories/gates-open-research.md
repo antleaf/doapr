@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: gates-open-research
 title: Gates Open Research
@@ -13,8 +13,10 @@ accepted_content_level: Primary and secondary research
 accepted_content_types: Journal articles, Preprints
 accepted_supplementary_content:
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor:
 associated_journal: Gates Open Research
@@ -22,7 +24,7 @@ author_pid: ORCID
 availability_of_associated_content:
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Community moderation via commenting
 concerns_about_plagiarism: Email administrator
@@ -64,10 +66,12 @@ persistence_of_content: Preprints permanently archived in Portico
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 314'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -78,6 +82,7 @@ repository_url: https://gatesopenresearch.org/
 user_committees: 'Yes : The Gates Open Research Advisory Board comprises individuals
   who have a strong interest in open research and improving the way research findings
   are disseminated.'
+user_committees_binary: true
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Each publication must have at least one author who has been, or still

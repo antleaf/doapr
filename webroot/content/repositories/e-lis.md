@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: e-lis
 title: E-lis
@@ -15,8 +15,10 @@ accepted_content_types: Journal Articles, Bibliographic References, Conference a
   and Sections, Datasets, Learning Objects, Preprints
 accepted_supplementary_content: Dataset are associated by link to Zenodo (E-LIS Community)
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -25,7 +27,7 @@ availability_of_associated_content: Dataset are associated by link to Zenodo (E-
   Community https://zenodo.org/communities/elis_data/?page=1&size=20)
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content:
 concerns_about_plagiarism: 'No'
@@ -70,6 +72,7 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 23 091'
 remining_indrawn_item: Bibliopraphic metatada remaining in the server with document
   but inside in the dark side of repository
@@ -78,6 +81,7 @@ scientific_committees: "Yes : 3 people manage the Administrative Board supported
   a restrict Executive Board with specific competencies and a editorial board composed
   by 73 librarians and information scientists from 47 countries and support for 22
   languages.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name: E-LIS
 status: open
@@ -88,6 +92,7 @@ repository_url: http://eprints.rclis.org/
 user_committees: 'Yes : 3 people manage the Administrative Board supported by a restrict
   Executive Board with specific competencies and a editorial board composed by 73
   librarians and information scientists from 47 countries and support 22 languages'
+user_committees_binary: true
 versioning_policy: Accepts new version. All version are archieved
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

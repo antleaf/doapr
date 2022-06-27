@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: essoar
 title: ESSOAr
@@ -20,7 +20,9 @@ accepted_supplementary_content: 'Authors may include supplemental material (imag
   are supported: .pdf files, image files (.jpg, .svg, .png, .gif), spreadsheets (.xlsx,
   .xls), text files (.csv, .tsv), and Jupyter notebooks.'
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: 'Yes : User Conduct'
 account_creation: Only needed for submission
 associated_editor:
@@ -31,7 +33,7 @@ availability_of_associated_content: 'There is a 2 MB limit for supplemental file
   repository, and referenced as a Supplemental Link.'
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email Administrator
 concerns_about_plagiarism: Submissions are checked for plagiarism before posting on
@@ -76,12 +78,14 @@ persistence_of_content: 'Yes : On roadmap: preprints to be permanently archived 
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 6,100'
 remining_indrawn_item:
 repository_type: Disciplinary
 scientific_committees: "Yes : ESSOAr is governed by an Advisory Board made up of leaders
   of the participating international Earth, environmental, and space science societies.
   An up-to-date list is here: https://www.essoar.org/advisoryboard.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name: ESSOAr
 status: open
@@ -91,6 +95,7 @@ time_submission_to_posting: 2-4 business days
 repository_url: https://www.essoar.org/
 user_committees: 'Yes : The Editorial Board is responsible for screening and approving
   submissions and helping set editorial policies.'
+user_committees_binary: true
 versioning_policy: Accepts new versions until acceptance at journal; earlier versions
   are retained with prior DOIs and are publicly accessible
 who_can_deposit: Authors must register through ORCID before submitting.

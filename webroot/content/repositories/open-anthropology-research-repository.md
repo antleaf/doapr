@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: open-anthropology-research-repository
 title: Open Anthropology Research Repository
@@ -16,7 +16,9 @@ accepted_supplementary_content: 'Supplemental files directly related to the prim
   can be more varied, including image files, code, data sets, etc. All images should
   include alt text and image descriptions. '
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
+access_to_metadata_binary: true
 accessibility_conflict_interest_procedures: 'Yes : User Conduct'
 account_creation: Only needed for submission
 associated_editor: 'No'
@@ -25,7 +27,7 @@ author_pid: ORCID
 availability_of_associated_content: 'No'
 backups: Yes, monthly
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -65,6 +67,7 @@ persistence_of_content: Yes, DOIs are deposited into crossref
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 144'
 remining_indrawn_item: Supression of metadata, DOI, etc
 repository_type: Disciplinary
@@ -72,6 +75,7 @@ scientific_committees: |-
   Yes : includes researchers.
 
   If you are interested in joining the OARR editorial board and reviewing submissions, please send an email to pubs@americananthro.org that includes a copy of your CV as well as what subfields and languages in which you are comfortable reviewing.
+scientific_committees_binary: true
 service_pricing: None
 short_name: OARR
 status: open
@@ -83,6 +87,7 @@ user_committees: |-
   The editorial board will be composed of volunteers and strives to represent the diversity of the field of anthropology, as well as speak to its variety of subfields. There is also an Advisory Group : https://www.openanthroresearch.org/advisorygroup.
 
   If you are interested in joining the OARR editorial board and reviewing submissions, please send an email to pubs@americananthro.org that includes a copy of your CV as well as what subfields and languages in which you are comfortable reviewing.
+user_committees_binary: true
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

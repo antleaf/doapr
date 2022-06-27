@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: biohackrxiv
 title: biohackrxiv
@@ -18,8 +18,10 @@ accepted_supplementary_content: We do not require images or tables as a separate
   text-minning tasks, please submit the PDF corresponding sources, i.e., Markdown,
   bibliography and figures, as supplementary material.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -28,7 +30,7 @@ availability_of_associated_content: We also encourage you to share your code on 
   with an open license whenever possible.
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: 'Email administrator : biohackrxiv@googlegroups.com'
@@ -66,10 +68,12 @@ persistence_of_content: COS Preservation Fund to maintain read access for 50+ ye
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 17'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary
-scientific_committees: ".\n\n"
+scientific_committees:
+scientific_committees_binary: false
 service_pricing: None
 short_name:
 status: open
@@ -78,6 +82,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to 2 weeks
 repository_url: https://biohackrxiv.org/
 user_committees: 'Yes : Active moderation board members'
+user_committees_binary: true
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

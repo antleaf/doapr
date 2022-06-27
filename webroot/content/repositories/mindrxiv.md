@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: mindrxiv
 title: MindRxiv
@@ -12,8 +12,10 @@ accepted_content_types: Working papers, preprints, published papers, data, and c
 accepted_supplementary_content: 'Researchers can attach data, code, or other research
   materials to their papers by including them in the associated project. '
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -22,7 +24,7 @@ availability_of_associated_content: Sharing data and code on the Open Science Fr
   is encouraged, in the spirit of openness and transparency.
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
@@ -63,10 +65,12 @@ persistence_of_content: COS Preservation Fund to maintain read access for 50+ ye
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Full text : 242'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Multidisciplinary
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: open
@@ -75,6 +79,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Same day
 repository_url: https://mindrxiv.org/
 user_committees:
+user_committees_binary: false
 versioning_policy: Accepts new version. All version are archieved and visible for
   readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The

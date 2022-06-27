@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: ssoar
 title: SSOAR
@@ -19,8 +19,10 @@ accepted_supplementary_content: If the data records of a table (Excel, Libre/Ope
   Office), a CSV file, or an XML file are available, they can be delivered to SSOAR
   in this format.
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'No'
@@ -85,6 +87,7 @@ persistence_of_content: 'Yes : GESIS guarantees that content published on SSOAR 
 platform:
 platform_languages: English and German
 preservation_policy: 'Yes: digital preservation via German  National Library'
+preservation_policy_binary: true
 record_count: 'Full text:  62 963'
 remining_indrawn_item: Full text isn't available anymore. However, the corresponding
   metadata set will continue to be accessible via the URN in order to ensure stable
@@ -92,6 +95,7 @@ remining_indrawn_item: Full text isn't available anymore. However, the correspon
 repository_type: Disciplinary
 scientific_committees: "Yes : A team of permanently employed scientists runs SSOAR
   .\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name: SSOAR
 status: open
@@ -100,6 +104,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Different (usually up to 48 hours)
 repository_url: https://www.gesis.org/en/ssoar/home
 user_committees: 'No'
+user_committees_binary: false
 versioning_policy: Accepts new version. Only the last version is visible for readers.
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

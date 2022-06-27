@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: eric
 title: ERIC
@@ -20,8 +20,10 @@ accepted_content_types: Bibliographies, Books, Booklets, Conference presentation
   articles, Judicial publications, Reports, Reference materials , Speeches, Preprints
 accepted_supplementary_content:
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Only needed for submission
 associated_editor: 'No'
 associated_journal: 'List of indexed journals: https://eric.ed.gov/?journals; non-journal
@@ -30,7 +32,7 @@ author_pid: ORCID ID available if provided by submitter
 availability_of_associated_content:
 backups:
 business_model: non-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email ERICRequests@ed.gov
@@ -72,10 +74,12 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy:
+preservation_policy_binary: false
 record_count: 'Total records: more than 1.8 million; Full text: 447,506 as of 6/29/21'
 remining_indrawn_item: ERIC will remove the content from the collection
 repository_type: Disciplinary
 scientific_committees: "Yes : advisory group.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name: ERIC
 status: open
@@ -84,6 +88,7 @@ text_embargo: Full text will display in ERIC 12 months after the publication dat
 time_submission_to_posting:
 repository_url: https://eric.ed.gov/
 user_committees:
+user_committees_binary: false
 versioning_policy: No versioning policy
 who_can_deposit: Anyone can post on the platform. Only an account is required ( The
   creation of the account is free).

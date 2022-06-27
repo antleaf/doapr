@@ -1,6 +1,6 @@
 languageCode: "en-gb"
 uglyURLs: false
-title: "DOAPR"
+title: "Directory of Open Access Pre-print Repositories"
 theme: "doapr"
 enableRobotsTXT: true
 disableKinds: [ "RSS" ]

@@ -1,5 +1,5 @@
 ---
-date: 2022-06-20
+date: 2022-06-27
 draft: false
 repository_id: nature-precedings
 title: Nature Precedings
@@ -15,8 +15,10 @@ accepted_content_types: Papers, Conference and Workshop Papers, Reports and Work
   Papers, Preprints
 accepted_supplementary_content:
 access_to_content: Anyone may access full items free of charge
+access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
-accessibility_conflict_interest_procedures: 'No'
+access_to_metadata_binary: true
+accessibility_conflict_interest_procedures:
 account_creation: Not necessary to access the content
 associated_editor: Springer Nature
 associated_journal: Nature Portfolio
@@ -24,7 +26,7 @@ author_pid:
 availability_of_associated_content:
 backups:
 business_model: for-profit
-certificate_or_labels: None
+certificate_or_labels:
 closure_date: Closed in april 2012
 concerns_about_content:
 concerns_about_plagiarism: 'No'
@@ -60,10 +62,12 @@ persistence_of_content:
 platform:
 platform_languages: English
 preservation_policy: The content is kept by Nature to be visible
+preservation_policy_binary: true
 record_count: 'Full text : 3 423'
 remining_indrawn_item:
 repository_type: Disciplinary
 scientific_committees: "Yes : includes researchers.\n\n"
+scientific_committees_binary: true
 service_pricing: None
 short_name:
 status: closed-to-submission-only
@@ -72,6 +76,7 @@ text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://www.nature.com/npre/
 user_committees:
+user_committees_binary: false
 versioning_policy:
 who_can_deposit:
 withdrawal_authorisation:
