@@ -1,5 +1,7 @@
 {{ $returnValue := 0 }}
 {{ with .parameterValue }}
-    {{ $returnValue = 1 }}
+    {{ if not (in (slice "No" "no" "No." "no." "None" "None." "none" "none." "n/a" "N/A") .) }}
+        {{ $returnValue = 1 }}
+    {{ end }}
 {{ end }}
 {{ $returnValue }}
