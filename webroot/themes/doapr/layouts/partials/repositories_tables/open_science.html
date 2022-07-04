@@ -8,7 +8,6 @@
         <th>Owner<br/>Type</th>
         <th>Funding</th>
         <th>Business<br/>Model</th>
-        <th>Objectives</th>
         <th>Accepted<br/>Format(s)</th>
         <th>Submission<br/>Time</th>
         <th class="yes-no">
@@ -119,11 +118,6 @@
             <td>
                 {{ $businessModel := site.GetPage (print "/business_models/" .Params.business_model) }}
                 {{ $businessModel.Title }}
-            </td>
-            <td>
-                {{ with .Params.objectives }}
-                    {{ . | truncate 100 }}
-                {{end }}
             </td>
             <td>{{ .Params.accepted_content_formats }}</td>
             <td>{{ .Params.time_submission_to_posting }}</td>
