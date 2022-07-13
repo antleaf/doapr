@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
-    
-    {{ $cssNames := slice "bootstrap" "main" "header" "tables" "footer" "datatables.min" "navbar" "images" "tabs" "tooltips" }}
+
+    {{ $cssNames := slice "bootstrap" "main" "header" "tables" "footer" "datatables.min" "navbar" "images" "tabs" "fixedHeader.dataTables.min" "tooltips"  }}
     {{ $css := slice }}
     {{ range $cssNames }}
         {{ $css = $css | append (resources.Get (print "css/" . ".css")) }}
@@ -19,7 +19,7 @@
     {{ $css = $css | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $css.Permalink }}">
 
-    {{ $jsNames := slice "jquery-3.6.0.min" "bootstrap.bundle" "datatables.min" "main" }}
+    {{ $jsNames := slice "jquery-3.6.0.min" "bootstrap.bundle" "datatables.min" "dataTables.fixedHeader.min" "main" }}
     {{ $js := slice }}
     {{ range $jsNames }}
         {{ $js = $js | append (resources.Get (print "js/" . ".js")) }}

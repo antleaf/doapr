@@ -2,7 +2,12 @@ div.tab-content {
     width: 100%;
 }
 
-li.nav-item button.nav-link{
+div.scrollable-tab-content {
+    overflow-y: scroll;
+    max-height: 600px;
+}
+
+li.nav-item button.nav-link {
     color: #23527c !important;
     text-decoration: underline;
 }

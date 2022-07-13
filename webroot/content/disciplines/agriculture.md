@@ -1,12 +1,11 @@
 ---
-date: 2022-06-27
+date: 2022-07-13
 draft: false
 title: Agriculture
-repo_count: 4
+repo_count: 3
 repositories:
 - agecon-search
 - agrirxiv
-- icrisat
 - organic-eprints
 ---
 

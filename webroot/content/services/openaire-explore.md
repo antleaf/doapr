@@ -1,5 +1,5 @@
 ---
-date: 2022-06-27
+date: 2022-07-13
 draft: false
 title: OpenAire explore
 service_id: openaire-explore

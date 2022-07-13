@@ -26,10 +26,10 @@ menu:
       name: Services
       url: /services/
       weight: 2
-    - identifier: countries
-      name: Countries
-      url: /countries/
-      weight: 3
+#    - identifier: countries
+#      name: Countries
+#      url: /countries/
+#      weight: 3
     - identifier: disciplines
       name: Disciplines
       url: /disciplines/

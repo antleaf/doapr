@@ -4,6 +4,10 @@ $(document).ready(function () {
         paging: false,
         info: false,
         ordering: true,
+        // fixedHeader: {
+        //     header: true,
+        //     // headerOffset: 45,
+        // },
         "columnDefs": [{
             "targets": 'no-sort',
             "orderable": false,
@@ -20,4 +24,16 @@ $(document).ready(function () {
             }
         }]
     });
+    // // var tabEl = document.querySelector('button[data-bs-toggle="tab"]')
+    // var tabEl = $('button[data-bs-toggle="tab"]')
+    // tabEl.on('shown.bs.tab', function (event) {
+    //     console.log('hello');
+    //     // event.target // newly activated tab
+    //     // event.relatedTarget // previous active tab
+    //     // var table = $('.sortable-table').DataTable();
+    //     // table.fixedHeader.adjust();
+    //     var dataTable = $('.sortable-table').DataTable
+    //     dataTable.fixedHeader.adjust();
+    // })
 });
+

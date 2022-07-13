@@ -1,12 +1,11 @@
 ---
-date: 2022-06-27
+date: 2022-07-13
 draft: false
 title: Social sciences
-repo_count: 5
+repo_count: 4
 repositories:
 - advance-sage-preprint
 - socarxiv
-- sodha-social-sciences-and-digital-humanities-archive
 - ssoar
 - ssrn
 ---

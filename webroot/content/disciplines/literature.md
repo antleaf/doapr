@@ -1,10 +1,8 @@
 ---
-date: 2022-06-27
+date: 2022-07-13
 draft: false
 title: Literature
-repo_count: 1
-repositories:
-- english-american-literature-research-network
+repo_count: 0
 ---
 
 

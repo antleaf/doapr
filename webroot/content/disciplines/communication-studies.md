@@ -1,11 +1,10 @@
 ---
-date: 2022-06-27
+date: 2022-07-13
 draft: false
 title: Communication studies
-repo_count: 2
+repo_count: 1
 repositories:
 - mediarxiv
-- self-journal-of-science-co-science
 ---
 
 

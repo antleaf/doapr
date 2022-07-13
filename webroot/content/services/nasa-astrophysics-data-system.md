@@ -1,5 +1,5 @@
 ---
-date: 2022-06-27
+date: 2022-07-13
 draft: false
 title: NASA Astrophysics Data System
 service_id: nasa-astrophysics-data-system

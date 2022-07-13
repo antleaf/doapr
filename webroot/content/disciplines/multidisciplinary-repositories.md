@@ -1,8 +1,8 @@
 ---
-date: 2022-06-27
+date: 2022-07-13
 draft: false
 title: Multidisciplinary repositories
-repo_count: 35
+repo_count: 30
 repositories:
 - aas-open-research
 - africarxiv
@@ -12,7 +12,6 @@ repositories:
 - arxiv
 - authorea
 - beilstein-archive
-- core-repository
 - dspace-mit
 - f1000-research
 - figshare
@@ -25,15 +24,11 @@ repositories:
 - jmir-preprints
 - lse-research-online
 - open-research-europe
-- orvium
 - osf-preprints
-- outbreak-rapid-science-prereview
 - preprints-org
 - preprints-ru
 - preprints-with-the-lancet
-- qeios
 - research-square
-- researchgate
 - rinarxiv
 - scienceopen
 - wellcome-open-research

@@ -1,10 +1,8 @@
 ---
-date: 2022-06-27
+date: 2022-07-13
 draft: false
 title: Development
-repo_count: 1
-repositories:
-- horizon-ird-scientific-publications
+repo_count: 0
 ---
 
 

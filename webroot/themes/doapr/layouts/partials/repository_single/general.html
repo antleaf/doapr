@@ -1,174 +1,176 @@
-<table class="invisible-layout-table">
-    <tr>
-        <td class="field-name">
-            URL:
-        </td>
-        <td>
-            {{ .Params.repository_url }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Full Name:
-        </td>
-        <td>
-            {{ .Title }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Short Name (or Acronym):
-        </td>
-        <td>
-            {{ .Params.short_name }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Description:
-        </td>
-        <td>
-            {{ .Params.description }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Accepted Content Types:
-        </td>
-        <td>
-            {{ .Params.accepted_content_types }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Certificate or Labels:
-        </td>
-        <td>
-            {{ .Params.certificate_or_labels }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Closure Date:
-        </td>
-        <td>
-            {{ .Params.closure_date }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Contact:
-        </td>
-        <td>
-            {{ .Params.contact }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Disciplinary Scope:
-        </td>
-        <td>
-            {{ .Params.disciplinary_scope }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Keywords:
-        </td>
-        <td>
-            {{ delimit .Params.keywords " " }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Launch Date:
-        </td>
-        <td>
-            {{ .Params.launch_date }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            OAI-PMH URL:
-        </td>
-        <td>
-            {{ with .Params.oai_pmh_url }}
-                <a href="{{ . }}">{{ . }}</a>
-            {{ end }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            OpenDOAR ID:
-        </td>
-        <td>
-            {{ .Params.opendoar_id }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Platform:
-        </td>
-        <td>
-            {{ .Params.platform }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Platform Languages:
-        </td>
-        <td>
-            {{ .Params.platform_languages }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Record Count:
-        </td>
-        <td>
-            {{ .Params.record_count }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Repository Type:
-        </td>
-        <td>
-            {{ .Params.repository_type }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Service Pricing:
-        </td>
-        <td>
-            {{ .Params.service_pricing }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Status:
-        </td>
-        <td>
-            {{ with .Params.status }}
-                {{ partial "link_to_status" . }}
-            {{ end }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Terms of Use:
-        </td>
-        <td>
-            {{ .Params.terms_of_use }}
-        </td>
-    </tr>
-    <tr>
-        <td class="field-name">
-            Last Update:
-        </td>
-        <td>
-            {{ .Params.last_update }}
-        </td>
-    </tr>
-</table>
+<div class="scrollable-tab-content">
+    <table class="invisible-layout-table">
+        <tr>
+            <td class="field-name">
+                URL:
+            </td>
+            <td>
+                {{ .Params.repository_url }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Full Name:
+            </td>
+            <td>
+                {{ .Title }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Short Name (or Acronym):
+            </td>
+            <td>
+                {{ .Params.short_name }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Description:
+            </td>
+            <td>
+                {{ .Params.description }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Accepted Content Types:
+            </td>
+            <td>
+                {{ .Params.accepted_content_types }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Certificate or Labels:
+            </td>
+            <td>
+                {{ .Params.certificate_or_labels }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Closure Date:
+            </td>
+            <td>
+                {{ .Params.closure_date }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Contact:
+            </td>
+            <td>
+                {{ .Params.contact }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Disciplinary Scope:
+            </td>
+            <td>
+                {{ .Params.disciplinary_scope }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Keywords:
+            </td>
+            <td>
+                {{ delimit .Params.keywords " " }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Launch Date:
+            </td>
+            <td>
+                {{ .Params.launch_date }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                OAI-PMH URL:
+            </td>
+            <td>
+                {{ with .Params.oai_pmh_url }}
+                    <a href="{{ . }}">{{ . }}</a>
+                {{ end }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                OpenDOAR ID:
+            </td>
+            <td>
+                {{ .Params.opendoar_id }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Platform:
+            </td>
+            <td>
+                {{ .Params.platform }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Platform Languages:
+            </td>
+            <td>
+                {{ .Params.platform_languages }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Record Count:
+            </td>
+            <td>
+                {{ .Params.record_count }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Repository Type:
+            </td>
+            <td>
+                {{ .Params.repository_type }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Service Pricing:
+            </td>
+            <td>
+                {{ .Params.service_pricing }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Status:
+            </td>
+            <td>
+                {{ with .Params.status }}
+                    {{ partial "link_to_status" . }}
+                {{ end }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Terms of Use:
+            </td>
+            <td>
+                {{ .Params.terms_of_use }}
+            </td>
+        </tr>
+        <tr>
+            <td class="field-name">
+                Last Update:
+            </td>
+            <td>
+                {{ .Params.last_update }}
+            </td>
+        </tr>
+    </table>
+</div>
