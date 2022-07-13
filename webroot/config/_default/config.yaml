@@ -22,6 +22,14 @@ menu:
       name: Repositories
       url: /repositories/
       weight: 1.5
+    - identifier: repositories-by-function
+      name: Repositories
+      url: /repositories-by-function/
+      weight: 1.5
+    - identifier: repositories-by-open-science
+      name: Repositories
+      url: /repositories-by-open-science/
+      weight: 1.5
     - identifier: services
       name: Services
       url: /services/

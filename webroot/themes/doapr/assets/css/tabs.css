@@ -8,22 +8,22 @@ div.scrollable-tab-content {
 }
 
 li.nav-item button.nav-link {
-    color: #23527c !important;
-    text-decoration: underline;
+    /*color: #23527c !important;*/
+    text-decoration: none;
 }
 
 .tab-general {
-    background-color: #def3fd !important;
+    /*background-color: #def3fd !important;*/
 }
 
 .tab-governance {
-    background-color: #fcf7de !important;
+    /*background-color: #fcf7de !important;*/
 }
 
 .tab-features {
-    background-color: #fddfdf !important;
+    /*background-color: #fddfdf !important;*/
 }
 
 .tab-editorial {
-    background-color: #f0defd !important;
+    /*background-color: #f0defd !important;*/
 }
