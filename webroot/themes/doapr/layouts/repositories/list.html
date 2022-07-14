@@ -6,13 +6,16 @@
     </div>
     <div class="row">
         <div class="col">
+            <div class="text-end">
+                {{ partial "feedback/feedback_suggest_new_repo" . }}
+            </div>
             {{ .Content }}
         </div>
     </div>
     <div class="row">
         <div class="col">
             {{ partial "repositories_tables/tab_selector" . }}
-{{/*            <h4 class="table-caption">General Properties</h4>*/}}
+            {{/*            <h4 class="table-caption">General Properties</h4>*/}}
 
             {{ partial "repositories_tables/_default" .RegularPages }}
         </div>

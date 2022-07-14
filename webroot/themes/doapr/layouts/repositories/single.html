@@ -6,6 +6,9 @@
     </div>
     <div class="row">
         <div class="col">
+            <div class="text-end">
+                {{ partial "feedback/feedback_update_existing_repo" . }}
+            </div>
             {{ .Content }}
         </div>
     </div>
