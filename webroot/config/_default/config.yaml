@@ -1,6 +1,6 @@
 languageCode: "en-gb"
 uglyURLs: false
-title: "Directory of Open Access Pre-print Repositories"
+title: "Directory of Open Access Preprint Repositories"
 theme: "doapr"
 enableRobotsTXT: true
 disableKinds: [ "RSS" ]
@@ -49,10 +49,10 @@ menu:
       name: Feedback
       url: /feedback/
       weight: 8
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 99
+#    - identifier: about
+#      name: About
+#      url: /about/
+#      weight: 99
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
