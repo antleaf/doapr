@@ -33,10 +33,6 @@ menu:
       name: Repositories
       url: /repositories-by-open-science/
       weight: 1.5
-    - identifier: services
-      name: Services
-      url: /services/
-      weight: 2
     - identifier: disciplines
       name: Disciplines
       url: /disciplines/
@@ -45,10 +41,14 @@ menu:
       name: Functions
       url: /functions/
       weight: 7
+    - identifier: services
+      name: Integrated Services
+      url: /services/
+      weight: 8
     - identifier: feedback
       name: Feedback
       url: /feedback/
-      weight: 8
+      weight: 9
 #    - identifier: about
 #      name: About
 #      url: /about/
