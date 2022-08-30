@@ -4,13 +4,10 @@
     <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>{{.Site.Title}}{{if .Title}}: {{ .Title | markdownify }}{{end}}</title>
     {{hugo.Generator}}
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
-{{/*    "fixedHeader.dataTables.min"*/}}
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Secular+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
     {{ $cssNames := slice "bootstrap" "main" "header" "tables" "footer" "datatables.min" "navbar" "images" "tabs"  "tooltips"  }}
     {{ $css := slice }}
     {{ range $cssNames }}
@@ -18,7 +15,6 @@
     {{ end }}
     {{ $css = $css | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $css.Permalink }}">
-{{/*"dataTables.fixedHeader.min"*/}}
     {{ $jsNames := slice "jquery-3.6.0.min" "bootstrap.bundle" "datatables.min" "main" }}
     {{ $js := slice }}
     {{ range $jsNames }}

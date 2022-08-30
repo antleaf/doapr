@@ -58,7 +58,7 @@ span.no {
 }
 
 table, tr, th, td {
-    color: #555555;
+    color: var(--text-colour);
 }
 
 

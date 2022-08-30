@@ -1,6 +1,10 @@
 ---
 title: Homepage
 date: 2022-01-11
+menu:
+    navbar:
+        identifier: home
+        weight: 1
 ---
 
 It is becoming an increasingly common practice for researchers to share their preprints because it allows them to disseminate their research results quickly and openly with the rest of the world. As a result, there is a growing number of preprint-specific and generalist repositories that support the sharing of preprints.

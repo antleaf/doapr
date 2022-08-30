@@ -17,42 +17,9 @@ outputs:
   page: [ html,json ]
 menu:
   navbar:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 1
-    - identifier: repositories
+    - identifier: repositories-dropdown
       name: Repositories
-      url: /repositories/
-      weight: 1.5
-    - identifier: repositories-by-function
-      name: Repositories
-      url: /repositories-by-function/
-      weight: 1.5
-    - identifier: repositories-by-open-science
-      name: Repositories
-      url: /repositories-by-open-science/
-      weight: 1.5
-    - identifier: disciplines
-      name: Disciplines
-      url: /disciplines/
-      weight: 5
-    - identifier: functions
-      name: Functions
-      url: /functions/
-      weight: 7
-    - identifier: services
-      name: Integrated Services
-      url: /services/
-      weight: 8
-    - identifier: feedback
-      name: Feedback
-      url: /feedback/
-      weight: 9
-#    - identifier: about
-#      name: About
-#      url: /about/
-#      weight: 99
+      weight: 2
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:

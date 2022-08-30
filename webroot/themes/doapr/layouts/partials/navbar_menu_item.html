@@ -1,0 +1,46 @@
+{{ $currentPage := .currentPage }}
+{{ $menuID := .menuID }}
+{{ $menuItem := .menuItem }}
+{{ $showMenuItem := true }}
+
+{{ with $menuItem.Page }}
+    {{ if and .Draft (not site.BuildDrafts) }}
+        {{ $showMenuItem = false }}
+    {{ end }}
+{{ end }}
+
+{{ with $menuItem.Params.hide }}
+    {{ $showMenuItem = false }}
+{{ end }}
+
+{{ if $showMenuItem }}
+    <div class="navbar-doapr-menu-item-container">
+        {{ if $menuItem.HasChildren }}
+            <div class="navbar-doapr-dropdown">
+                {{ if $currentPage.HasMenuCurrent $menuID $menuItem }}
+                    <span class="navbar-doapr-menu-drop-down-active">{{ $menuItem.Name }}</span><span class="navbar-doapr-menu-dropdown-caret"> &#9660;</span>
+                {{ else }}
+                    <span>{{ $menuItem.Name }}</span><span class="navbar-doapr-menu-dropdown-caret"> &#9660;</span>
+                {{ end }}
+                <div class="navbar-doapr-dropdown-content">
+                    <ul>
+                        {{ range $menuItem.Children }}
+                            <li class="navbar-doapr-menu-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
+{{/*                            {{ if $currentPage.IsMenuCurrent $menuID . }}*/}}
+{{/*                                <li class="navbar-doapr-menu-item-active"><a href="{{ .URL }}">{{ .Name }}</a></li>*/}}
+{{/*                            {{ else }}*/}}
+{{/*                                <li class="navbar-doapr-menu-item"><a href="{{ .URL }}">{{ .Name }}</a></li>*/}}
+{{/*                            {{ end }}*/}}
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        {{ else }}
+            {{ if $currentPage.IsMenuCurrent .menuID $menuItem }}
+                <li class="navbar-doapr-menu-item-active"><a href="{{ $menuItem.URL }}">{{ $menuItem.Name }}</a></li>
+            {{ else }}
+                <li class="navbar-doapr-menu-item"><a href="{{ $menuItem.URL }}">{{ $menuItem.Name }}</a></li>
+            {{ end }}
+        {{ end }}
+    </div>
+{{ end }}

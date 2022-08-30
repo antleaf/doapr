@@ -1,33 +1,55 @@
-{{ $currentPage := . }}
+{{/*{{ $currentPage := . }}*/}}
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        {{/*        <a class="navbar-brand" href="#">Navbar</a>*/}}
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                {{ range site.Menus.navbar }}
-                    {{ if eq .Identifier "repositories" }}
-                        {{ if in (slice "repositories" "repositories-by-function" "repositories-by-open-science") $currentPage.Section }}
-                            <li class="nav-item selected"><a class="nav-link active" href="{{ .URL }}">Repositories</a></li>
-                        {{ else }}
-                            <li class="nav-item"><a class="nav-link" href="{{ .URL }}">Repositories</a></li>
-                        {{ end }}
+{{/*<nav class="navbar navbar-expand-lg navbar-light bg-light">*/}}
+{{/*    <div class="container-fluid">*/}}
+{{/*        */}}{{/*        <a class="navbar-brand" href="#">Navbar</a>*/}}
+{{/*        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">*/}}
+{{/*            <span class="navbar-toggler-icon"></span>*/}}
+{{/*        </button>*/}}
+{{/*        <div class="collapse navbar-collapse" id="navbarSupportedContent">*/}}
+{{/*            <ul class="navbar-nav me-auto mb-2 mb-lg-0">*/}}
+{{/*                {{ range site.Menus.navbar }}*/}}
+{{/*                    {{ if eq .Identifier "repositories" }}*/}}
+{{/*                        {{ if in (slice "repositories" "repositories-by-function" "repositories-by-open-science") $currentPage.Section }}*/}}
+{{/*                            <li class="nav-item selected"><a class="nav-link active" href="{{ .URL }}">Repositories</a></li>*/}}
+{{/*                        {{ else }}*/}}
+{{/*                            <li class="nav-item"><a class="nav-link" href="{{ .URL }}">Repositories</a></li>*/}}
+{{/*                        {{ end }}*/}}
+{{/*                    {{ else }}*/}}
+{{/*                        {{ if not (in (slice "repositories-by-function" "repositories-by-open-science") .Identifier) }}*/}}
+{{/*                            {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Section .Identifier) }}*/}}
+{{/*                                <li class="nav-item selected"><a class="nav-link active" href="{{ .URL }}">{{ .Name }}</a></li>*/}}
+{{/*                            {{ else }}*/}}
+{{/*                                <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>*/}}
+{{/*                            {{ end }}*/}}
+{{/*                        {{ end }}*/}}
+{{/*                    {{ end }}*/}}
+{{/*                {{ end }}*/}}
+{{/*            </ul>*/}}
+{{/*        </div>*/}}
+{{/*    </div>*/}}
+{{/*</nav>*/}}
+
+
+{{ $currentPage := . }}
+<div class="navbar-doapr">
+    <div class="row">
+        <div class="col-md-10">
+            {{ range site.Menus.navbar }}
+                {{ partial "navbar_menu_item" (dict "menuID" "navbar" "currentPage" $currentPage "menuItem" . )}}
+            {{ end }}
+        </div>
+        <div class="col-md-2" style="text-align: right; padding-right: 20px;">
+            {{ with site.Menus.navbar_right }}
+                <div class="navbar-doapr-menu-item-container">
+                    {{ $menuItem := index site.Menus.navbar_right 0 }}
+                    {{ if $currentPage.HasMenuCurrent "navbar_right" $menuItem }}
+                        <li class="navbar-doapr-menu-item-active"><a href="{{ $menuItem.URL }}">{{ $menuItem.Name }}</a></li>
                     {{ else }}
-                        {{ if not (in (slice "repositories-by-function" "repositories-by-open-science") .Identifier) }}
-                            {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Section .Identifier) }}
-                                <li class="nav-item selected"><a class="nav-link active" href="{{ .URL }}">{{ .Name }}</a></li>
-                            {{ else }}
-                                <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
-                            {{ end }}
-                        {{ end }}
+                        <li class="navbar-doapr-menu-item"><a href="{{ $menuItem.URL }}">{{ $menuItem.Name }}</a></li>
                     {{ end }}
-                {{ end }}
-            </ul>
+                </div>
+            {{ end }}
         </div>
     </div>
-</nav>
-
-
+</div>
