@@ -9,13 +9,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 {{ range site.Menus.navbar }}
-                    {{ if or (eq $currentPage.Permalink .URL) (eq $currentPage.Section .Identifier) }}
-                        <li class="nav-item selected"><a class="nav-link active" href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ if eq .Identifier "repositories" }}
+                        {{ if in (slice "repositories" "repositories-by-function" "repositories-by-open-science") $currentPage.Section }}
+                            <li class="nav-item selected"><a class="nav-link active" href="{{ .URL }}">Repositories</a></li>
+                        {{ else }}
+                            <li class="nav-item"><a class="nav-link" href="{{ .URL }}">Repositories</a></li>
+                        {{ end }}
                     {{ else }}
-                        <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{ if not (in (slice "repositories-by-function" "repositories-by-open-science") .Identifier) }}
+                            {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Section .Identifier) }}
+                                <li class="nav-item selected"><a class="nav-link active" href="{{ .URL }}">{{ .Name }}</a></li>
+                            {{ else }}
+                                <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+                            {{ end }}
+                        {{ end }}
                     {{ end }}
                 {{ end }}
             </ul>
         </div>
     </div>
 </nav>
+
+

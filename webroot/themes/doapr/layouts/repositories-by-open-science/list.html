@@ -1,0 +1,172 @@
+{{ define "main" }}
+    <div class="row">
+        <div class="col">
+            <h1 class="page-title">{{ .Title }}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            {{ .Content }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            {{ partial "repositories_tables/tab_selector" . }}
+            {{ $functionsList := where (where site.RegularPages "Section" "functions") "Params.repo_count" ">" 0 }}
+{{/*            <h4 class="table-caption">Support for Open Science</h4>*/}}
+            <table class="table sortable-table table-sm table-striped" id="repositories-open-science-table">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Service<br/>Pricing</th>
+                    <th>Owner<br/>Type</th>
+                    <th>Funding</th>
+                    <th>Business<br/>Model</th>
+                    <th>Accepted<br/>Format(s)</th>
+                    <th>Submission<br/>Time</th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Open Source</div>
+                            <span class="hover-over-text">Open Source</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Interoperability</div>
+                            <span class="hover-over-text">Interoperability</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Terms of Use</div>
+                            <span class="hover-over-text">Terms of Use</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Certification</div>
+                            <span class="hover-over-text">Certificates or Labels</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">User Committee</div>
+                            <span class="hover-over-text">Has User Committee(s)</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Scientific Committee</div>
+                            <span class="hover-over-text">Has Scientific/Technical Committee(s)</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Conflict of Interest Procedures</div>
+                            <span class="hover-over-text">Accessibility of Conflict of Interest Procedures</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Access to Content</div>
+                            <span class="hover-over-text">Access to Content</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Access to Metadata</div>
+                            <span class="hover-over-text">Access to Metadata</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Preservation policy</div>
+                            <span class="hover-over-text">Has Preservation policy</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Writing Support</div>
+                            <span class="hover-over-text">Service Providing Support for Writing</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Revision Support</div>
+                            <span class="hover-over-text">Service Providing Support for Revision</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Peer-review Support</div>
+                            <span class="hover-over-text">Service Providing Support for Peer-review</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Commenting Support</div>
+                            <span class="hover-over-text">Service Providing Support for Commenting</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Endorsement Support</div>
+                            <span class="hover-over-text">Service Providing Support for Endorsement</span>
+                        </div>
+                    </th>
+                    <th class="yes-no">
+                        <div class="hover-over">
+                            <div class="vertical-text">Text-mining Support</div>
+                            <span class="hover-over-text">Service Providing Support for Text-mining</span>
+                        </div>
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                {{ range (where .Site.RegularPages "Section" "repositories" ) }}
+                    <tr>
+                        <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+                        <td>{{ .Params.service_pricing | truncate 100 }}</td>
+                        <td>{{ .Params.ownership_type }}</td>
+                        <td>{{ .Params.funding }}</td>
+                        <td>
+                            {{ $businessModel := site.GetPage (print "/business_models/" .Params.business_model) }}
+                            {{ $businessModel.Title }}
+                        </td>
+                        <td>{{ .Params.accepted_content_formats }}</td>
+                        <td>{{ .Params.time_submission_to_posting }}</td>
+                        <td>{{ partial "repositories_tables/parameter_yes_no" (dict "parameterValue" .Params.open_source) }}</td>
+                        <td>{{ partial "repositories_tables/parameter_yes_no" (dict "parameterValue" .Params.interoperability) }}</td>
+                        <td>{{ partial "repositories_tables/parameter_yes_no" (dict "parameterValue" .Params.terms_of_use) }}</td>
+                        <td>{{ partial "repositories_tables/parameter_yes_no" (dict "parameterValue" .Params.certificate_or_labels) }}</td>
+                        <td>{{ partial "repositories_tables/parameter_yes_no" (dict "parameterValue" .Params.user_committees_binary) }}</td>
+                        <td>{{ partial "repositories_tables/parameter_yes_no" (dict "parameterValue" .Params.scientific_committees_binary) }}</td>
+                        <td>{{ partial "repositories_tables/parameter_yes_no" (dict "parameterValue" .Params.accessibility_conflict_interest_procedures) }}</td>
+                        <td>{{ partial "repositories_tables/parameter_yes_no" (dict "parameterValue" .Params.access_to_content) }}</td>
+                        <td>{{ partial "repositories_tables/parameter_yes_no" (dict "parameterValue" .Params.access_to_metadata) }}</td>
+                        <td>{{ partial "repositories_tables/parameter_yes_no" (dict "parameterValue" .Params.preservation_policy) }}</td>
+                        <td>
+                            {{ partial "repositories_tables/function_yes_no" (dict "function_id" "writing" "repository_id" .Params.repository_id) }}
+                        </td>
+                        <td>
+                            {{ partial "repositories_tables/function_yes_no" (dict "function_id" "revision" "repository_id" .Params.repository_id) }}
+                        </td>
+                        <td>
+                            {{ partial "repositories_tables/function_yes_no" (dict "function_id" "peer-review" "repository_id" .Params.repository_id) }}
+                        </td>
+                        <td>
+                            {{ partial "repositories_tables/function_yes_no" (dict "function_id" "commenting" "repository_id" .Params.repository_id) }}
+                        </td>
+                        <td>
+                            {{ partial "repositories_tables/function_yes_no" (dict "function_id" "endorsement" "repository_id" .Params.repository_id) }}
+                        </td>
+                        <td>
+                            {{ partial "repositories_tables/function_yes_no" (dict "function_id" "text-mining" "repository_id" .Params.repository_id) }}
+                        </td>
+                    </tr>
+                {{ end }}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{{ end }}

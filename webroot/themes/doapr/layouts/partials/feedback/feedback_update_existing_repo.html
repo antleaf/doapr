@@ -1,0 +1,3 @@
+{{ $urlTitleParam := print "title=%5BUpdate%5D%20" .Title }}
+{{ $feedbackUrl := print site.Params.feedback_update_repo_url_prefix "&" $urlTitleParam }}
+<a href="{{ $feedbackUrl }}" role="button" class="btn btn-sm btn-outline-primary">Suggest Update or Correction</a>

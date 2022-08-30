@@ -1,6 +1,6 @@
 languageCode: "en-gb"
 uglyURLs: false
-title: "Directory of Open Access Pre-print Repositories"
+title: "Directory of Open Access Preprint Repositories"
 theme: "doapr"
 enableRobotsTXT: true
 disableKinds: [ "RSS" ]
@@ -8,6 +8,9 @@ metaDataFormat: "yaml"
 enableGitInfo: false
 disablePathToLower: true
 params:
+  feedback_new_repo_url: "https://github.com/rtournoy/doapr/issues/new?assignees=&labels=&template=a-add-a-preprint-repository-to-the-doapr.md&title=%5BNew+Entry%5D"
+  feedback_update_repo_url_prefix: "https://github.com/rtournoy/doapr/issues/new?assignees=&labels=&template=b-update-a-preprint-repository.md"
+  feedback_bug_report_url: "https://github.com/rtournoy/doapr/issues/new?assignees=&labels=bug&template=d-bug_report.md&title=%5BBug+Report%5D"
 taxonomies:
   tag: "tags"
 outputs:
@@ -22,34 +25,34 @@ menu:
       name: Repositories
       url: /repositories/
       weight: 1.5
-    - identifier: services
-      name: Services
-      url: /services/
-      weight: 2
-#    - identifier: countries
-#      name: Countries
-#      url: /countries/
-#      weight: 3
+    - identifier: repositories-by-function
+      name: Repositories
+      url: /repositories-by-function/
+      weight: 1.5
+    - identifier: repositories-by-open-science
+      name: Repositories
+      url: /repositories-by-open-science/
+      weight: 1.5
     - identifier: disciplines
       name: Disciplines
       url: /disciplines/
       weight: 5
-#    - identifier: statuses
-#      name: Statuses
-#      url: /statuses/
-#      weight: 7
-#    - identifier: business_models
-#      name: Business Models
-#      url: /business_models/
-#      weight: 8
     - identifier: functions
       name: Functions
       url: /functions/
       weight: 7
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 99
+    - identifier: services
+      name: Integrated Services
+      url: /services/
+      weight: 8
+    - identifier: feedback
+      name: Feedback
+      url: /feedback/
+      weight: 9
+#    - identifier: about
+#      name: About
+#      url: /about/
+#      weight: 99
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
