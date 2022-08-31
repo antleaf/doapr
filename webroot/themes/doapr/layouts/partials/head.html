@@ -14,13 +14,13 @@
         {{ $css = $css | append (resources.Get (print "css/" . ".css")) }}
     {{ end }}
     {{ $css = $css | resources.Concat "css/bundle.css" | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $css.Permalink }}">
+    <link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
     {{ $jsNames := slice "jquery-3.6.0.min" "bootstrap.bundle" "datatables.min" "main" }}
     {{ $js := slice }}
     {{ range $jsNames }}
         {{ $js = $js | append (resources.Get (print "js/" . ".js")) }}
     {{ end }}
     {{ $js = $js | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
-    <script type="text/javascript" src="{{ $js.Permalink }}"></script>
+    <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
 </head>
