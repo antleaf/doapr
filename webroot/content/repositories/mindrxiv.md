@@ -1,12 +1,12 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: mindrxiv
 title: MindRxiv
 description: Open archive for research on mind and contemplative practices
 academic_applicant_only: 'Yes'
 accepted_content_formats: Any format supported by OSF platform (PDF preferred)
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Academic and Scholary research only
 accepted_content_types: Working papers, preprints, published papers, data, and code
 accepted_supplementary_content: 'Researchers can attach data, code, or other research
@@ -62,7 +62,7 @@ ownership_type: Academic institution
 pid: DOI, single DOI retained for all versions
 peer_review_status: 'No'
 persistence_of_content: COS Preservation Fund to maintain read access for 50+ years
-platform:
+platform: Open Science Framework
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

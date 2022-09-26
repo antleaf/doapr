@@ -1,12 +1,12 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: peerj-preprints
 title: PeerJ Preprints
 description: Initially, developed as preprint server for PeerJ submissions
 academic_applicant_only: 'No'
 accepted_content_formats: PDF
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research or scholary content
 accepted_content_types: Journal Articles, Preprints
 accepted_supplementary_content: Associated files (data and software) can be uploaded
@@ -60,7 +60,7 @@ ownership_type: Publishing organisation (publisher)
 pid: DOI, each version receives its own non-DOI citable identifier
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes : Preprints permanently archived in Portico'
-platform:
+platform: Custom PeerJ Preprints software
 platform_languages: English
 preservation_policy: All published content will be fully accessible and archived by
   PeerJ and their partners

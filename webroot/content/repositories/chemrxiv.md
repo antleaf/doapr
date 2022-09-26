@@ -1,15 +1,15 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: chemrxiv
 title: ChemRxiv
 description: ChemRxiv (pronounced 'chem-archive') is a free submission, distribution
   and archive service for unpublished preprints in chemistry and related areas.
 academic_applicant_only: 'No'
-accepted_content_formats: PDF, PPT
-accepted_content_language: English
-accepted_content_level: Research manuscripts only
-accepted_content_types: Research manuscripts only (Preprints)
+accepted_content_formats: PDF
+accepted_content_languages: English
+accepted_content_level: Research manuscripts and reviews only
+accepted_content_types: Research manuscripts, reviews (Preprints)
 accepted_supplementary_content: Any type of supplementary file or weblink can be associated
   as supporting information on the preprint page.
 access_to_content: Anyone may access full items free of charge
@@ -27,8 +27,8 @@ backups:
 business_model: non-profit
 certificate_or_labels:
 closure_date:
-concerns_about_content: Email administrator
-concerns_about_plagiarism: Email administator
+concerns_about_content: support@chemrxiv.org with a description of the concern
+concerns_about_plagiarism: support@chemrxiv.org with a description of the concern
 contact: support@chemrxiv.org
 disciplinary_scope: Agriculture and Food Chemistry, Analytical Chemistry, Biological
   and Medicinal Chemistry, Catalysis, Chemical Education, Chemical Engineering and
@@ -39,11 +39,12 @@ disciplinary_scope: Agriculture and Food Chemistry, Analytical Chemistry, Biolog
 functional_description: 'Yes : User FAQs'
 funding: Internal funding
 interoperability: Yes via API
-journal_submission: Unrestricted, but submission is facilitated in journals owned
-  by American Chemical Society, Royal Society of Chemistry, German Chemical Society
-  (other publishers coming soon)
+journal_submission: Unrestricted, but submission is facilitated to journals published
+  by American Chemical Society, Royal Society of Chemistry, German Chemical Society,
+  Chinese Chemical Society, Beilstein-Institut, and Frontiers (with other publishers
+  coming soon)
 keywords: Chemistry, archive
-last_update: 7/2/21
+last_update: 9/25/22
 launch_date: '2017'
 licensing: 'Authors are provided with a choice of licenses: CC BY, CC BY-NC, and CC
   BY-NC-ND'
@@ -51,7 +52,7 @@ metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
   Abstract, Author affiliation(s), Funder acknowledgement(s), License type(s), Subject
-  category, Full-text content, References
+  category, Full-text content
 metadata_reuse_method: Openly available via API
 metadata_reuse_permission: Depending on the licencing options chosen by the author
 moderation: 'Beforehand: Data is available (if applicable), Code is available (if
@@ -70,15 +71,15 @@ owner_full_name: American Chemical Society, Chinese Chemical Society, Chemical S
 owner_short_name: ACS, CCS, CSJ, GDCh, RSC
 owner_url:
 ownership_type: Scientific society
-pid: DOI, each version receives its own unique DOI
+pid: DOI
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes : Agreement to dark archive content with TIB (Leibniz
   Information Centre for Science and Technology University Library)'
-platform:
+platform: Cambridge Open Engage
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false
-record_count: 'Full text: 9 153'
+record_count: 'Full text: 14 564'
 remining_indrawn_item: Content remains with a version indicating that the content
   has been retracted.
 repository_type: Disciplinary

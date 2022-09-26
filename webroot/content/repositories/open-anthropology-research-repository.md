@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: open-anthropology-research-repository
 title: Open Anthropology Research Repository
@@ -7,7 +7,7 @@ description: 'Prepublication platform covering all aspects of anthropological re
   hosting preprints, teaching materials, conference papers, and posters. '
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, LaTeX, or Word doc
-accepted_content_language: Any language
+accepted_content_languages: Any language
 accepted_content_level: Research and scholary content
 accepted_content_types: Preprints, posters, conference papers / abstracts, and teaching
   materials
@@ -64,7 +64,7 @@ ownership_type: Scientific Society
 pid: DOI
 peer_review_status: 'Yes'
 persistence_of_content: Yes, DOIs are deposited into crossref
-platform:
+platform: Atypon
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: figshare
 title: Figshare
@@ -7,7 +7,7 @@ description: figshare is a repository where users can make all of their research
   available in a citable, shareable and discoverable manner
 academic_applicant_only: 'Yes'
 accepted_content_formats: Word doc and PDF
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: 'Full list of content/item types : https://help.figshare.com/article/item-types'
 accepted_supplementary_content: Your paper may include all of your tables and figures,
@@ -65,7 +65,7 @@ peer_review_status: 'Yes'
 persistence_of_content: Figshare will use the DuraSpace DuraCloud Vault deposit node
   to add content into Chronopolis to preserve the public corpus of multi-disciplinary
   data.
-platform:
+platform: Figshare (Digital Science) preprint framework
 platform_languages: "Support other languages, e.g. JStage - This feature is in discussion.
   See the Public Roadmap: https://eu-rm.roadmunk.com/publish/50c0cac4ff2d9b46f7c118eb347f7959ffc9f48a.
   Currently, certain parts of the interface (groups, custom metadata, and metadata

@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 title: Europe PMC
 service_id: europe-pmc
@@ -22,8 +22,9 @@ repositories:
 - open-research-europe
 - peerj-preprints
 - preprints-org
+- scielo-preprints
 - wellcome-open-research
-repo_count: 14
+repo_count: 15
 ---
 
 

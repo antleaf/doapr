@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: scielo-preprints
 title: SciELO Preprints
@@ -9,8 +9,8 @@ description: 'SciELO Preprints Collection is an integral part of SciELO, an inte
   manuscripts within the SciELO Network of national and thematic collection of journals. '
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF or XML Publishing Schema
-accepted_content_language: English, Portuguese, Spanish (But the title, abstract and
-  keywords must be provided with their respective English translations)
+accepted_content_languages: English, Portuguese, Spanish (But the title, abstract
+  and keywords must be provided with their respective English translations)
 accepted_content_level: Research only
 accepted_content_types: Multiple article types (including research manuscripts, review
   papers, case studies, opinion papers, dataset description papers), Preprints
@@ -42,12 +42,12 @@ disciplinary_scope: " Agriculture sciences; Applied social sciences; Biological 
   literature and arts; and, Interdisciplinary."
 functional_description: 'No'
 funding: Internal financial support (SciELO Program)
-interoperability:
+interoperability: ORCID, PREreview, Plaudit
 journal_submission: Unrestricted but submission is facilitated for any journal using
   a SWORD (Simple Web-service Offering Repository Deposit) protocol-based manuscript
   submission platform
-keywords: Multidisciplinary, SciELO, Spanish, Portuguese
-last_update: 7/13/21
+keywords: Multidisciplinary, SciELO, Spanish, Portuguese, English
+last_update: 9/25/22
 launch_date: Apr-20
 licensing: Authors must use CC BY license
 metadata_formats: 'No'
@@ -56,11 +56,11 @@ metadata_properties: Title, Identifier, Publication/deposition date, Author name
   Abstract, Relational link to final journal publication (e.g. in crossref metadata),
   License type(s)
 metadata_reuse_method: Openly available via API
-metadata_reuse_permission:
+metadata_reuse_permission: CC-0
 moderation: 'Beforehand : Content within scope, Manuscript is complete (methods, references),
   All authors notified, Legal compliance, Ethical compliance, Originality, Potential
   for harm if posted'
-oai_pmh_url:
+oai_pmh_url: https://preprints.scielo.org/index.php/scielo/oai?verb=ListRecords&metadataPrefix=oai_dc
 objectives: Offer an infrastructure for posting preprints as an integral part of the
   research communication flow.
 open_doar_id:
@@ -72,7 +72,7 @@ ownership_type: Research infrastructure program
 pid: URL only, single DOI retained for all versions
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes : All content is preserved using Archivematica'
-platform:
+platform: Open Preprints System
 platform_languages: English, Spanish and Portuguese
 preservation_policy: 'The preservation flow is: -creating a webarchiving file in WARC
   format every week; -The files are saved in datasets in Dataverse. - Once we saving
@@ -80,7 +80,7 @@ preservation_policy: 'The preservation flow is: -creating a webarchiving file in
   Information Package) are saved in AWS S3 (AWS guarantee the files are saved in 3
   different locations).'
 preservation_policy_binary: true
-record_count: 'Full text : 13 713'
+record_count: 'Full text : 1 940'
 remining_indrawn_item: The metadata and the reason for retraction remain on the server;
 repository_type: Multidisciplinary international cooperation program
 scientific_committees: "Yes : includes researchers.\n\n"
@@ -90,8 +90,8 @@ short_name:
 status: open
 terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
-time_submission_to_posting: A few days
-repository_url: https://preprints.scielo.org/index.php/scielo
+time_submission_to_posting: 4 days (average)
+repository_url: https://preprints.scielo.org/
 user_committees: |-
   Yes : board of moderators is composed by Editor-in-Chiefs of the SciELO journals or someone appointed by them..
 
@@ -133,6 +133,9 @@ features:
   description:
 - function: indexing
   service: crossref
+  description:
+- function: indexing
+  service: europe-pmc
   description:
 countries:
 - brazil

@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: techrxiv
 title: TechRxiv
@@ -8,7 +8,7 @@ description: TechRxiv (pronounced "tech archive") is an open, moderated preprint
   technology.
 academic_applicant_only: 'Yes'
 accepted_content_formats: All but PDF Preferred for papers
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Preprints
 accepted_supplementary_content: Supplementary data can be associated on the same page
@@ -64,7 +64,7 @@ ownership_type: Scientific society
 pid: DOI
 peer_review_status: 'No'
 persistence_of_content:
-platform:
+platform: Figshare (Digital Science) preprint framework
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

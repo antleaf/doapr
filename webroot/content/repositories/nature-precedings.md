@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: nature-precedings
 title: Nature Precedings
@@ -9,7 +9,7 @@ description: 'Nature Precedings functioned as a permanent, citable archive for p
   findings, and non-peer-reviewed manuscripts. '
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Papers, Conference and Workshop Papers, Reports and Working
   Papers, Preprints
@@ -59,7 +59,7 @@ ownership_type: Publishing organisation (publisher)
 pid: DOI
 peer_review_status: 'No'
 persistence_of_content:
-platform:
+platform: Custom Nature software
 platform_languages: English
 preservation_policy: The content is kept by Nature to be visible
 preservation_policy_binary: true

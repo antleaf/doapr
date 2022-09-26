@@ -1,8 +1,8 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 title: For Profit
-repo_count: 12
+repo_count: 13
 repositories:
 - advance-sage-preprint
 - authorea
@@ -14,6 +14,7 @@ repositories:
 - peerj-preprints
 - preprints-with-the-lancet
 - research-square
+- scienceopen
 - ssrn
 - therapoid
 ---

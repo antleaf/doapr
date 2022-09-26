@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: biorxiv
 title: bioRxiv
@@ -7,7 +7,7 @@ description: bioRxiv (pronounced "bio-archive") is a free online archive and dis
   service for unpublished preprints in the life sciences.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, Word doc, WordPerfect
-accepted_content_language: Only English
+accepted_content_languages: Only English
 accepted_content_level: Primary Research only
 accepted_content_types: 'Research manuscripts only ( white papers accepted in Scientific
   Communication and Education category only; types not accepted are: datasets, theses,
@@ -64,7 +64,8 @@ ownership_type: Academic institution
 pid: DOI, single DOI retained but new versions have distinct URLs
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes : All bioRxiv papers are archived at Portico.'
-platform:
+platform: Highwire Preprint & BenchPress (proprietary software with some open source
+  components)
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

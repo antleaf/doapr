@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: econstor
 title: ECONSTOR
@@ -7,7 +7,7 @@ description: EconStor can help you to disseminate your publications in Economics
   Business Studies visibly and effectively.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English, German and other languages by exception
+accepted_content_languages: English, German and other languages by exception
 accepted_content_level: Research only
 accepted_content_types: Article, Book Chapter, Working Paper/Preprint, Conference
   Paper, Doctoral Thesis, Book, Research Report, Proceedings, Book Review
@@ -64,7 +64,7 @@ peer_review_status: 'No'
 persistence_of_content: The long-term preservation of digital documents is guaranteed
   within the framework of the Goportis cooperation with the TIB (Hanover) and ZBMED
   (Cologne/Bonn).
-platform:
+platform: Dspace 5
 platform_languages: English and German
 preservation_policy: Long-term preservation is ensured
 preservation_policy_binary: true

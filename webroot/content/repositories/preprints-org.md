@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: preprints-org
 title: Preprints.org
@@ -7,7 +7,7 @@ description: Preprints is a platform dedicated to making early versions of resea
   outputs permanently available and citable.
 academic_applicant_only: 'Yes'
 accepted_content_formats: Word doc, LaTeX
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Journal Article, Reviews, Data articles, Case Reports, Preprints
 accepted_supplementary_content: The graphic should be provided as a JPG, PNG or GIF
@@ -64,7 +64,7 @@ ownership_type: Publishing organisation (publisher)
 pid: DOI
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes : Preprints permanently archived in Portico'
-platform:
+platform: Custom software
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

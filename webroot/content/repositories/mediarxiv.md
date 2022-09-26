@@ -1,12 +1,12 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: mediarxiv
 title: MediArXiv
 description: Open Archive for Media, Film, and Communication Studies.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, Word doc
-accepted_content_language: Any language (but Papers submitted in non-English languages
+accepted_content_languages: Any language (but Papers submitted in non-English languages
   will be held in the moderation queue until we can get them verified)
 accepted_content_level: Research and scholary content
 accepted_content_types: Working papers, preprints, accepted manuscripts (post-prints),
@@ -61,7 +61,7 @@ ownership_type: Individual or community
 pid: DOI, single DOI retained for all versions
 peer_review_status: 'No'
 persistence_of_content: COS Preservation Fund to maintain read access for 50+ years
-platform:
+platform: Open Science Framework
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

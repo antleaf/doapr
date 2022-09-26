@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: crimrxiv
 title: CrimRxiv
@@ -9,7 +9,7 @@ academic_applicant_only: 'No'
 accepted_content_formats: 'For the text editor you can import those formats : .docx,
   .epub, .html, .md, .odt, .txt, .xml, or .tex. Or you can import Word or PDF file.
   The text is displayed in HTML'
-accepted_content_language: Any language
+accepted_content_languages: Any language
 accepted_content_level: Research and scholary content
 accepted_content_types: Postprints (i.e., Author Accepted Manuscripts), Preprints,
   Working Papers, & Grey Lit.
@@ -65,7 +65,7 @@ ownership_type: Individual or community
 pid: DOI
 peer_review_status: 'Yes'
 persistence_of_content:
-platform:
+platform: Pubpub Framework
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

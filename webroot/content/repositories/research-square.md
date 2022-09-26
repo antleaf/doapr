@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: research-square
 title: Research Square
@@ -9,7 +9,7 @@ description: Research Square lets you share your work early, gain feedback from 
 academic_applicant_only: 'Yes'
 accepted_content_formats: doc, docx, RTF, Tex/LaTeX. Accepts Tex and pdf but these
   cannot yet be converted to html
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Multiple article types (including research articles, systematic
   reviews, method articles, data articles), Preprints
@@ -71,7 +71,7 @@ ownership_type: Publishing services organisation
 pid: DOI
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes : Preprints permanently archived in Portico'
-platform:
+platform: Custom software
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

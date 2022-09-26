@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: hal
 title: HAL
@@ -14,7 +14,7 @@ accepted_content_formats: tex, eps_tex, ps_tex, pstex, pdf_tex, pdf_t, pdftex, z
   aac, ac3, aif, aifc, aiff, au, bwf, mp2, mp3, M4r, ogg, ogm, ra, ram, wma, wav,
   avi, flv, mov, movie, mp4, mpe, mpeg, mpg, qt, rm, rmvb, rv, vob, wmv, m4a, c, py,
   h, m, mpl
-accepted_content_language: Any languages
+accepted_content_languages: Any languages
 accepted_content_level: Research only
 accepted_content_types: Journal articles, Preprints, Working Papers, Reports, Conference
   papers, Theses, Book sections
@@ -82,7 +82,7 @@ pid: DOI
 peer_review_status: 'No'
 persistence_of_content: 'Yes : Text files in pdf format or image files are sent to
   CINES for long-term archiving'
-platform:
+platform: HAL has developed its own technology to implement its platform
 platform_languages: English and French
 preservation_policy:
 preservation_policy_binary: false

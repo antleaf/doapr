@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: cern-document-server
 title: CERN document server
@@ -8,7 +8,7 @@ description: CERN Document Server is where you can find the Library catalogue (b
   reports, CERN Annual reports, Yellow Reports, CERN Bulletin, etc.)
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, TEX
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only from CERN
 accepted_content_types: Journal Articles, Conference and Workshop Papers, Theses and
   Dissertations, Reports and Working Papers, Preprints
@@ -62,7 +62,7 @@ ownership_type: Research institute
 pid: Report number
 peer_review_status: 'No'
 persistence_of_content:
-platform:
+platform: Invenio
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

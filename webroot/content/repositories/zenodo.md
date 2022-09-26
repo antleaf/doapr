@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: zenodo
 title: Zenodo
@@ -7,7 +7,7 @@ description: Built and developed by researchers, to ensure that everyone can joi
   in Open Science.
 academic_applicant_only: 'No'
 accepted_content_formats: All but PDF Preferred for papers
-accepted_content_language: English is preferred but all languages are accepted.
+accepted_content_languages: English is preferred but all languages are accepted.
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Conference and Workshop Papers, Theses and
   Dissertations, Reports and Working Papers, Books, Chapters and Sections, Datasets,
@@ -67,7 +67,7 @@ ownership_type: Research institute
 pid: DOI
 peer_review_status: 'No'
 persistence_of_content:
-platform:
+platform: Invenio
 platform_languages: English
 preservation_policy: In case of closure of the repository, best efforts will be made
   to integrate all content into suitable alternative institutional and/or subject

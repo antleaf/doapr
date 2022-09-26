@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: osf-preprints
 title: OSF preprints
@@ -9,7 +9,7 @@ description: 'The launch of OSF Preprints branded services continues COS’s ong
   their project workflow, data storage, DOI management, and collaboration. '
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, Word doc
-accepted_content_language: Any languages
+accepted_content_languages: Any languages
 accepted_content_level: Research only
 accepted_content_types: Multiple types (including research articles, posters, new
   data), Preprints
@@ -67,7 +67,7 @@ pid: DOI
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes : COS Preservation Fund to maintain read access for 50+
   years'
-platform:
+platform: Open Science Framework
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

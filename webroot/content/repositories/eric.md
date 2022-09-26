@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: eric
 title: ERIC
@@ -7,7 +7,7 @@ description: ERIC is a comprehensive, easy-to-use, searchable, Internet-based bi
   and full-text database of education research and information.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, preferred ERIC XML format, or another XML format
-accepted_content_language: "Materials considered for inclusion in ERIC must be written
+accepted_content_languages: "Materials considered for inclusion in ERIC must be written
   in English, or a translation of the full-text\nmust be available in English. English
   presented in materials must conform to standards of English\ngrammar and understandability
   for any reader. "

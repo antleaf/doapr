@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: advance-sage-preprint
 title: Advance (Sage preprint)
@@ -8,7 +8,7 @@ description: 'Advance: a SAGE preprints community allows researchers within the 
 academic_applicant_only: 'Yes'
 accepted_content_formats: Word doc and PDF but if interested in using our submit to
   a journal feature, it will need to be a word doc
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Original research, literature reviews, commentaries, and case
   studies
@@ -70,7 +70,7 @@ ownership_type: Publishing organisation (publisher)
 pid: DOI
 peer_review_status: 'Yes'
 persistence_of_content:
-platform:
+platform: Figshare (Digital Science) preprint framework
 platform_languages: English
 preservation_policy: Not currently, but we are actively looking into this
 preservation_policy_binary: false

@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: ssoar
 title: SSOAR
@@ -9,7 +9,7 @@ description: The full-text server SSOAR, which is maintained at GESIS – Leibni
   the Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF
-accepted_content_language: English, German (Publications in other languages are made
+accepted_content_languages: English, German (Publications in other languages are made
   on request on a case-by-case basis)
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Books, Chapters and Sections, Preprints,
@@ -84,7 +84,7 @@ pid: |-
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes : GESIS guarantees that content published on SSOAR will
   be archived for at least five years.'
-platform:
+platform: Dspace
 platform_languages: English and German
 preservation_policy: 'Yes: digital preservation via German  National Library'
 preservation_policy_binary: true

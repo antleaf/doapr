@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: agecon-search
 title: AgEcon Search
@@ -9,7 +9,7 @@ description: 'AgEcon Search is a free-to-user Web site that contains the full te
   economics. '
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF; supplemental files may be in XLS, DOC, TXT, etc.
-accepted_content_language: Any languages, title in english is required and abstract
+accepted_content_languages: Any languages, title in english is required and abstract
   in english only if available
 accepted_content_level: Research only
 accepted_content_types: Conference papers and posters, Working papers and reports,
@@ -75,7 +75,7 @@ peer_review_status: 'No'
 persistence_of_content: 'Yes : AgEcon Search is committed to providing long-term access
   to the digital works it contains, and adheres to digital preservation best practices
   to ensure data accessibility, fixity, and usability in perpetuity'
-platform:
+platform: TIND IR (https://info.tind.io/IR)
 platform_languages: Advanced Search available in French (effective July 2021) with
   all six UK languages to be added.
 preservation_policy: 'Yes : Content is backed up by TIND and also locally at the University

@@ -1,12 +1,12 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: cell-press-sneak-peek
 title: Cell Press Sneak peek
 description: Manuscript under review in Cell Press journals
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Content criteria as directed by associated journal(s) (Cell
   Press portfolio), Preprints

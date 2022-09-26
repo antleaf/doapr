@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: f1000-research
 title: F1000 Research
@@ -8,7 +8,7 @@ description: An open access publishing platform supporting data deposition and s
   your reviewers openly and transparently. Accelerate the impact of your research.
 academic_applicant_only: 'No'
 accepted_content_formats: Word doc, RTF, LaTeX via Overleaf only
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research and Clinical trials. Any scholarly content (including
   articles, posters and slides; primary and secondary research)
 accepted_content_types: Journal Articles, Faculty reviews; Data Set, Posters, Slides,
@@ -69,7 +69,7 @@ ownership_type: Publishing organisation (publisher)
 pid: DOI, each version receives its own DOI and own non-DOI citable identifier
 peer_review_status: 'Yes'
 persistence_of_content: Preprints permanently archived in Portico
-platform:
+platform: Custom F1000 software
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

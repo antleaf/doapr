@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: socarxiv
 title: SocArxiv
@@ -8,7 +8,7 @@ description: SocArXiv, open archive of the social sciences, provides a free, non
   and published papers, with the option to link data and code.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, Word doc
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Research manuscripts only (Working papers, Preprint and Postprint)
 accepted_supplementary_content: Any file you add to the project is given a unique,
@@ -68,7 +68,7 @@ pid: DOI, single DOI retained for all versions
 peer_review_status: 'No'
 persistence_of_content: 'Yes : COS Preservation Fund to maintain read access for 50+
   years'
-platform:
+platform: Open Science Framework
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

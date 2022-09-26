@@ -1,12 +1,12 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: mitofit-preprints-archive
 title: MitoFit Preprints Archive
 description: The Open Access preprint server for mitochondrial physiology and bioenergetics
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF (abstract to be submitted as Word doc)
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Any scholarly content (primary and secondary research)
 accepted_content_types: |-
   Preprints: experimental, technical or theoretical communications (including commentaries and perspectives), methods sections with application examples, prior to full manuscript submission, reviews (including mini-reviews, reviews with meta-analyses or monographs).
@@ -65,7 +65,7 @@ ownership_type: Life sciences tech company
 pid: DOI, each version receives its own DOI suffix
 peer_review_status: 'Yes'
 persistence_of_content: Yes, the content will be permanently available
-platform:
+platform: MediaWiki
 platform_languages: English
 preservation_policy: 'Yes'
 preservation_policy_binary: true

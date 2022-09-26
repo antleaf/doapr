@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: dspace-mit
 title: Dspace @ MIT
@@ -10,7 +10,7 @@ accepted_content_formats: marc, mrc, ma, doc, pdf, ps, eps, ai, sgm, sgml, xls, 
   mpp, mpx, mpd, vsd, dvi, fm, latex, psd, pdd, tex, aiff, aif, aifc, au, snd, mpa,
   abs, mpeg, ra, ram, wav, gif, jpeg, jpg, png, tiff, tif, bmp, pcd, html, htm, txt,
   rtf, xml, mpeg, mpg, mpe, mv, qt, sas, SAS, SPSS, Stata, R, csv, tab
-accepted_content_language: Any language
+accepted_content_languages: Any language
 accepted_content_level: Academic / Research but also open to educators
 accepted_content_types: Journal articles, theses and Dissertations, Reports and Working
   Papers, Learning Objects, Preprints, some data
@@ -70,7 +70,7 @@ peer_review_status: For items in the Open Access Articles collection, we post th
   peer reviewed and which ones aren't. Most of the content in that collection is peer
   reviewed. Other collections typically don't notify users of the peer-review status.
 persistence_of_content: 'Yes : Maintain by Dspace'
-platform:
+platform: Dspace
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

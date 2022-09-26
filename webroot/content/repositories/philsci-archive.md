@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: philsci-archive
 title: Philsci Archive
@@ -9,7 +9,7 @@ description: Welcome to PhilSci-Archive, an electronic archive specifically tail
   the field by the rapid dissemination of new work.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, Word doc, HTML, LaTeX
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Conference and Workshop Papers, Books, Chapters
   and Sections, Preprints
@@ -39,12 +39,12 @@ funding: Internal funding
 interoperability: 'No'
 journal_submission: Unrestricted
 keywords: Philosophy, archive
-last_update: 8/24/21
+last_update: 9/25/22
 launch_date: '2001'
 licensing: The archive will only post postprints published under a Creative Commons
   license.
 metadata_formats: 'Yes : Formats are available on this page'
-metadata_languages: English and German
+metadata_languages: English
 metadata_properties: Title, Author(s), Abstract, Item Type, Keywords, Subjects, Depositing
   User, Date Deposited, Last Modified, Item ID, URI
 metadata_reuse_method: Openly available via API
@@ -67,7 +67,7 @@ pid: URI
 peer_review_status: 'No'
 persistence_of_content: 'Yes : The repository will try to ensure continued readability
   and accessibility'
-platform:
+platform: EPrints
 platform_languages: English
 preservation_policy: 'No'
 preservation_policy_binary: false
@@ -109,9 +109,6 @@ features:
 - function: indexing
   service:
   description: 'Yes : Google Scholar'
-- function: commenting
-  service:
-  description: 'Yes : Commenting (including annotation plug-ins)'
 - function: metrics
   service: plumx-metrics
   description:

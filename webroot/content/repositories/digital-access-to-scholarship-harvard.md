@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: digital-access-to-scholarship-harvard
 title: Digital Access to Scholarship Harvard
@@ -10,7 +10,7 @@ description: The Office for Scholarly Communication (OSC) operates the DASH repo
   and reports.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, DOC, TXT, XLS, all audio/video formats
-accepted_content_language: 'Any language is accepted, English is the most common '
+accepted_content_languages: 'Any language is accepted, English is the most common '
 accepted_content_level: Research or scholarly works from current Harvard affiliates
 accepted_content_types: Journal Articles, Preprints, conference proceedings, dissertations,
   thesis, capstone projects, reports, working papers
@@ -69,7 +69,7 @@ pid: NRS
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes : The repository has the institution of Harvard standing
   behind it to ensure its availability, longevity, and functionality.'
-platform:
+platform: Dspace
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: rutgers-optimality-archive
 title: Rutgers Optimality Archive
@@ -7,7 +7,7 @@ description: A distribution point for research in Optimality Theory and its conc
   affiliates
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Papers, monographs, dissertations, and may extend to handouts
   and slides if these are detailed enough to allow full reconstruction of claims and

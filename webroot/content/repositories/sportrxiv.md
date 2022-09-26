@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: sportrxiv
 title: SportRxiv
@@ -7,7 +7,7 @@ description: The open access subject repository for Sport, Exercise, Performance
   and Health research.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, Word doc
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: All article types (including research manuscripts, commentaries,
   review articles, current opinions, case studies, technical reports, short communications),
@@ -69,7 +69,8 @@ ownership_type: Scientific society
 pid: DOI, single DOI retained for all versions
 peer_review_status: 'No'
 persistence_of_content: COS Preservation Fund to maintain read access for 50+ years
-platform:
+platform: Open Science Framework but they are planning to transfer their data to an
+  independent site (https://www.sportrxiv.org/index.php/server)
 platform_languages: English and German
 preservation_policy:
 preservation_policy_binary: false

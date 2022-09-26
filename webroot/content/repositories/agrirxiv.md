@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: agrirxiv
 title: AgriRxiv
@@ -7,7 +7,7 @@ description: agriRxiv (pronounced ‘agri-archive’) is a free, open access sou
   unpublished preprints across the agricultural sciences.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: Any language (including Arabic, English, French, Indonesian)
+accepted_content_languages: Any language (including Arabic, English, French, Indonesian)
 accepted_content_level: Research articles, case studies, systematic reviews
 accepted_content_types: Research articles, case studies, systematic reviews
 accepted_supplementary_content: Authors should upload a single PDF file including
@@ -35,14 +35,14 @@ certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator. Staff, volunteers
 concerns_about_plagiarism: Email support (support@agrirxiv.org)
-contact: contact@agrirxiv.org
+contact: support@agrirxiv.org
 disciplinary_scope: Agriculture, food, environment
 functional_description: 'Yes guidance is supplied in the About section : https://agrirxiv.org/about/'
 funding: Supported by CABI
 interoperability: 'No'
 journal_submission: Unrestricted
 keywords: Agriculture, food, environment
-last_update: 6/30/21
+last_update: 9/25/22
 launch_date: '2017'
 licensing: 'Authors are provided with a choice of licenses: CC0 1.0 Universal, CC
   BY Attribution 4.0 International'
@@ -68,7 +68,7 @@ ownership_type: International, inter-governmental, organization
 pid: DOI, single DOI retained for all versions
 peer_review_status: 'Yes'
 persistence_of_content: CABI commits to preserving availability of the content
-platform:
+platform: Custom CABI Framework
 platform_languages: English
 preservation_policy: CABI commits to preserving availability of the content
 preservation_policy_binary: true

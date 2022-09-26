@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: marxiv
 title: MarXiv
@@ -7,7 +7,7 @@ description: MarXiv (rhymes with "archive") is the free repository for ocean and
   research.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF
-accepted_content_language: Any language
+accepted_content_languages: Any language
 accepted_content_level: Research and scholary content
 accepted_content_types: Journal Articles, Preprints
 accepted_supplementary_content: All formats are allowed - even preservation unfriendly.
@@ -67,7 +67,7 @@ ownership_type: Ocean conservation nonprofit group
 pid: DOI, single DOI retained for all versions
 peer_review_status: 'Yes'
 persistence_of_content:
-platform:
+platform: Custom Zenodo Software
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

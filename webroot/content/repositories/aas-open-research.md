@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: aas-open-research
 title: AAS Open Research
@@ -8,8 +8,8 @@ description: AAS Open Research is a platform for rapid publication and open peer
   platform, AESA.
 academic_applicant_only: 'Yes'
 accepted_content_formats: Word Doc, RTF
-accepted_content_language: English (articles); Accepts posters and slides in all languages
-  (metadata and description must be in English)
+accepted_content_languages: English (articles); Accepts posters and slides in all
+  languages (metadata and description must be in English)
 accepted_content_level: Research only
 accepted_content_types: All article types (primary and scecondary research), posters
   and slides, Preprints
@@ -74,7 +74,7 @@ ownership_type: Funding organisation (funder)
 pid: DOI, each version receives its own DOI and own non-DOI citable identifier
 peer_review_status: 'Yes'
 persistence_of_content: Preprints permanently archived in Portico
-platform:
+platform: Custom F1000 software
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

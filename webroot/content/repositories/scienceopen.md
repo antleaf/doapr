@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: scienceopen
 title: ScienceOpen
@@ -9,8 +9,8 @@ description: 'ScienceOpen is a discovery platform with interactive features for 
   to the content than ever before. '
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: Any language (but English language abstract and title should
-  be provided )
+accepted_content_languages: Any language (but English language abstract and title
+  should be provided )
 accepted_content_level: Research only
 accepted_content_types: Journal articles, Preprints
 accepted_supplementary_content: You may deposit data with your preprint
@@ -27,7 +27,7 @@ availability_of_associated_content: We are currently seeing how we can work with
   organisations (e.g., Figshare, Zenodo) to increase the diversity of content types
   available on ScienceOpen.
 backups:
-business_model: non-profit
+business_model: for-profit
 certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
@@ -39,10 +39,10 @@ funding: Internal funding
 interoperability: 'No'
 journal_submission: Unrestricted
 keywords: Science Open, Repository
-last_update: 6/23/21
+last_update: 9/25/22
 launch_date: '2013'
 licensing: Authors must use CC BY 4.0 attribution license
-metadata_formats: 'No'
+metadata_formats: JATS XML
 metadata_languages: English
 metadata_properties: Title, Author(s), Publication date , Publisher, Abstract, Identifier,
   Copyright statement, Data availability
@@ -58,12 +58,12 @@ owner_full_name: ScienceOpen
 owner_short_name:
 owner_url: https://www.scienceopen.com/
 ownership_type:
-pid: DOI
-peer_review_status: 'No'
+pid: DOI Crossref
+peer_review_status: 'Yes'
 persistence_of_content:
-platform:
+platform: Custom Framework
 platform_languages: English
-preservation_policy:
+preservation_policy: CLOCKSS
 preservation_policy_binary: false
 record_count: 'Full text : 2 140'
 remining_indrawn_item:

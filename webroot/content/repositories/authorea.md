@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: authorea
 title: Authorea
@@ -7,7 +7,7 @@ description: Authorea is the leading collaborative platform to read, write, and 
   research.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, Word doc, LaTex, HTML
-accepted_content_language: Any Languages
+accepted_content_languages: Any Languages
 accepted_content_level: Academic / Research but also open to educators
 accepted_content_types: Articles, data sets, code, figures, tables, slides, micropublications,
   and Jupyter Notebooks, Preprints
@@ -72,7 +72,7 @@ ownership_type: Publishing organisation (publisher)
 pid: DOI
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes : Preprints permanently archived in Portico'
-platform:
+platform: Custom Authorea software, Proprietary software with some open source components
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

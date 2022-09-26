@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: eartharxiv
 title: EarthArXiv
@@ -8,7 +8,7 @@ description: EarthArXiv has officially agreed to partner with the California Dig
   platform using a system called Janeway (developed at Birkbeck, University of London).
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Multiple article types (including research manuscripts, review
   papers, case studies, technical notes, dataset description papers), Preprints
@@ -69,7 +69,7 @@ pid: DOI, single DOI retained for all versions
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes: content is preserved in the University of California''s
   Merritt repository <https://merritt.cdlib.org/>'
-platform:
+platform: 'Platform: Janeway Host: California Digital Library'
 platform_languages: English
 preservation_policy: 'Yes'
 preservation_policy_binary: true

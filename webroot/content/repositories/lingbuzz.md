@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: lingbuzz
 title: LingBuzz
@@ -7,7 +7,7 @@ description: Welcome to LingBuzz, an article archive and a community space for L
   You are highly encouraged to upload your articles - old and new, published or not.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Preprints
 accepted_supplementary_content:
@@ -54,7 +54,8 @@ ownership_type: Academic institution
 pid: None
 peer_review_status: 'No'
 persistence_of_content:
-platform:
+platform: This site is maintained by Michal Starke, who is also the author the software
+  running this site.
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

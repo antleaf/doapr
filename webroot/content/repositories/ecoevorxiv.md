@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: ecoevorxiv
 title: EcoEvoRxiv
@@ -7,7 +7,7 @@ description: Information about a free preprint service for ecology, evolution an
   conservation.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Primary and secondary research
 accepted_content_types: Journal Articles, Conference and Workshop Papers, review papers,
   Preprints
@@ -64,7 +64,7 @@ pid: DOI, single DOI retained for all versions
 peer_review_status: 'No'
 persistence_of_content: 'Yes : COS Preservation Fund to maintain read access for 50+
   years'
-platform:
+platform: Open Science Framework
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

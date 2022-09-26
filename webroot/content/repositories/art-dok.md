@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: art-dok
 title: ART-Dok
@@ -9,7 +9,7 @@ description: ART-Dok is the full-text server of the Specialised Information Serv
   to publish their texts in electronic format on the internet at no charge.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, PostScript or HTML
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research or scholary content
 accepted_content_types: Master's theses, theses, dissertations and theses, Grey literature
   (e.g. manuals, reports, research reports, teaching material), Articles, books, festschrifts,
@@ -63,7 +63,7 @@ pid: DOI OR URN
 peer_review_status: 'No'
 persistence_of_content: 'Yes : Efforts will be undertaken to store documents permanently,
   currently a limited warranty of 5 years is guaranteed'
-platform:
+platform: Eprints
 platform_languages: English and German
 preservation_policy:
 preservation_policy_binary: false

@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: mathematical-physics-preprint-archive
 title: Mathematical Physics Preprint Archive
@@ -7,7 +7,7 @@ description: mp_arc is an electronic archive for research papers in Mathematical
   and related areas.
 academic_applicant_only: 'No'
 accepted_content_formats: HTML, PDF, Postscript
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research and academic content
 accepted_content_types: Journal articles, Preprints
 accepted_supplementary_content: 'No'

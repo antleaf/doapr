@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: gates-open-research
 title: Gates Open Research
@@ -7,8 +7,8 @@ description: Gates Open Research is a platform for rapid author-led publication 
   open peer review of research funded by the Bill & Melinda Gates Foundation
 academic_applicant_only: 'Yes'
 accepted_content_formats: Word doc, RTF
-accepted_content_language: English (articles); Accepts posters and slides in all languages
-  (metadata and description must be in English)
+accepted_content_languages: English (articles); Accepts posters and slides in all
+  languages (metadata and description must be in English)
 accepted_content_level: Primary and secondary research
 accepted_content_types: Journal articles, Preprints
 accepted_supplementary_content:
@@ -63,7 +63,7 @@ ownership_type: Funding organisation (funder)
 pid: DOI, each version receives its own DOI and own non-DOI citable identifier
 peer_review_status: 'Yes'
 persistence_of_content: Preprints permanently archived in Portico
-platform:
+platform: Custom F1000 software
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

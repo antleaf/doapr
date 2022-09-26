@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: lse-research-online
 title: LSE Research Online
@@ -7,7 +7,7 @@ description: Welcome to LSE Research Online, the institutional repository for th
   London School of Economics and Political Science.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English predominantly, though content in other languages
+accepted_content_languages: English predominantly, though content in other languages
   will be accepted if published by LSE staff/students
 accepted_content_level: Research from LSE affiliated staff and students
 accepted_content_types: Journal articles, Working Papers, Datasets, Books, Book Chapters,
@@ -52,7 +52,7 @@ interoperability: OAI-PMH, API, RSS feeds, Open metadata formats - BibTex, XML, 
 journal_submission: Unrestricted
 keywords: London School of Economics, LSERO, institutional repository, LSE Library,
   social science, SHAPE, open access
-last_update: 7/21/21
+last_update: 9/25/22
 launch_date: '2004'
 licensing: |-
   By depositing your work in LSE Research Online, you (the author(s), copyright owner or assignee), grant a non-exclusive licence to the LSE on behalf of the British Library of Political and Economic Science for the duration of applicable copyright
@@ -78,7 +78,7 @@ objectives: |-
    - be a reliable source of information on LSE research for all audiences
    - preserve research for posterity
    - openly share its information with internal and external services
-open_doar_id: X
+open_doar_id: '206'
 open_source: https://wiki.eprints.org/w/Main_Page
 owner_full_name: The British Library of Political and Economic Science
 owner_short_name: LSE
@@ -87,7 +87,7 @@ ownership_type: Academic institution
 pid: DOI and URL
 peer_review_status: 'Yes'
 persistence_of_content: N/A
-platform:
+platform: Eprints
 platform_languages: English
 preservation_policy: 'No'
 preservation_policy_binary: false
@@ -132,6 +132,9 @@ features:
 - function: metrics
   service: altmetric
   description:
+- function: metrics
+  service:
+  description: https://irus.jisc.ac.uk/r5/
 - function: indexing
   service: google-scholar
   description:

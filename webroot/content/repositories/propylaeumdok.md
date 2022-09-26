@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: propylaeumdok
 title: PropylaeumDok
@@ -11,7 +11,7 @@ description: Propylaeum-DOK - Digital Repository Classical Studies is the full-t
   the fields of Classical Studies can be stored on "Propylaeum-DOK".
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English and German
+accepted_content_languages: English and German
 accepted_content_level:
 accepted_content_types: Journal Articles, Theses and Dissertations, Books, Chapters
   and Sections, Preprints
@@ -63,7 +63,7 @@ ownership_type: Academic institution
 pid: DOI or URN
 peer_review_status: 'No'
 persistence_of_content:
-platform:
+platform: Eprints
 platform_languages: English and German
 preservation_policy:
 preservation_policy_binary: false

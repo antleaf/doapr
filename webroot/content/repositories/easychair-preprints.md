@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: easychair-preprints
 title: EasyChair preprints
@@ -7,7 +7,7 @@ description: EasyChair Preprints allow our users to publish preprints using the 
   environment.
 academic_applicant_only: 'Yes'
 accepted_content_formats: LaTeX, Word Doc
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Journal articles, Preprints, Poster and Presentations
 accepted_supplementary_content: 'No'
@@ -57,7 +57,7 @@ ownership_type: Tech company
 pid: 'No'
 peer_review_status: 'No'
 persistence_of_content:
-platform:
+platform: Custom EasyChair Framework
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: cogprints
 title: Cogprints
@@ -10,7 +10,7 @@ description: Welcome to CogPrints, an electronic archive for self-archive papers
   of cognition.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, HTML
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Conference and Workshop Papers, Theses and
   Dissertations, Reports and Working Papers, Books, Chapters and Sections, Preprints
@@ -64,7 +64,7 @@ ownership_type: Academic institution
 pid: 'No'
 peer_review_status: 'No'
 persistence_of_content:
-platform:
+platform: Eprints
 platform_languages: English
 preservation_policy: Already closed, Universty of Southampton is hosting all data
 preservation_policy_binary: true

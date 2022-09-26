@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: e-lis
 title: E-lis
@@ -7,7 +7,7 @@ description: Established in 2003, e-LIS is an international digital repository f
   Library and Information Science (LIS), including Communication.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, HTML, doc, ppt, xls, txt (but PDF and HTML are preferred)
-accepted_content_language: Any language - abstracts and keywords must be included
+accepted_content_languages: Any language - abstracts and keywords must be included
   in English
 accepted_content_level: Research or scholary content
 accepted_content_types: Journal Articles, Bibliographic References, Conference and
@@ -69,7 +69,7 @@ ownership_type: Team of volunteer editors
 pid: URI
 peer_review_status: 'No'
 persistence_of_content:
-platform:
+platform: Eprints
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

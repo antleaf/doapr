@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: munich-personal-repec-archive
 title: Munich Personal RePEc Archive
@@ -7,8 +7,8 @@ description: This repository is intended to disseminate research papers of econo
   who want to make their work freely available through the RePEc network but are not
   affiliated with any institution that provides that furtherance.
 academic_applicant_only: 'Yes'
-accepted_content_formats: PDF, HTML
-accepted_content_language: Any languages
+accepted_content_formats: PDF
+accepted_content_languages: Any languages
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Preprints
 accepted_supplementary_content:
@@ -35,8 +35,8 @@ funding: Internal (Munich University)
 interoperability: 'No'
 journal_submission: Unrestricted
 keywords: Economics, Business
-last_update: 5/7/21
-launch_date: '2007'
+last_update: 9/25/22
+launch_date: '2006'
 licensing:
 metadata_formats: Yes, Dublin Core
 metadata_languages: English
@@ -59,13 +59,13 @@ ownership_type: Academic institution
 pid: URI
 peer_review_status: 'Yes'
 persistence_of_content:
-platform:
+platform: Eprints
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false
 record_count: 'Full text : 52 042'
 remining_indrawn_item: MPRA refuse to remove submissions from the archive
-repository_type: Institutional
+repository_type: Disciplinary
 scientific_committees:
 scientific_committees_binary: false
 service_pricing: None

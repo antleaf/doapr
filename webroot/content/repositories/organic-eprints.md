@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: organic-eprints
 title: Organic Eprints
@@ -7,13 +7,17 @@ description: |2-
 
   Organic Eprints is an international open access archive for papers and projects related to research in organic food and farming. The archive contains full-text papers in electronic form together with bibliographic information, abstracts and other metadata.
 academic_applicant_only: 'Yes'
-accepted_content_formats: PDF, Word Doc
-accepted_content_language: Any language ( encourage adding an English abstract if
+accepted_content_formats: PDF,HTML, PostScript, ASCII, RTF, Microsoft Word/Excel/Power
+  Point, Image/Video/Audio (many types), XML, N3, RDF/XML, Archive (several types),
+  Other
+accepted_content_languages: Any language ( encourage adding an English abstract if
   the abstract is in another language than English)
 accepted_content_level: Research only
-accepted_content_types: Journal Articles, Bibliographic References, Conference and
-  Workshop Papers, Reports and Working Papers, Books, Chapters and Sections, Learning
-  Objects
+accepted_content_types: Journal Articles,Newspaper or magazine article, Conference
+  and Workshop Papers and Proceedings, Descriptions of Research programmes and projects,
+  organizations and research facilities, Reports and Working Papers, Books, Chapters
+  and Sections, Learning Objects, Data sets, Practice tools, Web, video, audio and
+  image products
 accepted_supplementary_content: Your paper may include all of your tables and figures,
   or you can choose to upload them as separate files.
 access_to_content: Anyone may access full items free of charge
@@ -21,10 +25,10 @@ access_to_content_binary: true
 access_to_metadata: Anyone may access the metadata free of charge
 access_to_metadata_binary: true
 accessibility_conflict_interest_procedures:
-account_creation: Only needed for submission
+account_creation: Only needed for submission and saving searches
 associated_editor: 'No'
 associated_journal: 'No'
-author_pid: 'No'
+author_pid: ORCID
 availability_of_associated_content: Additional data and supplementary materials can
   also be uploaded alongside your paper.
 backups: The repository regularly backs up its file according to current best practices
@@ -40,14 +44,14 @@ funding: Internal funding
 interoperability: 'No'
 journal_submission: Unrestricted
 keywords: 'Agriculture, Organic Food, Farming, Eprints, '
-last_update: 6/24/21
+last_update: 9/25/22
 launch_date: '2002'
 licensing: This repository allows Creative Commons licenses
 metadata_formats: 'Yes : Formats are available on this page'
 metadata_languages: English
-metadata_properties: Title, Author(s), Summary, Eprint Type, Keywords, Subjects, Research
-  affiliation, Deposited By, ID Code, Deposited On, Last Modified, Document Language,
-  Status
+metadata_properties: |-
+  Title, Author(s), Summary, Eprint Type, Keywords, Subjects, Research affiliation, Deposited By, ID Code, Deposited On, Last Modified, Document Language, Status
+  Title translation, Summary translation, AGROVOC keywords, Date (of publication/submission/completion), Refereed, Title of publication, Edition, Chapter, Conference, Conference date, Conference location, Volume, Issue, Series name, Series number, Publisher, Place of publication, Institution, Department, Page range, Online at, Date accessed on, ISSN, ISBN, DOI, Media of output, Content type, Format type, Visible to (restricted access or embargo or no restrictions), Embargo expiry date, License, Horizon Europe/Horizon 2020 project, HE/H2020 GA number (openAire)
 metadata_reuse_method: Openly available via API
 metadata_reuse_permission: The OAI Identifier and/or a link to the original metadata
   must be given.
@@ -59,7 +63,7 @@ oai_pmh_url: http://orgprints.org/cgi/oai2
 objectives: 'The main objectives of Organic Eprints are: to facilitate the communication
   about organic research, to improve the dissemination and impact of research findings,
   and to document the research effort.'
-open_doar_id: X
+open_doar_id: '245'
 open_source: 'Yes'
 owner_full_name: International Centre for Research in Organic Food Systems
 owner_short_name: ICROFS
@@ -68,11 +72,11 @@ ownership_type: Research infrastructure
 pid: ID Code or URL
 peer_review_status: 'Yes'
 persistence_of_content:
-platform:
+platform: Eprints
 platform_languages: English and German
 preservation_policy: Items will be retained indefinitely
 preservation_policy_binary: true
-record_count: 'Full text : 17 713'
+record_count: 'Full text : 21 871'
 remining_indrawn_item: Withdrawn items are not deleted, but are removed from public
   view
 repository_type: Disciplinary

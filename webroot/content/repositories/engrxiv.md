@@ -1,12 +1,12 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: engrxiv
 title: engrxiv
 description: The open archive of engineering
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, Word doc, LaTeX
-accepted_content_language: Any language - English preferred, title and abstract must
+accepted_content_languages: Any language - English preferred, title and abstract must
   be in English, nonEnglish translations can be submitted as versions
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Preprints
@@ -32,15 +32,13 @@ contact: info@engrxiv.org.
 disciplinary_scope: Civil Engineering, Computers and IT, Electrical and Electronic
   Engineering, Mechanical Engineering and Materials
 functional_description: 'No'
-funding: Community operators pay a fee based on usage and COS subsidizes the other
-  portion through fundraised support
+funding: Institutional and individual donations
 interoperability:
 journal_submission: Unrestricted
-keywords: Engineering, IT, Computers, OSF
-last_update: 5/31/21
+keywords: Engineering, IT, Computers
+last_update: 9/25/22
 launch_date: Jul-16
-licensing: 'Authors are provided with a choice of licenses:  CC BY, CC BY-SA, CC BY-NC-SA,
-  or CC0'
+licensing: CC BY
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Identifier (e.g. DOI), Publication/deposition date, Author
@@ -48,14 +46,12 @@ metadata_properties: Title, Identifier (e.g. DOI), Publication/deposition date, 
   metadata), License type(s), Subject category
 metadata_reuse_method: Openly available via API
 metadata_reuse_permission:
-moderation: 'Beforehand : Akismet spam filtering (automatic on all OSF content), Content
-  within scope , Legal compliance, Conflict of Interest, Data, code availability,
-  Preregistration availability, All authors consent to posting'
+moderation: 'Beforehand : Content within scope , Legal compliance'
 oai_pmh_url:
-objectives: Engineering Archive is partnered with the Center for Open Science to build
-  a free, open access, open source archive for engineering research and design. The
-  initiative responds to growing recognition of the need for faster, open sharing
-  of research and design on a truly open access platform for all engineering disciplines.
+objectives: Engineering Archive is partnered with the Public Knowledge Project to
+  build a free, open access, open source archive for engineering research and design.
+  The initiative responds to growing recognition of the need for faster, open sharing
+  of research and design on a truly open access platform for all engineering disciplines
 open_doar_id: X
 open_source: 'Yes'
 owner_full_name: Open Engineering Inc
@@ -64,13 +60,12 @@ owner_url: https://www.openengr.com
 ownership_type: Open access scientific journal
 pid: DOI, single DOI retained for all versions
 peer_review_status: 'Yes'
-persistence_of_content: 'Yes : COS Preservation Fund to maintain read access for 50+
-  years'
-platform:
+persistence_of_content: 'No'
+platform: Open Science Framework
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false
-record_count: 'Full text : 1 721'
+record_count: 'Full text : 2 398'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
 scientific_committees: "Yes : engrXiv is directed by a steering committee of engineers.\n\n"
@@ -98,9 +93,6 @@ features:
 - function: indexing
   service:
   description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
-- function: commenting
-  service:
-  description: 'Yes : Commenting (including annotation plug-ins)'
 - function: endorsement
   service:
   description: Yes, via Plaudit

@@ -1,12 +1,12 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: apsa-preprints
 title: APSA Preprints
 description: Early research outputs in political science and related disciplines
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF and PowerPoint
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Unpublished content—including working/conference papers, presentations,
   and posters, Preprints
@@ -71,7 +71,7 @@ ownership_type: Professional association and Academic institution
 pid: DOI
 peer_review_status: 'Yes'
 persistence_of_content: See above
-platform:
+platform: Cambridge Open Engage
 platform_languages: English
 preservation_policy: We plan to work with a preservation service to ensure that all
   content is preserved in perpetuity in the event that the platform closes.

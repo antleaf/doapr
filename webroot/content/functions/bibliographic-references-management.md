@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 title: Bibliographic References Management
 short_label: Bibliographic

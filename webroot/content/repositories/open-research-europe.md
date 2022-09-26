@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: open-research-europe
 title: Open Research Europe
@@ -10,7 +10,7 @@ description: Open Research Europe is an open access publishing platform for the 
   and insights rapidly and facilitate open, constructive research discussion.
 academic_applicant_only: 'Yes'
 accepted_content_formats: Word Doc, RTF
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Journal articles, Preprints
 accepted_supplementary_content: 'Supplementary data must be deposited in an approved
@@ -74,7 +74,7 @@ ownership_type: Governmental institution
 pid: DOI, each version receives its own DOI and own non-DOI citable identifier
 peer_review_status: 'Yes'
 persistence_of_content: Preprints permanently archived in Portico
-platform:
+platform: Custom F1000 software
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

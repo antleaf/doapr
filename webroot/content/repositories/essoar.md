@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: essoar
 title: ESSOAr
@@ -10,7 +10,7 @@ description: The Earth and Space Science Open Archive (ESSOAr) is a community se
   of scholarly societies.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF; Word and Latex are converted to PDF at upload
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research or scholary content
 accepted_content_types: Preprint and Scholarly content (including manuscripts, posters,
   presentations, and society materials like announcements and white papers)
@@ -75,7 +75,7 @@ pid: DOI, each version receives its own DOI suffix (Each new version will retain
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes : On roadmap: preprints to be permanently archived in
   Portico'
-platform:
+platform: Atypon/Literatum
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

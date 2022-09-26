@@ -1,12 +1,12 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: biohackrxiv
 title: biohackrxiv
 description: Preprints for BioHackathons
 academic_applicant_only: 'No'
 accepted_content_formats: PDF
-accepted_content_language: English (American or British spelling are accepted but
+accepted_content_languages: English (American or British spelling are accepted but
   do not mix them up)
 accepted_content_level: 'Documents from current list of eligible events : NBDC/DBCLS
   BioHackathon 2019, ELIXIR BioHackathon Europe 2019, Covid-19 Virtual BioHackathon
@@ -65,7 +65,7 @@ ownership_type: Individual or community
 pid: DOI, single DOI retained for all versions
 peer_review_status: 'No'
 persistence_of_content: COS Preservation Fund to maintain read access for 50+ years
-platform:
+platform: Open Science Framework
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

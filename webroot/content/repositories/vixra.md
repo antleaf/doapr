@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: vixra
 title: ViXra
@@ -7,7 +7,7 @@ description: An alternative archive of 36951 e-prints in Science, Mathematics & 
   Scholarly Areas serving the whole scientific community
 academic_applicant_only: 'No'
 accepted_content_formats: PDF
-accepted_content_language: Any languages, however English is preferred
+accepted_content_languages: Any languages, however English is preferred
 accepted_content_level: 'Quite wide : All researchers and scholars, both formally
   trained and self-taught, can submit to viXra. Many authors who submit to viXra are
   independent researchers who have no current affiliations to a research institution.
@@ -67,7 +67,7 @@ pid: viXra ID
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes : Long-term archiving provided by mirror site and cloud
   storage of database'
-platform:
+platform: Custom viXra software with services from formsite.com and disqus.com
 platform_languages: English
 preservation_policy: 'Yes : Mirror Site (rxiv.org)'
 preservation_policy_binary: true

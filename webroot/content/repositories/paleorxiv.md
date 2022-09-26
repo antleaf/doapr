@@ -1,12 +1,12 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: paleorxiv
 title: PaleorXiv
 description: A preprint archive for Paleontology
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, LaTeX, text
-accepted_content_language: Any Languages
+accepted_content_languages: Any Languages
 accepted_content_level: Research only
 accepted_content_types: Working papers, pre-prints, accepted manuscripts (post-prints),
   and published papers
@@ -63,7 +63,7 @@ pid: DOI
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes : COS Preservation Fund to maintain read access for 50+
   years'
-platform:
+platform: Open Science Framework
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

@@ -1,12 +1,12 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: frenxiv
 title: Frenxiv
 description:
 academic_applicant_only: 'No'
 accepted_content_formats: PDF
-accepted_content_language: Multilingual
+accepted_content_languages: Multilingual
 accepted_content_level: Any scholarly content
 accepted_content_types: Journal articles, Preprints
 accepted_supplementary_content: Supplementary data can be associated (image, datasets,
@@ -67,7 +67,7 @@ ownership_type: Academic community group
 pid: DOI, single DOI retained for all versions
 peer_review_status: 'No'
 persistence_of_content: COS Preservation Fund to maintain read access for 50+ years
-platform:
+platform: Open Science Framework
 platform_languages: English
 preservation_policy: Yes. COS has a preservation fund for up to 50+ years
 preservation_policy_binary: true

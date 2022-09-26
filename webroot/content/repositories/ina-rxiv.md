@@ -1,12 +1,12 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: ina-rxiv
 title: INA-Rxiv
 description: Openness of science in Indonesia.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Preprints
 accepted_supplementary_content: Associated files (data and software) can be uploaded
@@ -59,7 +59,7 @@ pid: DOI, single DOI retained for all versions
 peer_review_status: 'No'
 persistence_of_content: 'Yes : COS Preservation Fund to maintain read access for 50+
   years'
-platform:
+platform: Open Science Framework
 platform_languages: English
 preservation_policy: The content is kept by OSF. Advisory team advises to turn to
   RINarxiv to post new content.

@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: crossasia-repository
 title: CrossAsia-Repository
@@ -9,7 +9,7 @@ description: CrossAsia-Repository, the full-text server of the Virtual Library C
   on all fields of Asian Studies free of charge and without access limitation.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, PostScript or HTML
-accepted_content_language: Preferably in German and English
+accepted_content_languages: Preferably in German and English
 accepted_content_level: Research or scholary content
 accepted_content_types: Master's theses, theses, dissertations and theses for qualification
   as university teacher, Grey literatureArticles, books, festschrifts, book chapters,
@@ -63,7 +63,7 @@ pid: DOI or URN
 peer_review_status: 'No'
 persistence_of_content: 'Yes : Efforts will be undertaken to store documents permanently,
   currently a limited warranty of 5 years is guaranteed'
-platform:
+platform: Eprints
 platform_languages: English and German
 preservation_policy:
 preservation_policy_binary: false

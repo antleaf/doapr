@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: bodoarxiv
 title: BodoArXiv
@@ -9,7 +9,7 @@ description: BodoArXiv gathers scholarly literature in medieval studies across t
   and/or behind a paywall.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, Word doc
-accepted_content_language: European languages, Arabic, Greek and Hebrew. Papers in
+accepted_content_languages: European languages, Arabic, Greek and Hebrew. Papers in
   additional languages will be held in the moderation queue until we can get them
   read.
 accepted_content_level: Research and scholary content
@@ -65,7 +65,7 @@ ownership_type: Individual or community
 pid: DOI, single DOI retained for all versions
 peer_review_status: 'No'
 persistence_of_content: COS Preservation Fund to maintain read access for 50+ years
-platform:
+platform: Open Science Framework
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

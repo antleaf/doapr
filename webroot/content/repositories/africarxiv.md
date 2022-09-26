@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: africarxiv
 title: AfricArxiv
@@ -8,7 +8,7 @@ description: AfricArXiv is a community-led digital archive for African research,
   of African scholarly works to catalyze the African Renaissance.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, Word doc, RTF, Open Office
-accepted_content_language: Afrikaans, Akan, English, French, Igbo, Swahili, Zulu,
+accepted_content_languages: Afrikaans, Akan, English, French, Igbo, Swahili, Zulu,
   other unspecified native African languages ( summary must be provided in English
   and French, non-English languages held in moderation queue awaiting verification
 accepted_content_level: Research and Scholary content
@@ -74,7 +74,8 @@ pid: DOI, single DOI retained for all versions
 peer_review_status: 'No'
 persistence_of_content: COS Preservation Fund to maintain read access for 50+ years,
   wscienceOpen via Clockss, Pubpub & Figshare via AWS, Zenodo via CERN
-platform:
+platform: 'They have their own framework but their contents are also hosted by : OSF,
+  Figshare, Qeios, Pubpub, Scienceopen and Zenodo'
 platform_languages: English
 preservation_policy: The content is currently hosted by 3rd party services and will
   thus continue to be online in case of closure

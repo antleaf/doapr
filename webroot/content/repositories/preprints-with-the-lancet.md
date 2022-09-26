@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: preprints-with-the-lancet
 title: Preprints with The Lancet
@@ -9,7 +9,7 @@ description: In 2018, the Lancet journals initiated a collaboration with the res
   under review with a Lancet journal.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Preprints
 accepted_supplementary_content:

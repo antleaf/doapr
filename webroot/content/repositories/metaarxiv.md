@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: metaarxiv
 title: MetaArXiv
@@ -7,7 +7,7 @@ description: An interdisciplinary archive of articles focused on improving resea
   transparency and reproducibility.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, Word doc, WordPerfect, LaTeX
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Multiple types (including manuscripts, theses, conference
   proceedings, tutorials), Preprints
@@ -63,7 +63,7 @@ ownership_type: Academic institution
 pid: DOI, single DOI retained for all versions
 peer_review_status: 'No'
 persistence_of_content: COS Preservation Fund to maintain read access for 50+ years
-platform:
+platform: Open Science Framework
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: therapoid
 title: Therapoid
@@ -7,7 +7,7 @@ description: Therapoid is a scientist-driven platform that accelerates collabora
   for therapeutic discover, development and delivery.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English (Chinese also to be supported in future)
+accepted_content_languages: English (Chinese also to be supported in future)
 accepted_content_level: Research only
 accepted_content_types: Research manuscripts only (multimedia content accepted in
   associated discussion forum), Preprints
@@ -29,14 +29,14 @@ closure_date:
 concerns_about_content: 'Not yet in place: expect community moderation via forum'
 concerns_about_plagiarism: 'Not yet in place: expect community moderation via forum'
 contact: Contact form
-disciplinary_scope: Relating to pharmaceutical, medical device, and medical/health
-  diagnostic technologies
+disciplinary_scope: Interdisciplinary and Multidisciplinary; Relating to pharmaceutical,
+  medical device, and medical/health diagnostic technologies
 functional_description: 'No'
 funding:
 interoperability: 'No'
 journal_submission: Unrestricted
 keywords: Pharmaceutical, medical, Medicine, Health, Life Sciences
-last_update: 6/22/21
+last_update: 9/25/22
 launch_date:
 licensing: Authors must use CC BY license
 metadata_formats: 'No'
@@ -60,7 +60,7 @@ ownership_type: Life sciences tech company
 pid: URL only, each version receives its own DOI
 peer_review_status: 'No'
 persistence_of_content:
-platform:
+platform: Custom proprietary software
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

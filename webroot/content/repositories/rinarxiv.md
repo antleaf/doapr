@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: rinarxiv
 title: RinarXiv
@@ -9,7 +9,7 @@ description: RINarxiv Beta Release 2.0 is a community-led digital archive for un
   Indonesian research output and to increase openness.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, Word doc, LaTeX, MarkDown
-accepted_content_language: English, Indonesian
+accepted_content_languages: English, Indonesian
 accepted_content_level: Research only
 accepted_content_types: Preprints, postprints, essay, datasets
 accepted_supplementary_content: 'RINarxiv is a platform to support research dissemination
@@ -67,7 +67,7 @@ ownership_type: Academic community group
 pid: Persistent link (non DOI), support versioning with single link
 peer_review_status: 'No'
 persistence_of_content: In future development
-platform:
+platform: Open Science Framework
 platform_languages: English and Indonesian
 preservation_policy:
 preservation_policy_binary: false

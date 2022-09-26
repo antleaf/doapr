@@ -1,12 +1,15 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: beilstein-archive
 title: Beilstein Archive
-description: Preprint server for Beilstein journals
+description: The Beilstein Archives is currently limited to publishing preprints of
+  unpublished research results in the fields of organic chemistry and nanotechnology.
+  At this time, we are only publishing preprints that are intended for publication
+  in one of the Beilstein Journals
 academic_applicant_only: 'Yes'
 accepted_content_formats: Word Doc, LaTeX
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Journal articles, Preprints
 accepted_supplementary_content: The author may include images and text in the main
@@ -42,7 +45,7 @@ journal_submission: 'To publish a preprint you must first submit to one of the B
   Journals. If your article is eventually rejected, you may submit your preprint to
   any other journal. '
 keywords: Chemistry, Nanotechnology
-last_update: 6/29/21
+last_update: 9/25/22
 launch_date: '2019'
 licensing: CC BY, copyright Author(s)
 metadata_formats: Dublin Core and Crossref compliant
@@ -67,7 +70,7 @@ ownership_type: Foundation
 pid: DOI; one per version
 peer_review_status: 'Yes'
 persistence_of_content: Preprints permanently archived in Portico
-platform:
+platform: Custom Beilstein Framework
 platform_languages: English
 preservation_policy: The repository will try to ensure continued readability and accessibility.
   Items will be migrated to new file formats where necessary

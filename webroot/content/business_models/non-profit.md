@@ -1,8 +1,8 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 title: Non Profit
-repo_count: 78
+repo_count: 77
 repositories:
 - aas-open-research
 - africarxiv
@@ -73,7 +73,6 @@ repositories:
 - rinarxiv
 - rutgers-optimality-archive
 - scielo-preprints
-- scienceopen
 - socarxiv
 - sportrxiv
 - ssoar

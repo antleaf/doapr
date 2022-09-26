@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: jmir-preprints
 title: JMIR Preprints
@@ -7,7 +7,7 @@ description: A preprint server for pre-publication/pre-peer-review preprints int
   for community review as well as ahead-of-print (accepted) manuscripts.
 academic_applicant_only: 'Yes'
 accepted_content_formats: Word doc
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Research manuscripts, blog posts, online reports, Preprints
 accepted_supplementary_content:
@@ -58,7 +58,7 @@ ownership_type: Publishing organisation (publisher)
 pid: DOI
 peer_review_status: 'Yes'
 persistence_of_content:
-platform:
+platform: Custom JMIR Framework
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

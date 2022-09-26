@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: ssrn
 title: SSRN
@@ -7,7 +7,7 @@ description: SSRN is devoted to the rapid worldwide dissemination of research an
   is composed of a number of specialized research networks.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Primary Research only
 accepted_content_types: Papers and abstracts, gray literature, book reviews, multimedia
   files, and datasets, Preprints

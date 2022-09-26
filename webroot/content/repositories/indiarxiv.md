@@ -1,12 +1,12 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: indiarxiv
 title: IndiArxiv
 description:
 academic_applicant_only: '0'
 accepted_content_formats: PDF, Word doc, LaTeX
-accepted_content_language: All languages accepted
+accepted_content_languages: All languages accepted
 accepted_content_level: All level accepted
 accepted_content_types: All article types, datasets, posters, Preprints
 accepted_supplementary_content: full text, figures, data, image, coding, analyses.
@@ -64,7 +64,7 @@ ownership_type: Community
 pid: DOI
 peer_review_status: 'No'
 persistence_of_content: COS Preservation Fund to maintain read access for 50+ years
-platform:
+platform: Open Science Framework
 platform_languages: English
 preservation_policy: The content is kept by OSFto be visible. Advisory team advises
   to turn to RINarxiv to post new content.

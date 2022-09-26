@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: arxiv
 title: arXiv
@@ -9,7 +9,7 @@ description: arXiv is a free distribution service and an open-access archive for
   and economics. Materials on this site are not peer-reviewed by arXiv.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, LaTex and HTML
-accepted_content_language: Any languages but the abstract must be in english
+accepted_content_languages: Any languages but the abstract must be in english
 accepted_content_level: Research only
 accepted_content_types: Preprints, Journal articles, PhD Thesis, Substantive Proceedings
   and Whitepapers
@@ -75,7 +75,9 @@ ownership_type: Academic institution
 pid: arXiv ID (plans to add DOI starting 2022)
 peer_review_status: 'Yes'
 persistence_of_content: 'No : no external preservation services used as yet'
-platform:
+platform: 'Proprietary web software/platform built with numerous open source libraries.
+  It is maintained and hosted by arXiv (Cornell Tech, Cornell University). Source
+  code for a subset of arXiv services is public with MIT license: https://github.com/arXiv'
 platform_languages: English
 preservation_policy: 'Yes : mirror sites, public data sets via Kaggle'
 preservation_policy_binary: true

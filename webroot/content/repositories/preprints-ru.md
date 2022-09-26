@@ -1,12 +1,12 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: preprints-ru
 title: Preprints.ru
 description: Preprint server for interdisciplinary research in Russia
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English and Russian
+accepted_content_languages: English and Russian
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Preprints
 accepted_supplementary_content:
@@ -57,7 +57,7 @@ ownership_type: Scientific Society
 pid: DOI
 peer_review_status: 'Yes'
 persistence_of_content:
-platform:
+platform: Custom Software
 platform_languages: English and Russian
 preservation_policy:
 preservation_policy_binary: false

@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: bepress-legal-repository
 title: Bepress Legal Repository
@@ -7,7 +7,7 @@ description: The bepress Legal Repository offers working papers and pre-prints f
   scholars and professionals at top law schools around the world.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Journal Articles, Reports and Working Papers, Preprints
 accepted_supplementary_content:
@@ -58,7 +58,7 @@ ownership_type: Academic Software firm
 pid: No persistent identifier
 peer_review_status: 'No'
 persistence_of_content:
-platform:
+platform: Digital Commons
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

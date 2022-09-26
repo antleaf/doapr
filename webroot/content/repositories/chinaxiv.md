@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: chinaxiv
 title: ChinaXiv
@@ -8,7 +8,7 @@ description: ChinaXiv is an open repository and distribution service for scienti
   conditionally accepts published articles.
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF, Word doc, LaTeX
-accepted_content_language: Standard Chinese, English
+accepted_content_languages: Standard Chinese, English
 accepted_content_level: Research only
 accepted_content_types: Research papers
 accepted_supplementary_content: Supplementary data can be associated on the same page
@@ -63,7 +63,7 @@ ownership_type: Academic institution
 pid: DOI, single DOI retained for all versions
 peer_review_status: 'Yes'
 persistence_of_content: 'Yes : Long term preservation in local'
-platform:
+platform: Java, SQL server
 platform_languages: English and Chinese
 preservation_policy:
 preservation_policy_binary: false

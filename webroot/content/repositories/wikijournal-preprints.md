@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: wikijournal-preprints
 title: WikiJournal Preprints
@@ -8,7 +8,7 @@ description: The WikiJournal Publishing Group is a set of open-access, peer-revi
   quality-assured knowledge.
 academic_applicant_only: 'Yes'
 accepted_content_formats: Mediawiki (preferred), PDF, DOCX
-accepted_content_language: English
+accepted_content_languages: English
 accepted_content_level: Research only
 accepted_content_types: Journal articles, Preprints
 accepted_supplementary_content: Images should be added to relevant articles, as long
@@ -70,7 +70,7 @@ ownership_type: Publishing organisation (publisher)
 pid: QID and then DOI after Open Peer review process
 peer_review_status: 'No'
 persistence_of_content: Yes, indefinite
-platform:
+platform: MediaWiki
 platform_languages: English
 preservation_policy: Wikimedia Foundation archive servers
 preservation_policy_binary: true

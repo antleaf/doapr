@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: lis-scholarship-archive
 title: LIS Scholarship Archive
@@ -8,7 +8,7 @@ description: LISSA is a place where anyone can have access to library and inform
   to service permanence, sustainability, discoverability, and ease of access and use.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, Word doc
-accepted_content_language: Any language
+accepted_content_languages: Any language
 accepted_content_level: Scholary content
 accepted_content_types: Articles, Reports, Metadata, Oral histories, Manuscripts,
   Pre-/post-prints, Data, Code, Promotion packets, Student work, Posters, Book Chapters
@@ -68,7 +68,7 @@ ownership_type: Individual or community
 pid: DOI, single DOI retained for all versions
 peer_review_status: 'No'
 persistence_of_content: COS Preservation Fund to maintain read access for 50+ years
-platform:
+platform: Open Science Framework
 platform_languages: English
 preservation_policy: LISSA is no longer able to accept new submissions. Existing content
   will remain accessible as part of COS's ongoing commitment to Open Science.

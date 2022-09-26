@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 repository_id: earth-prints-repository
 title: Earth-prints Repository
@@ -9,7 +9,7 @@ description: Earth-Prints is an open archive created and maintained by Istituto 
   web products.
 academic_applicant_only: 'No'
 accepted_content_formats: All supported formats are available on this page
-accepted_content_language: All languages are supported, but English title and abstract
+accepted_content_languages: All languages are supported, but English title and abstract
   are mandatory
 accepted_content_level: Research or scholary content
 accepted_content_types: Articles, working papers, preprints, technical reports, conference
@@ -64,7 +64,7 @@ ownership_type: Research institute
 pid: Persistent URL
 peer_review_status: 'Yes'
 persistence_of_content:
-platform:
+platform: Dspace
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false

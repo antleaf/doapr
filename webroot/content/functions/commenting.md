@@ -1,5 +1,5 @@
 ---
-date: 2022-07-13
+date: 2022-09-26
 draft: false
 title: Commenting
 short_label: Commenting
@@ -51,7 +51,6 @@ repositories:
 - osf-preprints
 - paleorxiv
 - peerj-preprints
-- philsci-archive
 - preprints-org
 - preprints-ru
 - preprints-with-the-lancet
@@ -77,7 +76,7 @@ services:
 - scirate
 - stackexchange
 - voxcharta
-repo_count: 61
+repo_count: 60
 service_count: 10
 ---
 
