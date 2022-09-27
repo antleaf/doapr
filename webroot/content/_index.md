@@ -1,5 +1,5 @@
 ---
-title: Homepage
+title: Home
 date: 2022-01-11
 menu:
     navbar:

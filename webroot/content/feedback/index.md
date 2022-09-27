@@ -4,7 +4,7 @@ date: 2022-01-11
 menu:
     navbar:
         identifier: feedback
-        weight: 6
+        weight: 9
 ---
 
 We invite you to provide feedback in one of these ways:
