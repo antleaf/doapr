@@ -6,19 +6,22 @@
   </div>
   <div class="row">
     <div class="col">
+      <div class="text-end">
+        {{ partial "feedback/feedback_suggest_new_repo" . }}
+      </div>
       {{ .Content }}
     </div>
   </div>
   <div class="row">
     <div class="col">
       {{ partial "repositories_tables/tab_selector" . }}
-      {{ $functionsList := where (where site.RegularPages "Section" "functions") "Params.repo_count" ">" 0 }}
-{{/*      <h4 class="table-caption">Features &amp; Functions</h4>*/}}
+{{/*      {{ $functionsList := where (where site.RegularPages "Section" "functions") "Params.repo_count" ">" 0 }}*/}}
+      {{ $functionsList := where site.RegularPages "Section" "functions" }}
       <table class="table sortable-table table-sm table-striped sortable-table" id="repositories-functions-table">
         <thead>
         <tr>
           <th>Name</th>
-          <th>Languages</th>
+{{/*          <th>Languages</th>*/}}
           {{ range $functionsList }}
             <th class="yes-no">
               <div class="hover-over">
@@ -34,7 +37,7 @@
           {{ $repository := . }}
           <tr>
             <td><a href="{{ $repository.Permalink }}">{{ $repository.Title }}</a></td>
-            <td>{{ $repository.Params.accepted_content_language }}</td>
+{{/*            <td>{{ $repository.Params.accepted_content_language }}</td>*/}}
             {{ range $functionsList }}
               {{ $function := . }}
               <td>
