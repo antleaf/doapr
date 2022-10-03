@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: lingbuzz
 title: LingBuzz
@@ -79,12 +79,12 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: Yes. Articles can also be marked as 'withdrawn' ('deprecated').
 features:
-- function: metrics
-  service:
-  description: Downloads, Views are visible to everyone
 - function: endorsement
   service:
   description: 'Yes : Follow the endorsement system of arXiv'
+- function: metrics
+  service:
+  description: Downloads, Views are visible to everyone
 countries:
 - norway
 ---

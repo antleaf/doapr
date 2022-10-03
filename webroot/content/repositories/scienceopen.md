@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: scienceopen
 title: ScienceOpen
@@ -89,31 +89,31 @@ features:
 - function: bibliographic-references-management
   service:
   description: 'Yes : BibTeX, EndNote, Reference Manager (RIS)'
-- function: metrics
-  service:
-  description: Views, References, Citations, Reviews, Comments and Shares are visible
-    to everyone
-- function: indexing
-  service:
-  description: 'Yes : PubMed and CrossRef'
-- function: peer-review
-  service:
-  description: 'Yes : You can then use the ScienceOpen platform to invite peers as
-    potential reviewers. Submitted reviews will be openly displayed on ScienceOpen
-    together with your work. According to the recommendations of the reviewers you
-    may modify your work and submit a second, revised version, if required.'
 - function: commenting
   service:
   description: 'Yes : Commenting (Open Peer review process)'
-- function: metrics
-  service: altmetric
-  description:
+- function: indexing
+  service:
+  description: 'Yes : PubMed and CrossRef'
 - function: indexing
   service: pubmed
   description:
 - function: indexing
   service: crossref
   description:
+- function: metrics
+  service:
+  description: Views, References, Citations, Reviews, Comments and Shares are visible
+    to everyone
+- function: metrics
+  service: altmetric
+  description:
+- function: peer-review
+  service:
+  description: 'Yes : You can then use the ScienceOpen platform to invite peers as
+    potential reviewers. Submitted reviews will be openly displayed on ScienceOpen
+    together with your work. According to the recommendations of the reviewers you
+    may modify your work and submit a second, revised version, if required.'
 countries:
 - germany
 ---

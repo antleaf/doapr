@@ -1,13 +1,13 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: digital-access-to-scholarship-harvard
 title: Digital Access to Scholarship Harvard
-description: The Office for Scholarly Communication (OSC) operates the DASH repository
-  as an effort to provide the broadest possible access to Harvard's scholarship. DASH
-  hosts a wide range of Harvard-affiliated scholarly works, including pre- and post-refereed
-  journal articles, conference proceedings, theses and dissertations, working papers,
-  and reports.
+description: Harvard Library Open Scholarship and Research Data Services operates
+  the DASH repository as an effort to provide the broadest possible access to Harvard's
+  scholarship. DASH hosts a wide range of Harvard-affiliated scholarly works, including
+  pre- and post-refereed journal articles, conference proceedings, theses and dissertations,
+  working papers, and reports.
 academic_applicant_only: 'No'
 accepted_content_formats: PDF, DOC, TXT, XLS, all audio/video formats
 accepted_content_languages: 'Any language is accepted, English is the most common '
@@ -43,7 +43,7 @@ funding: Internal funding
 interoperability: 'DASH API: https://dash.harvard.edu/rest'
 journal_submission: Unrestricted
 keywords: Harvard's open-access institutional repository
-last_update: 8/27/21
+last_update: 9/29/22
 launch_date: '2009'
 licensing: 'Harvard open-access policy license, individual open-access policy license,
   limited author agreement license '
@@ -59,7 +59,7 @@ objectives: 'We aim to be global leaders in expanding world knowledge and intell
   exploration. We engage with our communities in the creation and sharing of new knowledge,
   connecting them with the vast collections that we curate and steward through collaborations
   around the world. '
-open_doar_id: X
+open_doar_id: '1586'
 open_source: 'Yes'
 owner_full_name: Harvard University
 owner_short_name:
@@ -73,7 +73,7 @@ platform: Dspace
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false
-record_count: '54,563'
+record_count: '57,376'
 remining_indrawn_item: Work is not made available publicly
 repository_type: Institutional and Multidisciplinary
 scientific_committees:
@@ -85,27 +85,26 @@ terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
 repository_url: https://dash.harvard.edu/
-user_committees: No committee oversight of DASH; managed by the Harvard Library Office
-  for Scholarly Communition
+user_committees: No committee oversight of DASH; managed Harvard Library Open Scholarship
+  and Research Data Services
 user_committees_binary: false
 versioning_policy: Accepts new version. Only one version is visble for readers
-who_can_deposit: Account needed, it's free. Only academic staff of Harvard University
-  can post on the platform
+who_can_deposit: All Harvard-affiliates can post works to the platform
 withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes. Plagiarism, Copyright violation, author request '
 features:
+- function: indexing
+  service:
+  description: 'Yes : Google and Google Scholar'
+- function: indexing
+  service: google-scholar
+  description:
 - function: metrics
   service:
   description: View and Downloads (Last 7 days, Last 30 days and All time statistics)
     are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google and Google Scholar'
 - function: metrics
   service: google-analytics
-  description:
-- function: indexing
-  service: google-scholar
   description:
 countries:
 - united-states

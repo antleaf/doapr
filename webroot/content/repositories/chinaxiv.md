@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: chinaxiv
 title: ChinaXiv
@@ -92,15 +92,15 @@ withdrawal_authorisation: 'The platform : on initiative of the platform or asked
 withdrawal_policy: Yes. Contravention of copyright, plagiarism, false or inaccurate
   content, ethical and legal issues
 features:
-- function: metrics
-  service:
-  description: Views, Downloads and Hits are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : ROAR (Registry of Open Access Repositories)'
 - function: commenting
   service:
   description: 'Yes : Commenting, free of charge,'
+- function: indexing
+  service:
+  description: 'Yes : ROAR (Registry of Open Access Repositories)'
+- function: metrics
+  service:
+  description: Views, Downloads and Hits are visible to everyone
 countries:
 - china
 ---

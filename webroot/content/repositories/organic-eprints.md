@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: organic-eprints
 title: Organic Eprints
@@ -101,12 +101,12 @@ withdrawal_policy: Yes. If the repository receives proof of copyright violation,
   relevant item will be removed immediately. Items may be removed at the request of
   the author/copyright holder
 features:
-- function: text-mining
-  service:
-  description: 'Yes'
 - function: metrics
   service:
   description: Downloads and Hits are visible to everyone
+- function: text-mining
+  service:
+  description: 'Yes'
 countries:
 - denmark
 ---

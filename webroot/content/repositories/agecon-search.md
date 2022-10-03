@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: agecon-search
 title: AgEcon Search
@@ -112,17 +112,10 @@ withdrawal_authorisation: Items in AgEcon Search may be withdrawn upon the reque
 withdrawal_policy: 'Yes. In special circumstances : whether the rules of the desposit
   agreement have been violated'
 features:
-- function: text-mining
-  service:
-  description: 'No : Full documents must not be harvested by robots except transiently
-    for full-text indexing or citation analysis'
 - function: bibliographic-references-management
   service:
   description: 'Yes : BibTeX, MARC, MARCXML, DublinCore, EndNote, NLM, RefWorks and
     RIS'
-- function: metrics
-  service:
-  description: 'Downloads are visible to everyone      Yes, on metadata. Matomo'
 - function: indexing
   service:
   description: 'Yes : Google Scholar, RePEc, Semantic Scholar, unpaywall'
@@ -138,6 +131,13 @@ features:
 - function: indexing
   service: scilit
   description:
+- function: metrics
+  service:
+  description: 'Downloads are visible to everyone      Yes, on metadata. Matomo'
+- function: text-mining
+  service:
+  description: 'No : Full documents must not be harvested by robots except transiently
+    for full-text indexing or citation analysis'
 countries:
 - united-states
 ---

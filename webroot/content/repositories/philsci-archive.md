@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: philsci-archive
 title: Philsci Archive
@@ -102,18 +102,18 @@ features:
   service:
   description: 'Yes : EndNote, BibTeX, Dublin Core, ASCII/Text Citation (Chicago),
     HTML Citation and OpenURL'
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar'
+- function: indexing
+  service: google-scholar
+  description:
 - function: metrics
   service:
   description: Monthly Views for the past 3 years and Monthly Downloads for the past
     3 years are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar'
 - function: metrics
   service: plumx-metrics
-  description:
-- function: indexing
-  service: google-scholar
   description:
 countries:
 - united-states

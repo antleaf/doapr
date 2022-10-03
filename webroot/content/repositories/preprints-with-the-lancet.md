@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: preprints-with-the-lancet
 title: Preprints with The Lancet
@@ -90,6 +90,12 @@ withdrawal_policy: Yes. A preprint can be taken down if the author requests that
   ethics approval was exempt or not required, or in the case of another documented
   ethical concern, papers that have been inadvertently posted in error.
 features:
+- function: commenting
+  service:
+  description: 'Yes : Commenting (including annotation plug-ins)'
+- function: commenting
+  service: disqus
+  description:
 - function: metrics
   service:
   description: Abstract view, Downloads are visible to everyone
@@ -97,12 +103,6 @@ features:
   service:
   description: 'Yes : As the preprints are then posted in the publisher''s journals,
     the peer review is done by the platform'
-- function: commenting
-  service:
-  description: 'Yes : Commenting (including annotation plug-ins)'
-- function: commenting
-  service: disqus
-  description:
 countries:
 - netherlands
 ---

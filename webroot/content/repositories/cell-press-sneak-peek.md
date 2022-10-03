@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: cell-press-sneak-peek
 title: Cell Press Sneak peek
@@ -88,13 +88,6 @@ withdrawal_policy: |-
   No. Once your manuscript has been uploaded to Sneak Peek, we will notify you and you will have 24 hours to request any corrections or removal of your manuscript. After this period, the posting cannot
   be edited or removed.
 features:
-- function: metrics
-  service:
-  description: Downloads and Views are visible to everyone
-- function: peer-review
-  service:
-  description: 'Yes : As the preprints are then posted in the publisher''s journals,
-    the peer review is done by the'
 - function: commenting
   service:
   description: 'Yes :  Any registered Mendeley user can comment on a paper posted
@@ -103,8 +96,15 @@ features:
   service: disqus
   description:
 - function: metrics
+  service:
+  description: Downloads and Views are visible to everyone
+- function: metrics
   service: plumx-metrics
   description:
+- function: peer-review
+  service:
+  description: 'Yes : As the preprints are then posted in the publisher''s journals,
+    the peer review is done by the'
 countries:
 - netherlands
 ---

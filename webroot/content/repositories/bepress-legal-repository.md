@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: bepress-legal-repository
 title: Bepress Legal Repository
@@ -82,15 +82,15 @@ withdrawal_authorisation: Send an email to working_papers@bepress.com and we wil
   remove the paper for you.
 withdrawal_policy: Yes. You can ask anytime to remove your paper from the repository
 features:
-- function: metrics
-  service:
-  description: Downloads are visible to author(s) only
 - function: indexing
   service:
   description: 'Yes : Google Scholar'
 - function: indexing
   service: google-scholar
   description:
+- function: metrics
+  service:
+  description: Downloads are visible to author(s) only
 countries:
 - united-states
 ---

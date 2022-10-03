@@ -1,8 +1,8 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
-title: Indexing
-short_label: Indexing
+title: Indexing/Search
+short_label: Indexing/Search
 function_id: indexing
 repositories:
 - aas-open-research

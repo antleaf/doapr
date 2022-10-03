@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: techrxiv
 title: TechRxiv
@@ -96,27 +96,27 @@ withdrawal_policy: Yes. Plagiarized material or describe experimental work that 
   not performed in accordance with the relevant ethical standards for research using
   animals or human subjects.
 features:
-- function: text-mining
-  service:
-  description: 'Yes : By posting in TechRxiv, authors explicitly consent to text mining'
 - function: bibliographic-references-management
   service:
   description: 'Yes : RefWorks, BibTex, Ref. manager, Endnote, DataCite, NLM, DC'
-- function: metrics
-  service:
-  description: Downloads, Views and Citations are visible to everyone
 - function: indexing
   service:
   description: 'Yes : Google, Google Scholar, CrossRef'
-- function: metrics
-  service: altmetric
-  description:
 - function: indexing
   service: google-scholar
   description:
 - function: indexing
   service: crossref
   description:
+- function: metrics
+  service:
+  description: Downloads, Views and Citations are visible to everyone
+- function: metrics
+  service: altmetric
+  description:
+- function: text-mining
+  service:
+  description: 'Yes : By posting in TechRxiv, authors explicitly consent to text mining'
 countries:
 - united-states
 ---

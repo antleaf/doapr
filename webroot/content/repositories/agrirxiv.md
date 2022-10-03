@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: agrirxiv
 title: AgriRxiv
@@ -101,28 +101,12 @@ withdrawal_policy: Yes. agriRxiv reserves the right to remove any articles that 
   plagiarized material or describe experimental work that is not performed in accordance
   with the relevant ethical standards for research using animals or human subjects
 features:
-- function: text-mining
-  service:
-  description: 'Yes'
-- function: metrics
-  service:
-  description: Downloads and other analytics
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, Crossref, Researcher-app, CAB Abstracts'
-- function: writing
-  service:
-  description: Links to author services and support resources.
-- function: peer-review
-  service:
-  description: Links provided to journals including support in finding a journal and
-    its stated preprint policy.
 - function: commenting
   service:
   description: 'Yes : Commenting (including annotation plug-ins)'
-- function: metrics
-  service: plumx-metrics
-  description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, Crossref, Researcher-app, CAB Abstracts'
 - function: indexing
   service: google-scholar
   description:
@@ -135,6 +119,22 @@ features:
 - function: indexing
   service: cab-abstracts
   description:
+- function: metrics
+  service:
+  description: Downloads and other analytics
+- function: metrics
+  service: plumx-metrics
+  description:
+- function: peer-review
+  service:
+  description: Links provided to journals including support in finding a journal and
+    its stated preprint policy.
+- function: text-mining
+  service:
+  description: 'Yes'
+- function: writing
+  service:
+  description: Links to author services and support resources.
 countries:
 - united-kingdom
 ---

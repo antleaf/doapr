@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: medrxiv
 title: MedRxiv
@@ -104,45 +104,16 @@ features:
 - function: bibliographic-references-management
   service:
   description: Advanced Search, alerts, RSS feeds and APIs are all integrated
-- function: metrics
+- function: commenting
   service:
-  description: 'Yes : BibTeX, Bookends, EasyBib, EndNote (tagged), EndNote 8 (xml),
-    Medlars, Mendeley, Papers, RefWorks Tagged,  Ref Manager, RIS, Zotero'
+  description: 'Yes : Commenting (including annotation plug-ins), Disqus'
+- function: commenting
+  service: hypothes-is
+  description:
 - function: indexing
   service:
   description: 'Yes : Google Scholar, Microsoft Academic Search, Crossref, Scopus,
     Pubmed (for NIH-funded COVID-19 research)'
-- function: peer-review
-  service:
-  description: 'Yes : PCI, eLife, Peerage of Science, Review Commons, and EMBO Press
-    journals post peer reviews, and manuscripts can be transferred to >100 journals.'
-- function: commenting
-  service:
-  description: 'Yes : Commenting (including annotation plug-ins), Disqus'
-- function: plagiarism-detection
-  service:
-  description: Yes, iThenicate
-- function: peer-review
-  service: peer-community-in
-  description:
-- function: peer-review
-  service: elife
-  description:
-- function: peer-review
-  service: peerage-of-science
-  description:
-- function: peer-review
-  service: review-commons
-  description:
-- function: commenting
-  service: hypothes-is
-  description:
-- function: plagiarism-detection
-  service: ithenticate
-  description:
-- function: metrics
-  service: altmetric
-  description:
 - function: indexing
   service: google-scholar
   description:
@@ -157,6 +128,35 @@ features:
   description:
 - function: indexing
   service: pubmed
+  description:
+- function: metrics
+  service:
+  description: 'Yes : BibTeX, Bookends, EasyBib, EndNote (tagged), EndNote 8 (xml),
+    Medlars, Mendeley, Papers, RefWorks Tagged,  Ref Manager, RIS, Zotero'
+- function: metrics
+  service: altmetric
+  description:
+- function: peer-review
+  service:
+  description: 'Yes : PCI, eLife, Peerage of Science, Review Commons, and EMBO Press
+    journals post peer reviews, and manuscripts can be transferred to >100 journals.'
+- function: peer-review
+  service: peer-community-in
+  description:
+- function: peer-review
+  service: elife
+  description:
+- function: peer-review
+  service: peerage-of-science
+  description:
+- function: peer-review
+  service: review-commons
+  description:
+- function: plagiarism-detection
+  service:
+  description: Yes, iThenicate
+- function: plagiarism-detection
+  service: ithenticate
   description:
 countries:
 - united-states

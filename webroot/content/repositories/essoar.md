@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: essoar
 title: ESSOAr
@@ -104,37 +104,24 @@ withdrawal_policy: Yes. Copyright infringement or other ethical or legal issues 
   Advisory Board deems critical. If violations are discovered after posting, the content
   will be retracted
 features:
-- function: text-mining
-  service:
-  description: 'Yes'
 - function: bibliographic-references-management
   service:
   description: 'Yes : BibTex, RIS (ProCite, Reference Manager), EndNote, RefWorks'
-- function: metrics
-  service:
-  description: Downloads, View and Citations are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, SHARE, Crossref'
-- function: peer-review
-  service:
-  description: Authors may issue a revision at any time via the versioning system.
-    Earlier versions are retained and are publicly available.
 - function: commenting
   service:
   description: Commenting (including annotation plug-ins)
-- function: endorsement
-  service:
-  description: Yes, via Plaudit
 - function: commenting
   service: hypothes-is
   description:
 - function: endorsement
+  service:
+  description: Yes, via Plaudit
+- function: endorsement
   service: plaudit
   description:
-- function: metrics
-  service: altmetric
-  description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, SHARE, Crossref'
 - function: indexing
   service: google-scholar
   description:
@@ -144,6 +131,19 @@ features:
 - function: indexing
   service: crossref
   description:
+- function: metrics
+  service:
+  description: Downloads, View and Citations are visible to everyone
+- function: metrics
+  service: altmetric
+  description:
+- function: peer-review
+  service:
+  description: Authors may issue a revision at any time via the versioning system.
+    Earlier versions are retained and are publicly available.
+- function: text-mining
+  service:
+  description: 'Yes'
 countries:
 - united-states
 ---

@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: chemrxiv
 title: ChemRxiv
@@ -103,26 +103,10 @@ withdrawal_authorisation: Platform (initiative of platform or request by submitt
 withdrawal_policy: Yes. Contravention of copyright, plagiarism, ethical and legal
   issues
 features:
-- function: text-mining
-  service:
-  description: 'Yes : ChemRxiv does allow metadata mining and allows all associated
-    files to be downloaded. Interested users should refer to the Open API documentation.'
-- function: metrics
-  service:
-  description: Views, Downloads, Altmetrics visible to everyone
 - function: indexing
   service:
   description: 'Yes : Google Scholar, Europe PMC, Chemical Abstracts Services, CrossRef,
     Scopus, ProQuest'
-- function: plagiarism-detection
-  service:
-  description: Yes, iThenticate
-- function: plagiarism-detection
-  service: ithenticate
-  description:
-- function: metrics
-  service: altmetric
-  description:
 - function: indexing
   service: google-scholar
   description:
@@ -141,6 +125,22 @@ features:
 - function: indexing
   service: proquest
   description:
+- function: metrics
+  service:
+  description: Views, Downloads, Altmetrics visible to everyone
+- function: metrics
+  service: altmetric
+  description:
+- function: plagiarism-detection
+  service:
+  description: Yes, iThenticate
+- function: plagiarism-detection
+  service: ithenticate
+  description:
+- function: text-mining
+  service:
+  description: 'Yes : ChemRxiv does allow metadata mining and allows all associated
+    files to be downloaded. Interested users should refer to the Open API documentation.'
 countries:
 - china
 - germany

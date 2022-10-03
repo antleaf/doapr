@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: preprints-org
 title: Preprints.org
@@ -94,36 +94,15 @@ features:
 - function: bibliographic-references-management
   service:
   description: 'Yes : BibSonomy, Mendeley '
-- function: metrics
-  service:
-  description: Views, Downloads, Altmetrics, Number of comments are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, Europe PMC, Scilit, SHARE, PrePubMed'
-- function: writing
-  service:
-  description: No, but allows use of LaTex editor
-- function: peer-review
-  service:
-  description: 'Yes : PreReview'
 - function: commenting
   service:
   description: Commenting (including annotation plug-ins)
-- function: revision-follow-up
-  service:
-  description: 'Yes : via Publons'
 - function: endorsement
   service:
   description: 'Yes : Approval system in the platform with ''likes'''
-- function: peer-review
-  service: prereview
-  description:
-- function: revision-follow-up
-  service: publons
-  description:
-- function: metrics
-  service: altmetric
-  description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, Europe PMC, Scilit, SHARE, PrePubMed'
 - function: indexing
   service: google-scholar
   description:
@@ -139,6 +118,27 @@ features:
 - function: indexing
   service: prepubmed
   description:
+- function: metrics
+  service:
+  description: Views, Downloads, Altmetrics, Number of comments are visible to everyone
+- function: metrics
+  service: altmetric
+  description:
+- function: peer-review
+  service:
+  description: 'Yes : PreReview'
+- function: peer-review
+  service: prereview
+  description:
+- function: revision-follow-up
+  service:
+  description: 'Yes : via Publons'
+- function: revision-follow-up
+  service: publons
+  description:
+- function: writing
+  service:
+  description: No, but allows use of LaTex editor
 countries:
 - switzerland
 ---

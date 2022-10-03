@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: munich-personal-repec-archive
 title: Munich Personal RePEc Archive
@@ -83,16 +83,13 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: No one
 withdrawal_policy: No. MPRA refuse to remove submissions from the archive
 features:
-- function: metrics
+- function: commenting
   service:
-  description: None
+  description: 'Yes : Commenting available on the web site'
 - function: indexing
   service:
   description: 'Yes : Google Scholar, OpenAire, Econlit, Econstor, Inomics, Microsoft
     Academic Search, Research Gate, Sciverse, EBSCO'
-- function: commenting
-  service:
-  description: 'Yes : Commenting available on the web site'
 - function: indexing
   service: google-scholar
   description:
@@ -111,6 +108,9 @@ features:
 - function: indexing
   service: ebsco
   description:
+- function: metrics
+  service:
+  description: None
 countries:
 - germany
 ---

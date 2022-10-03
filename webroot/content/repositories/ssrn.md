@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: ssrn
 title: SSRN
@@ -92,14 +92,14 @@ withdrawal_authorisation: Author or Platform
 withdrawal_policy: Yes. Due to a major revision or in case of plagiarism or ethical
   issues
 features:
+- function: endorsement
+  service:
+  description: Linked to Elsevier plateform
 - function: metrics
   service:
   description: Paper Statistics are captured on every Abstract Page. Metrics include
     usage data (article views and downloads) and other article-level metrics (Citations).
     Those are visible to everyone
-- function: endorsement
-  service:
-  description: Linked to Elsevier plateform
 - function: metrics
   service: plumx-metrics
   description:

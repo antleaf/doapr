@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: earth-prints-repository
 title: Earth-prints Repository
@@ -88,22 +88,13 @@ withdrawal_authorisation: Platform
 withdrawal_policy: Yes. Items may be removed at the request of the author/copyright
   holder. Earlier versions may be withdrawn from public view
 features:
-- function: text-mining
-  service:
-  description: 'Yes'
 - function: bibliographic-references-management
   service:
   description: 'Yes : Refman, EndNote, Bibtex, RefWorks, Wikipedia, Excel, CSV and
     PDF'
-- function: metrics
-  service:
-  description: Downloads and Views are visible to everyone
 - function: indexing
   service:
   description: 'Yes : Google Scholar, BASE, CORE, OpenAIRE, Unpaywall and WorldCat'
-- function: metrics
-  service: altmetric
-  description:
 - function: indexing
   service: google-scholar
   description:
@@ -122,6 +113,15 @@ features:
 - function: indexing
   service: worldcat
   description:
+- function: metrics
+  service:
+  description: Downloads and Views are visible to everyone
+- function: metrics
+  service: altmetric
+  description:
+- function: text-mining
+  service:
+  description: 'Yes'
 countries:
 - italy
 ---

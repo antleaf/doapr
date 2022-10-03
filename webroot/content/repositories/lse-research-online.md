@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: lse-research-online
 title: LSE Research Online
@@ -119,28 +119,28 @@ withdrawal_policy: Yes. If you are the author, rights holder or are authorised t
   material available on LSE Research Online for which you have not given permission,
   you have the right to request its removal.
 features:
-- function: text-mining
-  service:
-  description: Yes. Not explicitly mentioned but allowable under the terms and conditions
-    of use
-- function: metrics
-  service:
-  description: Downloads are visible to everyone
 - function: indexing
   service:
   description: 'Yes : Google Scholar And CORE - https://core.ac.uk/'
-- function: metrics
-  service: altmetric
-  description:
-- function: metrics
-  service:
-  description: https://irus.jisc.ac.uk/r5/
 - function: indexing
   service: google-scholar
   description:
 - function: indexing
   service: core
   description:
+- function: metrics
+  service:
+  description: Downloads are visible to everyone
+- function: metrics
+  service: altmetric
+  description:
+- function: metrics
+  service:
+  description: https://irus.jisc.ac.uk/r5/
+- function: text-mining
+  service:
+  description: Yes. Not explicitly mentioned but allowable under the terms and conditions
+    of use
 countries:
 - united-kingdom
 ---

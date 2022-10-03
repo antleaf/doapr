@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: authorea
 title: Authorea
@@ -104,34 +104,13 @@ withdrawal_policy: Yes. Once a preprint is posted on Authorea, it becomes a part
   with the foregoing or is otherwise harmful, objectionable, or inaccurate. We are
   not responsible for any failure or delay in removing such content.
 features:
-- function: text-mining
-  service:
-  description: Yes, consent to allow text and data mining of Your Content
-- function: metrics
-  service:
-  description: Views, Downloads, Social media interactions (from individual platforms
-    not Altmetric) visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : SciLit, Crossref, Google Scholar'
-- function: writing
-  service:
-  description: 'Yes : Upload, edit, add collaborators, review, and publish. Collect
-    comments and feedback on all your research outputs. “Google Docs for Scientists      Can also use Online LaTeX editor. For longer text (Master Theses and Ph.D. Dissertations)
-    use  Manuscripts.io'
-- function: peer-review
-  service:
-  description: None
 - function: commenting
   service:
   description: 'Yes : Comments. Discuss your preprints with your collaborators and
     the scientific community'
-- function: revision-follow-up
+- function: indexing
   service:
-  description: 'Yes : Under Review Process'
-- function: writing
-  service: manuscripts-io
-  description:
+  description: 'Yes : SciLit, Crossref, Google Scholar'
 - function: indexing
   service: google-scholar
   description:
@@ -140,6 +119,27 @@ features:
   description:
 - function: indexing
   service: crossref
+  description:
+- function: metrics
+  service:
+  description: Views, Downloads, Social media interactions (from individual platforms
+    not Altmetric) visible to everyone
+- function: peer-review
+  service:
+  description: None
+- function: revision-follow-up
+  service:
+  description: 'Yes : Under Review Process'
+- function: text-mining
+  service:
+  description: Yes, consent to allow text and data mining of Your Content
+- function: writing
+  service:
+  description: 'Yes : Upload, edit, add collaborators, review, and publish. Collect
+    comments and feedback on all your research outputs. “Google Docs for Scientists      Can also use Online LaTeX editor. For longer text (Master Theses and Ph.D. Dissertations)
+    use  Manuscripts.io'
+- function: writing
+  service: manuscripts-io
   description:
 countries:
 - united-states

@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: arpha-preprints
 title: ARPHA Preprints
@@ -93,25 +93,15 @@ features:
   description: 'Yes :  RIS, BibTeX, Bookends, EasyBib, EndNote (tagged), EndNote 8
     (xml), Medlars, Mendeley, Papers, RefWorks Tagged, Ref Manager, Zotero, Mods (xml)
     and Plain text (txt)'
-- function: metrics
-  service:
-  description: Views and citation counts are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, Microsoft Academic, Unpaywall'
-- function: peer-review
-  service:
-  description: 'Yes : As the preprints are then posted in the publisher''s journals,
-    the peer review is done by the platform'
 - function: commenting
   service:
   description: Post-publication comments
 - function: endorsement
   service:
   description: 'Yes : Via Peer Review Process of the website'
-- function: metrics
-  service: altmetric
-  description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, Microsoft Academic, Unpaywall'
 - function: indexing
   service: google-scholar
   description:
@@ -121,6 +111,16 @@ features:
 - function: indexing
   service: unpaywall
   description:
+- function: metrics
+  service:
+  description: Views and citation counts are visible to everyone
+- function: metrics
+  service: altmetric
+  description:
+- function: peer-review
+  service:
+  description: 'Yes : As the preprints are then posted in the publisher''s journals,
+    the peer review is done by the platform'
 countries:
 - bulgaria
 ---

@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: crossasia-repository
 title: CrossAsia-Repository
@@ -87,22 +87,10 @@ who_can_deposit: To publish your documents on CrossAsia-Repository, please conta
 withdrawal_authorisation:
 withdrawal_policy: '0'
 features:
-- function: text-mining
-  service:
-  description: 'Yes'
-- function: metrics
-  service:
-  description: Downloads are visible to everyone
 - function: indexing
   service:
   description: 'Yes : Google Scholar; OAIster (search engine for digital resources),
     BASE, '
-- function: peer-review
-  service:
-  description: Yes, via Peer Community In
-- function: peer-review
-  service: peer-community-in
-  description:
 - function: indexing
   service: google-scholar
   description:
@@ -112,6 +100,18 @@ features:
 - function: indexing
   service: bielefeld-academic-search-engine
   description:
+- function: metrics
+  service:
+  description: Downloads are visible to everyone
+- function: peer-review
+  service:
+  description: Yes, via Peer Community In
+- function: peer-review
+  service: peer-community-in
+  description:
+- function: text-mining
+  service:
+  description: 'Yes'
 countries:
 - germany
 ---

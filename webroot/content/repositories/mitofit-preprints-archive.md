@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: mitofit-preprints-archive
 title: MitoFit Preprints Archive
@@ -90,14 +90,6 @@ withdrawal_authorisation: Ar authors' request
 withdrawal_policy: Yes. Plagiarism, ethical and legal issues, no appropriate declaration
   of conflicts of interest
 features:
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar'
-- function: peer-review
-  service:
-  description: With Bioenergetics Communications (https://www.bioenergetics-communications.org/index.php/bec/about/submissions)
-    it is possible to submit the preprint to MitoFit Preprints with the option to
-    proceed with peer-review for publication in BEC. The submission is free of charge.
 - function: commenting
   service:
   description: 'Yes : Commenting (including annotation plug-ins)'
@@ -108,8 +100,16 @@ features:
   service: hypothes-is
   description:
 - function: indexing
+  service:
+  description: 'Yes : Google Scholar'
+- function: indexing
   service: google-scholar
   description:
+- function: peer-review
+  service:
+  description: With Bioenergetics Communications (https://www.bioenergetics-communications.org/index.php/bec/about/submissions)
+    it is possible to submit the preprint to MitoFit Preprints with the option to
+    proceed with peer-review for publication in BEC. The submission is free of charge.
 countries:
 - austria
 ---

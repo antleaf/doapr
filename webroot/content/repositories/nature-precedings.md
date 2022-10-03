@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: nature-precedings
 title: Nature Precedings
@@ -82,29 +82,29 @@ who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy: No.
 features:
-- function: text-mining
-  service:
-  description: 'Yes'
-- function: metrics
-  service:
-  description: Accesses and Citations are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Scopus'
-- function: peer-review
-  service:
-  description: 'Yes : As the preprints can be posted in the organisation''s journals,
-    the peer review is done by the platform'
 - function: commenting
   service:
   description: 'Yes : Informal peer review was available through a commenting system
     on the Nature Precedings website'
-- function: metrics
-  service: altmetric
-  description:
+- function: indexing
+  service:
+  description: 'Yes : Scopus'
 - function: indexing
   service: scopus
   description:
+- function: metrics
+  service:
+  description: Accesses and Citations are visible to everyone
+- function: metrics
+  service: altmetric
+  description:
+- function: peer-review
+  service:
+  description: 'Yes : As the preprints can be posted in the organisation''s journals,
+    the peer review is done by the platform'
+- function: text-mining
+  service:
+  description: 'Yes'
 countries:
 - united-kingdom
 ---

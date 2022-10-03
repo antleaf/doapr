@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: research-square
 title: Research Square
@@ -97,43 +97,21 @@ withdrawal_authorisation: Platform
 withdrawal_policy: 'Yes. Possible in those cases : Contravention of copyright, ethical
   and legal issues'
 features:
-- function: text-mining
-  service:
-  description: Yes via HMTL (note that HTML is not available on all preprints)
 - function: bibliographic-references-management
   service:
   description: ReadCube integration
-- function: metrics
-  service:
-  description: Views, Downloads, Altmetrics, Comments, Citations are visible to everyone.
-    _scite and Dimensions badges as well
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, Crossref, Researcher-app'
-- function: writing
-  service:
-  description: 'Yes : AJE, Professional and automated diting services'
 - function: commenting
   service:
   description: 'Yes : Commenting (including annotation plug-ins)'
-- function: revision-follow-up
-  service:
-  description: 'Yes : In Review Service'
 - function: endorsement
   service:
   description: Yes via badges
 - function: endorsement
   service: research-square
   description:
-- function: metrics
-  service: altmetric
-  description:
-- function: metrics
-  service: dimensions
-  description:
-- function: metrics
-  service: scite
-  description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, Crossref, Researcher-app'
 - function: indexing
   service: google-scholar
   description:
@@ -143,6 +121,28 @@ features:
 - function: indexing
   service: researcher-app
   description:
+- function: metrics
+  service:
+  description: Views, Downloads, Altmetrics, Comments, Citations are visible to everyone.
+    _scite and Dimensions badges as well
+- function: metrics
+  service: altmetric
+  description:
+- function: metrics
+  service: dimensions
+  description:
+- function: metrics
+  service: scite
+  description:
+- function: revision-follow-up
+  service:
+  description: 'Yes : In Review Service'
+- function: text-mining
+  service:
+  description: Yes via HMTL (note that HTML is not available on all preprints)
+- function: writing
+  service:
+  description: 'Yes : AJE, Professional and automated diting services'
 countries:
 - united-states
 ---

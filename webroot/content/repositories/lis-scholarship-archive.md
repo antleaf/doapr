@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: lis-scholarship-archive
 title: LIS Scholarship Archive
@@ -97,12 +97,6 @@ withdrawal_policy: Yes. Offensive or harassing to people or groups, particularly
   level of experience, nationality, personal appearance, race, religion, socioeconomic
   status, or sexual identity and orientation.
 features:
-- function: metrics
-  service:
-  description: Downloads are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
 - function: commenting
   service:
   description: 'Yes : Commenting (including annotation plug-ins)'
@@ -112,6 +106,9 @@ features:
 - function: endorsement
   service: plaudit
   description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
 - function: indexing
   service: google-scholar
   description:
@@ -124,6 +121,9 @@ features:
 - function: indexing
   service: unpaywall
   description:
+- function: metrics
+  service:
+  description: Downloads are visible to everyone
 ---
 
 

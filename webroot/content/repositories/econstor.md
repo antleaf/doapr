@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: econstor
 title: ECONSTOR
@@ -91,15 +91,9 @@ withdrawal_authorisation: At the author's or another authorised person's request
 withdrawal_policy: Yes. Revised versions, proven copyright infringement, plagiarism,
   legal requirements, falsified research etc.
 features:
-- function: text-mining
-  service:
-  description: 'Yes'
 - function: bibliographic-references-management
   service:
   description: 'Yes : BibTex'
-- function: metrics
-  service:
-  description: Downloads are visible to everyone
 - function: indexing
   service:
   description: 'Yes : Google Scholar, BASE, RePEc, EconBiz, LeibnizOpen, WorldCat
@@ -122,6 +116,12 @@ features:
 - function: indexing
   service: liebniz-open
   description:
+- function: metrics
+  service:
+  description: Downloads are visible to everyone
+- function: text-mining
+  service:
+  description: 'Yes'
 countries:
 - germany
 ---

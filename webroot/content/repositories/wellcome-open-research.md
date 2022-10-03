@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: wellcome-open-research
 title: Wellcome Open Research
@@ -97,40 +97,19 @@ withdrawal_authorisation: Platform
 withdrawal_policy: Yes. Contravention of copyright, plagiarism, false or inaccurate
   content, ethical and legal issues
 features:
-- function: text-mining
-  service:
-  description: 'Yes'
 - function: bibliographic-references-management
   service:
   description: 'Yes : Mendeley, Sciwheel,  EndNote,  Ref. Manager, Bibtex, ProCite,
     Sente'
-- function: metrics
-  service:
-  description: Downloads, Views and Google Scholars Citations are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, Prepubmed, Europe PMC, SciLit'
-- function: peer-review
-  service:
-  description: 'Yes : Articles are published first and peer reviewed after publication
-    by invited referees. The peer reviewer''s names and comments are visible on the
-    site.'
 - function: commenting
   service:
   description: 'Yes : Commenting (including annotation plug-ins)'
-- function: revision-follow-up
-  service:
-  description: 'Yes : On the website we can follow the worflow of the review of the
-    article'
 - function: endorsement
   service:
   description: 'Yes : Via Peer Review Process of the website'
-- function: writing
-  service: overleaf
-  description:
-- function: metrics
-  service: altmetric
-  description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, Prepubmed, Europe PMC, SciLit'
 - function: indexing
   service: google-scholar
   description:
@@ -142,6 +121,27 @@ features:
   description:
 - function: indexing
   service: scilit
+  description:
+- function: metrics
+  service:
+  description: Downloads, Views and Google Scholars Citations are visible to everyone
+- function: metrics
+  service: altmetric
+  description:
+- function: peer-review
+  service:
+  description: 'Yes : Articles are published first and peer reviewed after publication
+    by invited referees. The peer reviewer''s names and comments are visible on the
+    site.'
+- function: revision-follow-up
+  service:
+  description: 'Yes : On the website we can follow the worflow of the review of the
+    article'
+- function: text-mining
+  service:
+  description: 'Yes'
+- function: writing
+  service: overleaf
   description:
 countries:
 - united-kingdom

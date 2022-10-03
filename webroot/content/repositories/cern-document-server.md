@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: cern-document-server
 title: CERN document server
@@ -90,12 +90,12 @@ features:
 - function: bibliographic-references-management
   service:
   description: 'Yes : BibTeX, MARC, MARCXML, DC, EndNote, NLM and RefWorks'
-- function: writing
-  service:
-  description: No, but allows use of external LaTex editor
 - function: commenting
   service:
   description: 'Yes : Commenting available on the web site'
+- function: writing
+  service:
+  description: No, but allows use of external LaTex editor
 countries:
 - switzerland
 ---

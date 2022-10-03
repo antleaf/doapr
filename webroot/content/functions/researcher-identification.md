@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 title: Researcher Identification
 short_label: Researcher ID

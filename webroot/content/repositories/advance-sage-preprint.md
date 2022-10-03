@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: advance-sage-preprint
 title: Advance (Sage preprint)
@@ -102,24 +102,24 @@ features:
 - function: bibliographic-references-management
   service:
   description: 'Yes : RefWorks, BibTex, Ref. manager, Endnote, DataCite, NLM, DC'
-- function: metrics
-  service:
-  description: Downloads, Views and Citations are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar and CrossRef'
-- function: peer-review
-  service:
-  description: 'Yes : You can transfer your paper for publication in SAGE journals'
 - function: commenting
   service:
   description: 'Yes : you just need an account to comment on preprints'
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar and CrossRef'
 - function: indexing
   service: google-scholar
   description:
 - function: indexing
   service: crossref
   description:
+- function: metrics
+  service:
+  description: Downloads, Views and Citations are visible to everyone
+- function: peer-review
+  service:
+  description: 'Yes : You can transfer your paper for publication in SAGE journals'
 countries:
 - united-states
 ---

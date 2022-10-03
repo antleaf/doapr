@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: edarxiv
 title: EdArXiv
@@ -90,29 +90,29 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: Yes. Plagiarism, false or inaccurate content
 features:
-- function: metrics
-  service:
-  description: Downloads are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar'
 - function: commenting
   service:
   description: 'Yes : Commenting (including annotation plug-ins)'
-- function: endorsement
-  service:
-  description: Yes, via Plaudit
 - function: commenting
   service: hypothes-is
   description:
 - function: endorsement
+  service:
+  description: Yes, via Plaudit
+- function: endorsement
   service: plaudit
   description:
-- function: metrics
-  service: altmetric
-  description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar'
 - function: indexing
   service: google-scholar
+  description:
+- function: metrics
+  service:
+  description: Downloads are visible to everyone
+- function: metrics
+  service: altmetric
   description:
 countries:
 - united-states

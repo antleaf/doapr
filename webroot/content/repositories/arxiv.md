@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: arxiv
 title: arXiv
@@ -112,40 +112,23 @@ withdrawal_policy: 'Yes. Removal is only in cases when author did not have the l
   an option to post a withdrawal that posts a new blank version, rather than removes
   which is explained at https://arxiv.org/help/withdraw'
 features:
-- function: text-mining
-  service:
-  description: Bulk access to full text corpus available through Kaggle and S3. Conditions
-    for use based on licenses applied to individual works within the corpus. https://arxiv.org/help/bulk_data
 - function: bibliographic-references-management
   service:
   description: 'Yes : BibTex and Mendely'
-- function: metrics
+- function: commenting
   service:
-  description: 'Yes but only for the platform and not for the preprint only. Those
-    metrics are visible to everyone      Metrics and citation can be associated with ADS, INSPIRE, Semantic Scholar'
+  description: Commenting (including annotation plug-ins)
+- function: endorsement
+  service:
+  description: Yes, The endorsement system verifies that arXiv contributors belong
+    to the scientific community in a fair and sustainable way that can scale with
+    arXiv's future growth.
 - function: indexing
   service:
   description: 'Yes : Google Scholar, PrePubmed (q-bio only), Europe PMC, SciLit,
     SHARE, INSPIRE-HEP, The NASA Astrophysics Data System (ADS), The arXiv Search
     Interface from the National Science Library, Chinese Academy of Sciences (also
     in Chinese)'
-- function: writing
-  service:
-  description: No, but link to and online LaTeX editor
-- function: commenting
-  service:
-  description: Commenting (including annotation plug-ins)
-- function: revision-follow-up
-  service:
-  description: Yes, arXiv Labs
-- function: endorsement
-  service:
-  description: Yes, The endorsement system verifies that arXiv contributors belong
-    to the scientific community in a fair and sustainable way that can scale with
-    arXiv's future growth.
-- function: peer-review
-  service: peer-community-in
-  description:
 - function: indexing
   service: google-scholar
   description:
@@ -164,6 +147,23 @@ features:
 - function: indexing
   service: nasa-astrophysics-data-system
   description:
+- function: metrics
+  service:
+  description: 'Yes but only for the platform and not for the preprint only. Those
+    metrics are visible to everyone      Metrics and citation can be associated with ADS, INSPIRE, Semantic Scholar'
+- function: peer-review
+  service: peer-community-in
+  description:
+- function: revision-follow-up
+  service:
+  description: Yes, arXiv Labs
+- function: text-mining
+  service:
+  description: Bulk access to full text corpus available through Kaggle and S3. Conditions
+    for use based on licenses applied to individual works within the corpus. https://arxiv.org/help/bulk_data
+- function: writing
+  service:
+  description: No, but link to and online LaTeX editor
 countries:
 - united-states
 ---

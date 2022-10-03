@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: open-anthropology-research-repository
 title: Open Anthropology Research Repository
@@ -96,36 +96,36 @@ withdrawal_authorisation: By the adminstrator, based on the request of the autho
   or third party
 withdrawal_policy: No. Copyright infringement, plagiarism
 features:
-- function: text-mining
-  service:
-  description: 'Yes : OARR does allow text and metadata mining, it supports and participates
-    in the Open Archives Initiative (OAI) and it is a registered Open Archive Initiative
-    Protocol for Metadata (OAI-PMH) data-provider. '
 - function: bibliographic-references-management
   service:
   description: 'Yes : RIS (ProCite, Reference Manager), EndNote, BibTeX, Medlars and
     RefWorks'
-- function: metrics
-  service:
-  description: Downloads are visible to everyone
 - function: indexing
   service:
   description: 'Yes : Google, Google Scholar, CrossRef'
-- function: plagiarism-detection
-  service:
-  description: Yes, iThenticate
-- function: plagiarism-detection
-  service: ithenticate
-  description:
-- function: metrics
-  service: altmetric
-  description:
 - function: indexing
   service: google-scholar
   description:
 - function: indexing
   service: crossref
   description:
+- function: metrics
+  service:
+  description: Downloads are visible to everyone
+- function: metrics
+  service: altmetric
+  description:
+- function: plagiarism-detection
+  service:
+  description: Yes, iThenticate
+- function: plagiarism-detection
+  service: ithenticate
+  description:
+- function: text-mining
+  service:
+  description: 'Yes : OARR does allow text and metadata mining, it supports and participates
+    in the Open Archives Initiative (OAI) and it is a registered Open Archive Initiative
+    Protocol for Metadata (OAI-PMH) data-provider. '
 countries:
 - united-states
 ---

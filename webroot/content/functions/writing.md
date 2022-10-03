@@ -1,8 +1,8 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
-title: Writing
-short_label: Writing
+title: Writing/Formatting
+short_label: Writing/Formatting
 function_id: writing
 repositories:
 - agrirxiv

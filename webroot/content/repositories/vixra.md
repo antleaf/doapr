@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: vixra
 title: ViXra
@@ -96,15 +96,15 @@ features:
 - function: bibliographic-references-management
   service:
   description: 'Yes : Mendeley'
+- function: commenting
+  service:
+  description: 'Yes : Commenting (including annotation plug-ins)'
 - function: metrics
   service:
   description: Views are visible to everyone
 - function: peer-review
   service:
   description: Yes, you can ask for peer review on the forum
-- function: commenting
-  service:
-  description: 'Yes : Commenting (including annotation plug-ins)'
 countries:
 - united-states
 ---

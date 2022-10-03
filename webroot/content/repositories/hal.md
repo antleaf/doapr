@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: hal
 title: HAL
@@ -109,46 +109,22 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: No one
 withdrawal_policy: No. No withdrawals possible
 features:
-- function: text-mining
-  service:
-  description: Yes, but it should not be for commercial use
 - function: bibliographic-references-management
   service:
   description: 'Yes : BibTeX, TEI, DC, Dcterms and EndNote'
-- function: metrics
+- function: data-and-code-sharing
+  service: software-heritage
+  description:
+- function: endorsement
   service:
-  description: 'Number of views of the record and the number of downloads of the file
-    in a widget called Metrics. Metrics are available for :  author, depositor, structure,
-    collection, portal      Metrics can be found on each preprint''s Metrics tab : view, clicks '
+  description: 'Yes : Episciences : overlay platform for journals'
+- function: endorsement
+  service:
+  description:
 - function: indexing
   service:
   description: 'Yes : Google Scholar, BASE, CORE, Isidore, ScanR, DART-Europe, OpenAIRE,
     arXiv, PubMed, PubMed Central, RePec, Software-Heritage, Episciences'
-- function: writing
-  service:
-  description: 'Yes : Compiling from LaTex possible'
-- function: peer-review
-  service:
-  description: Yes, via Peer Community In
-- function: endorsement
-  service:
-  description: 'Yes : Episciences : overlay platform for journals'
-- function: plagiarism-detection
-  service:
-  description: 'Interoperability with PCI : work in progress / Episciences : overlay
-    service on HAL'
-- function: peer-review
-  service: peer-community-in
-  description:
-- function: endorsement
-  service: episcience
-  description:
-- function: plagiarism-detection
-  service: peer-community-in
-  description:
-- function: plagiarism-detection
-  service: episcience
-  description:
 - function: indexing
   service: google-scholar
   description:
@@ -176,12 +152,33 @@ features:
 - function: indexing
   service: repec
   description:
-- function: indexing
-  service: software-heritage
+- function: metrics
+  service:
+  description: 'Number of views of the record and the number of downloads of the file
+    in a widget called Metrics. Metrics are available for :  author, depositor, structure,
+    collection, portal      Metrics can be found on each preprint''s Metrics tab : view, clicks '
+- function: peer-review
+  service:
+  description: Yes, via Peer Community In
+- function: peer-review
+  service: peer-community-in
   description:
-- function: indexing
-  service: episcience
+- function: plagiarism-detection
+  service:
+  description: 'Interoperability with PCI : work in progress / Episciences : overlay
+    service on HAL'
+- function: plagiarism-detection
+  service: peer-community-in
   description:
+- function: plagiarism-detection
+  service:
+  description:
+- function: text-mining
+  service:
+  description: Yes, but it should not be for commercial use
+- function: writing
+  service:
+  description: 'Yes : Compiling from LaTex possible'
 countries:
 - france
 ---

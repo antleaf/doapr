@@ -1,8 +1,8 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
-title: Commenting
-short_label: Commenting
+title: Commenting/Annotation
+short_label: Commenting/Annotation
 function_id: commenting
 repositories:
 - aas-open-research

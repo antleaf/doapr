@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: e-lis
 title: E-lis
@@ -103,12 +103,12 @@ withdrawal_policy: Yes, with conditions. Although the intent of the Archive is t
   remove papers automatically. However, a request for removal would be considered
   case per case.
 features:
-- function: metrics
-  service:
-  description: Downloads per month over past year are available to everyone
 - function: indexing
   service:
   description: Yes. Google
+- function: metrics
+  service:
+  description: Downloads per month over past year are available to everyone
 countries:
 - italy
 ---

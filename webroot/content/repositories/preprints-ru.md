@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: preprints-ru
 title: Preprints.ru
@@ -82,12 +82,12 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation:
 withdrawal_policy: No.
 features:
-- function: metrics
-  service:
-  description: Views are visible to everyone
 - function: commenting
   service:
   description: 'Yes : Commenting (including annotation plug-ins), Disqus'
+- function: metrics
+  service:
+  description: Views are visible to everyone
 countries:
 - russia
 ---

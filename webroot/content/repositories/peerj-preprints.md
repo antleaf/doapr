@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: peerj-preprints
 title: PeerJ Preprints
@@ -85,28 +85,28 @@ who_can_deposit:
 withdrawal_authorisation: Platform
 withdrawal_policy: Yes. False or inaccurate content, additional reasons not stated
 features:
-- function: metrics
-  service:
-  description: Downloads, Views and Visitors are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, Europe PMC'
-- function: peer-review
-  service:
-  description: 'Yes : As the preprints are then posted in the publisher''s journals,
-    the peer review is done by the platform'
 - function: commenting
   service:
   description: 'Yes : Commenting (including annotation plug-ins)'
-- function: revision-follow-up
+- function: indexing
   service:
-  description: 'Yes : You can follow all the process of revision on the platform'
+  description: 'Yes : Google Scholar, Europe PMC'
 - function: indexing
   service: google-scholar
   description:
 - function: indexing
   service: europe-pmc
   description:
+- function: metrics
+  service:
+  description: Downloads, Views and Visitors are visible to everyone
+- function: peer-review
+  service:
+  description: 'Yes : As the preprints are then posted in the publisher''s journals,
+    the peer review is done by the platform'
+- function: revision-follow-up
+  service:
+  description: 'Yes : You can follow all the process of revision on the platform'
 countries:
 - united-kingdom
 - united-states

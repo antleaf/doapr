@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: beilstein-archive
 title: Beilstein Archive
@@ -99,30 +99,12 @@ who_can_deposit: The submitting author must create a simple account in the Beils
 withdrawal_authorisation: Platform. At author's request with moderator approval
 withdrawal_policy: Yes. Journal Publishers' rules. Legal requirements and proven violations
 features:
-- function: text-mining
-  service:
-  description: Yes. (see metadata)
 - function: bibliographic-references-management
   service:
   description: 'Yes : RIS and BibTex - no cost'
-- function: metrics
-  service:
-  description: Only for most accessed
 - function: indexing
   service:
   description: 'Yes. EuropePMC, Unpaywall, The Lens, Google Scholar (mostly: https://scholar.google.com/scholar?hl=en&as_sdt=1%2C5&q=%2B%22beilstein+archives%22&btnG=)'
-- function: peer-review
-  service:
-  description: 'Yes. The Beilstein Journals Editorial Office makes an initial screening
-    of all preprints to screen out of scope and scientifically unreliable content.
-    A single-blind peer-review process is further carred out by the respective journal,
-    chosen at the time of preprint submission. '
-- function: plagiarism-detection
-  service:
-  description: Yes. Similarity Check (iThenticate)
-- function: plagiarism-detection
-  service: ithenticate
-  description:
 - function: indexing
   service: google-scholar
   description:
@@ -135,6 +117,24 @@ features:
 - function: indexing
   service: lens
   description:
+- function: metrics
+  service:
+  description: Only for most accessed
+- function: peer-review
+  service:
+  description: 'Yes. The Beilstein Journals Editorial Office makes an initial screening
+    of all preprints to screen out of scope and scientifically unreliable content.
+    A single-blind peer-review process is further carred out by the respective journal,
+    chosen at the time of preprint submission. '
+- function: plagiarism-detection
+  service:
+  description: Yes. Similarity Check (iThenticate)
+- function: plagiarism-detection
+  service: ithenticate
+  description:
+- function: text-mining
+  service:
+  description: Yes. (see metadata)
 countries:
 - germany
 ---

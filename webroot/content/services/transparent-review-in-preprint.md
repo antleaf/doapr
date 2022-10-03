@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 title: Transparent Review in Preprint
 service_id: transparent-review-in-preprint

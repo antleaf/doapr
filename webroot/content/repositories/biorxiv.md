@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: biorxiv
 title: bioRxiv
@@ -94,63 +94,27 @@ withdrawal_policy: 'Yes. Removal: Legal or biohazard reasons; Withdrawal: Plagia
   false or inaccurate content, ethical and legal issues, co-author(s) did not consent
   to posting'
 features:
-- function: text-mining
-  service:
-  description: 'Yes'
 - function: bibliographic-references-management
   service:
   description: 'Yes : BibTeX, Bookends, EasyBib, EndNote (tagged), EndNote 8 (xml),
     Medlars, Mendeley, Papers, RefWorks Tagged,  Ref Manager, RIS, Zotero'
-- function: metrics
-  service:
-  description: Views, Downloads, Altmetrics, Social media interactions (from individual
-    platforms not Altmetric), Number of comments (Disqus; Hypothesis if loaded). Those
-    are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : bioRxiv preprints are indexed by Google, Google Scholar, Crossref,
-    Meta, Microsoft Academic Search, Scopus and Pubmed for NIH COVID-19 funded research'
-- function: peer-review
-  service:
-  description: Yes, via Peer Community In
 - function: commenting
   service:
   description: Yes, bioRxiv therefore includes an on-site commenting mechanism (powered
     by Disqus)
-- function: revision-follow-up
-  service:
-  description: 'yes : PCI, eLife, Peerage of Science, Review Commons, EMBO Press journals
-    post peer reviews, and manuscripts can be transferred to >150 journals'
-- function: endorsement
-  service:
-  description: 'Yes : Hypothes.is'
-- function: plagiarism-detection
-  service:
-  description: Yes, during screening process BiorXiv uses Similarity Check software
-- function: peer-review
-  service: peer-community-in
-  description:
 - function: commenting
   service: hypothes-is
   description:
-- function: revision-follow-up
-  service: peer-community-in
-  description:
-- function: revision-follow-up
-  service: elife
-  description:
-- function: revision-follow-up
-  service: peerage-of-science
-  description:
-- function: revision-follow-up
-  service: review-commons
-  description:
+- function: endorsement
+  service:
+  description: 'Yes : Hypothes.is'
 - function: endorsement
   service: hypothes-is
   description:
-- function: metrics
-  service: altmetric
-  description:
+- function: indexing
+  service:
+  description: 'Yes : bioRxiv preprints are indexed by Google, Google Scholar, Crossref,
+    Meta, Microsoft Academic Search, Scopus and Pubmed for NIH COVID-19 funded research'
 - function: indexing
   service: google-scholar
   description:
@@ -169,6 +133,42 @@ features:
 - function: indexing
   service: meta
   description:
+- function: metrics
+  service:
+  description: Views, Downloads, Altmetrics, Social media interactions (from individual
+    platforms not Altmetric), Number of comments (Disqus; Hypothesis if loaded). Those
+    are visible to everyone
+- function: metrics
+  service: altmetric
+  description:
+- function: peer-review
+  service:
+  description: Yes, via Peer Community In
+- function: peer-review
+  service: peer-community-in
+  description:
+- function: plagiarism-detection
+  service:
+  description: Yes, during screening process BiorXiv uses Similarity Check software
+- function: revision-follow-up
+  service:
+  description: 'yes : PCI, eLife, Peerage of Science, Review Commons, EMBO Press journals
+    post peer reviews, and manuscripts can be transferred to >150 journals'
+- function: revision-follow-up
+  service: peer-community-in
+  description:
+- function: revision-follow-up
+  service: elife
+  description:
+- function: revision-follow-up
+  service: peerage-of-science
+  description:
+- function: revision-follow-up
+  service: review-commons
+  description:
+- function: text-mining
+  service:
+  description: 'Yes'
 countries:
 - united-states
 ---

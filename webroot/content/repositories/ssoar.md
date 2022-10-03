@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: ssoar
 title: SSOAR
@@ -115,9 +115,6 @@ features:
 - function: bibliographic-references-management
   service:
   description: 'Yes : BibTex and Endnote'
-- function: metrics
-  service:
-  description: 'Views and Downloads are visible to everyone      Altmetrics in development'
 - function: indexing
   service:
   description: 'Yes : Google Scholar, BASE (Bielefeld Academic Search Engine), Deutsche
@@ -134,6 +131,9 @@ features:
 - function: indexing
   service: openaire-explore
   description:
+- function: metrics
+  service:
+  description: 'Views and Downloads are visible to everyone      Altmetrics in development'
 countries:
 - germany
 ---

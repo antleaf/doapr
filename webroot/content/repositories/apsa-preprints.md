@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: apsa-preprints
 title: APSA Preprints
@@ -98,30 +98,30 @@ withdrawal_policy: Yes, this can be found on our Policies page. You can request 
   your content be marked as "retracted" if you no longer stand by your findings or
   your content contains fundamental errors.
 features:
-- function: text-mining
-  service:
-  description: Yes, this is permitted. Information in our Terms of Use.
-- function: metrics
-  service:
-  description: No Cited By metrics yet, though this is planned.
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar'
 - function: commenting
   service:
   description: 'Yes : Commenting (including annotation plug-ins). Free, requires registration'
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar'
+- function: indexing
+  service: google-scholar
+  description:
+- function: metrics
+  service:
+  description: No Cited By metrics yet, though this is planned.
+- function: metrics
+  service: altmetric
+  description:
 - function: plagiarism-detection
   service:
   description: iThenticate used for moderation
 - function: plagiarism-detection
   service: ithenticate
   description:
-- function: metrics
-  service: altmetric
-  description:
-- function: indexing
-  service: google-scholar
-  description:
+- function: text-mining
+  service:
+  description: Yes, this is permitted. Information in our Terms of Use.
 countries:
 - united-kingdom
 - united-states

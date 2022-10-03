@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: scielo-preprints
 title: SciELO Preprints
@@ -106,28 +106,15 @@ withdrawal_authorisation: At authors' request, if properly justified
 withdrawal_policy: Yes. Contravention of copyright, plagiarism, false or inaccurate
   content, ethical and legal issues
 features:
-- function: text-mining
-  service:
-  description: 'Yes'
-- function: metrics
-  service:
-  description: Downloads and views are available to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, Crossref'
-- function: peer-review
-  service:
-  description: 'Yes : As the preprints can be posted in the publisher''s journals,
-    the peer review is done by the platform'
 - function: commenting
   service:
   description: 'Yes : Hypothesis'
 - function: commenting
   service: hypothes-is
   description:
-- function: metrics
-  service: altmetric
-  description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, Crossref'
 - function: indexing
   service: google-scholar
   description:
@@ -137,6 +124,19 @@ features:
 - function: indexing
   service: europe-pmc
   description:
+- function: metrics
+  service:
+  description: Downloads and views are available to everyone
+- function: metrics
+  service: altmetric
+  description:
+- function: peer-review
+  service:
+  description: 'Yes : As the preprints can be posted in the publisher''s journals,
+    the peer review is done by the platform'
+- function: text-mining
+  service:
+  description: 'Yes'
 countries:
 - brazil
 ---

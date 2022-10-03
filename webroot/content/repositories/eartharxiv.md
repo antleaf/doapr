@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: eartharxiv
 title: EarthArXiv
@@ -97,18 +97,18 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: Yes. Plagiarism, ethical and legal issues
 features:
-- function: metrics
-  service:
-  description: Downloads are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar'
 - function: commenting
   service:
   description: 'Yes: Commenting'
 - function: indexing
+  service:
+  description: 'Yes : Google Scholar'
+- function: indexing
   service: google-scholar
   description:
+- function: metrics
+  service:
+  description: Downloads are visible to everyone
 ---
 
 

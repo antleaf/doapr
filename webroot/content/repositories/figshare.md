@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: figshare
 title: Figshare
@@ -105,22 +105,22 @@ features:
 - function: bibliographic-references-management
   service:
   description: 'Yes : RefWorks, BibTex, Ref. manager, Endnote, DataCite, NLM, DC'
-- function: metrics
+- function: commenting
   service:
-  description: 'Downloads, Views and Citations are visible to everyone      Make Data Count, Project Counter : https://www.projectcounter.org/code-practice-research-data/repositories-that-have-implemented-the-code-of-practice-for-research-data/'
+  description: 'Yes : You just need an account to comment a preprint'
 - function: indexing
   service:
   description: 'Yes : Google Scholar and CrossRef. Details of where content is indexed
     ( https://help.figshare.com/article/how-discoverable-is-my-research)'
-- function: commenting
-  service:
-  description: 'Yes : You just need an account to comment a preprint'
 - function: indexing
   service: google-scholar
   description:
 - function: indexing
   service: crossref
   description:
+- function: metrics
+  service:
+  description: 'Downloads, Views and Citations are visible to everyone      Make Data Count, Project Counter : https://www.projectcounter.org/code-practice-research-data/repositories-that-have-implemented-the-code-of-practice-for-research-data/'
 countries:
 - united-kingdom
 ---

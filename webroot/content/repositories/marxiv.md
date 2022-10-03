@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: marxiv
 title: MarXiv
@@ -94,22 +94,13 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At Author's request or by the platform
 withdrawal_policy: Yes. Plagiarism, false or inaccurate content
 features:
-- function: text-mining
-  service:
-  description: Yes from Zenodo
 - function: bibliographic-references-management
   service:
   description: 'Yes : BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON,
     MARCXML and  Mendeley'
-- function: metrics
-  service:
-  description: Downloads and visits are visble to everyone.
 - function: indexing
   service:
   description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall, OpenChannels.org'
-- function: metrics
-  service: altmetric
-  description:
 - function: indexing
   service: google-scholar
   description:
@@ -125,6 +116,15 @@ features:
 - function: indexing
   service: openchannels-org
   description:
+- function: metrics
+  service:
+  description: Downloads and visits are visble to everyone.
+- function: metrics
+  service: altmetric
+  description:
+- function: text-mining
+  service:
+  description: Yes from Zenodo
 countries:
 - united-states
 ---

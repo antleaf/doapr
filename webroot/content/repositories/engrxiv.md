@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: engrxiv
 title: engrxiv
@@ -87,24 +87,18 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: Yes. Contravention of copyright, ethical and legal issues
 features:
-- function: metrics
-  service:
-  description: Downloads are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
-- function: endorsement
-  service:
-  description: Yes, via Plaudit
-- function: writing
-  service: overleaf
-  description:
 - function: commenting
   service: plaudit
   description:
 - function: endorsement
+  service:
+  description: Yes, via Plaudit
+- function: endorsement
   service: plaudit
   description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
 - function: indexing
   service: google-scholar
   description:
@@ -116,6 +110,12 @@ features:
   description:
 - function: indexing
   service: unpaywall
+  description:
+- function: metrics
+  service:
+  description: Downloads are visible to everyone
+- function: writing
+  service: overleaf
   description:
 countries:
 - united-states

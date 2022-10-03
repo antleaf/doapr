@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: osf-preprints
 title: OSF preprints
@@ -96,36 +96,21 @@ withdrawal_policy: Yes. Withdrawing an accepted preprint from a pre-moderation s
   / Withdrawing a pending preprint from a pre-moderation service  / Withdrawing a
   preprint from a post-moderation service
 features:
-- function: metrics
-  service:
-  description: Endorsement score on author profile page and Downloads visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
-- function: writing
-  service:
-  description: 'Yes : Preprint editor'
-- function: peer-review
-  service:
-  description: Yes, via Peer Community In
 - function: commenting
   service:
   description: 'Yes : Hypothes.is'
-- function: revision-follow-up
-  service:
-  description: 'Yes'
-- function: endorsement
-  service:
-  description: Yes, via Plaudit
-- function: peer-review
-  service: peer-community-in
-  description:
 - function: commenting
   service: hypothes-is
   description:
 - function: endorsement
+  service:
+  description: Yes, via Plaudit
+- function: endorsement
   service: plaudit
   description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
 - function: indexing
   service: google-scholar
   description:
@@ -138,6 +123,21 @@ features:
 - function: indexing
   service: unpaywall
   description:
+- function: metrics
+  service:
+  description: Endorsement score on author profile page and Downloads visible to everyone
+- function: peer-review
+  service:
+  description: Yes, via Peer Community In
+- function: peer-review
+  service: peer-community-in
+  description:
+- function: revision-follow-up
+  service:
+  description: 'Yes'
+- function: writing
+  service:
+  description: 'Yes : Preprint editor'
 countries:
 - united-states
 ---

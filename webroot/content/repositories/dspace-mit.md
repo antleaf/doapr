@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: dspace-mit
 title: Dspace @ MIT
@@ -97,20 +97,20 @@ withdrawal_authorisation: Author or platform
 withdrawal_policy: Yes. Items may be removed at the request of the author/copyright
   holder
 features:
-- function: text-mining
-  service:
-  description: 'Yes'
-- function: metrics
-  service:
-  description: Downloads (by month and all time usage), Views, (by month and all time
-    usage), Top Countries views and dowloads. Accessible with graphs. Those are visible
-    to everyone
 - function: indexing
   service:
   description: 'Yes : Google Scholar'
 - function: indexing
   service: google-scholar
   description:
+- function: metrics
+  service:
+  description: Downloads (by month and all time usage), Views, (by month and all time
+    usage), Top Countries views and dowloads. Accessible with graphs. Those are visible
+    to everyone
+- function: text-mining
+  service:
+  description: 'Yes'
 countries:
 - united-states
 ---

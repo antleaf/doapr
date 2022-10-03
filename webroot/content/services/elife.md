@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 title: eLife
 service_id: elife
@@ -10,8 +10,8 @@ cost: completely_free
 functions:
 - peer-review
 repositories:
-- biorxiv
 - medrxiv
+- biorxiv
 repo_count: 2
 ---
 

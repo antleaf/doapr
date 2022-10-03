@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: rinarxiv
 title: RinarXiv
@@ -92,20 +92,20 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: Platform
 withdrawal_policy: Yes. Plagiarism, false or inaccurate content
 features:
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, Microsoft Academic'
 - function: commenting
   service:
   description: No, but hypothesis in development
-- function: writing
-  service: overleaf
-  description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, Microsoft Academic'
 - function: indexing
   service: google-scholar
   description:
 - function: indexing
   service: microsoft-academic
+  description:
+- function: writing
+  service: overleaf
   description:
 countries:
 - indonesia

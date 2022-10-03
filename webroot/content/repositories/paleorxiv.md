@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: paleorxiv
 title: PaleorXiv
@@ -89,34 +89,21 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: Yes. Plagiarism, false or inaccurate content
 features:
-- function: metrics
-  service:
-  description: Endorsement score on author profile page and Downloads visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
-- function: peer-review
-  service:
-  description: Yes, via Peer Community In
 - function: commenting
   service:
   description: Commenting (including annotation plug-ins)
-- function: endorsement
-  service:
-  description: Yes, via Plaudit
-- function: plagiarism-detection
-  service:
-  description: 'Yes : Claims of copyright infringement should be sent to the Center
-    for Open Science in accordance with their policy'
-- function: peer-review
-  service: peer-community-in
-  description:
 - function: commenting
   service: plaudit
   description:
 - function: endorsement
+  service:
+  description: Yes, via Plaudit
+- function: endorsement
   service: plaudit
   description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
 - function: indexing
   service: google-scholar
   description:
@@ -129,6 +116,19 @@ features:
 - function: indexing
   service: unpaywall
   description:
+- function: metrics
+  service:
+  description: Endorsement score on author profile page and Downloads visible to everyone
+- function: peer-review
+  service:
+  description: Yes, via Peer Community In
+- function: peer-review
+  service: peer-community-in
+  description:
+- function: plagiarism-detection
+  service:
+  description: 'Yes : Claims of copyright infringement should be sent to the Center
+    for Open Science in accordance with their policy'
 countries:
 - united-states
 ---

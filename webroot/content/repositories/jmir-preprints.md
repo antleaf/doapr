@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: jmir-preprints
 title: JMIR Preprints
@@ -83,34 +83,34 @@ who_can_deposit: JMIR Publications facilitates this by allowing its authors to e
 withdrawal_authorisation: Platform
 withdrawal_policy: Yes.
 features:
-- function: metrics
+- function: commenting
   service:
-  description: Social media interactions are visible to everyone
+  description: 'Yes : Commenting (including annotation plug-ins)'
+- function: commenting
+  service: hypothes-is
+  description:
+- function: endorsement
+  service:
+  description: 'Yes : Via Open Peer Review Process of the website'
 - function: indexing
   service:
   description: 'Yes : PubMed'
+- function: indexing
+  service: pubmed
+  description:
+- function: metrics
+  service:
+  description: Social media interactions are visible to everyone
 - function: peer-review
   service:
   description: 'Yes via Open Peer review : Submissions are open for anybody to peer-review.
     Once two peer-review reports of reasonable quality have been received, we will
     send these peer-review reports to the author, and may offer transfer to a partner
     journal, which has its own editor or editorial board.'
-- function: commenting
-  service:
-  description: 'Yes : Commenting (including annotation plug-ins)'
 - function: revision-follow-up
   service:
   description: 'Yes : On the website we can follow the worflow of the review of the
     article'
-- function: endorsement
-  service:
-  description: 'Yes : Via Open Peer Review Process of the website'
-- function: commenting
-  service: hypothes-is
-  description:
-- function: indexing
-  service: pubmed
-  description:
 countries:
 - canada
 ---

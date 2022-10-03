@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: lawarxiv
 title: LawArxiv
@@ -84,24 +84,21 @@ who_can_deposit:
 withdrawal_authorisation:
 withdrawal_policy: No.
 features:
-- function: metrics
-  service:
-  description: Downloads are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
 - function: commenting
   service:
   description: 'Yes : Commenting (including annotation plug-ins)'
-- function: endorsement
-  service:
-  description: Yes, via Plaudit
 - function: commenting
   service: plaudit
   description:
 - function: endorsement
+  service:
+  description: Yes, via Plaudit
+- function: endorsement
   service: plaudit
   description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
 - function: indexing
   service: google-scholar
   description:
@@ -114,6 +111,9 @@ features:
 - function: indexing
   service: unpaywall
   description:
+- function: metrics
+  service:
+  description: Downloads are visible to everyone
 countries:
 - united-states
 ---

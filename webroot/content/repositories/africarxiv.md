@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: africarxiv
 title: AfricArxiv
@@ -104,42 +104,21 @@ who_can_deposit: "African scientists based on the African continent \nAfrican sc
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: Yes. Plagiarism, false or inaccurate content
 features:
-- function: metrics
-  service:
-  description: 'Downloads are visible to everyone      ScienceOpen has Altmeric integration'
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
-- function: peer-review
-  service:
-  description: Yes, via Peer Community In, PREreview and Science Open
 - function: commenting
   service:
   description: 'Yes : Commenting (including annotation plug-ins)'
-- function: revision-follow-up
-  service:
-  description: 'Not yet, to be announced '
-- function: endorsement
-  service:
-  description: Yes, via Plaudit (OSF)
-- function: peer-review
-  service: peer-community-in
-  description:
-- function: peer-review
-  service: prereview
-  description:
-- function: peer-review
-  service: scienceopen
-  description:
 - function: commenting
   service: hypothes-is
   description:
 - function: endorsement
+  service:
+  description: Yes, via Plaudit (OSF)
+- function: endorsement
   service: plaudit
   description:
-- function: metrics
-  service: altmetric
-  description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
 - function: indexing
   service: google-scholar
   description:
@@ -152,6 +131,27 @@ features:
 - function: indexing
   service: unpaywall
   description:
+- function: metrics
+  service:
+  description: 'Downloads are visible to everyone      ScienceOpen has Altmeric integration'
+- function: metrics
+  service: altmetric
+  description:
+- function: peer-review
+  service:
+  description: Yes, via Peer Community In, PREreview and Science Open
+- function: peer-review
+  service: peer-community-in
+  description:
+- function: peer-review
+  service: prereview
+  description:
+- function: peer-review
+  service: scienceopen
+  description:
+- function: revision-follow-up
+  service:
+  description: 'Not yet, to be announced '
 countries:
 - germany
 ---

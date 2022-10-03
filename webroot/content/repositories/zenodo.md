@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: zenodo
 title: Zenodo
@@ -103,17 +103,10 @@ withdrawal_policy: Yes. Withdrawal is considered an exceptional action, which no
   justification can, for instance, be a copyright infringement, exposure of data from
   human subjects, and/or spam records
 features:
-- function: text-mining
-  service:
-  description: 'Yes'
 - function: bibliographic-references-management
   service:
   description: 'Yes : BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON,
     MARCXML and  Mendeley'
-- function: metrics
-  service:
-  description: 'Statistics can be requested by the owner of a record or community,
-    downloads per country is also available      Piwik/Matomo analytics'
 - function: indexing
   service:
   description: Google Scholar indexes Zenodo pages (Platform not in direct control
@@ -121,6 +114,13 @@ features:
 - function: indexing
   service: google-scholar
   description:
+- function: metrics
+  service:
+  description: 'Statistics can be requested by the owner of a record or community,
+    downloads per country is also available      Piwik/Matomo analytics'
+- function: text-mining
+  service:
+  description: 'Yes'
 countries:
 - switzerland
 ---

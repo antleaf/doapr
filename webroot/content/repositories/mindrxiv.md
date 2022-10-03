@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: mindrxiv
 title: MindRxiv
@@ -87,24 +87,21 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation: At author's request with moderator approval
 withdrawal_policy: Yes. Plagiarism, false or inaccurate content
 features:
-- function: metrics
-  service:
-  description: Downloads are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
 - function: commenting
   service:
   description: 'Yes : Commenting (including annotation plug-ins)'
-- function: endorsement
-  service:
-  description: Yes, via Plaudit
 - function: commenting
   service: hypothes-is
   description:
 - function: endorsement
+  service:
+  description: Yes, via Plaudit
+- function: endorsement
   service: plaudit
   description:
+- function: indexing
+  service:
+  description: 'Yes : Google Scholar, SHARE, Microsoft Academic, Unpaywall'
 - function: indexing
   service: google-scholar
   description:
@@ -117,6 +114,9 @@ features:
 - function: indexing
   service: unpaywall
   description:
+- function: metrics
+  service:
+  description: Downloads are visible to everyone
 countries:
 - united-states
 ---

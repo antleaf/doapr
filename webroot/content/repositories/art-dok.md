@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: art-dok
 title: ART-Dok
@@ -88,9 +88,6 @@ withdrawal_authorisation: Platform
 withdrawal_policy: Yes. Only at the explicit request of the author will the staff
   of ART-Dok delete a document
 features:
-- function: metrics
-  service:
-  description: Downloads are visible to everyone
 - function: indexing
   service:
   description: 'Yes : Google Scholar; OAIster (search engine for digital resources),
@@ -104,6 +101,9 @@ features:
 - function: indexing
   service: bielefeld-academic-search-engine
   description:
+- function: metrics
+  service:
+  description: Downloads are visible to everyone
 countries:
 - germany
 ---

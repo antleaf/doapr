@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: psyarxiv
 title: PsyArXiv
@@ -86,27 +86,27 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation:
 withdrawal_policy: No.
 features:
-- function: metrics
-  service:
-  description: Downloads are visible to everyone
-- function: indexing
-  service:
-  description: 'Yes : Google Scholar'
 - function: commenting
   service:
   description: Commenting (including annotation plug-ins)
-- function: endorsement
-  service:
-  description: Yes, via Plaudit
 - function: commenting
   service: plaudit
   description:
 - function: endorsement
+  service:
+  description: Yes, via Plaudit
+- function: endorsement
   service: plaudit
   description:
 - function: indexing
+  service:
+  description: 'Yes : Google Scholar'
+- function: indexing
   service: google-scholar
   description:
+- function: metrics
+  service:
+  description: Downloads are visible to everyone
 countries:
 - united-states
 ---

@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 title: Endorsement
 short_label: Endorsement
@@ -50,7 +50,7 @@ repositories:
 services:
 - classical-research-journals
 - coscience
-- episcience
+- episciences
 - hypothes-is
 - peer-community-in
 - peeriodicals

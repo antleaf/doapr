@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: wikijournal-preprints
 title: WikiJournal Preprints
@@ -106,45 +106,45 @@ withdrawal_policy: Yes. There is clear evidence that the findings are unreliable
   or justification for publication in WikiJournal User Group as well? It contains
   plagiarism. It reports unethical research
 features:
-- function: text-mining
-  service:
-  description: Yes, CC BY.
 - function: bibliographic-references-management
   service:
   description: 'Yes: Integrated zotero (via citoid), free.'
-- function: metrics
+- function: commenting
   service:
-  description: Views, for everyone
+  description: 'Yes : Commenting (Open Peer review process)'
+- function: endorsement
+  service:
+  description: 'Yes : Via Peer Review Process of the website'
 - function: indexing
   service:
   description: 'Yes : Google Scholar'
-- function: writing
+- function: indexing
+  service: google-scholar
+  description:
+- function: metrics
   service:
-  description: 'Yes : VisualEditor'
+  description: Views, for everyone
+- function: metrics
+  service: altmetric
+  description:
 - function: peer-review
   service:
   description: 'Yes : As the preprints are then posted in the publisher''s journals,
     the peer review is done by the platform'
-- function: commenting
-  service:
-  description: 'Yes : Commenting (Open Peer review process)'
-- function: revision-follow-up
-  service:
-  description: 'Yes : On the website we can follow the worflow of the review of the
-    article'
-- function: endorsement
-  service:
-  description: 'Yes : Via Peer Review Process of the website'
 - function: plagiarism-detection
   service:
   description: 'Yes : Plagiarism go through a test during moderation and open peer
     review process via Earwig''s Copyvio Detector.'
-- function: metrics
-  service: altmetric
-  description:
-- function: indexing
-  service: google-scholar
-  description:
+- function: revision-follow-up
+  service:
+  description: 'Yes : On the website we can follow the worflow of the review of the
+    article'
+- function: text-mining
+  service:
+  description: Yes, CC BY.
+- function: writing
+  service:
+  description: 'Yes : VisualEditor'
 countries:
 - united-states
 ---

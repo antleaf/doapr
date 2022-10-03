@@ -1,5 +1,5 @@
 ---
-date: 2022-09-26
+date: 2022-10-03
 draft: false
 repository_id: cogprints
 title: Cogprints
@@ -88,9 +88,6 @@ who_can_deposit: Anyone can post on the platform. Only an account is required ( 
 withdrawal_authorisation:
 withdrawal_policy: No.
 features:
-- function: text-mining
-  service:
-  description: 'Yes'
 - function: bibliographic-references-management
   service:
   description: 'Yes : ASCII Citation, Atom, BibTeX, Dublin Core, EP3 XML, EPrints
@@ -98,6 +95,9 @@ features:
     JSON, METS, MODS, MPEG-21 DIDL, OpenURL ContextObject, OpenURL ContextObject in
     Span, RDF+N-Triples, RDF+N3, RDF+XML, Refer, Reference Manager, Search Data Dump,
     Simple Metadata, YAML'
+- function: text-mining
+  service:
+  description: 'Yes'
 countries:
 - united-kingdom
 ---
