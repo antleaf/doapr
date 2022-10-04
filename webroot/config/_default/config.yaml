@@ -55,6 +55,11 @@ menu:
       name: "Feedback"
       url: "/feedback"
       weight: 9
+  navbar_right:
+    - identifier: faq
+      name: FAQ
+      weight: 1
+      url: "/faq"
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:

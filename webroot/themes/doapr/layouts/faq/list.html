@@ -1,0 +1,30 @@
+{{ define "main" }}
+    <div class="row">
+        <div class="col">
+            <h1 class="page-title">{{ .Title }}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            {{ .Content }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                {{ range $index, $page := .Data.Pages }}
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading{{- $index -}}">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{- $index -}}" aria-expanded="false" aria-controls="flush-collapse{{- $index -}}">
+                                {{- add $index 1 -}}. {{ $page.Title }}
+                            </button>
+                        </h2>
+                        <div id="flush-collapse{{- $index -}}" class="accordion-collapse collapse" aria-labelledby="flush-heading{{- $index -}}" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">{{- $page.Content -}}</div>
+                        </div>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+{{ end }}
