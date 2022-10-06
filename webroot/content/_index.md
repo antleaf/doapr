@@ -10,3 +10,8 @@ This directory provides a list of preprint repositories that are available to th
 The directory is jointly managed by [Centre pour la Communication Scientifique Directe (CCSD)](https://www.ccsd.cnrs.fr/en/) and [Confederation of Open Access Repositories (COAR)](https://www.coar-repositories.org). The data in this directory was originally compiled through the GPPdP (Groupe Projet Plateformes de Prepublications) project, with financial support from the French [Ministry of Research's Open Science Committee (CoSO)](https://www.ouvrirlascience.fr/the-committee-for-open-science/).
 
 To suggest a new repository, or provide feedback on a repository already included in this directory, please see the [feedback page](/feedback).
+
+<div style="text-align: center;">
+<a href="https://www.coar-repositories.org"><img src="/images/coar_logo.png" style="margin-right: 80px; max-width: 250px"/></a>
+<a href="https://www.ouvrirlascience.fr/the-committee-for-open-science/"><img src="/images/ccsd_logo.png" style="margin-right: 80px; max-width: 250px"/></a>
+</div>
