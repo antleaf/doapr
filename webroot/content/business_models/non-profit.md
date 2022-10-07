@@ -1,5 +1,5 @@
 ---
-date: 2022-10-03
+date: 2022-10-07
 draft: false
 title: Non Profit
 repo_count: 77

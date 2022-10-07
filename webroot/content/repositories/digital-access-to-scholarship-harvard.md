@@ -1,5 +1,5 @@
 ---
-date: 2022-10-03
+date: 2022-10-07
 draft: false
 repository_id: digital-access-to-scholarship-harvard
 title: Digital Access to Scholarship Harvard

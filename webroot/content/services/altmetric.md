@@ -1,5 +1,5 @@
 ---
-date: 2022-10-03
+date: 2022-10-07
 draft: false
 title: Altmetric
 service_id: altmetric
@@ -24,6 +24,7 @@ repositories:
 - essoar
 - f1000-research
 - gates-open-research
+- hal
 - hrb-open-research
 - lse-research-online
 - marxiv
@@ -39,7 +40,7 @@ repositories:
 - techrxiv
 - wellcome-open-research
 - wikijournal-preprints
-repo_count: 27
+repo_count: 28
 ---
 
 

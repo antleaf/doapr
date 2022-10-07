@@ -1,5 +1,5 @@
 ---
-date: 2022-10-03
+date: 2022-10-07
 draft: false
 title: Communication And Sharing
 short_label: Communications

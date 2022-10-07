@@ -1,5 +1,5 @@
 ---
-date: 2022-10-03
+date: 2022-10-07
 draft: false
 title: Plagiarism Detection
 short_label: Plagiarism
@@ -9,7 +9,6 @@ repositories:
 - beilstein-archive
 - biorxiv
 - chemrxiv
-- hal
 - indiarxiv
 - medrxiv
 - open-anthropology-research-repository
@@ -19,7 +18,7 @@ services:
 - ithenticate
 - ouriginal
 - plagiarism-checker
-repo_count: 10
+repo_count: 9
 service_count: 3
 ---
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-10-03
+date: 2022-10-07
 draft: false
 repository_id: wikijournal-preprints
 title: WikiJournal Preprints
