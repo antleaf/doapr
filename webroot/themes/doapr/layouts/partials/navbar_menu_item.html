@@ -36,7 +36,7 @@
                 </div>
             </div>
         {{ else }}
-            {{ if $currentPage.IsMenuCurrent .menuID $menuItem }}
+            {{ if $currentPage.IsMenuCurrent $menuID $menuItem }}
                 <li class="navbar-doapr-menu-item-active"><a href="{{ $menuItem.URL }}">{{ $menuItem.Name }}</a></li>
             {{ else }}
                 <li class="navbar-doapr-menu-item"><a href="{{ $menuItem.URL }}">{{ $menuItem.Name }}</a></li>

@@ -8,7 +8,7 @@
         </div>
         <div class="col-md-2" style="text-align: right; padding-right: 20px;">
             {{ range site.Menus.navbar_right }}
-                {{ partial "navbar_menu_item" (dict "menuID" "navbar" "currentPage" $currentPage "menuItem" . )}}
+                {{ partial "navbar_menu_item" (dict "menuID" "navbar_right" "currentPage" $currentPage "menuItem" . )}}
             {{ end }}
         </div>
     </div>
