@@ -1,5 +1,5 @@
 ---
-date: 2022-10-07
+date: 2022-10-28
 draft: false
 repository_id: hal
 title: HAL
@@ -119,7 +119,7 @@ features:
   service:
   description: 'Yes : Episciences : overlay platform for journals'
 - function: endorsement
-  service:
+  service: episciences
   description:
 - function: indexing
   service:

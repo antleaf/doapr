@@ -1,5 +1,5 @@
 ---
-date: 2022-10-07
+date: 2022-10-28
 draft: false
 title: Indexing/Search
 short_label: Indexing/Search
@@ -109,7 +109,7 @@ services:
 - repec
 - unpaywall
 - econbiz
-- liebniz-open
+- leibniz-open
 - researcher-app
 - cab-abstracts
 - chemical-abstracts

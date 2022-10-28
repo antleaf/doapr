@@ -1,5 +1,5 @@
 ---
-date: 2022-10-07
+date: 2022-10-28
 draft: false
 repository_id: mediarxiv
 title: MediArXiv
@@ -30,7 +30,7 @@ closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
 contact: mediarxiv@mediarxiv.com
-disciplinary_scope: Communication sciences
+disciplinary_scope: Communication sciences, Media and Communication Studies
 functional_description: Yes via a Guide
 funding: Community operators pay a fee based on usage and COS subsidizes the other
   portion through fundraised support

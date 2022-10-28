@@ -1,8 +1,8 @@
 ---
-date: 2022-10-07
+date: 2022-10-28
 draft: false
-title: Liebniz Open
-service_id: liebniz-open
+title: Leibniz Open
+service_id: leibniz-open
 description:
 service_url: https://leibnizopen.de/search
 cost: completely_free

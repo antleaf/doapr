@@ -1,5 +1,5 @@
 ---
-date: 2022-10-07
+date: 2022-10-28
 draft: false
 title: Episciences
 service_id: episciences
@@ -16,7 +16,9 @@ service_url: https://www.episciences.org
 cost: completely_free
 functions:
 - endorsement
-repo_count: 0
+repositories:
+- hal
+repo_count: 1
 ---
 
 

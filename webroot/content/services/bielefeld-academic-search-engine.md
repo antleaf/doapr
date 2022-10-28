@@ -1,5 +1,5 @@
 ---
-date: 2022-10-07
+date: 2022-10-28
 draft: false
 title: Bielefeld Academic Search Engine
 service_id: bielefeld-academic-search-engine

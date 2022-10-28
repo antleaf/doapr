@@ -1,5 +1,5 @@
 ---
-date: 2022-10-07
+date: 2022-10-28
 draft: false
 repository_id: econstor
 title: ECONSTOR
@@ -114,7 +114,7 @@ features:
   service: worldcat
   description:
 - function: indexing
-  service: liebniz-open
+  service: leibniz-open
   description:
 - function: metrics
   service:
