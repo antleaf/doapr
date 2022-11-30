@@ -1,5 +1,5 @@
 ---
-date: 2022-10-28
+date: 2022-11-30
 draft: false
 title: Endorsement
 short_label: Endorsement
@@ -47,6 +47,7 @@ repositories:
 - ssrn
 - wellcome-open-research
 - wikijournal-preprints
+- zenodo
 services:
 - classical-research-journals
 - coscience
@@ -57,7 +58,7 @@ services:
 - plaudit
 - prelights
 - research-square
-repo_count: 42
+repo_count: 43
 service_count: 9
 ---
 

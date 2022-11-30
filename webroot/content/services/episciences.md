@@ -1,5 +1,5 @@
 ---
-date: 2022-10-28
+date: 2022-11-30
 draft: false
 title: Episciences
 service_id: episciences
@@ -17,8 +17,10 @@ cost: completely_free
 functions:
 - endorsement
 repositories:
+- arxiv
 - hal
-repo_count: 1
+- zenodo
+repo_count: 3
 ---
 
 

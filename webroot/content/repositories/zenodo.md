@@ -1,5 +1,5 @@
 ---
-date: 2022-10-28
+date: 2022-11-30
 draft: false
 repository_id: zenodo
 title: Zenodo
@@ -107,6 +107,9 @@ features:
   service:
   description: 'Yes : BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON,
     MARCXML and  Mendeley'
+- function: endorsement
+  service: episciences
+  description:
 - function: indexing
   service:
   description: Google Scholar indexes Zenodo pages (Platform not in direct control

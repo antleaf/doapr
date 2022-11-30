@@ -1,8 +1,8 @@
 ---
-date: 2022-10-28
+date: 2022-11-30
 draft: false
 title: Open
-repo_count: 80
+repo_count: 81
 repositories:
 - aas-open-research
 - advance-sage-preprint
@@ -46,6 +46,7 @@ repositories:
 - gates-open-research
 - hal
 - hrb-open-research
+- indiarxiv
 - jmir-preprints
 - lingbuzz
 - lse-research-online

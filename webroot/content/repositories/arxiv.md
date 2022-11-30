@@ -1,5 +1,5 @@
 ---
-date: 2022-10-28
+date: 2022-11-30
 draft: false
 repository_id: arxiv
 title: arXiv
@@ -123,6 +123,9 @@ features:
   description: Yes, The endorsement system verifies that arXiv contributors belong
     to the scientific community in a fair and sustainable way that can scale with
     arXiv's future growth.
+- function: endorsement
+  service: episciences
+  description:
 - function: indexing
   service:
   description: 'Yes : Google Scholar, PrePubmed (q-bio only), Europe PMC, SciLit,

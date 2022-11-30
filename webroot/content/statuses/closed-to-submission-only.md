@@ -1,14 +1,13 @@
 ---
-date: 2022-10-28
+date: 2022-11-30
 draft: false
 title: Closed to Submission Only
-repo_count: 10
+repo_count: 9
 repositories:
 - arabixiv
 - cogprints
 - frenxiv
 - ina-rxiv
-- indiarxiv
 - lawarxiv
 - lis-scholarship-archive
 - nature-precedings

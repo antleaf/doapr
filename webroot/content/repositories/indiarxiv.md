@@ -1,5 +1,5 @@
 ---
-date: 2022-10-28
+date: 2022-11-30
 draft: false
 repository_id: indiarxiv
 title: IndiArxiv
@@ -76,11 +76,11 @@ scientific_committees: "Yes : includes researchers.\n\n"
 scientific_committees_binary: true
 service_pricing: None
 short_name: IndiaRxiv
-status: closed-to-submission-only
+status: open
 terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting:
-repository_url: https://indiarxiv.org/
+repository_url: https://ops.iihr.res.in/index.php/IndiaRxiv
 user_committees: 'Yes : Steering Commitee'
 user_committees_binary: true
 versioning_policy: Accepts new version. All version are archieved and visible for

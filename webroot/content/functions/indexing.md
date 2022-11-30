@@ -1,5 +1,5 @@
 ---
-date: 2022-10-28
+date: 2022-11-30
 draft: false
 title: Indexing/Search
 short_label: Indexing/Search
