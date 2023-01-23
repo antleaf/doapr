@@ -1,5 +1,5 @@
 ---
-date: 2022-11-30
+date: 2023-01-23
 draft: false
 title: Peer Review
 short_label: Peer Review
@@ -37,6 +37,7 @@ repositories:
 - preprints-with-the-lancet
 - scielo-preprints
 - scienceopen
+- sciencepaper-online
 - vixra
 - wellcome-open-research
 - wikijournal-preprints
@@ -61,7 +62,7 @@ services:
 - sinai-immunology-review-project
 - transparent-review-in-preprint
 - zentralblatt
-repo_count: 35
+repo_count: 36
 service_count: 20
 ---
 

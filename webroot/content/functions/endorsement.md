@@ -1,5 +1,5 @@
 ---
-date: 2022-11-30
+date: 2023-01-23
 draft: false
 title: Endorsement
 short_label: Endorsement
@@ -42,6 +42,7 @@ repositories:
 - preprints-org
 - psyarxiv
 - research-square
+- sciencepaper-online
 - socarxiv
 - sportrxiv
 - ssrn
@@ -58,7 +59,7 @@ services:
 - plaudit
 - prelights
 - research-square
-repo_count: 43
+repo_count: 44
 service_count: 9
 ---
 

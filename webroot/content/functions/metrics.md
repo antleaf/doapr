@@ -1,5 +1,5 @@
 ---
-date: 2022-11-30
+date: 2023-01-23
 draft: false
 title: Metrics
 short_label: Metrics
@@ -78,6 +78,7 @@ repositories:
 - research-square
 - scielo-preprints
 - scienceopen
+- sciencepaper-online
 - socarxiv
 - sportrxiv
 - ssoar
@@ -96,7 +97,7 @@ services:
 - plumx-metrics
 - rxvist
 - scite
-repo_count: 82
+repo_count: 83
 service_count: 8
 ---
 

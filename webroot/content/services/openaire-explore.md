@@ -1,5 +1,5 @@
 ---
-date: 2022-11-30
+date: 2023-01-23
 draft: false
 title: OpenAire explore
 service_id: openaire-explore

@@ -1,5 +1,5 @@
 ---
-date: 2022-11-30
+date: 2023-01-23
 draft: false
 title: Commenting/Annotation
 short_label: Commenting/Annotation
@@ -59,6 +59,7 @@ repositories:
 - rinarxiv
 - scielo-preprints
 - scienceopen
+- sciencepaper-online
 - socarxiv
 - sportrxiv
 - therapoid
@@ -76,7 +77,7 @@ services:
 - scirate
 - stackexchange
 - voxcharta
-repo_count: 60
+repo_count: 61
 service_count: 10
 ---
 

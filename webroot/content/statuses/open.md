@@ -1,8 +1,8 @@
 ---
-date: 2022-11-30
+date: 2023-01-23
 draft: false
 title: Open
-repo_count: 81
+repo_count: 82
 repositories:
 - aas-open-research
 - advance-sage-preprint
@@ -75,6 +75,7 @@ repositories:
 - rutgers-optimality-archive
 - scielo-preprints
 - scienceopen
+- sciencepaper-online
 - socarxiv
 - sportrxiv
 - ssoar

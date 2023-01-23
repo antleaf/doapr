@@ -1,8 +1,8 @@
 ---
-date: 2022-11-30
+date: 2023-01-23
 draft: false
 title: Multidisciplinary repositories
-repo_count: 30
+repo_count: 31
 repositories:
 - aas-open-research
 - africarxiv
@@ -31,6 +31,7 @@ repositories:
 - research-square
 - rinarxiv
 - scienceopen
+- sciencepaper-online
 - wellcome-open-research
 - wikijournal-preprints
 - zenodo
