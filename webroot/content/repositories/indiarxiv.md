@@ -1,9 +1,9 @@
 ---
-date: 2023-01-23
+date: 2023-01-30
 draft: false
 repository_id: indiarxiv
-title: IndiArxiv
-description:
+title: IndiaRxiv
+description: Preprints repository server for India
 academic_applicant_only: '0'
 accepted_content_formats: PDF, Word doc, LaTeX
 accepted_content_languages: All languages accepted

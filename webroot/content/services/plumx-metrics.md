@@ -1,5 +1,5 @@
 ---
-date: 2023-01-23
+date: 2023-01-30
 draft: false
 title: PlumX Metrics
 service_id: plumx-metrics
