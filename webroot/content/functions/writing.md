@@ -1,5 +1,5 @@
 ---
-date: 2023-01-30
+date: 2023-06-09
 draft: false
 title: Writing/Formatting
 short_label: Writing/Formatting

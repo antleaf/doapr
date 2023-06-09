@@ -1,5 +1,5 @@
 ---
-date: 2023-01-30
+date: 2023-06-09
 draft: false
 title: Education (Research)
 repo_count: 2
