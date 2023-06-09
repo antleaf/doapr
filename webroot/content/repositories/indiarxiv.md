@@ -28,14 +28,14 @@ closure_date: No funds to support for its sustainability. Now working with other
   to host the same perpetually without any financial obligations.
 concerns_about_content: Can be contacted via Support/Contact email
 concerns_about_plagiarism: Can be contacted via Support/Contact email
-contact: sridhar@openaccessindia.org
+contact: gutam2000@gmail.com, sridhar.gutam@icar.gov.in
 disciplinary_scope: All scientific fileds
 functional_description: 'No'
 funding: Community operators pay a fee based on usage and COS subsidizes the other
   portion through fundraised support
 interoperability: Yes, via COS's SHARE
 journal_submission: Unrestricted
-keywords: India, OSF
+keywords: India, OPS
 last_update: 7/21/21
 launch_date: Aug-19
 licensing: CC-BY
@@ -48,7 +48,7 @@ metadata_reuse_method: Openly available via API
 metadata_reuse_permission: None
 moderation: Modereated for checking spam and relevance to India context as its for
   country, India
-oai_pmh_url:
+oai_pmh_url: https://ops.iihr.res.in/index.php/IndiaRxiv/oai
 objectives: Anyone who have interests in Open Access, Open Data and Open Education
   are invited to join the community and take forward the open access movement in India
   by participating in the discussions/initiatives which would influence the policy
@@ -64,12 +64,12 @@ ownership_type: Community
 pid: DOI
 peer_review_status: 'No'
 persistence_of_content: COS Preservation Fund to maintain read access for 50+ years
-platform: Open Science Framework
+platform: Open Preprint Systems
 platform_languages: English
 preservation_policy: The content is kept by OSFto be visible. Advisory team advises
   to turn to RINarxiv to post new content.
 preservation_policy_binary: true
-record_count: 'Full text : 148'
+record_count: 'Full text : 148 on OSF, 2 on OPS'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: National Common open archive platform
 scientific_committees: "Yes : includes researchers.\n\n"
