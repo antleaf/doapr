@@ -1,5 +1,5 @@
 ---
-date: 2023-06-09
+date: 2024-03-27
 draft: false
 title: Plagiarism Checker
 service_id: plagiarism-checker

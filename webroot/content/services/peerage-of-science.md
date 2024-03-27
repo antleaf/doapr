@@ -1,5 +1,5 @@
 ---
-date: 2023-06-09
+date: 2024-03-27
 draft: false
 title: Peerage of Science
 service_id: peerage-of-science
@@ -11,8 +11,8 @@ cost: completely_free
 functions:
 - peer-review
 repositories:
-- medrxiv
 - biorxiv
+- medrxiv
 repo_count: 2
 ---
 

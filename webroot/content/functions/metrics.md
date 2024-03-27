@@ -1,5 +1,5 @@
 ---
-date: 2023-06-09
+date: 2024-03-27
 draft: false
 title: Metrics
 short_label: Metrics
@@ -50,6 +50,7 @@ repositories:
 - ina-rxiv
 - indiarxiv
 - jmir-preprints
+- jxiv
 - lawarxiv
 - lingbuzz
 - lis-scholarship-archive
@@ -97,7 +98,7 @@ services:
 - plumx-metrics
 - rxvist
 - scite
-repo_count: 83
+repo_count: 84
 service_count: 8
 ---
 

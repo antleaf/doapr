@@ -1,5 +1,5 @@
 ---
-date: 2023-06-09
+date: 2024-03-27
 draft: false
 title: Indexing/Search
 short_label: Indexing/Search
@@ -46,6 +46,7 @@ repositories:
 - hrb-open-research
 - indiarxiv
 - jmir-preprints
+- jxiv
 - lawarxiv
 - lis-scholarship-archive
 - lse-research-online
@@ -120,7 +121,7 @@ services:
 - openchannels-org
 - oaister
 - lens
-repo_count: 73
+repo_count: 74
 service_count: 41
 ---
 

@@ -1,8 +1,8 @@
 ---
-date: 2023-06-09
+date: 2024-03-27
 draft: false
 title: Open
-repo_count: 82
+repo_count: 83
 repositories:
 - aas-open-research
 - advance-sage-preprint
@@ -48,6 +48,7 @@ repositories:
 - hrb-open-research
 - indiarxiv
 - jmir-preprints
+- jxiv
 - lingbuzz
 - lse-research-online
 - marxiv

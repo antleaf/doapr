@@ -1,8 +1,8 @@
 ---
-date: 2023-06-09
+date: 2024-03-27
 draft: false
 title: Non Profit
-repo_count: 78
+repo_count: 79
 repositories:
 - aas-open-research
 - africarxiv
@@ -46,6 +46,7 @@ repositories:
 - hrb-open-research
 - ina-rxiv
 - indiarxiv
+- jxiv
 - lawarxiv
 - lingbuzz
 - lis-scholarship-archive

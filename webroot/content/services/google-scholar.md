@@ -1,5 +1,5 @@
 ---
-date: 2023-06-09
+date: 2024-03-27
 draft: false
 title: Google Scholar
 service_id: google-scholar
@@ -47,6 +47,7 @@ repositories:
 - hal
 - hrb-open-research
 - indiarxiv
+- jxiv
 - lawarxiv
 - lis-scholarship-archive
 - lse-research-online
@@ -77,7 +78,7 @@ repositories:
 - wellcome-open-research
 - wikijournal-preprints
 - zenodo
-repo_count: 68
+repo_count: 69
 ---
 
 
