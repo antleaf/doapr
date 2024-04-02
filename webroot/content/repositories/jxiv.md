@@ -1,11 +1,11 @@
 ---
-date: 2024-03-27
+date: 2024-04-02
 draft: false
 repository_id: jxiv
 title: Jxiv
-description: Jxiv is the first full-fledged preprint server in Japan that makes unpublished,
+description: Jxiv is the full-fledged preprint server in Japan that makes unpublished,
   pre-reviewed papers(preprints) available for open access. Jxiv allows users to submit
-  and publish preprints in all research fields including natural sciences, huanities,
+  and publish preprints in all research fields including natural sciences, humanities,
   social sciences, and interdisciplinary sciences in either Japanese or English. There
   is no charge for submitting, publishing, and viewing preprints
 academic_applicant_only: 'Yes'
