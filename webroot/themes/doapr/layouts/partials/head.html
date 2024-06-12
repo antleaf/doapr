@@ -2,6 +2,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    {{ if site.Params.enableAnalytics }}
+        <script defer data-domain="doapr.coar-repositories.org" src="https://plausible.io/js/script.js"></script>
+    {{ end }}
+
     <title>{{.Site.Title}}{{if .Title}}: {{ .Title | markdownify }}{{end}}</title>
     {{hugo.Generator}}
     <link rel="preconnect" href="https://fonts.googleapis.com">

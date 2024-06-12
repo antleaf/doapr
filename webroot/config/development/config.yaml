@@ -3,3 +3,4 @@ buildDrafts: false
 params:
   showDebugInfo: true
   showPageAnnotationAlerts: true
+  enableAnalytics: false

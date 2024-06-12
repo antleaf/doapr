@@ -11,6 +11,7 @@ params:
   feedback_new_repo_url: "https://github.com/antleaf/doapr/issues/new?assignees=&labels=&template=a-add-a-preprint-repository-to-the-doapr.md&title=%5BNew+Entry%5D"
   feedback_update_repo_url_prefix: "https://github.com/antleaf/doapr/issues/new?assignees=&labels=&template=b-update-a-preprint-repository.md"
   feedback_bug_report_url: "https://github.com/antleaf/doapr/issues/new?assignees=&labels=bug&template=d-bug_report.md&title=%5BBug+Report%5D"
+  enableAnalytics: false  # this param may be overridden in production/development envs
 taxonomies:
   tag: "tags"
 outputs:

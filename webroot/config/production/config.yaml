@@ -1,6 +1,6 @@
 baseURL: "https://doapr.coar-repositories.org"
 buildDrafts: false
-googleAnalytics: ""
 params:
   showDebugInfo: false
   showPageAnnotationAlerts: true
+  enableAnalytics: true
