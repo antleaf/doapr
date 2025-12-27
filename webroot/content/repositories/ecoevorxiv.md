@@ -1,16 +1,15 @@
 ---
-date: 2024-04-02
+date: 2025-12-27
 draft: false
 repository_id: ecoevorxiv
 title: EcoEvoRxiv
-description: Information about a free preprint service for ecology, evolution and
-  conservation.
+description:  EcoEvoRxiv is a not-for-profit subject-matter specific research repository for works related to ecology, evolution and conservation. The archived works can be empirical, theoretical, review or of any other research-related type. It currently accepts preprints, postprints, reports, and datasets in English, Spanish, Portuguese, and French. It is the official preprint server of the Society for Open, Reliable, and Transparent Ecology and Evolutionary biology (SORTEE).
 academic_applicant_only: 'Yes'
 accepted_content_formats: PDF
-accepted_content_languages: English
+accepted_content_languages: English, Spanish, Portuguese, French
 accepted_content_level: Primary and secondary research
-accepted_content_types: Journal Articles, Conference and Workshop Papers, review papers,
-  Preprints
+accepted_content_types: Preprints, postprints, conference andwWorkshop papers, review papers,
+  datasets
 accepted_supplementary_content:
 access_to_content: Anyone may access full items free of charge
 access_to_content_binary: true
@@ -28,19 +27,18 @@ certificate_or_labels:
 closure_date:
 concerns_about_content: Email administrator
 concerns_about_plagiarism: Email administrator
-contact: contact+evoecorxiv@osf.io
+contact: ecoevorxiv@sortee.org
 disciplinary_scope: Ecology, evolution and conservation related subjects
 functional_description: 'No'
-funding: Community operators pay a fee based on usage and COS subsidizes the other
-  portion through fundraised support
+funding: Subsized by the California Digital Library.
 interoperability:
 journal_submission: Unrestricted
-keywords: Ecology, evolution and conservation, OSF
-last_update: 6/14/21
+keywords: Ecology, evolution, conservation
+last_update: 12/27/25
 launch_date: Nov-18
 licensing: 'Authors are provided with a choice of licenses: CC BY Attribution-ShareAlike
   4.0 International, CC BY Attribution-NonCommercial-NoDerivatives 4.0 International,
-  CC BY Attribution 4.0 International, CC0 1.0 Universal'
+  CC BY Attribution 4.0 International'
 metadata_formats: 'No'
 metadata_languages: English
 metadata_properties: Title, Identifier, Publication/deposition date, Author name(s),
@@ -56,19 +54,18 @@ objectives: TEE (Transparency in Ecology and Evolution) was established to educa
   that not enough was done in this matter.
 open_doar_id: X
 open_source: 'Yes'
-owner_full_name: Transparency in Ecology and Evolution
-owner_short_name: TEE
-owner_url: http://www.ecoevotransparency.org/
+owner_full_name:  Society for Open, Reliable, and Transparent Ecology and Evolutionary biology
+owner_short_name: SORTEE
+owner_url: https://www.sortee.org/
 ownership_type: Academic community group
 pid: DOI, single DOI retained for all versions
 peer_review_status: 'No'
-persistence_of_content: 'Yes : COS Preservation Fund to maintain read access for 50+
-  years'
-platform: Open Science Framework
+persistence_of_content: 'Yes : Content is backed up in California Digital Library's Merritt repository'
+platform: Janeway
 platform_languages: English
 preservation_policy:
 preservation_policy_binary: false
-record_count: 'Full text : 525'
+record_count: 'Full text : 2822'
 remining_indrawn_item: Basic information remains on a tombstone page
 repository_type: Disciplinary
 scientific_committees: "Yes : The Committee is made up of academics involved in ecological,
@@ -80,7 +77,7 @@ status: open
 terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to 48 hours
-repository_url: https://www.ecoevorxiv.com/
+repository_url: https://ecoevorxiv.org
 user_committees: 'Yes : they are called ambassadors. Graduate students and early career
   researchers who champion and promote the EcoEvoRxiv repository at their institutions
   and internationally.'
