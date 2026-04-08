@@ -1,4 +1,4 @@
-languageCode: "en-gb"
+locale: "en-gb"
 uglyURLs: false
 title: "Directory of Open Access Preprint Repositories"
 theme: "doapr"
