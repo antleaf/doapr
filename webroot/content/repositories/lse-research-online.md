@@ -1,5 +1,5 @@
 ---
-date: 2024-04-02
+date: 2026-04-21
 draft: false
 repository_id: lse-research-online
 title: LSE Research Online
@@ -67,7 +67,7 @@ metadata_reuse_method: Fully open and availalable to reuse
 metadata_reuse_permission: 'The OAI Identifier and/or a link to the original metadata
   must be given. And for commercial reuse : Requires Formal Permission'
 moderation: We manually check papers before upload
-oai_pmh_url: http://eprints.lse.ac.uk/cgi/oai2
+oai_pmh_url: https://researchonline.lse.ac.uk/cgi/oai2
 objectives: |-
   LSE Research Online aims to be a complete database of research produced by LSE Staff.
 
@@ -104,7 +104,7 @@ status: open
 terms_of_use: 'Yes, http://eprints.lse.ac.uk/faq.html '
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: Up to 5 working days
-repository_url: http://eprints.lse.ac.uk/
+repository_url: https://researchonline.lse.ac.uk/
 user_committees: 'Yes : Library staff managing the repository are information professionals
   with experience of working with researchers and of creating high quality catalogue
   and index records.'

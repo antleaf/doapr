@@ -1,5 +1,5 @@
 ---
-date: 2024-04-02
+date: 2026-04-21
 draft: false
 repository_id: africarxiv
 title: AfricArxiv
@@ -48,7 +48,7 @@ interoperability: The content is currently hosted by 3rd party services who take
   of the backups, see table at https://info.africarxiv.org/submit/
 journal_submission: Unrestricted
 keywords: OSF, Figshare, Africa, African research
-last_update: 7/13/21
+last_update: 1/6/25
 launch_date: Jun-18
 licensing: Authors must use CC BY 4.0 license
 metadata_formats: 'No'
@@ -92,7 +92,7 @@ status: open
 terms_of_use: 'Yes'
 text_embargo: No, only if the publisher imposes an embargo period
 time_submission_to_posting: 3 to 5 business days
-repository_url: https://info.africarxiv.org/
+repository_url: https://africarxiv.org/
 user_committees: 'No'
 user_committees_binary: false
 versioning_policy: Accepts new version. All version are archieved and visible for
